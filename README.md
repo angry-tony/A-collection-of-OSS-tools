@@ -323,58 +323,58 @@
 
 
 ## Logging and Log Management
+* [Adiscon LogAnalyzer](http://loganalyzer.adiscon.com/) - Slick web interface for syslog messages
+* [Elasticsearch](http://www.elasticsearch.org/) - Component of the ELK stack, used for super fast searches
+* [Fluentd](http://www.fluentd.org/) - Unified logging layer
+* [Flume](https://github.com/cloudera/flume/wiki) - Distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data
+* [GoAccess](http://goaccess.io/) - Real-time web log analyzer and interactive viewer that runs in a terminal
 * [Graylog2](http://graylog2.org/) - Log capture and analysis
+* [Kibana](http://www.elasticsearch.org/overview/kibana/) - Visualization component of the ELK stack
 * [Logplex](https://github.com/heroku/logplex) - Distributed syslog log router, uses Redis
+* [logstalgia](https://code.google.com/p/logstalgia/) - Web site access log visualization tool, aka Apache Pong
 * [logstash](http://logstash.net/) - Collect, parse, and store logs.  A component of the popular ELK stack
 * [logstash-forwarder](https://github.com/elasticsearch/logstash-forwarder) - Formerly Lumberjack, forwards logs to centralized server(s), very lightweight
-* [Adiscon LogAnalyzer](http://loganalyzer.adiscon.com/) - Slick web interface for syslog messages
 * [NXLOG](http://nxlog-ce.sourceforge.net/) - Universal log collector and forwarder, supports many formats/platforms/sources
-* [Fluentd](http://www.fluentd.org/) - Unified logging layer
 * [OpenTSDB](http://opentsdb.net/) - Store and serve massive amounts of time series data without losing granularity
-* [Flume](https://github.com/cloudera/flume/wiki) - Distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data
-* [Elasticsearch](http://www.elasticsearch.org/) - Component of the ELK stack, used for super fast searches
-* [logstalgia](https://code.google.com/p/logstalgia/) - Web site access log visualization tool, aka Apache Pong
-* [Kibana](http://www.elasticsearch.org/overview/kibana/) - Visualization component of the ELK stack
-* [GoAccess](http://goaccess.io/) - Real-time web log analyzer and interactive viewer that runs in a terminal
-* [Webalizer](http://www.webalizer.org/) - Web and FTP log analyzer
 * [Piwik](http://piwik.org/) - Web analytics platform with a killer UI
+* [Webalizer](http://www.webalizer.org/) - Web and FTP log analyzer
 
 
 
 ## Monitoring and Alerting
-* [Grafana](http://grafana.org/) - Modern dashboard for Graphite
-* [Nagios](http://www.nagios.org/) - One of the most widely used OSS monitoring programs
-* [Xymon](https://www.xymon.com/) - Fork of Big Brother
+* [Adagios](http://adagios.org/) - Web based Nagios configuration interface
+* [Cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty
 * [Cacti](http://cacti.net/) - Web-based network monitoring and graphing tool designed as a front-end to RRDtool
-* [Graphite](http://graphite.wikidot.com/) - Store numeric time-series data and render graphs of the data on demand
-* [Ganglia](http://ganglia.info/) - Monitoring software that's focused on HPC / distributed clusters
-* [Icinga](https://www.icinga.org/) - Nagios fork, updated frequently
-* [Shinken](http://www.shinken-monitoring.org/) - Compatible with Nagios
-* [Zenoss](http://www.zenoss.org/) - Supports Nagios plug-in format
-* [Zabbix](http://www.zabbix.com/) - Stores monitoring data in a DB, has agents for almost every OS
-* [collectd](http://collectd.org/) - Collects system performance statistics
-* [Tattle](https://github.com/wayfair/Graphite-Tattle) - Self service alerting and dashboard frontend for graphite and ganglia
-* [Network Weathermap](http://www.network-weathermap.com/) - Network visualization tool, create a "weather map" just like big ISPs
-* [Monit](http://mmonit.com/monit/) - Includes tools to automatically take action when certain conditions are met
 * [check_mk](http://mathias-kettner.com/check_mk.html) - Extensions / plugins for Nagios
-* [NagVis](http://www.nagvis.org/) - Visualization suite for Nagios
-* [Nagiosgraph](http://nagiosgraph.sourceforge.net/) - Another visualization tool for Nagios data
-* [StatsD](https://github.com/etsy/statsd/) - Monitoring in node.js
+* [collectd](http://collectd.org/) - Collects system performance statistics
+* [collectd Related Sites](http://collectd.org/related.shtml) - Great tools that integrate with collectd
 * [Fully Automated Nagios](http://www.fullyautomatednagios.org/) - Easy to install, pre-packaged Nagios that includes the most-used tools and plugins
+* [Ganglia](http://ganglia.info/) - Monitoring software that's focused on HPC / distributed clusters
+* [Grafana](http://grafana.org/) - Modern dashboard for Graphite
+* [Graphite](http://graphite.wikidot.com/) - Store numeric time-series data and render graphs of the data on demand
+* [Graphite Tools](https://graphite.readthedocs.org/en/latest/tools.html) - Tools that work with Graphite
+* [Icinga](https://www.icinga.org/) - Nagios fork, updated frequently
+* [LibreNMS](http://www.librenms.org/) - GPL fork of Observium
+* [linux-dash](http://linuxdash.com/) - A simple web dashboard to monitor your Linux server
+* [Monit](http://mmonit.com/monit/) - Includes tools to automatically take action when certain conditions are met
+* [Monitorix](http://www.monitorix.org/) - So lightweight that it can be used in mobile devices, aka Mikaku
+* [Multi Router Traffic Grapher (MRTG)](http://oss.oetiker.ch/mrtg/) - Still being updated!
+* [Naemon](http://www.naemon.org/) - Modular Nagios fork
+* [Nagios](http://www.nagios.org/) - One of the most widely used OSS monitoring programs
+* [Nagiosgraph](http://nagiosgraph.sourceforge.net/) - Another visualization tool for Nagios data
+* [NagVis](http://www.nagvis.org/) - Visualization suite for Nagios
+* [Network Weathermap](http://www.network-weathermap.com/) - Network visualization tool, create a "weather map" just like big ISPs
 * [OpenNMS](http://www.opennms.org/) - Network monitoring
 * [Open Monitoring Distribution (OMD)](http://omdistro.org/) - Nagios bundled with the most popular plugins and tools
-* [Adagios](http://adagios.org/) - Web based Nagios configuration interface
-* [Sensu](http://sensuapp.org/) - Open souce monitoring framework, cloud-focused
-* [Monitorix](http://www.monitorix.org/) - So lightweight that it can be used in mobile devices, aka Mikaku
 * [PNP4Nagios](http://docs.pnp4nagios.org/) - Nagios visualization tool
+* [Sensu](http://sensuapp.org/) - Open souce monitoring framework, cloud-focused
+* [Shinken](http://www.shinken-monitoring.org/) - Compatible with Nagios
+* [StatsD](https://github.com/etsy/statsd/) - Monitoring in node.js
+* [Tattle](https://github.com/wayfair/Graphite-Tattle) - Self service alerting and dashboard frontend for Graphite and Ganglia
 * [Thruk](http://www.thruk.org/) - Web based, can create SLA reports, has a mobile client
-* [Cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty
-* [linux-dash](http://linuxdash.com/) - A simple web dashboard to monitor your Linux server
-* [LibreNMS](http://www.librenms.org/) - GPL fork of Observium
-* [Naemon](http://www.naemon.org/) - Modular Nagios fork 
-* [Multi Router Traffic Grapher (MRTG)](http://oss.oetiker.ch/mrtg/) - Still being updated!
-* [collectd Related Sites](http://collectd.org/related.shtml) - Great tools that integrate with collectd
-* [Graphite Tools](https://graphite.readthedocs.org/en/latest/tools.html) - Tools that work with Graphite
+* [Xymon](https://www.xymon.com/) - Fork of Big Brother
+* [Zabbix](http://www.zabbix.com/) - Stores monitoring data in a DB, has agents for almost every OS
+* [Zenoss](http://www.zenoss.org/) - Supports Nagios plug-in format
 
 
 
@@ -506,7 +506,7 @@
 
 ## Provisioning and Lifecycle Management
 * [Cobbler](http://www.cobblerd.org/) - Provisioning system used in Red Hat's Satellite
-* [Crowbar](https://crowbar.github.io/home.html) - 
+* [Crowbar](https://crowbar.github.io/home.html) - Multi-purpose provisioning tool, originally created by Dell
 * [Foreman](http://theforeman.org/) - Provisioning and life cycle management
 * [Katello](https://fedorahosted.org/katello/) - Candlepin + Pulp + Foreman, the core of Red Hat Satellite 6
 * [Kickstart](https://fedoraproject.org/wiki/Anaconda/Kickstart) - The classic Red Hat tool
