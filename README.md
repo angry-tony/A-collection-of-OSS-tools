@@ -1,45 +1,48 @@
 # My Links
-
-[Josh's Linkedin](https://www.linkedin.com/in/jturgasen)
-
 * Pull requests welcome
 * 98% OSS
 * No SaaS
 * Only free-as-in-beer commercial software
+* [Josh's Linkedin](https://www.linkedin.com/in/jturgasen)
 
 
-* [Table of Contents](#table-of-contents)
-  * [IT News](#it-news)
-  * [Linux News and Articles](#linux-news-and-articles)
-  * [Message Boards and Forums](#message-boards-and-forums)
-  * [Asset Management and IPAM](#asset-management-and-ipam)
-  * [Backups](#backups)
-  * [Bootable USB Tools](#bootable-usb-tools)
-  * [Configuration Management and Orchestration](#configuration-management-and-orchestration)
-  * [Containers](#containers)
-  * [Database Load Generation and Performance Tools](#database-load-generation-and-performance-tools)
-  * [Git Tutorials](#git-tutorials)
-  * [High Availability Clustering Tools](#high-availability-clustering-tools)
-  * [High Performance Computing Tools](#high-performance-computing-tools)
-  * [HTTP Load Generation Tools](#http-load-generation-tools)
-  * [IO Load Generation Tools](#io-load-generation-tools)
-  * [Logging and Log Management](#logging-and-log-management)
-  * [Monitoring and Alerting](#monitoring-and-alerting)
-  * [Network Load Generation Tools](#network-load-generation-tools)
-  * [Networking Tools](#networking-tools)
-  * [Packages and Repositories](#packages-and-repositories)
-  * [Password Management](#password-management)
-  * [Performance Monitoring](#performance-monitoring)
-  * [Provisioning and Lifecycle Management](#provisioning-and-lifecycle-management)
-  * [Python Tutorials](#python-tutorials)
-  * [Regular Expressions](#regular-expressions)
-  * [Security Tools](#security-tools)
-  * [Shell Scripting](#shell-scripting)
-  * [SSH Tools](#ssh-tools)
-  * [Storage Tools](#storage-tools)
-  * [Tracing Debugging Profiling](#tracing-debugging-profiling)
-  * [Two Factor Authentication](#two-factor-authentication)
-  * [Misc Tools and Utilities](#misc-tools-and-utilities)
+
+## IT News, Resources, and Community Sites
+* [IT News](#it-news)
+* [Linux News and Articles](#linux-news-and-articles)
+* [Message Boards and Forums](#message-boards-and-forums)
+
+
+
+## The Tools
+* [Asset Management and IPAM](#asset-management-and-ipam)
+* [Backups](#backups)
+* [Bootable USB Tools](#bootable-usb-tools)
+* [Configuration Management and Orchestration](#configuration-management-and-orchestration)
+* [Containers](#containers)
+* [Database Load Generation and Performance Tools](#database-load-generation-and-performance-tools)
+* [Git Tutorials](#git-tutorials)
+* [High Availability Clustering Tools](#high-availability-clustering-tools)
+* [High Performance Computing Tools](#high-performance-computing-tools)
+* [HTTP Load Generation Tools](#http-load-generation-tools)
+* [IO Load Generation Tools](#io-load-generation-tools)
+* [Logging and Log Management](#logging-and-log-management)
+* [Monitoring and Alerting](#monitoring-and-alerting)
+* [Network Load Generation Tools](#network-load-generation-tools)
+* [Networking Tools](#networking-tools)
+* [Packages and Repositories](#packages-and-repositories)
+* [Password Management](#password-management)
+* [Performance Monitoring](#performance-monitoring)
+* [Provisioning and Lifecycle Management](#provisioning-and-lifecycle-management)
+* [Python Tutorials](#python-tutorials)
+* [Regular Expressions](#regular-expressions)
+* [Security Tools](#security-tools)
+* [Shell Scripting](#shell-scripting)
+* [SSH Tools](#ssh-tools)
+* [Storage Tools](#storage-tools)
+* [Tracing Debugging Profiling](#tracing-debugging-profiling)
+* [Two Factor Authentication](#two-factor-authentication)
+* [Misc Tools and Utilities](#misc-tools-and-utilities)
 
 
 
