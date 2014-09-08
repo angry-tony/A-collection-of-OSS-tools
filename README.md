@@ -12,7 +12,6 @@
   * [IT News](#it-news)
   * [Linux News and Articles](#linux-news-and-articles)
   * [Message Boards and Forums](#message-boards-and-forums)
-
   * [Asset Management and IPAM](#asset-management-and-ipam)
   * [Backups](#backups)
   * [Bootable USB Tools](#bootable-usb-tools)
