@@ -198,7 +198,7 @@
 * [Juju](https://juju.ubuntu.com/) - Ubuntu focused but works on RHEL / CentOS now
 * [knife-backup](https://github.com/mdxp/knife-backup) - Knife plugin to help backup and restore a Chef server
 * [Learn Chef](http://learn.getchef.com/) - Chef tutorial by Opscode
-* [Open Linux Management Infrastructure (OpenLMI)] - Manage, monitor, and configure servers via API calls (instead of SSH), included in RHEL 7
+* [Open Linux Management Infrastructure (OpenLMI)](http://www.openlmi.org/) - Manage, monitor, and configure servers via API calls (instead of SSH), included in RHEL 7
 * [Opscode](https://github.com/opscode) - Chef / Opscode on Github, tons of great tools
 * [Puppet](http://puppetlabs.com/) - Well known CM tool
 * [puppet-lint](http://puppet-lint.com/) - Check that your Puppet manifest conform to the style guide
@@ -474,7 +474,7 @@
 * [dim_STAT](http://dimitrik.free.fr/) - Collects almost everything and stores it in a MySQL database, produces reports too
 * [dstat](http://dag.wiee.rs/home-made/dstat/) - Versatile replacement for vmstat, iostat, netstat and ifstat
 * [findswappers](https://gist.github.com/anonymous/7529780) - perl script that identifies swapped processes
-* [Glances)(https://nicolargo.github.io/glances/) - Real-time monitoring, written in curses and Python
+* [Glances](https://nicolargo.github.io/glances/) - Real-time monitoring, written in curses and Python
 * [htop](http://hisham.hm/htop/) - top replacement, has a few additional features
 * [iftop](http://www.ex-parrot.com/pdw/iftop/) - top for network interfaces
 * [ioping](https://code.google.com/p/ioping/) - Monitor I/O latency in real time
