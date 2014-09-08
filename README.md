@@ -656,7 +656,7 @@
 * [Google Performance Tools (gperftools)](https://code.google.com/p/gperftools/) - Focused on multithreaded applications written in C++
 * [kdump](https://wiki.archlinux.org/index.php/Kdump) - Linux kernel dump facility
 * [ktap](http://www.ktap.org/) - Another lightweight kernel tracing tool for Linux
-* [Linux Trace Toolkit - Next Generation (LLTng)(http://lttng.org/) - Linux kernel tracer and profiler, lower overhead than System Tap
+* [Linux Trace Toolkit - Next Generation (LLTng)](http://lttng.org/) - Linux kernel tracer and profiler, lower overhead than System Tap
 * [ltrace](http://linux.die.net/man/1/ltrace) - Library call tracer
 * [ltrace Tutorial](http://developerblog.redhat.com/2014/07/10/ltrace-for-rhel-6-and-7/) - ltrace tutorial by Red Hat
 * [lttng-analyses](https://github.com/jdesfossez/lttng-analyses) - Great front-end to LLTng
