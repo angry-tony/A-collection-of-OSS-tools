@@ -42,6 +42,7 @@
 * [Storage Tools](#storage-tools)
 * [Tracing Debugging Profiling](#tracing-debugging-profiling)
 * [Two Factor Authentication](#two-factor-authentication)
+* [Virtualization](#virtualization)
 * [Misc Tools and Utilities](#misc-tools-and-utilities)
 
 
