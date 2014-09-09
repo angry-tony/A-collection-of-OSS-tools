@@ -93,7 +93,6 @@
 * [Linux Weekly News (LWN)](http://lwn.net/)
 * [LXer](http://lxer.com/)
 * [MakeUseOf](http://www.makeuseof.com/service/linux/)
-* [Mukt, The](http://www.themukt.com/)
 * [OMG! Ubuntu!](http://www.omgubuntu.co.uk/)
 * [OpenSource.com](http://opensource.com/)
 * [OStatic](http://ostatic.com/)
@@ -105,6 +104,7 @@
 * [Red Hat Developer Blog](http://developerblog.redhat.com/)
 * [Red Hat Enterprise Linux Blog](http://rhelblog.redhat.com/)
 * [Tecmint](http://www.tecmint.com/)
+* [The Mukt](http://www.themukt.com/)
 * [Tux Machines](http://www.tuxmachines.org/)
 * [Ubuntu Geek](http://www.ubuntugeek.com/)
 * [Ubuntu Weekly Newsletter](https://wiki.ubuntu.com/UbuntuWeeklyNewsletter)
@@ -366,8 +366,11 @@
 * [Network Weathermap](http://www.network-weathermap.com/) - Network visualization tool, create a "weather map" just like big ISPs
 * [OpenNMS](http://www.opennms.org/) - Network monitoring
 * [Open Monitoring Distribution (OMD)](http://omdistro.org/) - Nagios bundled with the most popular plugins and tools
+* [OpsView Core](http://www.opsview.com/resources/downloads/download-opsview-core) - GPL version of OpsView, not as feature-rich as the commercial product
 * [PNP4Nagios](http://docs.pnp4nagios.org/) - Nagios visualization tool
-* [Sensu](http://sensuapp.org/) - Open souce monitoring framework, cloud-focused
+* [riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language.
+* [RRDtool](http://oss.oetiker.ch/rrdtool/) - High performance data logging and graphing system for time series data
+* [Sensu](http://sensuapp.org/) - Open source monitoring framework, cloud-focused
 * [Shinken](http://www.shinken-monitoring.org/) - Compatible with Nagios
 * [StatsD](https://github.com/etsy/statsd/) - Monitoring in node.js
 * [Tattle](https://github.com/wayfair/Graphite-Tattle) - Self service alerting and dashboard frontend for Graphite and Ganglia
@@ -684,7 +687,7 @@
 
 ## Misc Tools and Utilities
 * [ack](http://beyondgrep.com/) - grep-like tool designed to search source code
-* [autojump](https://github.com/joelthelion/autojump) - Ssmall database of directories that you visited in the past, used to quickly navigate complex directory structures
+* [autojump](https://github.com/joelthelion/autojump) - Small database of directories that you visited in the past, used to quickly navigate complex directory structures
 * [Checkpoint/Restore in Userspace (CRIU)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later
 * [Codepad](http://codepad.org/) - You paste your code, it spits out a URL, you share it
 * [comm](http://linux.die.net/man/1/comm) - Display lines that two files have in common (eg: the opposite of diff)
