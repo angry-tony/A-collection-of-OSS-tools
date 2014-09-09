@@ -158,6 +158,7 @@
 * [Duplicity](http://duplicity.nongnu.org/) - Encrypted bandwidth-efficient backup using the rsync algorithm
 * [FSArchiver](http://www.fsarchiver.org/Main_Page) - Save the contents of a file system to a compressed archive, if one of the checksums doesn't match the file is lost, not the whole backup
 * [lsyncd](https://github.com/axkibe/lsyncd) - Watches a local directory trees event monitor interface (inotify or fsevents) and kicks off an rsync when things change
+* [Mondo Rescue](http://www.mondorescue.org/) - Disaster recovery, supports tapes, disks, network and CD/DVD as backup media, multiple filesystems, LVM, software and hardware RAID
 * [rdiff-backup](http://www.nongnu.org/rdiff-backup/) - Combines the best features of a mirror and an incremental backup in a bandwidth efficient manner
 * [Redo Backup and Recovery](http://redobackup.org/) - Simple bare metal backup and restore
 * [rsnapshot](http://www.rsnapshot.org/) - Uses rsync and hard links, can keep multiple full backups available while using very little disk space
@@ -259,6 +260,7 @@
 * [Galera Cluster](http://galeracluster.com/) - HA clustering for MySQL
 * [HAproxy](http://www.haproxy.org/) - Open source load balancer
 * [haproxy-autoscale](https://github.com/markcaudill/haproxy-autoscale) - Wrapper for haproxy that handles auto-scaling EC2 instances
+* [Hipache](https://github.com/hipache/hipache) - Distributed HTTP and websocket proxy, supports load balancing
 * [keepalived](http://www.keepalived.org/) - Load balancing and high availability
 * [Linux-HA](http://www.linux-ha.org) - Building blocks for high availability systems
 * [MariaDB Galera Cluster](https://downloads.mariadb.org/mariadb-galera/) - HA for MariaDB
@@ -494,6 +496,7 @@
 * [nmon](http://nmon.sourceforge.net/pmwiki.php) - Provides both real-time and historical monitoring
 * [perf-tools](https://github.com/brendangregg/perf-tools) - By Brendan Gregg, uses perf and ftrace, includes iosnoop, KILLER TOOLS
 * [Performance Co-Pilot (PCP)](http://www.performancecopilot.org/) - Included in RHEL / CentOS 7
+* [pidstat](http://linux.die.net/man/1/pidstat) - vmstat type output for CPU, disk I/O, page faults, and more on a per-process basis
 * [pmap](http://milianw.de/code-snippets/tracking-memory-consumption-using-pmap) - Shell scripts for tracking memory usage using "pmap"
 * [PowerTOP](https://01.org/powertop) - Real-time power consumption on a per-process & per-thread basis
 * [ps_mem](https://github.com/pixelb/ps_mem) - Accurately reports core memory usage for a process
@@ -646,6 +649,7 @@
 * [OpenDedupe](http://opendedup.org/) - Open source dedupe software, works on both block storage and file systems
 * [RAID LVMs](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Logical_Volume_Manager_Administration/raid_volumes.html) - As of RHEL 6.3 LVM supports software RAID without using mdraid
 * [Red Hat LVM RAID Calculator](https://access.redhat.com/labs/lvmraidcalculator/) - Login required
+* [System Storage Manager (SSM)](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Storage_Administration_Guide/ch-ssm.html) - Generic CLI for managing all types of storage (DM, LVM, multipath), added in RHEL 7
 * [zram](https://en.wikipedia.org/wiki/Zram) - A compressed, in-memory block device to reduce paging
 * [zswap](https://en.wikipedia.org/wiki/Zswap) - A compressed, write-back cache cache for swapped pages
 
@@ -685,12 +689,26 @@
 
 
 
+## Virtualization 
+[DOSbox](http://www.dosbox.com/) - Open source DOS emulator, great for running old games or utilities
+[Kernel Virtual Machine (KVM)](http://www.linux-kvm.org/page/Main_Page) - The one, the only
+[kvm-tools](http://www.linux-kvm.org/page/Kvmtools) - CLI tools for managing qemu-kvm domains
+[KVM Management Tools](http://www.linux-kvm.org/page/Management_Tools) - Great list of KVM management tools on the KVM wiki, updated frequently
+[libvirt](http://libvirt.org/) - Open source API, daemon and management tool, used with many virtualization solutions
+[LinuX Containers (LXC)](#containers) - See the Containers section for more tools
+[Quick EMUlator (QEMU)](http://wiki.qemu.org/Main_Page) - Supports hardware emulation (SPARC, RISC, etc)
+[Oracle VM VirtualBox](https://www.virtualbox.org/) - Easy, simple virtualization
+[Xen](http://www.xenproject.org/) - It's a hypervisor
+
+
+
 ## Misc Tools and Utilities
 * [ack](http://beyondgrep.com/) - grep-like tool designed to search source code
 * [autojump](https://github.com/joelthelion/autojump) - Small database of directories that you visited in the past, used to quickly navigate complex directory structures
 * [Checkpoint/Restore in Userspace (CRIU)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later
 * [Codepad](http://codepad.org/) - You paste your code, it spits out a URL, you share it
 * [comm](http://linux.die.net/man/1/comm) - Display lines that two files have in common (eg: the opposite of diff)
+* [conserver](http://www.conserver.com/) - Virtual console server with many features
 * [consul](http://www.consul.io/) - Service discovery and configuration via DNS or HTTP
 * [curlish](https://pythonhosted.org/curlish/) - Improved curl, includes cookie management and OAuth support
 * [Cygwin](https://www.cygwin.com/) - GNU shell and tools for Windows
@@ -718,6 +736,7 @@
 * [percol](https://github.com/mooz/percol) - Interactive grep tool
 * [pv](http://linux.die.net/man/1/pv) - Shows the progress of data as it flows through a pipe
 * [Rackerlabs](https://rackerlabs.github.io/) - Rackspace's OSS tools, hosted on GitHub
+* [rcron](https://code.google.com/p/rcron/) - cron redundancy and failover, ensures a job will only run on the "active" machine
 * [Repose](http://openrepose.org/) - REST proxy
 * [reset](http://linux.die.net/man/1/reset) - Reset your terminal after you accidentally cat a binary file
 * [script](http://linux.die.net/man/1/script) - Standard utility to record commands, input, and output
@@ -727,6 +746,7 @@
 * [sysadmin-util](https://github.com/skx/sysadmin-util) - A collection of small but useful utilities
 * [tac](http://linux.die.net/man/1/tac) - Reverse "cat" (eg: last line displayed first)
 * [TermRecord](https://github.com/theonewolf/TermRecord) - Record and playback terminal sessions
+* [Unix Rosetta Stone](http://bhami.com/rosetta.html) - The one and only resource for a mixed Linux/Unix environment
 * [Varnish](https://www.varnish-cache.org/) - Caching HTTP accelerator
 * [watch](http://linux.die.net/man/1/watch) - Run a command repeatedly at a specified interval and display the output
 * [watchman](https://github.com/facebook/watchman) - Watch files and take action when they change (eg: kick off the CI system)
