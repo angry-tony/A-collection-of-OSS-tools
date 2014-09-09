@@ -691,15 +691,15 @@
 
 
 ## Virtualization
-[DOSbox](http://www.dosbox.com/) - Open source DOS emulator, great for running old games or utilities
-[Kernel Virtual Machine (KVM)](http://www.linux-kvm.org/page/Main_Page) - The one, the only
-[kvm-tools](http://www.linux-kvm.org/page/Kvmtools) - CLI tools for managing qemu-kvm domains
-[KVM Management Tools](http://www.linux-kvm.org/page/Management_Tools) - Great list of KVM management tools on the KVM wiki, updated frequently
-[libvirt](http://libvirt.org/) - Open source API, daemon and management tool, used with many virtualization solutions
-[LinuX Containers (LXC)](#containers) - See the Containers section for more tools
-[Quick EMUlator (QEMU)](http://wiki.qemu.org/Main_Page) - Supports hardware emulation (SPARC, RISC, etc)
-[Oracle VM VirtualBox](https://www.virtualbox.org/) - Easy, simple virtualization
-[Xen](http://www.xenproject.org/) - It's a hypervisor
+* [DOSbox](http://www.dosbox.com/) - Open source DOS emulator, great for running old games or utilities
+* [Kernel Virtual Machine (KVM)](http://www.linux-kvm.org/page/Main_Page) - The one, the only
+* [kvm-tools](http://www.linux-kvm.org/page/Kvmtools) - CLI tools for managing qemu-kvm domains
+* [KVM Management Tools](http://www.linux-kvm.org/page/Management_Tools) - Great list of KVM management tools on the KVM wiki, updated frequently
+* [libvirt](http://libvirt.org/) - Open source API, daemon and management tool, used with many virtualization solutions
+* [LinuX Containers (LXC)](#containers) - See the Containers section for more tools
+* [Quick EMUlator (QEMU)](http://wiki.qemu.org/Main_Page) - Supports hardware emulation (SPARC, RISC, etc)
+* [Oracle VM VirtualBox](https://www.virtualbox.org/) - Easy, simple virtualization
+* [Xen](http://www.xenproject.org/) - It's a hypervisor
 
 
 
