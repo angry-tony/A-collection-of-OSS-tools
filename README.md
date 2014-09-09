@@ -137,7 +137,7 @@
 * [GLPI](http://www.glpi-project.org/spip.php?lang=en) - Also provides license management, software auditing, and ticketing
 * [IT ITems DataBase (ITDB)](http://www.sivann.gr/software/itdb/) - Includes purchase order management, floor plans, and ISO20000-like features
 * [Network UPS Tools](http://www.networkupstools.org/) - Manage power devices from over 100 manufacturers using a single web interface
-* [OCS Inventory NG](http://www.ocsinventory-ng.org/en/) - 
+* [OCS Inventory NG](http://www.ocsinventory-ng.org/en/) - Automated inventory, deployment system, can sync with GLPI
 * [openDCIM](http://opendcim.org/) - Data center infrastructure management
 * [phpIPAM](http://phpipam.net/) - Written in perl.  No, Ruby.  No, Perl.  Probably PHP
 * [RackMonkey](https://flux.org.uk/projects/rackmonkey/) - No longer under development as of 2013
@@ -405,7 +405,7 @@
 * [netbrake](http://www.hping.org/netbrake/) - Limit the bandwidth used by a process
 * [ngrep](http://linux.die.net/man/8/ngrep) - Network grep
 * [nping](http://nmap.org/nping/) - Create custom network packets
-* [ntopng](http://www.ntop.org/products/ntop/) - 
+* [ntopng](http://www.ntop.org/products/ntop/) - New version of the popular ntop tool
 * [Paris Traceroute](http://www.paris-traceroute.net/) - Shows proper network topology when load balancers and load-balanced routers are used
 * [PageKite](https://pagekite.net/) - Makes web servers or SSH publicly available on any server
 * [prettyping.sh](https://bitbucket.org/denilsonsa/small_scripts/src/tip/prettyping.sh) - bash wrapper for ping to create pretty output
