@@ -217,9 +217,9 @@
 * [geard](https://registry.hub.docker.com/u/ccoleman/geard/) - CLI tool for installing Docker images as containers onto a systemd-enabled Linux system
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers
 * [kubernetes](https://github.com/GoogleCloudPlatform/kubernetes) - Container cluster manager
-* [Docker](https://www.docker.com/) - The hotness
+* [Docker](https://www.docker.com/) - Designed to run a SINGLE application in a container, not a whole or partial OS
 * [libcontainer](https://github.com/docker/libcontainer) - Used by Docker 1.0+ so it doesn't have to use LXC/libvirt/systemd-nspawn
-* [Linux Containers (LXC)](https://linuxcontainers.org/) - Userspace interface for the Linux kernel containment features
+* [Linux Containers (LXC)](https://linuxcontainers.org/) - Runs an OS instance (sshd, cron, daemons, init, etc) within a container
 * [Panamax](http://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub
 * [deimos](https://github.com/mesosphere/deimos) - Docker plugin for Apache Mesos
 * [Mesosphere](https://github.com/mesosphere) - Apache Mesos plugins for almost anything
