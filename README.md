@@ -236,6 +236,7 @@
 * [mytop](http://jeremy.zawodny.com/mysql/mytop/) - Another "top" for MySQL
 * [Oracle IO Numbers (ORION)](http://www.example.com) - I/O test tool, included with Oracle DB
 * [Percona Toolkit for MySQL](http://www.percona.com/software/percona-toolkit) - Percona's internal tools
+* [pg_activity](https://github.com/julmon/pg_activity/) - htop for PostgreSQL
 * [Silly Little Oracle Benchmark 2 (SLOB2)](http://kevinclosson.net/slob/) - Stresses and benchmarks Oracle DBs, works at the RDBMS layer
 * [shawn-s](http://www.reddit.com/r/linuxadmin/comments/1yotyo/mysql_performance_tuning_for_sysadmins_need_help/) - Superb Reddit post on performance evaluation and tuning
 * [Swingbench](http://www.dominicgiles.com/swingbench.html) - Oracle load generator
