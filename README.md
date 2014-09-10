@@ -234,9 +234,12 @@
 * [MySQLtuner-perl](http://mysqltuner.com/) - Analyzes a MySQL installation and provides suggestions to increase performance
 * [MySQL Performance Blog](http://www.percona.com/blog/) - Run by Percona, one of the top names in MySQL support and performance tuning
 * [mytop](http://jeremy.zawodny.com/mysql/mytop/) - Another "top" for MySQL
+* [Open PostgreSQL Monitoring (OPM)](http://opm.io/) - Includes a web console
 * [Oracle IO Numbers (ORION)](http://www.example.com) - I/O test tool, included with Oracle DB
 * [Percona Toolkit for MySQL](http://www.percona.com/software/percona-toolkit) - Percona's internal tools
 * [pg_activity](https://github.com/julmon/pg_activity/) - htop for PostgreSQL
+* [pg_view](https://github.com/zalando/pg_view) - PostgreSQL monitoring, supports ncurses, console, and JSON output
+* [PGObserver](http://zalando.github.io/PGObserver/) - Killer PostgreSQL monitor, includes dashboard
 * [Silly Little Oracle Benchmark 2 (SLOB2)](http://kevinclosson.net/slob/) - Stresses and benchmarks Oracle DBs, works at the RDBMS layer
 * [shawn-s](http://www.reddit.com/r/linuxadmin/comments/1yotyo/mysql_performance_tuning_for_sysadmins_need_help/) - Superb Reddit post on performance evaluation and tuning
 * [Swingbench](http://www.dominicgiles.com/swingbench.html) - Oracle load generator
