@@ -218,6 +218,7 @@
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers
 * [kubernetes](https://github.com/GoogleCloudPlatform/kubernetes) - Container cluster manager
 * [Docker](https://www.docker.com/) - The hotness
+* [libcontainer](https://github.com/docker/libcontainer) - Used by Docker 1.0+ so it doesn't have to use LXC/libvirt/systemd-nspawn
 * [Linux Containers (LXC)](https://linuxcontainers.org/) - Userspace interface for the Linux kernel containment features
 * [Panamax](http://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub
 * [deimos](https://github.com/mesosphere/deimos) - Docker plugin for Apache Mesos
