@@ -492,6 +492,7 @@
 * [iotop](http://guichaz.free.fr/iotop/) - top for I/O requests, displays information on a per-process basis
 * [iptraf](http://iptraf.seul.org/) - A top'esque program for network traffic, has multiple display modes, written in ncurses
 * [ksar](http://sourceforge.net/projects/ksar/) - Creates pretty graphs from sar output
+* [Linux Performance Observability Tools)(http://www.brendangregg.com/Perf/linux_observability_tools.png) - Awesome graphic that shows you which tool to use!
 * [mem_logger.sh](http://aarvik.dk/how-to-determine-which-process-is-highly-memory-consuming-over-time/) - Monitor a processes' memory usage over time
 * [Munin](http://munin-monitoring.org/) - Historical performance monitoring to help determine when you server became "slow"
 * [netatop](http://www.atoptool.nl/netatop.php) - Kernel module for atop to watch and report on network packets
