@@ -713,6 +713,9 @@
 ## Misc Tools and Utilities
 * [ack](http://beyondgrep.com/) - grep-like tool designed to search source code
 * [autojump](https://github.com/joelthelion/autojump) - Small database of directories that you visited in the past, used to quickly navigate complex directory structures
+* [Awesome Node.js](https://news.ycombinator.com/item?id=8306092) - A curated list of Node.js packages
+* [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin) - A curated list of open source resources
+* [Awesome PHP](https://github.com/ziadoz/awesome-php) - Curated list of PHP libraries and resources
 * [Checkpoint/Restore in Userspace (CRIU)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later
 * [Codepad](http://codepad.org/) - You paste your code, it spits out a URL, you share it
 * [comm](http://linux.die.net/man/1/comm) - Display lines that two files have in common (eg: the opposite of diff)
