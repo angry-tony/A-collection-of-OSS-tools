@@ -651,7 +651,7 @@
 * [Flash-Friendly File System (F2FS)](https://en.wikipedia.org/wiki/F2FS) - File system designed specifically for SSDs
 * [fs-cache](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-fscache.html) - NFS client caching
 * [IPOS Calculator](http://www.wmarow.com/strcalc/strcalc.html) - Created by Marek Wolynko
-* [Linux-IO Target (LIO)](http://linux-iscsi.org/wiki/Main_Page) - Create iSCSI and share iSCSI, FC, FCoE, and other storage targets on Linux
+* [Linux-IO Target (LIO)](http://linux-iscsi.org/wiki/Main_Page) - Create and share iSCSI, FC, FCoE, and other storage targets on Linux
 * [Linux Journal - Linux Swap Space](http://www.linuxjournal.com/article/10678) - Superb article about Linux swap, includes some tuning parameters
 * [lvcache](http://blog.oddbit.com/2014/08/16/lvcache-a-tool-for-managing-lv/) - Wrapper to make lvmcache easier
 * [OpenDedupe](http://opendedup.org/) - Open source dedupe software, works on both block storage and file systems
@@ -706,7 +706,7 @@
 * [LinuX Containers (LXC)](#containers) - See the Containers section for more tools
 * [Quick EMUlator (QEMU)](http://wiki.qemu.org/Main_Page) - Supports hardware emulation (SPARC, RISC, etc)
 * [Oracle VM VirtualBox](https://www.virtualbox.org/) - Easy, simple virtualization
-* [Xen](http://www.xenproject.org/) - It's a hypervisor
+* [Xen](http://www.xenproject.org/) - It's a hypervisor!
 
 
 
