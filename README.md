@@ -449,6 +449,7 @@
 * [Pulp](http://www.pulpproject.org/) - Next generation repository management, a component of Red Hat Satellite 6
 * [Red Hat Software Collections (SCL)](https://www.softwarecollections.org/) - Use multiple versions of software on a system without disturbing the system default version
 * [reposync](http://linux.die.net/man/1/reposync) - Synchronize yum repositories to a local directory
+* [RPM Fusion](http://rpmfusion.org/) - Provides software that the Fedora Project or Red Hat doesn't want to ship
 * [Spacewalk](http://www.spacewalkproject.org/) - Provides package management (among other things)
 * [yum-presto](https://fedoraproject.org/wiki/Features/Presto) - yum plugin that provides support for downloading package deltas instead of whole packages
 
