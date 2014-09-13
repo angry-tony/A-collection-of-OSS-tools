@@ -332,6 +332,7 @@
 
 ## Logging and Log Management
 * [Adiscon LogAnalyzer](http://loganalyzer.adiscon.com/) - Slick web interface for syslog messages
+* [Bigdesk](http://bigdesk.org/) - Live charts and statistics for elasticsearch cluster
 * [Elasticsearch](http://www.elasticsearch.org/) - Component of the ELK stack, used for super fast searches
 * [Fluentd](http://www.fluentd.org/) - Unified logging layer
 * [Flume](https://github.com/cloudera/flume/wiki) - Distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data
@@ -600,6 +601,7 @@
 * [Rootkit Hunter](http://rkhunter.sourceforge.net/) - Compares hashes of important files with known good hashes that are stored in online databases
 * [Samhain](http://www.la-samhna.de/samhain/) - HIDS, file integrity checker, rootkit detection, log file monitoring, and more
 * [SecTools.org](http://sectools.org/) - List of tools by the Nmap folks, some are quite outdated
+* [Security Onion](http://securityonion.net/) - Linux distro for IDS, NSM, and log management 
 * [Snoopy Logger](https://github.com/a2o/snoopy) - Logs commands that are executed and saves the information to syslog
 * [Snort](https://www.snort.org/) - The classic network intrusion prevention system (NIPS)
 * [sudosh2](http://sourceforge.net/projects/sudosh2/) - Login shell that records all keystrokes and output, supports session playback
