@@ -15,7 +15,7 @@
 
 
 # Table of Contents
-* [Asset Management and IPAM](#asset-management-and-ipam)
+* [Asset Management](#asset-management)
 * [Backups](#backups)
 * [Bootable USB Tools](#bootable-usb-tools)
 * [Configuration Management and Orchestration](#configuration-management-and-orchestration)
@@ -133,12 +133,12 @@
 
 
 
-## Asset Management and IPAM
+## Asset Management
 * [GestioIP](http://www.gestioip.net/) - IP address management (IPAM), web based, supports discovery
 * [GLPI](http://www.glpi-project.org/spip.php?lang=en) - Also provides license management, software auditing, and ticketing
 * [IT ITems DataBase (ITDB)](http://www.sivann.gr/software/itdb/) - Includes purchase order management, floor plans, and ISO20000-like features
 * [Network UPS Tools](http://www.networkupstools.org/) - Manage power devices from over 100 manufacturers using a single web interface
-* [OCS Inventory NG](http://www.ocsinventory-ng.org/en/) - Automated inventory, deployment system, can sync with GLPI
+* [OCS Inventory NG (OCS-NG)](http://www.ocsinventory-ng.org/en/) - Automated inventory, deployment system, can sync with GLPI
 * [openDCIM](http://opendcim.org/) - Data center infrastructure management
 * [phpIPAM](http://phpipam.net/) - Written in perl.  No, Ruby.  No, Perl.  Probably PHP
 * [RackMonkey](https://flux.org.uk/projects/rackmonkey/) - No longer under development as of 2013
@@ -147,6 +147,7 @@
 * [Ralph](http://ralph.allegrogroup.com/) - DCIM and CMDB, supports auto-discovery
 * [rho](https://github.com/candlepin/rho) - Scans for and gathers information about Linux and Unix servers
 * [Snipe IT](http://snipeitapp.com/) - Uses Bootstrap, web based, supports mobile
+* [Tracmor](https://code.google.com/p/tracmor/) - Web-based inventory and asset tracking system written in PHP 5 utilizing the Qcodo Framework
 
 
 
@@ -214,15 +215,23 @@
 
 
 ## Containers
-* [geard](https://registry.hub.docker.com/u/ccoleman/geard/) - CLI tool for installing Docker images as containers onto a systemd-enabled Linux system
+* [Apache Mesos](https://mesos.apache.org/) - Cluster manager, supports launching Docker images
+* [Aurora](https://aurora.incubator.apache.org/) - Service scheduler that runs on top of Mesos
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers
-* [kubernetes](https://github.com/GoogleCloudPlatform/kubernetes) - Container cluster manager
-* [Docker](https://www.docker.com/) - Designed to run a SINGLE application in a container, not a whole or partial OS
-* [libcontainer](https://github.com/docker/libcontainer) - Used by Docker 1.0+ so it doesn't have to use LXC/libvirt/systemd-nspawn
-* [Linux Containers (LXC)](https://linuxcontainers.org/) - Runs an OS instance (sshd, cron, daemons, init, etc) within a container
-* [Panamax](http://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub
 * [deimos](https://github.com/mesosphere/deimos) - Docker plugin for Apache Mesos
+* [Docker](https://www.docker.com/) - Designed to applications in a container, but not a whole OS instance
+* [Docker Registry](https://registry.hub.docker.com/) - Official Docker images for many projects
+* [Docker-Registry](https://github.com/docker/docker-registry) - Source code to Docker Registry, allows you to create private registries
+* [Ferry](https://github.com/opencore/ferry) - Big data development environment on your local machine using Docker
+* [fig](http://www.fig.sh/) - Fast, isolated development environments using Docker
+* [geard](https://registry.hub.docker.com/u/ccoleman/geard/) - CLI tool for installing Docker images as containers onto a systemd-enabled Linux system
+* [kubernetes](https://github.com/GoogleCloudPlatform/kubernetes) - Container cluster manager
+* [libcontainer](https://github.com/docker/libcontainer) - Used by Docker 1.0+ so it doesn't have to use LXC/libvirt/systemd-nspawn
+* [libswarm](https://github.com/docker/libswarm) - Toolkit to compose network services, by Docker
+* [Linux Containers (LXC)](https://linuxcontainers.org/) - Runs an OS instance (sshd, cron, daemons, init, etc) within a container
+* [Marathon](https://github.com/mesosphere/marathon) - Cluster-wide init and control system (or PaaS layer) for services in cgroups or Docker containers
 * [Mesosphere](https://github.com/mesosphere) - Apache Mesos plugins for almost anything
+* [Panamax](http://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub
 
 
 
@@ -338,6 +347,7 @@
 * [Flume](https://github.com/cloudera/flume/wiki) - Distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data
 * [GoAccess](http://goaccess.io/) - Real-time web log analyzer and interactive viewer that runs in a terminal
 * [Graylog2](http://graylog2.org/) - Log capture and analysis
+* [InfluxDB](http://influxdb.com/) - Distributed time series database with no external dependencies
 * [Kibana](http://www.elasticsearch.org/overview/kibana/) - Visualization component of the ELK stack
 * [Logplex](https://github.com/heroku/logplex) - Distributed syslog log router, uses Redis
 * [logstalgia](https://code.google.com/p/logstalgia/) - Web site access log visualization tool, aka Apache Pong
@@ -384,6 +394,7 @@
 * [StatsD](https://github.com/etsy/statsd/) - Monitoring in node.js
 * [Tattle](https://github.com/wayfair/Graphite-Tattle) - Self service alerting and dashboard frontend for Graphite and Ganglia
 * [Thruk](http://www.thruk.org/) - Web based, can create SLA reports, has a mobile client
+* [Uchiwa](https://github.com/sensu/uchiwa) - Dashboard for Sensu
 * [Xymon](https://www.xymon.com/) - Fork of Big Brother
 * [Zabbix](http://www.zabbix.com/) - Stores monitoring data in a DB, has agents for almost every OS
 * [Zenoss](http://www.zenoss.org/) - Supports Nagios plug-in format
@@ -529,12 +540,6 @@
 * [Razor](https://github.com/puppetlabs/razor-server) - Puppet provisioning software that handles bare metal hardware and virtual server provisioning
 * [Terraform](http://www.terraform.io/) - Infrastructure provisioning using existing tools
 * [veewee](https://github.com/jedi4ever/veewee) - Automate all the steps for building Vagrant base boxes
-* [fig](http://www.fig.sh/) - Fast, isolated development environments using Docker
-* [Apache Mesos](https://mesos.apache.org/) - Cluster manager, supports launching Docker images
-* [Docker Registry](https://registry.hub.docker.com/) - Official Docker images for many projects
-* [Docker-Registry](https://github.com/docker/docker-registry) - Source code to Docker Registry, allows you to create private registries
-* [Ferry](https://github.com/opencore/ferry) - Big data development environment on your local machine using Docker
-* [libswarm](https://github.com/docker/libswarm) - Toolkit to compose network services, by Docker
 
 
 
@@ -715,6 +720,7 @@
 
 ## Misc Tools and Utilities
 * [ack](http://beyondgrep.com/) - grep-like tool designed to search source code
+* [AutoHotKey](http://www.autohotkey.com/) - Automate input (desktop and web forms, data entry, keybinds, etc)
 * [autojump](https://github.com/joelthelion/autojump) - Small database of directories that you visited in the past, used to quickly navigate complex directory structures
 * [Awesome Node.js](https://news.ycombinator.com/item?id=8306092) - A curated list of Node.js packages
 * [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin) - A curated list of open source resources
