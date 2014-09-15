@@ -429,7 +429,7 @@
 * [Paris Traceroute](http://www.paris-traceroute.net/) - Shows proper network topology when load balancers and load-balanced routers are used
 * [PageKite](https://pagekite.net/) - Makes web servers or SSH publicly available on any server
 * [prettyping.sh](https://bitbucket.org/denilsonsa/small_scripts/src/tip/prettyping.sh) - bash wrapper for ping to create pretty output
-* [Server Name Indication (SNI](https://wiki.apache.org/httpd/NameBasedSSLVHostsWithSNI) - Think vhosts for SSL
+* [Server Name Indication (SNI)](https://wiki.apache.org/httpd/NameBasedSSLVHostsWithSNI) - Think vhosts for SSL
 * [SMB Multichannel](http://blogs.technet.com/b/josebda/archive/2012/05/13/the-basics-of-smb-multichannel-a-feature-of-windows-server-2012-and-smb-3-0.aspx) - Multiple SMB streams over a single TCP connection, killer feature
 * [socat](http://www.dest-unreach.org/socat/) - netcat on steroids, supports serial devices
 * [sslh](http://www.rutschle.net/tech/sslh.shtml) - Protocol multiplexer, forwards packets based on the first packet
@@ -726,6 +726,7 @@
 * [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin) - A curated list of open source resources
 * [Awesome PHP](https://github.com/ziadoz/awesome-php) - Curated list of PHP libraries and resources
 * [Checkpoint/Restore in Userspace (CRIU)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later
+* [Chronos](https://github.com/airbnb/chronos) - Distributed, fault tolerant cron scheduler that runs on top of Apache Mesos
 * [Codepad](http://codepad.org/) - You paste your code, it spits out a URL, you share it
 * [comm](http://linux.die.net/man/1/comm) - Display lines that two files have in common (eg: the opposite of diff)
 * [conserver](http://www.conserver.com/) - Virtual console server with many features
