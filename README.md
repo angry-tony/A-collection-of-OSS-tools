@@ -697,6 +697,7 @@
 
 
 ## Two Factor Authentication
+* [Authy](https://www.authy.com/) - Provides both personal and enterprise versions
 * [Duo Security](https://www.duosecurity.com/) - Cloud-based, supports many methods of authentication (hard token, smartphone application, etc) -- commercial product
 * [FreeOTP](https://fedorahosted.org/freeotp/) - Open source fork of Google Authenticator for iOS and Android
 * [Google Authenticator](https://code.google.com/p/google-authenticator/) - Two factor authentication; supports Android, iOS, and even has a PAM module -- closed source
