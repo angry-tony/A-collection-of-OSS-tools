@@ -18,6 +18,7 @@
 * [Asset Management](#asset-management)
 * [Backups](#backups)
 * [Bootable USB Tools](#bootable-usb-tools)
+* [Cluster Management and Schedulers](#cluster-management-and-schedulers)
 * [Configuration Management and Orchestration](#configuration-management-and-orchestration)
 * [Containers](#containers)
 * [Database Load Generation and Performance Tools](#database-load-generation-and-performance-tools)
@@ -183,6 +184,16 @@
 
 
 
+## Cluster Management and Schedulers
+* [Apache Mesos](https://mesos.apache.org/) - Cluster manager, supports launching Docker images
+* [Aurora](https://aurora.incubator.apache.org/) - Service scheduler that runs on top of Mesos3
+* [Chronos](https://github.com/airbnb/chronos) - Distributed, fault tolerant cron scheduler that runs on top of Apache Mesos
+* [kubernetes](https://github.com/GoogleCloudPlatform/kubernetes) - Container cluster manager
+* [Marathon](https://github.com/mesosphere/marathon) - Cluster-wide init and control system (or PaaS layer) for services in cgroups or Docker containers
+* [Mesosphere](https://github.com/mesosphere) - Apache Mesos plugins for almost anything
+
+
+
 ## Configuration Management and Orchestration
 * [Ansible](http://www.ansible.com) - Also does orchestration and provisioning
 * [Ansible Galaxy](https://galaxy.ansible.com/) - Community site for finding, reusing, and sharing Ansible content
@@ -215,8 +226,7 @@
 
 
 ## Containers
-* [Apache Mesos](https://mesos.apache.org/) - Cluster manager, supports launching Docker images
-* [Aurora](https://aurora.incubator.apache.org/) - Service scheduler that runs on top of Mesos
+
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers
 * [deimos](https://github.com/mesosphere/deimos) - Docker plugin for Apache Mesos
 * [Docker](https://www.docker.com/) - Designed to applications in a container, but not a whole OS instance
@@ -225,12 +235,9 @@
 * [Ferry](https://github.com/opencore/ferry) - Big data development environment on your local machine using Docker
 * [fig](http://www.fig.sh/) - Fast, isolated development environments using Docker
 * [geard](https://registry.hub.docker.com/u/ccoleman/geard/) - CLI tool for installing Docker images as containers onto a systemd-enabled Linux system
-* [kubernetes](https://github.com/GoogleCloudPlatform/kubernetes) - Container cluster manager
 * [libcontainer](https://github.com/docker/libcontainer) - Used by Docker 1.0+ so it doesn't have to use LXC/libvirt/systemd-nspawn
 * [libswarm](https://github.com/docker/libswarm) - Toolkit to compose network services, by Docker
 * [Linux Containers (LXC)](https://linuxcontainers.org/) - Runs an OS instance (sshd, cron, daemons, init, etc) within a container
-* [Marathon](https://github.com/mesosphere/marathon) - Cluster-wide init and control system (or PaaS layer) for services in cgroups or Docker containers
-* [Mesosphere](https://github.com/mesosphere) - Apache Mesos plugins for almost anything
 * [Panamax](http://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub
 
 
@@ -727,7 +734,6 @@
 * [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin) - A curated list of open source resources
 * [Awesome PHP](https://github.com/ziadoz/awesome-php) - Curated list of PHP libraries and resources
 * [Checkpoint/Restore in Userspace (CRIU)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later
-* [Chronos](https://github.com/airbnb/chronos) - Distributed, fault tolerant cron scheduler that runs on top of Apache Mesos
 * [Codepad](http://codepad.org/) - You paste your code, it spits out a URL, you share it
 * [comm](http://linux.die.net/man/1/comm) - Display lines that two files have in common (eg: the opposite of diff)
 * [conserver](http://www.conserver.com/) - Virtual console server with many features
