@@ -185,8 +185,8 @@
 
 
 ## Cluster Management and Schedulers
-* [Apache Mesos](https://mesos.apache.org/) - Cluster manager, supports launching Docker images
-* [Aurora](https://aurora.incubator.apache.org/) - Service scheduler that runs on top of Mesos3
+* [Apache Mesos](https://mesos.apache.org/) - Cluster manager and scheduler, similar to Google's Omega project
+* [Aurora](https://aurora.incubator.apache.org/) - Service scheduler that runs on top of Mesos
 * [Chronos](https://github.com/airbnb/chronos) - Distributed, fault tolerant cron scheduler that runs on top of Apache Mesos
 * [kubernetes](https://github.com/GoogleCloudPlatform/kubernetes) - Container cluster manager
 * [Marathon](https://github.com/mesosphere/marathon) - Cluster-wide init and control system (or PaaS layer) for services in cgroups or Docker containers
@@ -226,7 +226,6 @@
 
 
 ## Containers
-
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers
 * [deimos](https://github.com/mesosphere/deimos) - Docker plugin for Apache Mesos
 * [Docker](https://www.docker.com/) - Designed to applications in a container, but not a whole OS instance
@@ -625,6 +624,7 @@
 
 ## Shell Scripting
 * [Advanced Bash-Scripting Guide](http://www.tldp.org/LDP/abs/html/) - By the Linux Documentation Project (LDP)
+* [Explain Shell](http://explainshell.com/) - Enter a command-line to see the help text that matches each argument
 * [ShellCheck](http://www.shellcheck.net/) - Checks shell scripts for common mistakes
 
 
