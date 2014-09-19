@@ -624,6 +624,7 @@
 
 ## Shell Scripting
 * [Advanced Bash-Scripting Guide](http://www.tldp.org/LDP/abs/html/) - By the Linux Documentation Project (LDP)
+* [Bash Hackers Wiki](http://wiki.bash-hackers.org/start) - Human-readable bash documentation so you don't have to dig through the man page
 * [Explain Shell](http://explainshell.com/) - Enter a command-line to see the help text that matches each argument
 * [ShellCheck](http://www.shellcheck.net/) - Checks shell scripts for common mistakes
 
@@ -733,6 +734,7 @@
 * [Awesome Node.js](https://news.ycombinator.com/item?id=8306092) - A curated list of Node.js packages
 * [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin) - A curated list of open source resources
 * [Awesome PHP](https://github.com/ziadoz/awesome-php) - Curated list of PHP libraries and resources
+* [bbFTP](http://doc.in2p3.fr/bbftp/) - Uses it's own transfer protocol, optimized for large file transfers
 * [Checkpoint/Restore in Userspace (CRIU)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later
 * [Codepad](http://codepad.org/) - You paste your code, it spits out a URL, you share it
 * [comm](http://linux.die.net/man/1/comm) - Display lines that two files have in common (eg: the opposite of diff)
@@ -747,6 +749,7 @@
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- closed source
 * [FreeIPA](http://www.freeipa.org/page/Main_Page) - Identity, policy, and audit suite, think Active Directory for Linux
 * [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any web page look like a Geocities page
+* [GridFTP](http://toolkit.globus.org/toolkit/docs/latest-stable/gridftp/) - Supports parallel streams
 * [gt5](http://gt5.sourceforge.net/) - A "du browser", handy for finding large files
 * [httpie](https://github.com/jakubroztocil/httpie) - curl replacement with many new features
 * [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) - ISO standard for dates, the only way to fly
