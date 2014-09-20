@@ -651,8 +651,9 @@
 * [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) - The classic SSH client for Windows
 * [rssh](http://www.pizzashack.org/rssh/) - Restricted shell for SSH, only allows scp, sftp, rdist, rsync, and cvs
 * [scponly](https://github.com/scponly/scponly/) - Shell that only allows incoming SCP, supports chroot
-* [SSHFS](http://linux.die.net/man/1/sshfs) - Mount remote file systems using a SSH tunnel
 * [SSH Power Tool (sshpt)](https://code.google.com/p/sshpt/) - Execute commands and upload files to many servers simultaneously via SSH without using pre-shared keys
+* [SSHFS](http://linux.die.net/man/1/sshfs) - Mount remote file systems using a SSH tunnel
+* [sshrc](https://github.com/Russell91/sshrc/) - Sources the ~/.sshrc on your local computer after logging in remotely
 * [SuperPutty](https://code.google.com/p/superputty/) - Allows the PuTTY SSH client to be opened in tabs
 * [tmux](http://tmux.sourceforge.net/) - An alternative to GNU screen
 * [WinSCP](http://winscp.net) - The well-known SCP client for Windows
