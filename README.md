@@ -236,6 +236,7 @@
 * [Docker-Registry](https://github.com/docker/docker-registry) - Source code to Docker Registry, allows you to create private registries
 * [Ferry](https://github.com/opencore/ferry) - Big data development environment on your local machine using Docker
 * [fig](http://www.fig.sh/) - Fast, isolated development environments using Docker
+* [Flocker](https://github.com/ClusterHQ/flocker) - Docker container and data management
 * [geard](https://registry.hub.docker.com/u/ccoleman/geard/) - CLI tool for installing Docker images as containers onto a systemd-enabled Linux system
 * [libcontainer](https://github.com/docker/libcontainer) - Used by Docker 1.0+ so it doesn't have to use LXC/libvirt/systemd-nspawn
 * [libswarm](https://github.com/docker/libswarm) - Toolkit to compose network services, by Docker
