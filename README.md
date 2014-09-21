@@ -135,8 +135,11 @@
 
 
 ## Asset Management
+* [Clusto](https://github.com/clusto/clusto) - Inventory tracking and "cluster management" system
+* [Collins](https://github.com/tumblr/collins) - Infrastructure source of truth, created by Tumblr
 * [GestioIP](http://www.gestioip.net/) - IP address management (IPAM), web based, supports discovery
 * [GLPI](http://www.glpi-project.org/spip.php?lang=en) - Also provides license management, software auditing, and ticketing
+* [HostDB](https://github.com/Flipkart/HostDB) - New tool to help manage data center inventory
 * [IT ITems DataBase (ITDB)](http://www.sivann.gr/software/itdb/) - Includes purchase order management, floor plans, and ISO20000-like features
 * [Network UPS Tools](http://www.networkupstools.org/) - Manage power devices from over 100 manufacturers using a single web interface
 * [OCS Inventory NG (OCS-NG)](http://www.ocsinventory-ng.org/en/) - Automated inventory, deployment system, can sync with GLPI
@@ -389,7 +392,7 @@
 * [Nagiosgraph](http://nagiosgraph.sourceforge.net/) - Another visualization tool for Nagios data
 * [NagVis](http://www.nagvis.org/) - Visualization suite for Nagios
 * [Network Weathermap](http://www.network-weathermap.com/) - Network visualization tool, create a "weather map" just like big ISPs
-* [OpenNMS](http://www.opennms.org/) - Network monitoring
+* [OpenNMS](http://www.opennms.org/) - Network monitoring, also supports configuration/asset management
 * [Open Monitoring Distribution (OMD)](http://omdistro.org/) - Nagios bundled with the most popular plugins and tools
 * [OpsView Core](http://www.opsview.com/resources/downloads/download-opsview-core) - GPL version of OpsView, not as feature-rich as the commercial product
 * [PNP4Nagios](http://docs.pnp4nagios.org/) - Nagios visualization tool
