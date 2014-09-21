@@ -163,7 +163,7 @@
 * [Bacula](http://www.bacula.org/) - Open source backup tool, lots of downloads so I guess it's good I don't know
 * [Duplicity](http://duplicity.nongnu.org/) - Encrypted bandwidth-efficient backup using the rsync algorithm
 * [FSArchiver](http://www.fsarchiver.org/Main_Page) - Save the contents of a file system to a compressed archive, if one of the checksums doesn't match the file is lost, not the whole backup
-* [d](https://github.com/axkibe/lsyncd) - Watches a local directory trees event monitor interface (inotify or fsevents) and kicks off an rsync when things change
+* [lsyncd](https://github.com/axkibe/lsyncd) - Watches a local directory trees event monitor interface (inotify or fsevents) and kicks off an rsync when things change
 * [Mondo Rescue](http://www.mondorescue.org/) - Disaster recovery, supports tapes, disks, network and CD/DVD as backup media, multiple filesystems, LVM, software and hardware RAID
 * [rdiff-backup](http://www.nongnu.org/rdiff-backup/) - Combines the best features of a mirror and an incremental backup in a bandwidth efficient manner
 * [Redo Backup and Recovery](http://redobackup.org/) - Simple bare metal backup and restore
