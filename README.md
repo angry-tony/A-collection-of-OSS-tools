@@ -157,14 +157,18 @@
 
 ## Backups
 * [Amanda](http://www.amanda.org/) - The classic
+* [Attic](https://attic-backup.org/) - Written in Python
 * [Backupninja](https://labs.riseup.net/code/projects/backupninja) - Centralize way to configure and schedule many different backup utilities
 * [BackUp and Restore Program (BURP)](http://burp.grke.org/) - Reduces network traffic and the amount of space required by using librsync
 * [BackupPC](http://backuppc.sourceforge.net/) - Dedupe and a web GUI for restores
 * [Bacula](http://www.bacula.org/) - Open source backup tool, lots of downloads so I guess it's good I don't know
+* [bup](https://github.com/bup/bup) - Uses the git packfile format, supports global dedupe
+* [Duplicati](http://www.duplicati.com/) - Supports encryption and dedupe
 * [Duplicity](http://duplicity.nongnu.org/) - Encrypted bandwidth-efficient backup using the rsync algorithm
 * [FSArchiver](http://www.fsarchiver.org/Main_Page) - Save the contents of a file system to a compressed archive, if one of the checksums doesn't match the file is lost, not the whole backup
 * [lsyncd](https://github.com/axkibe/lsyncd) - Watches a local directory trees event monitor interface (inotify or fsevents) and kicks off an rsync when things change
 * [Mondo Rescue](http://www.mondorescue.org/) - Disaster recovery, supports tapes, disks, network and CD/DVD as backup media, multiple filesystems, LVM, software and hardware RAID
+* [Obnam](http://obnam.org/) - Snapshots, dedupe, encryption
 * [rdiff-backup](http://www.nongnu.org/rdiff-backup/) - Combines the best features of a mirror and an incremental backup in a bandwidth efficient manner
 * [Redo Backup and Recovery](http://redobackup.org/) - Simple bare metal backup and restore
 * [rsnapshot](http://www.rsnapshot.org/) - Uses rsync and hard links, can keep multiple full backups available while using very little disk space
@@ -177,6 +181,7 @@
 ## Bootable USB Tools
 * [Dan's Boot and Nuke (DBAN)](http://www.dban.org/) - Disk wiper
 * [Easy2Boot](http://www.easy2boot.com/) - Create multiple bootable ISOs on the same USB drive
+* [GParted Live](http://gparted.org/livecd.php) - Small, bootable ISO that contains gparted, great for resizing a non-LVM root file system
 * [Hiren's BootCD](http://www.hiren.info/pages/bootcd) - Everything and the kitchen sink
 * [RHEL Live CDs](http://www.outsidaz.org/blog/2013/04/28/building-rhel6-livecdslive-media-for-demo-dr-and-diagnostic-purposes/) - How to build a RHEL live CD
 * [Rufus](http://rufus.akeo.ie/) - Create bootable USB flash drives
@@ -544,7 +549,8 @@
 * [Cobbler](http://www.cobblerd.org/) - Provisioning system used in Red Hat's Satellite
 * [Crowbar](https://crowbar.github.io/home.html) - Multi-purpose provisioning tool, originally created by Dell
 * [Foreman](http://theforeman.org/) - Provisioning and life cycle management
-* [iPXE](http://ipxe.org/) - GPL'ed version of PXE with new features
+* [gPXE](http://www.etherboot.org) - GPL'ed version of PXE
+* [iPXE](http://ipxe.org/) - GPL'ed version of PXE, replacement for gPXE
 * [Katello](https://fedorahosted.org/katello/) - Candlepin + Pulp + Foreman, the core of Red Hat Satellite 6
 * [Kickstart](https://fedoraproject.org/wiki/Anaconda/Kickstart) - The classic Red Hat tool
 * [Packer](http://www.packer.io/) - Automates VM creation for multiple platforms (VMware, AWS, etc), can use a "golden image" approach
@@ -754,10 +760,12 @@
 * [Etherpad](https://github.com/ether) - Enter, save, and share text/code in a web browser
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- closed source
 * [FreeIPA](http://www.freeipa.org/page/Main_Page) - Identity, policy, and audit suite, think Active Directory for Linux
+* [gcalcli](https://github.com/insanum/gcalcli) - CLI for Google Calendar
 * [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any web page look like a Geocities page
 * [GridFTP](http://toolkit.globus.org/toolkit/docs/latest-stable/gridftp/) - Supports parallel streams
 * [gt5](http://gt5.sourceforge.net/) - A "du browser", handy for finding large files
 * [httpie](https://github.com/jakubroztocil/httpie) - curl replacement with many new features
+* [incrond](http://inotify.aiken.cz/?section=incron&page=about&lang=en) - Fires off a job when a file system event happens
 * [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) - ISO standard for dates, the only way to fly
 * [JSON Formatter](http://www.bodurov.com/JsonFormatter/) - Automatically format JSON code, 100% client side
 * [Inconsolation](http://inconsolation.wordpress.com/index/) - MASSIVE list of lightweight and (legit) obscure tools
