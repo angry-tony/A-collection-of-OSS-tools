@@ -205,6 +205,7 @@
 ## Configuration Management and Orchestration
 * [Ansible](http://www.ansible.com) - Also does orchestration and provisioning
 * [Ansible Galaxy](https://galaxy.ansible.com/) - Community site for finding, reusing, and sharing Ansible content
+* [BOSH](https://github.com/cloudfoundry/bosh) - Cloud orchestration, supports Docker containers too
 * [Capistrano](http://capistranorb.com/) - Run scripts/commands and push software using SSH
 * [Chef](http://www.getchef.com/) - Well known configuration management tool
 * [chef-book](https://github.com/jjasghar/chef-book) - Open source book about Chef
@@ -237,8 +238,10 @@
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers
 * [deimos](https://github.com/mesosphere/deimos) - Docker plugin for Apache Mesos
 * [Docker](https://www.docker.com/) - Designed to applications in a container, but not a whole OS instance
-* [Docker Registry](https://registry.hub.docker.com/) - Official Docker images for many projects
+* [Docker Hub Registry](https://registry.hub.docker.com/) - Official Docker images for many projects
 * [Docker-Registry](https://github.com/docker/docker-registry) - Source code to Docker Registry, allows you to create private registries
+* [Dokku](https://github.com/progrium/dokku) - Docker powered mini-Heroku in around 100 lines of Bash
+* [Dokku Alternative](https://github.com/dokku-alt/dokku-alt) - Dokku fork, supports plugins
 * [Ferry](https://github.com/opencore/ferry) - Big data development environment on your local machine using Docker
 * [fig](http://www.fig.sh/) - Fast, isolated development environments using Docker
 * [Flocker](https://github.com/ClusterHQ/flocker) - Docker container and data management
@@ -246,6 +249,7 @@
 * [libcontainer](https://github.com/docker/libcontainer) - Used by Docker 1.0+ so it doesn't have to use LXC/libvirt/systemd-nspawn
 * [libswarm](https://github.com/docker/libswarm) - Toolkit to compose network services, by Docker
 * [Linux Containers (LXC)](https://linuxcontainers.org/) - Runs an OS instance (sshd, cron, daemons, init, etc) within a container
+* [Longshoreman](https://github.com/longshoreman/longshoreman) - Heroku-like CLI tool for automated Docker deployments
 * [Panamax](http://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub
 
 
