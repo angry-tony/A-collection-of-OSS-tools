@@ -763,6 +763,7 @@
 * [etckeeper](http://joeyh.name/code/etckeeper/) - Stores /etc in version control
 * [Etherpad](https://github.com/ether) - Enter, save, and share text/code in a web browser
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- closed source
+* [Filewatcher](https://github.com/thomasfl/filewatcher) - Written in Ruby, monitors changes in the filesystem by polling
 * [FreeIPA](http://www.freeipa.org/page/Main_Page) - Identity, policy, and audit suite, think Active Directory for Linux
 * [gcalcli](https://github.com/insanum/gcalcli) - CLI for Google Calendar
 * [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any web page look like a Geocities page
@@ -773,7 +774,7 @@
 * [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) - ISO standard for dates, the only way to fly
 * [JSON Formatter](http://www.bodurov.com/JsonFormatter/) - Automatically format JSON code, 100% client side
 * [Inconsolation](http://inconsolation.wordpress.com/index/) - MASSIVE list of lightweight and (legit) obscure tools
-* [inotify](http://techarena51.com/index.php/inotify-tools-example/) - How to use the inotify tools suite to watch for file changes
+* [inotify](https://github.com/rvoicilas/inotify-tools) - Watch file(s) for changes, take an action when the change occurs
 * [inxi](https://code.google.com/p/inxi/) - "a full featured system information script" (hardware info, etc)
 * [ipcalc](http://linux.die.net/man/1/ipcalc) - CLI tool to calculate subnets, netmasks, IP ranges, broadcast addresses, and more
 * [lftp](http://lftp.yar.ru/) - Supports many protocols (FTPS, HTTPS, SFTP), scheduling, bandwidth throttling, scripting, and more
