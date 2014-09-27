@@ -193,12 +193,19 @@
 
 
 ## Cluster Management and Schedulers
-* [Apache Mesos](https://mesos.apache.org/) - Cluster manager and scheduler, similar to Google's Omega project
 * [Aurora](https://aurora.incubator.apache.org/) - Service scheduler that runs on top of Mesos
 * [Chronos](https://github.com/airbnb/chronos) - Distributed, fault tolerant cron scheduler that runs on top of Apache Mesos
+* [consul](http://www.consul.io/) - Service discovery and configuration via DNS or HTTP
+* [Curator](https://github.com/Netflix/curator) - ZooKeeper client wrapper and rich ZooKeeper framework, by Netflix
+* [Doozer](https://github.com/ha/doozerd) - Highly-available, completely consistent store for small amounts of extremely important data
+* [etcd](https://github.com/coreos/etcd) - Highly-available key value store for shared configuration and service discovery
+* [eureka](https://github.com/Netflix/eureka) - AWS Service registry for resilient mid-tier load balancing and failover, by Netflix
 * [kubernetes](https://github.com/GoogleCloudPlatform/kubernetes) - Container cluster manager
 * [Marathon](https://github.com/mesosphere/marathon) - Cluster-wide init and control system (or PaaS layer) for services in cgroups or Docker containers
+* [Mesos](https://mesos.apache.org/) - Cluster manager and scheduler, similar to Google's Omega project
 * [Mesosphere](https://github.com/mesosphere) - Apache Mesos plugins for almost anything
+* [Serf](https://github.com/hashicorp/serf) - Decentralized solution for service discovery and orchestration that is lightweight, highly available, and fault tolerant
+* [Zookeeper](https://zookeeper.apache.org/) - Distributed configuration service, synchronization service, and naming registry
 
 
 
@@ -755,7 +762,6 @@
 * [Codepad](http://codepad.org/) - You paste your code, it spits out a URL, you share it
 * [comm](http://linux.die.net/man/1/comm) - Display lines that two files have in common (eg: the opposite of diff)
 * [conserver](http://www.conserver.com/) - Virtual console server with many features
-* [consul](http://www.consul.io/) - Service discovery and configuration via DNS or HTTP
 * [curlish](https://pythonhosted.org/curlish/) - Improved curl, includes cookie management and OAuth support
 * [Cygwin](https://www.cygwin.com/) - GNU shell and tools for Windows
 * [devcheatsheet.com](http://devcheatsheet.com/) - Cheat sheets and quick references for almost every programming language
