@@ -21,7 +21,6 @@
 * [Cluster Management and Schedulers](#cluster-management-and-schedulers)
 * [Configuration Management and Orchestration](#configuration-management-and-orchestration)
 * [Containers](#containers)
-* [Database Load Generation and Performance Tools](#database-load-generation-and-performance-tools)
 * [Git Tutorials](#git-tutorials)
 * [High Availability Clustering Tools](#high-availability-clustering-tools)
 * [High Performance Computing Tools](#high-performance-computing-tools)
@@ -36,6 +35,7 @@
 * [Performance Monitoring](#performance-monitoring)
 * [Provisioning and Lifecycle Management](#provisioning-and-lifecycle-management)
 * [Python Tutorials](#python-tutorials)
+* [RDBMS Load Generation and Performance Tools](#rdbms-load-generation-and-performance-tools)
 * [Regular Expressions](#regular-expressions)
 * [Security Tools](#security-tools)
 * [Shell Scripting](#shell-scripting)
@@ -197,7 +197,6 @@
 * [Chronos](https://github.com/airbnb/chronos) - Distributed, fault tolerant cron scheduler that runs on top of Apache Mesos
 * [consul](http://www.consul.io/) - Service discovery and configuration via DNS or HTTP
 * [Curator](https://github.com/Netflix/curator) - ZooKeeper client wrapper and rich ZooKeeper framework, by Netflix
-* [Doozer](https://github.com/ha/doozerd) - Highly-available, completely consistent store for small amounts of extremely important data
 * [etcd](https://github.com/coreos/etcd) - Highly-available key value store for shared configuration and service discovery
 * [eureka](https://github.com/Netflix/eureka) - AWS Service registry for resilient mid-tier load balancing and failover, by Netflix
 * [kubernetes](https://github.com/GoogleCloudPlatform/kubernetes) - Container cluster manager
@@ -257,29 +256,9 @@
 * [libswarm](https://github.com/docker/libswarm) - Toolkit to compose network services, by Docker
 * [Linux Containers (LXC)](https://linuxcontainers.org/) - Runs an OS instance (sshd, cron, daemons, init, etc) within a container
 * [Longshoreman](https://github.com/longshoreman/longshoreman) - Heroku-like CLI tool for automated Docker deployments
+* [nsenter](https://github.com/jpetazzo/nsenter) - Attach to a Docker container
 * [Panamax](http://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub
-
-
-
-## Database Load Generation and Performance Tools
-* [db_STRESS](http://dimitrik.free.fr/) - Database benchmarking and stress-testing kit, supports most DBs
-* [DBMonster](http://sourceforge.net/projects/dbmonster/) - Generates random test data and puts it into a SQL database
-* [HammerDB](http://hammerora.sourceforge.net/) - Load testing and benchmark tool, supports most DBs
-* [innotop](https://code.google.com/p/innotop/) - "top" for MySQL -- NOTE: beware of exposing your password
-* [MySQLtuner-perl](http://mysqltuner.com/) - Analyzes a MySQL installation and provides suggestions to increase performance
-* [MySQL Performance Blog](http://www.percona.com/blog/) - Run by Percona, one of the top names in MySQL support and performance tuning
-* [mytop](http://jeremy.zawodny.com/mysql/mytop/) - Another "top" for MySQL
-* [Open PostgreSQL Monitoring (OPM)](http://opm.io/) - Includes a web console
-* [Oracle IO Numbers (ORION)](http://www.example.com) - I/O test tool, included with Oracle DB
-* [Percona Toolkit for MySQL](http://www.percona.com/software/percona-toolkit) - Percona's internal tools
-* [pg_activity](https://github.com/julmon/pg_activity/) - htop for PostgreSQL
-* [pg_view](https://github.com/zalando/pg_view) - PostgreSQL monitoring, supports ncurses, console, and JSON output
-* [PGObserver](http://zalando.github.io/PGObserver/) - Killer PostgreSQL monitor, includes dashboard
-* [Silly Little Oracle Benchmark 2 (SLOB2)](http://kevinclosson.net/slob/) - Stresses and benchmarks Oracle DBs, works at the RDBMS layer
-* [shawn-s](http://www.reddit.com/r/linuxadmin/comments/1yotyo/mysql_performance_tuning_for_sysadmins_need_help/) - Superb Reddit post on performance evaluation and tuning
-* [Swingbench](http://www.dominicgiles.com/swingbench.html) - Oracle load generator
-* [SysBench](https://launchpad.net/sysbench) - Evaluates OS parameters that are important for DBs, does not require a DB to be installed
-* [Use the Index, Luke](http://use-the-index-luke.com/) - SQL indexing and tuning for developers
+* [Weave](https://github.com/zettio/weave/) - Virtual network that connects Docker containers deployed across multiple hosts
 
 
 
@@ -591,6 +570,28 @@
 * [Python Reference](https://github.com/rasbt/python_reference) - A collection of useful scripts, tutorials, and other Python-related things
 * [r/dailyprogrammer](http://www.reddit.com/r/dailyprogrammer) - Programming exercises, includes Python
 * [r/learnpython](http://www.reddit.com/r/learnpython) - Subreddit for beginners
+
+
+
+## RDBMS Load Generation and Performance Tools
+* [db_STRESS](http://dimitrik.free.fr/) - Database benchmarking and stress-testing kit, supports most DBs
+* [DBMonster](http://sourceforge.net/projects/dbmonster/) - Generates random test data and puts it into a SQL database
+* [HammerDB](http://hammerora.sourceforge.net/) - Load testing and benchmark tool, supports most DBs
+* [innotop](https://code.google.com/p/innotop/) - "top" for MySQL -- NOTE: beware of exposing your password
+* [MySQLtuner-perl](http://mysqltuner.com/) - Analyzes a MySQL installation and provides suggestions to increase performance
+* [MySQL Performance Blog](http://www.percona.com/blog/) - Run by Percona, one of the top names in MySQL support and performance tuning
+* [mytop](http://jeremy.zawodny.com/mysql/mytop/) - Another "top" for MySQL
+* [Open PostgreSQL Monitoring (OPM)](http://opm.io/) - Includes a web console
+* [Oracle IO Numbers (ORION)](http://www.example.com) - I/O test tool, included with Oracle DB
+* [Percona Toolkit for MySQL](http://www.percona.com/software/percona-toolkit) - Percona's internal tools
+* [pg_activity](https://github.com/julmon/pg_activity/) - htop for PostgreSQL
+* [pg_view](https://github.com/zalando/pg_view) - PostgreSQL monitoring, supports ncurses, console, and JSON output
+* [PGObserver](http://zalando.github.io/PGObserver/) - Killer PostgreSQL monitor, includes dashboard
+* [Silly Little Oracle Benchmark 2 (SLOB2)](http://kevinclosson.net/slob/) - Stresses and benchmarks Oracle DBs, works at the RDBMS layer
+* [shawn-s](http://www.reddit.com/r/linuxadmin/comments/1yotyo/mysql_performance_tuning_for_sysadmins_need_help/) - Superb Reddit post on performance evaluation and tuning
+* [Swingbench](http://www.dominicgiles.com/swingbench.html) - Oracle load generator
+* [SysBench](https://launchpad.net/sysbench) - Evaluates OS parameters that are important for DBs, does not require a DB to be installed
+* [Use the Index, Luke](http://use-the-index-luke.com/) - SQL indexing and tuning for developers
 
 
 
