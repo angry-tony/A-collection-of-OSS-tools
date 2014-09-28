@@ -162,7 +162,7 @@
 * [BackUp and Restore Program (BURP)](http://burp.grke.org/) - Reduces network traffic and the amount of space required by using librsync
 * [BackupPC](http://backuppc.sourceforge.net/) - Dedupe and a web GUI for restores
 * [Bacula](http://www.bacula.org/) - Open source backup tool, lots of downloads so I guess it's good I don't know
-* [bup](https://github.com/bup/bup) - Uses the git packfile format, supports global dedupe
+* [bup](https://github.com/bup/bup) - Uses the git packfile format, supports global dedupe, can use "par2" redundancy
 * [Duplicati](http://www.duplicati.com/) - Supports encryption and dedupe
 * [Duplicity](http://duplicity.nongnu.org/) - Encrypted bandwidth-efficient backup using the rsync algorithm
 * [FSArchiver](http://www.fsarchiver.org/Main_Page) - Save the contents of a file system to a compressed archive, if one of the checksums doesn't match the file is lost, not the whole backup
@@ -619,6 +619,7 @@
 * [CIS Linux Benchmarks](http://benchmarks.cisecurity.org/downloads/browse/index.cfm?category=benchmarks.os.linux) - Linux OS hardening guides, superb!
 * [EncFS](http://www.arg0.net/encfs) - Encrypted file system in user space via FUSE
 * [fail2ban](http://www.fail2ban.org/) - Watches log files to ban IPs based on rules (too many failed logins, explot attempts, etc)
+* [fail2ban Dashboard](https://github.com/oussemos/fail2ban-dashboard) - Written with Flask
 * [Forensics Wiki](http://www.forensicswiki.org/wiki/Main_Page) - Digital forensics wiki
 * [fwknop (FireWall KNock OPerator)](http://www.cipherdyne.org/fwknop/) - Single Packet Authorization (SPA) aka next-generation port knocking
 * [HoneyDrive](http://bruteforce.gr/honeydrive) - Honeypot appliance
