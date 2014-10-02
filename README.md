@@ -612,6 +612,7 @@
 
 ## Security Tools
 * [Advanced Intrusion Detection Environment (AIDE)](http://aide.sourceforge.net/) - File integrity checker, alternative to Tripwire
+* [Angry IP Scanner](http://angryip.org/) - Supports plugins, also gathers NetBIOS information
 * [Brakeman](https://github.com/presidentbeef/brakeman) - Static analysis security vulnerability scanner for Ruby on Rails applications
 * [bro](https://github.com/bro/bro) - Framework for network analysis and security monitoring
 * [chkrootkit](http://www.chkrootkit.org/) - Rootkit checker, best used from a live CD
@@ -775,6 +776,7 @@
 * [FreeIPA](http://www.freeipa.org/page/Main_Page) - Identity, policy, and audit suite, think Active Directory for Linux
 * [gcalcli](https://github.com/insanum/gcalcli) - CLI for Google Calendar
 * [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any web page look like a Geocities page
+* [grabmem](https://github.com/dacresni/grabmem) - Allocates memory until the machine runs out or you quit it with ctrl-c
 * [GridFTP](http://toolkit.globus.org/toolkit/docs/latest-stable/gridftp/) - Supports parallel streams
 * [gt5](http://gt5.sourceforge.net/) - A "du browser", handy for finding large files
 * [httpie](https://github.com/jakubroztocil/httpie) - curl replacement with many new features
