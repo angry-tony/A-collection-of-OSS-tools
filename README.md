@@ -193,16 +193,16 @@
 
 
 ## Cluster Management and Schedulers
-* [Aurora](https://aurora.incubator.apache.org/) - Service scheduler that runs on top of Mesos
+* [Aurora](https://aurora.incubator.apache.org/) - Mesos scheduler for "always on" jobs, similar to Marathon
 * [Chronos](https://github.com/airbnb/chronos) - Distributed, fault tolerant cron scheduler that runs on top of Apache Mesos
 * [consul](http://www.consul.io/) - Service discovery and configuration via DNS or HTTP
 * [Curator](https://github.com/Netflix/curator) - ZooKeeper client wrapper and rich ZooKeeper framework, by Netflix
 * [etcd](https://github.com/coreos/etcd) - Highly-available key value store for shared configuration and service discovery
 * [eureka](https://github.com/Netflix/eureka) - AWS Service registry for resilient mid-tier load balancing and failover, by Netflix
 * [kubernetes](https://github.com/GoogleCloudPlatform/kubernetes) - Container cluster manager
-* [Marathon](https://github.com/mesosphere/marathon) - Cluster-wide init and control system (or PaaS layer) for services in cgroups or Docker containers
-* [Mesos](https://mesos.apache.org/) - Cluster manager and scheduler, similar to Google's Omega project
-* [Mesosphere](https://github.com/mesosphere) - Apache Mesos plugins for almost anything
+* [Marathon](https://github.com/mesosphere/marathon) - Mesos scheduler for "always on" jobs (eg: web services)
+* [Mesos](https://mesos.apache.org/) - Cluster manager and scheduler, similar to Google's Borg and Omega projects
+* [Mesosphere](https://github.com/mesosphere) - Apache Mesos schedulers for almost anything
 * [Serf](https://github.com/hashicorp/serf) - Decentralized solution for service discovery and orchestration that is lightweight, highly available, and fault tolerant
 * [Zookeeper](https://zookeeper.apache.org/) - Distributed configuration service, synchronization service, and naming registry
 
@@ -769,6 +769,7 @@
 * [Cygwin](https://www.cygwin.com/) - GNU shell and tools for Windows
 * [devcheatsheet.com](http://devcheatsheet.com/) - Cheat sheets and quick references for almost every programming language
 * [disown](https://en.wikipedia.org/wiki/Disown_%28Unix%29) - Disowns a processes from the shell, useful if you forgot to use screen or nohup
+* [dotfiles](http://dotfiles.github.io/) - Store your .bashrc and others on GitHub
 * [etckeeper](http://joeyh.name/code/etckeeper/) - Stores /etc in version control
 * [Etherpad](https://github.com/ether) - Enter, save, and share text/code in a web browser
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- closed source
@@ -776,6 +777,7 @@
 * [FreeIPA](http://www.freeipa.org/page/Main_Page) - Identity, policy, and audit suite, think Active Directory for Linux
 * [gcalcli](https://github.com/insanum/gcalcli) - CLI for Google Calendar
 * [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any web page look like a Geocities page
+* [Gource](https://code.google.com/p/gource/) - Software version control visualization tool
 * [grabmem](https://github.com/dacresni/grabmem) - Allocates memory until the machine runs out or you quit it with ctrl-c
 * [GridFTP](http://toolkit.globus.org/toolkit/docs/latest-stable/gridftp/) - Supports parallel streams
 * [gt5](http://gt5.sourceforge.net/) - A "du browser", handy for finding large files
