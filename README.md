@@ -219,7 +219,7 @@
 * [chef-book](https://github.com/jjasghar/chef-book) - Open source book about Chef
 * [Chef Development Kit (ChefDK)](http://downloads.getchef.com/chef-dk/) - Includes Berkshelf, Test Kitchen, ChefSpec, Foodcritic, Knife, Chef Zero, Ohai, and more
 * [Chef is Easy](http://chefiseasy.com/) - Chef tutorial
-* [Chef Solo](http://docs.getchef.com/chef_solo.html) - Allows using cookbooks on nodes without access to a Chef server
+* [Chef Solo](http://docs.getchef.com/chef_solo.html) - Allows using cookbooks on nodes without access to a Chef server, designed for testing
 * [Chef Supermarket](https://supermarket.getchef.com/) - Massive collection of cookbooks
 * [Chef Wiki](https://wiki.opscode.com/) - The official Opscode wiki
 * [Cooking Infrastructure by Chef](http://chef.leopard.in.ua/) - Free Chef ebook
