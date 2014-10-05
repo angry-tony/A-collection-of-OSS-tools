@@ -194,6 +194,7 @@
 
 ## Cluster Management and Schedulers
 * [Aurora](https://aurora.incubator.apache.org/) - Mesos scheduler for "always on" jobs, similar to Marathon
+* [Bamboo](https://github.com/QubitProducts/bamboo) - HAProxy auto configuration and auto service discovery for Marathon
 * [Chronos](https://github.com/airbnb/chronos) - Distributed, fault tolerant cron scheduler that runs on top of Apache Mesos
 * [consul](http://www.consul.io/) - Service discovery and configuration via DNS or HTTP
 * [Curator](https://github.com/Netflix/curator) - ZooKeeper client wrapper and rich ZooKeeper framework, by Netflix
@@ -203,6 +204,7 @@
 * [Marathon](https://github.com/mesosphere/marathon) - Mesos scheduler for "always on" jobs (eg: web services)
 * [Mesos](https://mesos.apache.org/) - Cluster manager and scheduler, similar to Google's Borg and Omega projects
 * [Mesosphere](https://github.com/mesosphere) - Apache Mesos schedulers for almost anything
+* [Myriad](https://github.com/mesos/myriad) - YARN framework/scheduler
 * [Serf](https://github.com/hashicorp/serf) - Decentralized solution for service discovery and orchestration that is lightweight, highly available, and fault tolerant
 * [Zookeeper](https://zookeeper.apache.org/) - Distributed configuration service, synchronization service, and naming registry
 
