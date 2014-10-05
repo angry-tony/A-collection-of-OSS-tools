@@ -4,6 +4,7 @@
 * No SaaS
 * Only free-as-in-beer commercial software
 * [Josh's Linkedin](https://www.linkedin.com/in/jturgasen)
+* [Josh's Technical Blog](https://jturgasen.github.io)
 
 
 
