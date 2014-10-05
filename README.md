@@ -1,10 +1,11 @@
 # My Links
-* Pull requests welcome
+* Pull requests welcome!
 * 98% OSS
 * No SaaS
-* Only free-as-in-beer commercial software
+* Just a little free-as-in-beer commercial software
 * [Josh's Linkedin](https://www.linkedin.com/in/jturgasen)
 * [Josh's Technical Blog](https://jturgasen.github.io)
+* [Josh on Twitter](https://www.twitter.com/joshturgasen)
 
 
 
@@ -118,7 +119,7 @@
 
 ## Message Boards and Forums
 * [Mailing Lists](http://www.example.com) - No link, there's like 4 trillion of them
-* [IRC](http://www.example.com) - Same
+* [IRC](http://www.example.com) - Same as above
 * [Ask Ubuntu](https://askubuntu.com/)
 * [CentOS Forums](https://www.centos.org/forums/)
 * [Fedora Forums](http://www.forums.fedoraforum.org/)
