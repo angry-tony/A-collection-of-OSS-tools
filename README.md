@@ -390,6 +390,7 @@
 * [Nagios](http://www.nagios.org/) - One of the most widely used OSS monitoring programs
 * [Nagiosgraph](http://nagiosgraph.sourceforge.net/) - Another visualization tool for Nagios data
 * [NagVis](http://www.nagvis.org/) - Visualization suite for Nagios
+* [NeDi](http://www.nedi.ch/) - Network discovery and monitoring
 * [Network Weathermap](http://www.network-weathermap.com/) - Network visualization tool, create a "weather map" just like big ISPs
 * [OpenNMS](http://www.opennms.org/) - Network monitoring, also supports configuration/asset management
 * [Open Monitoring Distribution (OMD)](http://omdistro.org/) - Nagios bundled with the most popular plugins and tools
@@ -641,6 +642,7 @@
 * [r/netsec Tools List](http://www.reddit.com/r/netsec/comments/r1603/some_people_asked_for_a_tool_list/) - r/netsec creates a list of security related tools
 * [Rootkit Hunter](http://rkhunter.sourceforge.net/) - Compares hashes of important files with known good hashes that are stored in online databases
 * [Samhain](http://www.la-samhna.de/samhain/) - HIDS, file integrity checker, rootkit detection, log file monitoring, and more
+* [ScoutBot](http://lansec.net/project/scoutbot/) - Automated network scanner for Raspberry Pi
 * [SecTools.org](http://sectools.org/) - List of tools by the Nmap folks, some are quite outdated
 * [Security Onion](http://securityonion.net/) - Linux distro for IDS, NSM, and log management 
 * [Snoopy Logger](https://github.com/a2o/snoopy) - Logs commands that are executed and saves the information to syslog
