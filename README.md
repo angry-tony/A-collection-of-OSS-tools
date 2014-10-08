@@ -570,6 +570,7 @@
 * [MIT Open Courseware - Objects in Python](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-5-objects-in-python/) - Python tuples, lists, and dictionaries, as well as the concept of mutability and how to avoid problems relating to it.
 * [MIT Open Courseware - Python Tutorial](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/python-tutorial/) - Python tutorial for people familiar with basic programming concepts
 * [New Coder](http://newcoder.io/tutorials/) - Python exercises
+* [Python Challenge](http://www.pythonchallenge.com/) - A riddle in Python
 * [Python Practice Projects](http://pythonpracticeprojects.com/) - Several practice exercises
 * [Programming Praxis](http://programmingpraxis.com/) - Programming exercises, many posted solutions are in Python
 * [Python Reference](https://github.com/rasbt/python_reference) - A collection of useful scripts, tutorials, and other Python-related things
