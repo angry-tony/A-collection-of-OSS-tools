@@ -142,6 +142,7 @@
 * [GestioIP](http://www.gestioip.net/) - IP address management (IPAM), web based, supports discovery
 * [GLPI](http://www.glpi-project.org/spip.php?lang=en) - Also provides license management, software auditing, and ticketing
 * [HostDB](https://github.com/Flipkart/HostDB) - New tool to help manage data center inventory
+* [IP Plan](http://iptrack.sourceforge.net/) - IPAM written in PHP
 * [IT ITems DataBase (ITDB)](http://www.sivann.gr/software/itdb/) - Includes purchase order management, floor plans, and ISO20000-like features
 * [Network UPS Tools](http://www.networkupstools.org/) - Manage power devices from over 100 manufacturers using a single web interface
 * [OCS Inventory NG (OCS-NG)](http://www.ocsinventory-ng.org/en/) - Automated inventory, deployment system, can sync with GLPI
@@ -488,6 +489,7 @@
 * [KeePassX](https://www.keepassx.org/) - Alternative to KeePass, requires QT
 * [kpcli](http://kpcli.sourceforge.net/) - Command line interface for KeePass
 * [LastPass](https://lastpass.com/) - Fremium, can sync to other devices -- closed source
+* [One-Time Secret](https://github.com/onetimesecret/onetimesecret) - Create links that self-destruct after a single viewing, great for sharing passwords
 * [pass](http://www.passwordstore.org/) - Uses GPG at it's core, supports tracking password changes in git
 * [Password Gorilla](https://github.com/zdia/gorilla/wiki) - Written in Tcl/Tk
 * [Pleasant Password Server](http://www.pleasantsolutions.com/passwordserver/) - Multi-user management tool for KeePass, great for businesses -- commercial software
@@ -619,6 +621,7 @@
 ## Security Tools
 * [Advanced Intrusion Detection Environment (AIDE)](http://aide.sourceforge.net/) - File integrity checker, alternative to Tripwire
 * [Angry IP Scanner](http://angryip.org/) - Supports plugins, also gathers NetBIOS information
+* [BlackArch Linux](http://blackarch.org/) - Penetration testing Linux distro, based off of Arch Linux
 * [Brakeman](https://github.com/presidentbeef/brakeman) - Static analysis security vulnerability scanner for Ruby on Rails applications
 * [bro](https://github.com/bro/bro) - Framework for network analysis and security monitoring
 * [chkrootkit](http://www.chkrootkit.org/) - Rootkit checker, best used from a live CD
@@ -632,9 +635,10 @@
 * [HoneyDrive](http://bruteforce.gr/honeydrive) - Honeypot appliance
 * [HTTP Strict Transport Secuirity (HSTS)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) - Forces browsers to interact with a site by only using HTTPS
 * [Information Security Cheat Sheets and Checklists](http://zeltser.com/cheat-sheets/) - An assortment of IS checklists and cheat sheets
+* [Kali Linux](http://www.kali.org/) - Penetration testing Linux distro
 * [knockd](http://www.zeroflux.org/projects/knock/) - Port knocking server for Linux
 * [Lynis](http://cisofy.com/lynis/) - Auditing and hardening tool, supports most Unix-like operating systems
-* [Metasplit](http://www.metasploit.com/) - Classic exploit framework
+* [Metasploit](http://www.metasploit.com/) - Classic exploit framework
 * [nmap](http://nmap.org/) - Classic port scanner
 * [OpenVAS](http://www.openvas.org/) - Vulnerability scanner, forked from the now closed-source Nessus scanner
 * [Open Source Tripwire](http://sourceforge.net/projects/tripwire/) - File integrity checker and monitor, replacement for the now closed-source Tripwire
@@ -644,7 +648,6 @@
 * [Rootkit Hunter](http://rkhunter.sourceforge.net/) - Compares hashes of important files with known good hashes that are stored in online databases
 * [Samhain](http://www.la-samhna.de/samhain/) - HIDS, file integrity checker, rootkit detection, log file monitoring, and more
 * [ScoutBot](http://lansec.net/project/scoutbot/) - Automated network scanner for Raspberry Pi
-* [SecTools.org](http://sectools.org/) - List of tools by the Nmap folks, some are quite outdated
 * [Security Onion](http://securityonion.net/) - Linux distro for IDS, NSM, and log management 
 * [Snoopy Logger](https://github.com/a2o/snoopy) - Logs commands that are executed and saves the information to syslog
 * [Snort](https://www.snort.org/) - The classic network intrusion prevention system (NIPS)
@@ -769,7 +772,6 @@
 * [Awesome PHP](https://github.com/ziadoz/awesome-php) - Curated list of PHP libraries and resources
 * [bbFTP](http://doc.in2p3.fr/bbftp/) - Uses it's own transfer protocol, optimized for large file transfers
 * [Checkpoint/Restore in Userspace (CRIU)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later
-* [Codepad](http://codepad.org/) - You paste your code, it spits out a URL, you share it
 * [comm](http://linux.die.net/man/1/comm) - Display lines that two files have in common (eg: the opposite of diff)
 * [conserver](http://www.conserver.com/) - Virtual console server with many features
 * [curlish](https://pythonhosted.org/curlish/) - Improved curl, includes cookie management and OAuth support
@@ -788,6 +790,7 @@
 * [grabmem](https://github.com/dacresni/grabmem) - Allocates memory until the machine runs out or you quit it with ctrl-c
 * [GridFTP](http://toolkit.globus.org/toolkit/docs/latest-stable/gridftp/) - Supports parallel streams
 * [gt5](http://gt5.sourceforge.net/) - A "du browser", handy for finding large files
+* [HasteBin](http://hastebin.com/about.md) - Open source pastebin alternative for sharing code, can be installed locally / on-site
 * [httpie](https://github.com/jakubroztocil/httpie) - curl replacement with many new features
 * [incrond](http://inotify.aiken.cz/?section=incron&page=about&lang=en) - Fires off a job when a file system event happens
 * [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) - ISO standard for dates, the only way to fly
@@ -808,6 +811,7 @@
 * [rcron](https://code.google.com/p/rcron/) - cron redundancy and failover, ensures a job will only run on the "active" machine
 * [Repose](http://openrepose.org/) - REST proxy
 * [reset](http://linux.die.net/man/1/reset) - Reset your terminal after you accidentally cat a binary file
+* [ScreenCloud](https://screencloud.net/) - Take a screenshot and either upload it to their site to share, or save it locally
 * [script](http://linux.die.net/man/1/script) - Standard utility to record commands, input, and output
 * [Silver Searcher, The](https://github.com/ggreer/the_silver_searcher) - Source code searching tool, similar to "ack" but faster
 * [SQL Fiddle](http://sqlfiddle.com/) - Write and test SQL
