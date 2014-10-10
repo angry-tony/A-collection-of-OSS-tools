@@ -376,6 +376,7 @@
 * [check_mk](http://mathias-kettner.com/check_mk.html) - Extensions / plugins for Nagios
 * [collectd](http://collectd.org/) - Collects system performance statistics
 * [collectd Related Sites](http://collectd.org/related.shtml) - Great tools that integrate with collectd
+* [Dashing](http://dashing.io/) - Dashboard framework
 * [Fully Automated Nagios](http://www.fullyautomatednagios.org/) - Easy to install, pre-packaged Nagios that includes the most-used tools and plugins
 * [Ganglia](http://ganglia.info/) - Monitoring software that's focused on HPC / distributed clusters
 * [Grafana](http://grafana.org/) - Modern dashboard for Graphite
@@ -492,6 +493,7 @@
 * [One-Time Secret](https://github.com/onetimesecret/onetimesecret) - Create links that self-destruct after a single viewing, great for sharing passwords
 * [pass](http://www.passwordstore.org/) - Uses GPG at it's core, supports tracking password changes in git
 * [Password Gorilla](https://github.com/zdia/gorilla/wiki) - Written in Tcl/Tk
+* [Password Pusher](https://github.com/pglombardo/PasswordPusher) - Links to passwords expire after a certain number of views and/or time has passed, RoR app
 * [Pleasant Password Server](http://www.pleasantsolutions.com/passwordserver/) - Multi-user management tool for KeePass, great for businesses -- commercial software
 * [RatticDB](http://rattic.org/) - Web-based password management, includes an API, great for teams or companies
 * [webpasswordsafe](https://code.google.com/p/webpasswordsafe/) - Very powerful, designed "for the enterprise"
