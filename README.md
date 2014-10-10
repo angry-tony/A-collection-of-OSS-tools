@@ -23,6 +23,7 @@
 * [Cluster Management and Schedulers](#cluster-management-and-schedulers)
 * [Configuration Management and Orchestration](#configuration-management-and-orchestration)
 * [Containers](#containers)
+* [File Sync and Sharing](#file-sync-and-sharing)
 * [Git Tutorials](#git-tutorials)
 * [High Availability Clustering Tools](#high-availability-clustering-tools)
 * [High Performance Computing Tools](#high-performance-computing-tools)
@@ -209,6 +210,7 @@
 * [Mesosphere](https://github.com/mesosphere) - Apache Mesos schedulers for almost anything
 * [Myriad](https://github.com/mesos/myriad) - YARN framework/scheduler
 * [Serf](https://github.com/hashicorp/serf) - Decentralized solution for service discovery and orchestration that is lightweight, highly available, and fault tolerant
+* [SmartStack](http://nerds.airbnb.com/smartstack-service-discovery-cloud/) - Automated service discovery and registration framework
 * [Zookeeper](https://zookeeper.apache.org/) - Distributed configuration service, synchronization service, and naming registry
 
 
@@ -263,6 +265,16 @@
 * [nsenter](https://github.com/jpetazzo/nsenter) - Attach to a Docker container
 * [Panamax](http://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub
 * [Weave](https://github.com/zettio/weave/) - Virtual network that connects Docker containers deployed across multiple hosts
+
+
+
+## File Sync and Sharing
+* [Syncthing](http://syncthing.net/) - Uses an ID rather than an IP address, share your ID with friends and go
+* [Pydio](https://pyd.io/) - Formerly AjaXplorer, AGPL license
+* [ownCloud](http://owncloud.org/) - The most popular file sync and share program
+* [Seafile](http://seafile.com/en/home/) - Also offers a paid professional edition with more features
+* [SparkleShare](http://sparkleshare.org/) - Uses git under the hood
+* [Syncany](https://www.syncany.org/) - Supports tons of different protocols for the transfer
 
 
 
@@ -552,6 +564,7 @@
 * [iPXE](http://ipxe.org/) - GPL'ed version of PXE, replacement for gPXE
 * [Katello](https://fedorahosted.org/katello/) - Candlepin + Pulp + Foreman, the core of Red Hat Satellite 6
 * [Kickstart](https://fedoraproject.org/wiki/Anaconda/Kickstart) - The classic Red Hat tool
+* [Metal as a Service (MaaS)](https://maas.ubuntu.com/) - Ubuntu provisioning system
 * [Packer](http://www.packer.io/) - Automates VM creation for multiple platforms (VMware, AWS, etc), can use a "golden image" approach
 * [Razor](https://github.com/puppetlabs/razor-server) - Puppet provisioning software that handles bare metal hardware and virtual server provisioning
 * [Terraform](http://www.terraform.io/) - Infrastructure provisioning using existing tools
