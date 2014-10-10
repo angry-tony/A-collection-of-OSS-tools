@@ -310,7 +310,6 @@
 
 ## High Performance Computing Tools
 * [Clustered File System](https://en.wikipedia.org/wiki/Clustered_file_system) - Ceph, GlusterFS, Lustre, etc, take your pick
-* [Ganglia](http://ganglia.sourceforge.net/) - HPC monitoring
 * [HTCondor](http://research.cs.wisc.edu/htcondor/) - 
 * [Maul Cluster Scheduler](http://www.adaptivecomputing.com/products/open-source/maui/) - 
 * [MPI for Python (mpi4py)](http://mpi4py.scipy.org/) - 
@@ -410,6 +409,7 @@
 * [Open Monitoring Distribution (OMD)](http://omdistro.org/) - Nagios bundled with the most popular plugins and tools
 * [OpsView Core](http://www.opsview.com/resources/downloads/download-opsview-core) - GPL version of OpsView, not as feature-rich as the commercial product
 * [PNP4Nagios](http://docs.pnp4nagios.org/) - Nagios visualization tool
+* [Really Awesome New Cisco config Differ (RANCID)](http://www.shrubbery.net/rancid/) - Designed to monitor network hardware
 * [riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language.
 * [RRDtool](http://oss.oetiker.ch/rrdtool/) - High performance data logging and graphing system for time series data
 * [Sensu](http://sensuapp.org/) - Open source monitoring framework, cloud-focused
@@ -447,6 +447,8 @@
 * [namebench](https://code.google.com/p/namebench/) - Hunts down the fastest DNS servers for your computer to use
 * [ncat](http://nmap.org/ncat/) - Improved netcat, written by the Nmap team
 * [netbrake](http://www.hping.org/netbrake/) - Limit the bandwidth used by a process
+* [nfdump](http://nfdump.sourceforge.net/) - Captures network flows
+* [NfSen](http://nfsen.sourceforge.net/) - GUI for nfdump
 * [ngrep](http://linux.die.net/man/8/ngrep) - Network grep
 * [nping](http://nmap.org/nping/) - Create custom network packets
 * [ntopng](http://www.ntop.org/products/ntop/) - New version of the popular ntop tool
@@ -507,7 +509,9 @@
 * [Password Gorilla](https://github.com/zdia/gorilla/wiki) - Written in Tcl/Tk
 * [Password Pusher](https://github.com/pglombardo/PasswordPusher) - Links to passwords expire after a certain number of views and/or time has passed, RoR app
 * [Pleasant Password Server](http://www.pleasantsolutions.com/passwordserver/) - Multi-user management tool for KeePass, great for businesses -- commercial software
+* [pwgen](http://linux.die.net/man/1/pwgen) - Password generated, included in most Linux distros
 * [RatticDB](http://rattic.org/) - Web-based password management, includes an API, great for teams or companies
+* [TeamPass](http://www.teampass.net/) - Collaborative password management using the LAMP stack
 * [webpasswordsafe](https://code.google.com/p/webpasswordsafe/) - Very powerful, designed "for the enterprise"
 * [zxcvbn](https://github.com/dropbox/zxcvbn) - Password strength estimator, written by Dropbox, operates in a browser window
 
@@ -826,10 +830,12 @@
 * [rcron](https://code.google.com/p/rcron/) - cron redundancy and failover, ensures a job will only run on the "active" machine
 * [Repose](http://openrepose.org/) - REST proxy
 * [reset](http://linux.die.net/man/1/reset) - Reset your terminal after you accidentally cat a binary file
+* [Rundeck](http://rundeck.org/) - Easy automation
 * [ScreenCloud](https://screencloud.net/) - Take a screenshot and either upload it to their site to share, or save it locally
 * [script](http://linux.die.net/man/1/script) - Standard utility to record commands, input, and output
 * [Silver Searcher, The](https://github.com/ggreer/the_silver_searcher) - Source code searching tool, similar to "ack" but faster
 * [SQL Fiddle](http://sqlfiddle.com/) - Write and test SQL
+* [Sticky Notes](http://sayakb.github.io/sticky-notes/pages/home/) - On-site / local pastebin
 * [Synergy](http://synergy-project.org/) - Share a single keyboard and mouse with multiple physical computers
 * [sysadmin-util](https://github.com/skx/sysadmin-util) - A collection of small but useful utilities
 * [tac](http://linux.die.net/man/1/tac) - Reverse "cat" (eg: last line displayed first)
@@ -838,5 +844,6 @@
 * [Varnish](https://www.varnish-cache.org/) - Caching HTTP accelerator
 * [watch](http://linux.die.net/man/1/watch) - Run a command repeatedly at a specified interval and display the output
 * [watchman](https://github.com/facebook/watchman) - Watch files and take action when they change (eg: kick off the CI system)
+* [Your Own URL Shortener (YOURLS)](http://yourls.org/) - Lets you run your own URL shortener a'la TinyURL or bit.ly
 * [zgrep](http://linux.die.net/man/1/zgrep) - grep the contents of a gzip'ed file without uncompressing and piping
 * [zopfli](https://code.google.com/p/zopfli/) - Much slower than zlib but (almost) always compresses better
