@@ -823,6 +823,7 @@
 * [multicast remote sync (mrsync)](http://sourceforge.net/projects/mrsync/) - Transfers from a master to many remote machines using Unix multicast sockets
 * [multitail](http://www.vanheusden.com/multitail/) - Monitor multiple log files in a single terminal window
 * [ncdu](http://linux.die.net/man/1/ncdu) - ncurses version of "du"
+* [Notepad++](http://notepad-plus-plus.org/) - Killer GPL'ed text editor for Windows
 * [parallel](https://www.gnu.org/software/parallel/) - Execute jobs in parallel using one or more computers
 * [percol](https://github.com/mooz/percol) - Interactive grep tool
 * [pv](http://linux.die.net/man/1/pv) - Shows the progress of data as it flows through a pipe
