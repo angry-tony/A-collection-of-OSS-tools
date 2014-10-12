@@ -643,18 +643,24 @@
 * [BlackArch Linux](http://blackarch.org/) - Penetration testing Linux distro, based off of Arch Linux
 * [Brakeman](https://github.com/presidentbeef/brakeman) - Static analysis security vulnerability scanner for Ruby on Rails applications
 * [bro](https://github.com/bro/bro) - Framework for network analysis and security monitoring
+* [Computer Aided INvestigative Environment (CAINE)](http://www.caine-live.net/) - Live CD that focuses on forensics
 * [chkrootkit](http://www.chkrootkit.org/) - Rootkit checker, best used from a live CD
+* [cipherscan](https://github.com/jvehent/cipherscan) - Find out which SSL ciphersuites are supported by a target
 * [CIS-CAT Benchmark Tool](http://benchmarks.cisecurity.org/downloads/audit-tools/) - Center for Internet Security's benchmark tool, evaluates systems based on their hardening recommendations
 * [CIS Linux Benchmarks](http://benchmarks.cisecurity.org/downloads/browse/index.cfm?category=benchmarks.os.linux) - Linux OS hardening guides, superb!
+* [diskscrub](https://code.google.com/p/diskscrub/) - Supports many disk-wiping standards
 * [EncFS](http://www.arg0.net/encfs) - Encrypted file system in user space via FUSE
 * [fail2ban](http://www.fail2ban.org/) - Watches log files to ban IPs based on rules (too many failed logins, explot attempts, etc)
 * [fail2ban Dashboard](https://github.com/oussemos/fail2ban-dashboard) - Written with Flask
 * [Forensics Wiki](http://www.forensicswiki.org/wiki/Main_Page) - Digital forensics wiki
+* [FTimes](http://sourceforge.net/projects/ftimes/) - System baselining and evidence collection tool
 * [fwknop (FireWall KNock OPerator)](http://www.cipherdyne.org/fwknop/) - Single Packet Authorization (SPA) aka next-generation port knocking
 * [HoneyDrive](http://bruteforce.gr/honeydrive) - Honeypot appliance
+* [hping](http://www.hping.org/) - Create custom TCP/IP packets, very flexible, see also hping3
 * [HTTP Strict Transport Secuirity (HSTS)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) - Forces browsers to interact with a site by only using HTTPS
 * [Information Security Cheat Sheets and Checklists](http://zeltser.com/cheat-sheets/) - An assortment of IS checklists and cheat sheets
 * [Kali Linux](http://www.kali.org/) - Penetration testing Linux distro
+* [Kippo](https://github.com/desaster/kippo) - SSH honeypot
 * [knockd](http://www.zeroflux.org/projects/knock/) - Port knocking server for Linux
 * [Lynis](http://cisofy.com/lynis/) - Auditing and hardening tool, supports most Unix-like operating systems
 * [Metasploit](http://www.metasploit.com/) - Classic exploit framework
@@ -670,9 +676,11 @@
 * [Security Onion](http://securityonion.net/) - Linux distro for IDS, NSM, and log management 
 * [Snoopy Logger](https://github.com/a2o/snoopy) - Logs commands that are executed and saves the information to syslog
 * [Snort](https://www.snort.org/) - The classic network intrusion prevention system (NIPS)
+* [SSH Guard](http://www.sshguard.net/) - Think fail2ban for SSH
 * [sudosh2](http://sourceforge.net/projects/sudosh2/) - Login shell that records all keystrokes and output, supports session playback
 * [Tripwire](http://sourceforge.net/projects/tripwire/) - File integrity checker and monitor, open source version
 * [VirusTotal](https://www.virustotal.com/) - Allows you to upload a file and have it scanned by tons of virus scanners
+* [ZMap](https://zmap.io/) - Scan the entire Internet (or a specified IPv4 range)
 
 
 
@@ -691,7 +699,9 @@
 * [Byobu](http://byobu.co/) - An enhanced version of the "screen" utility
 * [cloud-ssh](http://leonsbox.com/cloud-ssh/) - SSH wrapper that supports hostname tab-completion based on name, tag, or security group
 * [ClusterSSH](https://github.com/duncs/clusterssh/wiki) - Make a change on many servers at the same time
+* [Corkscrew](http://www.agroman.net/corkscrew/) - Tunnel SSH through HTTP proxies
 * [Guacamole](http://guac-dev.org/) - Clientless (in-browser) remote desktop gateway, supports VNC, RDP, and SSH
+* [Keychain](http://www.funtoo.org/Keychain) - frontend to ssh-agent and ssh-add, reduces the number of times you have to type in your passphrase
 * [KiTTY](http://kitty.9bis.net/) - PuTTY fork with additional features
 * [Match](http://linux.die.net/man/5/sshd_config) - Creates a conditional block, great for controlling actions on a per-user and/or per-host basis
 * [MobaXterm](http://mobaxterm.mobatek.net/) - Tabbed SSH, VNC, and RDP client for Windows, free for personal use -- closed source
@@ -708,6 +718,7 @@
 * [SSH Power Tool (sshpt)](https://code.google.com/p/sshpt/) - Execute commands and upload files to many servers simultaneously via SSH without using pre-shared keys
 * [SSHFS](http://linux.die.net/man/1/sshfs) - Mount remote file systems using a SSH tunnel
 * [sshrc](https://github.com/Russell91/sshrc/) - Sources the ~/.sshrc on your local computer after logging in remotely
+* [sshuttle](https://github.com/apenwarr/sshuttle) - Transparent proxy server that works as a poor man's VPN, forwards over SSH, supports DNS tunneling
 * [SuperPutty](https://code.google.com/p/superputty/) - Allows the PuTTY SSH client to be opened in tabs
 * [tmux](http://tmux.sourceforge.net/) - An alternative to GNU screen
 * [WinSCP](http://winscp.net) - The well-known SCP client for Windows
@@ -761,6 +772,7 @@
 
 ## Two Factor Authentication
 * [Authy](https://www.authy.com/) - Provides both personal and enterprise versions
+* [Barada Aint Respecting Any Deceptive Adversaries (BARADA)](http://sourceforge.net/projects/barada/) - PAM module for TFA support
 * [Duo Security](https://www.duosecurity.com/) - Cloud-based, supports many methods of authentication (hard token, smartphone application, etc) -- commercial product
 * [FreeOTP](https://fedorahosted.org/freeotp/) - Open source fork of Google Authenticator for iOS and Android
 * [Google Authenticator](https://code.google.com/p/google-authenticator/) - Two factor authentication; supports Android, iOS, and even has a PAM module -- closed source
@@ -847,5 +859,6 @@
 * [watch](http://linux.die.net/man/1/watch) - Run a command repeatedly at a specified interval and display the output
 * [watchman](https://github.com/facebook/watchman) - Watch files and take action when they change (eg: kick off the CI system)
 * [Your Own URL Shortener (YOURLS)](http://yourls.org/) - Lets you run your own URL shortener a'la TinyURL or bit.ly
+* [Webjob](http://webjob.sourceforge.net/WebJob/) - Downloads a program or script from a remote WebJob server, executes it, and sends back output to the server
 * [zgrep](http://linux.die.net/man/1/zgrep) - grep the contents of a gzip'ed file without uncompressing and piping
 * [zopfli](https://code.google.com/p/zopfli/) - Much slower than zlib but (almost) always compresses better
