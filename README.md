@@ -240,6 +240,7 @@
 * [puppet-lint](http://puppet-lint.com/) - Check that your Puppet manifest conform to the style guide
 * [Puppet Forge](https://forge.puppetlabs.com/) - Community repository of Puppet modules
 * [puppet-module-skeleton](https://github.com/garethr/puppet-module-skeleton) - Skeleton modules for Puppet
+* [Rudder](http://www.rudder-project.org/site/) - Automation and compliance, uses CFengine
 * [Salt](http://www.saltstack.com/) - Cloud orchestration, server provisioning, and configuration management
 * [Using Chef](http://usingchef.com/) - Chef weekly newsletter
 * [Vagrant](https://www.vagrantup.com/) - "Hypervisor wrapper" that leverages CM software to quickly spin up environments
@@ -471,6 +472,7 @@
 
 ## Packages and Repositories
 * [apt-dater](http://www.ibh.de/apt-dater/) - ncurses frontend for package management via SSH, also supports yum
+* [aptly](http://www.aptly.info/) - Debian-centric, includes repo support and the ability to take snapshots for easy rollback
 * [CentOS Errata for Spacewalk (CEFS)](http://cefs.steve-meier.de/) - Import errata information from CentOS-announce into Spacewalk
 * [CentOS Repositories](http://wiki.centos.org/AdditionalResources/Repositories) - Large list of both official and unofficial CentOS software repositories
 * [CentOS Software Collections (SCL)](http://wiki.centos.org/AdditionalResources/Repositories/SCL) - Use multiple versions of software on a system without disturbing the system default version
