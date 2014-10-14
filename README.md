@@ -389,10 +389,13 @@
 * [collectd](http://collectd.org/) - Collects system performance statistics
 * [collectd Related Sites](http://collectd.org/related.shtml) - Great tools that integrate with collectd
 * [Dashing](http://dashing.io/) - Dashboard framework
+* [Dashing Widgets](https://github.com/Shopify/dashing/wiki/Additional-Widgets) - Massive collection of widgets for Dashing
+* [Freeboard](http://freeboard.io/) - Ridiculously simple dashboards for your devices
 * [Fully Automated Nagios](http://www.fullyautomatednagios.org/) - Easy to install, pre-packaged Nagios that includes the most-used tools and plugins
 * [Ganglia](http://ganglia.info/) - Monitoring software that's focused on HPC / distributed clusters
 * [Grafana](http://grafana.org/) - Modern dashboard for Graphite
 * [Graphite](http://graphite.wikidot.com/) - Store numeric time-series data and render graphs of the data on demand
+* [Graphite-Sankey](https://github.com/NetworksAreMadeOfString/Graphite-Sankey) - Turns Graphite targets into a D3.js Sankey visualization
 * [Graphite Tools](https://graphite.readthedocs.org/en/latest/tools.html) - Tools that work with Graphite
 * [Icinga](https://www.icinga.org/) - Nagios fork, updated frequently
 * [LibreNMS](http://www.librenms.org/) - GPL fork of Observium
@@ -409,12 +412,15 @@
 * [OpenNMS](http://www.opennms.org/) - Network monitoring, also supports configuration/asset management
 * [Open Monitoring Distribution (OMD)](http://omdistro.org/) - Nagios bundled with the most popular plugins and tools
 * [OpsView Core](http://www.opsview.com/resources/downloads/download-opsview-core) - GPL version of OpsView, not as feature-rich as the commercial product
+* [php-weathermap-graphite](https://github.com/alexforrow/php-weathermap-graphite) - Allows Network Weathermap to source data from Graphite
 * [PNP4Nagios](http://docs.pnp4nagios.org/) - Nagios visualization tool
 * [Really Awesome New Cisco config Differ (RANCID)](http://www.shrubbery.net/rancid/) - Designed to monitor network hardware
 * [riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language.
 * [RRDtool](http://oss.oetiker.ch/rrdtool/) - High performance data logging and graphing system for time series data
 * [Sensu](http://sensuapp.org/) - Open source monitoring framework, cloud-focused
+* [Seyren](https://github.com/scobal/seyren) - Alerting dashboard for Graphite
 * [Shinken](http://www.shinken-monitoring.org/) - Compatible with Nagios
+* [Skyline](https://github.com/etsy/skyline) - Designed to be used wherever there are a large quantity of high-resolution timeseries which need constant monitoring
 * [StatsD](https://github.com/etsy/statsd/) - Monitoring in node.js
 * [Tattle](https://github.com/wayfair/Graphite-Tattle) - Self service alerting and dashboard frontend for Graphite and Ganglia
 * [Thruk](http://www.thruk.org/) - Web based, can create SLA reports, has a mobile client
@@ -525,6 +531,7 @@
 * [bandwidthd](http://sourceforge.net/projects/bandwidthd/) - Monitors and graphs bandwidth usage
 * [blktrace](http://www.reddit.com/r/sysadmin/comments/1ib3rl/beyond_iostat_storage_performance_analysis_with/) - Article on blktrace, includes tldr setup steps in the comments
 * [bwn-ng](http://www.gropp.org/?id=projects&sub=bwm-ng) - Small and simple console-based live network and disk I/O bandwidth monitor
+* [collectl](http://collectl.sourceforge.net/) - sar on steroids
 * [Conky](https://github.com/brndnmtthws/conky) - Lightweight system monitor for X windows
 * [Diamond](https://github.com/BrightcoveOS/Diamond) - Python daemon that collects system metrics and publishes them to Graphite (or similar), has an API
 * [dim_STAT](http://dimitrik.free.fr/) - Collects almost everything and stores it in a MySQL database, produces reports too
@@ -835,6 +842,7 @@
 * [inxi](https://code.google.com/p/inxi/) - "a full featured system information script" (hardware info, etc)
 * [ipcalc](http://linux.die.net/man/1/ipcalc) - CLI tool to calculate subnets, netmasks, IP ranges, broadcast addresses, and more
 * [lftp](http://lftp.yar.ru/) - Supports many protocols (FTPS, HTTPS, SFTP), scheduling, bandwidth throttling, scripting, and more
+* [lz4](https://code.google.com/p/lz4/) - Crazy fast compression algorithm
 * [moreutils](https://joeyh.name/code/moreutils/) - "Collection of the unix tools that nobody thought to write long ago when unix was young"
 * [multicast remote sync (mrsync)](http://sourceforge.net/projects/mrsync/) - Transfers from a master to many remote machines using Unix multicast sockets
 * [multitail](http://www.vanheusden.com/multitail/) - Monitor multiple log files in a single terminal window
@@ -846,6 +854,7 @@
 * [Rackerlabs](https://rackerlabs.github.io/) - Rackspace's OSS tools, hosted on GitHub
 * [rcron](https://code.google.com/p/rcron/) - cron redundancy and failover, ensures a job will only run on the "active" machine
 * [Repose](http://openrepose.org/) - REST proxy
+* [Request Tracker](http://www.bestpractical.com/rt/) - Bug tracking, help desk ticketing, customer service, workflow processes, change management and more
 * [reset](http://linux.die.net/man/1/reset) - Reset your terminal after you accidentally cat a binary file
 * [Rundeck](http://rundeck.org/) - Easy automation
 * [ScreenCloud](https://screencloud.net/) - Take a screenshot and either upload it to their site to share, or save it locally
