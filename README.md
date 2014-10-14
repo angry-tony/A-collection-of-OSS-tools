@@ -563,6 +563,7 @@
 
 
 ## Provisioning and Lifecycle Management
+* [cloud-init](http://cloudinit.readthedocs.org/en/latest/) - Configures settings the first time a system spins up (SSH keys, hostname, almost anything else)
 * [Cobbler](http://www.cobblerd.org/) - Provisioning system used in Red Hat's Satellite
 * [Crowbar](https://crowbar.github.io/home.html) - Multi-purpose provisioning tool, originally created by Dell
 * [Foreman](http://theforeman.org/) - Provisioning and life cycle management
