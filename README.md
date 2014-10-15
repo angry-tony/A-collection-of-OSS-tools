@@ -242,6 +242,7 @@
 * [puppet-module-skeleton](https://github.com/garethr/puppet-module-skeleton) - Skeleton modules for Puppet
 * [Rudder](http://www.rudder-project.org/site/) - Automation and compliance, uses CFengine
 * [Salt](http://www.saltstack.com/) - Cloud orchestration, server provisioning, and configuration management
+* [Supermarket](https://github.com/opscode/supermarket) - Community cookbook repository for Chef, can be hosted internally
 * [Using Chef](http://usingchef.com/) - Chef weekly newsletter
 * [Vagrant](https://www.vagrantup.com/) - "Hypervisor wrapper" that leverages CM software to quickly spin up environments
 * [zero-user](https://github.com/rohit01/zero-users) - Zero hassle Linux user management, requires Ansible
@@ -678,6 +679,7 @@
 * [OpenVAS](http://www.openvas.org/) - Vulnerability scanner, forked from the now closed-source Nessus scanner
 * [Open Source Tripwire](http://sourceforge.net/projects/tripwire/) - File integrity checker and monitor, replacement for the now closed-source Tripwire
 * [OSSEC](http://www.ossec.net/) - Host based intrusion detection system (HIDS), supports most Unix-like OSes
+* [pfsense](https://www.pfsense.org/) - The best firewall software, supports appliances and Live CDs
 * [Qualys SSL Server Test](https://www.ssllabs.com/ssltest/) - Evaluates and provides recommendations for the SSL settings of any web site
 * [r/netsec Tools List](http://www.reddit.com/r/netsec/comments/r1603/some_people_asked_for_a_tool_list/) - r/netsec creates a list of security related tools
 * [Rootkit Hunter](http://rkhunter.sourceforge.net/) - Compares hashes of important files with known good hashes that are stored in online databases
