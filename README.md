@@ -251,6 +251,7 @@
 
 ## Containers
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers
+* [Control Center](http://controlcenter.io/) - App management and orchestration, can manage Docker applications
 * [Docker](https://www.docker.com/) - Designed to applications in a container, but not a whole OS instance
 * [Docker Hub Registry](https://registry.hub.docker.com/) - Official Docker images for many projects
 * [Docker-Registry](https://github.com/docker/docker-registry) - Source code to Docker Registry, allows you to create private registries
