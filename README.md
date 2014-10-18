@@ -56,7 +56,7 @@
 * [CIO.com](http://www.cio.com/)
 * [Computerworld](http://www.computerworld.com/)
 * [CRN](http://www.crn.com)
-* [Data Center Journal, The](http://www.datacenterjournal.com/)
+* [Data Center Journal](http://www.datacenterjournal.com/)
 * [Data Center Knowledge](http://www.datacenterknowledge.com/)
 * [EnterpriseTech](http://www.enterprisetech.com/)
 * [Enterprise Networking Planet](http://www.enterprisenetworkingplanet.com/)
@@ -72,10 +72,12 @@
 * [Network World](http://www.networkworld.com)
 * [ServerWatch](http://www.serverwatch.com/)
 * [SiliconANGLE](http://siliconangle.com/)
+* [TechCrunch](http://techcrunch.com/)
 * [Tech Republic](http://www.techrepublic.com/)
 * [The Inquirer](http://www.theinquirer.net/)
 * [The Register](http://www.theregister.co.uk/)
 * [Virtualization.net](http://www.virtualization.net/)
+* [Web Hosting Industry Review (WHIR)](http://www.thewhir.com/)
 * [ZDNet](http://www.zdnet.com/)
 
 
@@ -115,6 +117,7 @@
 * [Ubuntu Weekly Newsletter](https://wiki.ubuntu.com/UbuntuWeeklyNewsletter)
 * [Unixmen](http://www.unixmen.com/)
 * [Web Upd8](http://www.webupd8.org/)
+* [Xmodulo](http://xmodulo.com/)
 
 
 
@@ -134,6 +137,7 @@
 * [UbuntuForums.org](http://ubuntuforums.org/)
 * [Unix.com](http://www.unix.com/)
 * [unix.stackexchange.com](https://unix.stackexchange.com/)
+* [Web Hosting Talk](https://www.webhostingtalk.com/)
 
 
 
@@ -200,7 +204,7 @@
 * [Aurora](https://aurora.incubator.apache.org/) - Mesos scheduler for "always on" jobs, similar to Marathon
 * [Bamboo](https://github.com/QubitProducts/bamboo) - HAProxy auto configuration and auto service discovery for Marathon
 * [Chronos](https://github.com/airbnb/chronos) - Distributed, fault tolerant cron scheduler that runs on top of Apache Mesos
-* [consul](http://www.consul.io/) - Service discovery and configuration via DNS or HTTP
+* [consul](http://www.consul.io/) - Service discovery and configuration via DNS or HTTP, great for auto-scaling
 * [Curator](https://github.com/Netflix/curator) - ZooKeeper client wrapper and rich ZooKeeper framework, by Netflix
 * [etcd](https://github.com/coreos/etcd) - Highly-available key value store for shared configuration and service discovery
 * [eureka](https://github.com/Netflix/eureka) - AWS Service registry for resilient mid-tier load balancing and failover, by Netflix
@@ -210,16 +214,16 @@
 * [Mesosphere](https://github.com/mesosphere) - Apache Mesos schedulers for almost anything
 * [Myriad](https://github.com/mesos/myriad) - YARN framework/scheduler
 * [Serf](https://github.com/hashicorp/serf) - Decentralized solution for service discovery and orchestration that is lightweight, highly available, and fault tolerant
-* [SmartStack](http://nerds.airbnb.com/smartstack-service-discovery-cloud/) - Automated service discovery and registration framework
+* [SmartStack](http://nerds.airbnb.com/smartstack-service-discovery-cloud/) - Automated service discovery and registration framework, includes Nerve and Synapse
 * [Zookeeper](https://zookeeper.apache.org/) - Distributed configuration service, synchronization service, and naming registry
 
 
 
 ## Configuration Management and Orchestration
-* [Ansible](http://www.ansible.com) - Also does orchestration and provisioning
+* [Ansible](http://www.ansible.com) - CM and orchestration, also can do provisioning
 * [Ansible Galaxy](https://galaxy.ansible.com/) - Community site for finding, reusing, and sharing Ansible content
 * [BOSH](https://github.com/cloudfoundry/bosh) - Cloud orchestration, supports Docker containers too
-* [Capistrano](http://capistranorb.com/) - Run scripts/commands and push software using SSH
+* [Capistrano](http://capistranorb.com/) - Run scripts/commands and push software using SSH, a RubyGem, uses a Rake DSL
 * [Chef](http://www.getchef.com/) - Well known configuration management tool
 * [chef-book](https://github.com/jjasghar/chef-book) - Open source book about Chef
 * [Chef Development Kit (ChefDK)](http://downloads.getchef.com/chef-dk/) - Includes Berkshelf, Test Kitchen, ChefSpec, Foodcritic, Knife, Chef Zero, Ohai, and more
@@ -229,11 +233,12 @@
 * [Chef Wiki](https://wiki.opscode.com/) - The official Opscode wiki
 * [Cooking Infrastructure by Chef](http://chef.leopard.in.ua/) - Free Chef ebook
 * [ElasticBox](https://elasticbox.com/) - Create your own catalog of applications and infrastructure components then build, deploy, and go
-* [Fabric](http://www.fabfile.org/) - Written in Python, uses SSH
+* [Fabric](http://www.fabfile.org/) - Python library, uses SSH
 * [Getting Started with Chef](http://gettingstartedwithchef.com/) - Chef tutorial
 * [Juju](https://juju.ubuntu.com/) - Ubuntu focused but works on RHEL / CentOS now
 * [knife-backup](https://github.com/mdxp/knife-backup) - Knife plugin to help backup and restore a Chef server
 * [Learn Chef](http://learn.getchef.com/) - Chef tutorial by Opscode
+* [mcollective](http://puppetlabs.com/mcollective) - Orchestration, can be used independently of Puppet
 * [Open Linux Management Infrastructure (OpenLMI)](http://www.openlmi.org/) - Manage, monitor, and configure servers via API calls (instead of SSH), included in RHEL 7
 * [Opscode](https://github.com/opscode) - Chef / Opscode on Github, tons of great tools
 * [Puppet](http://puppetlabs.com/) - Well known CM tool
@@ -272,6 +277,7 @@
 
 
 ## File Sync and Sharing
+* [BitTorrent Sync (btsync)](https://www.btsync.com/en/) - Sync on the local network or over the internet -- closed source
 * [Syncthing](http://syncthing.net/) - Uses an ID rather than an IP address, share your ID with friends and go
 * [Pydio](https://pyd.io/) - Formerly AjaXplorer, AGPL license
 * [ownCloud](http://owncloud.org/) - The most popular file sync and share program
@@ -299,6 +305,7 @@
 * [Galera Cluster](http://galeracluster.com/) - HA clustering for MySQL
 * [HAproxy](http://www.haproxy.org/) - Open source load balancer
 * [haproxy-autoscale](https://github.com/markcaudill/haproxy-autoscale) - Wrapper for haproxy that handles auto-scaling EC2 instances
+* [haproxyctl](https://github.com/flores/haproxyctl) - Wrapper to talk to the HAProxy socket, as well as regular init (start stop restart) shit
 * [Hipache](https://github.com/hipache/hipache) - Distributed HTTP and websocket proxy, supports load balancing
 * [keepalived](http://www.keepalived.org/) - Load balancing and high availability
 * [Linux-HA](http://www.linux-ha.org) - Building blocks for high availability systems
@@ -492,10 +499,12 @@
 * [Koji](https://fedoraproject.org/wiki/Koji) - Software that builds packages for Fedora, can be used for other stuff too
 * [Mock](https://fedoraproject.org/wiki/Projects/Mock) - Build packages in a simple chroot so you don't blow up your system
 * [mrepo](http://dag.wiee.rs/home-made/mrepo/) - Yum & APT repository mirroring, formerly Yam
+* [OStree](https://wiki.gnome.org/Projects/OSTree) - Tool for managing bootable, immutable, versioned filesystem trees (not really a package manager but...)
 * [Package Repository Manager (PRM)](https://github.com/dnbert/prm) - OS-independent package repository tool
 * [Pulp](http://www.pulpproject.org/) - Next generation repository management, a component of Red Hat Satellite 6
 * [Red Hat Software Collections (SCL)](https://www.softwarecollections.org/) - Use multiple versions of software on a system without disturbing the system default version
 * [reposync](http://linux.die.net/man/1/reposync) - Synchronize yum repositories to a local directory
+* [rpm-ostree](https://github.com/projectatomic/rpm-ostree) - Take RPM packages and commit them to an OSTree repository
 * [RPM Fusion](http://rpmfusion.org/) - Provides software that the Fedora Project or Red Hat doesn't want to ship
 * [Spacewalk](http://www.spacewalkproject.org/) - Provides package management (among other things)
 * [yum-presto](https://fedoraproject.org/wiki/Features/Presto) - yum plugin that provides support for downloading package deltas instead of whole packages
@@ -622,12 +631,14 @@
 * [mytop](http://jeremy.zawodny.com/mysql/mytop/) - Another "top" for MySQL
 * [Open PostgreSQL Monitoring (OPM)](http://opm.io/) - Includes a web console
 * [Oracle IO Numbers (ORION)](http://www.example.com) - I/O test tool, included with Oracle DB
+* [Percona Monitoring Plugins](http://www.percona.com/software/percona-monitoring-plugins) - Some of the best mySQL plugins
 * [Percona Toolkit for MySQL](http://www.percona.com/software/percona-toolkit) - Percona's internal tools
 * [pg_activity](https://github.com/julmon/pg_activity/) - htop for PostgreSQL
 * [pg_view](https://github.com/zalando/pg_view) - PostgreSQL monitoring, supports ncurses, console, and JSON output
 * [PGObserver](http://zalando.github.io/PGObserver/) - Killer PostgreSQL monitor, includes dashboard
 * [Silly Little Oracle Benchmark 2 (SLOB2)](http://kevinclosson.net/slob/) - Stresses and benchmarks Oracle DBs, works at the RDBMS layer
 * [shawn-s](http://www.reddit.com/r/linuxadmin/comments/1yotyo/mysql_performance_tuning_for_sysadmins_need_help/) - Superb Reddit post on performance evaluation and tuning
+* [Slow Query Log](http://dev.mysql.com/doc/refman/5.1/en/slow-query-log.html) - Shows which mySQL queries take more than X time
 * [Swingbench](http://www.dominicgiles.com/swingbench.html) - Oracle load generator
 * [SysBench](https://launchpad.net/sysbench) - Evaluates OS parameters that are important for DBs, does not require a DB to be installed
 * [Use the Index, Luke](http://use-the-index-luke.com/) - SQL indexing and tuning for developers
@@ -652,6 +663,7 @@
 ## Security Tools
 * [Advanced Intrusion Detection Environment (AIDE)](http://aide.sourceforge.net/) - File integrity checker, alternative to Tripwire
 * [Angry IP Scanner](http://angryip.org/) - Supports plugins, also gathers NetBIOS information
+* [Automatic Server Hardening](http://telekomlabs.github.io/) - Scripts and cookbooks/manifests for Puppet and Chef
 * [BlackArch Linux](http://blackarch.org/) - Penetration testing Linux distro, based off of Arch Linux
 * [Brakeman](https://github.com/presidentbeef/brakeman) - Static analysis security vulnerability scanner for Ruby on Rails applications
 * [bro](https://github.com/bro/bro) - Framework for network analysis and security monitoring
@@ -660,6 +672,7 @@
 * [cipherscan](https://github.com/jvehent/cipherscan) - Find out which SSL ciphersuites are supported by a target
 * [CIS-CAT Benchmark Tool](http://benchmarks.cisecurity.org/downloads/audit-tools/) - Center for Internet Security's benchmark tool, evaluates systems based on their hardening recommendations
 * [CIS Linux Benchmarks](http://benchmarks.cisecurity.org/downloads/browse/index.cfm?category=benchmarks.os.linux) - Linux OS hardening guides, superb!
+* [Cryptkeeper](tom.noflag.org.uk/cryptkeeper.html) - System tray applet that manages EncFS encrypted folders
 * [diskscrub](https://code.google.com/p/diskscrub/) - Supports many disk-wiping standards
 * [EncFS](http://www.arg0.net/encfs) - Encrypted file system in user space via FUSE
 * [fail2ban](http://www.fail2ban.org/) - Watches log files to ban IPs based on rules (too many failed logins, explot attempts, etc)
@@ -679,6 +692,7 @@
 * [nmap](http://nmap.org/) - Classic port scanner
 * [OpenVAS](http://www.openvas.org/) - Vulnerability scanner, forked from the now closed-source Nessus scanner
 * [Open Source Tripwire](http://sourceforge.net/projects/tripwire/) - File integrity checker and monitor, replacement for the now closed-source Tripwire
+* [Open Web Application Security Project (OWASP)](https://www.owasp.org/index.php/Main_Page) - Focus on application security
 * [OSSEC](http://www.ossec.net/) - Host based intrusion detection system (HIDS), supports most Unix-like OSes
 * [pfsense](https://www.pfsense.org/) - The best firewall software, supports appliances and Live CDs
 * [Qualys SSL Server Test](https://www.ssllabs.com/ssltest/) - Evaluates and provides recommendations for the SSL settings of any web site
@@ -750,6 +764,7 @@
 * [Linux Journal - Linux Swap Space](http://www.linuxjournal.com/article/10678) - Superb article about Linux swap, includes some tuning parameters
 * [lvcache](http://blog.oddbit.com/2014/08/16/lvcache-a-tool-for-managing-lv/) - Wrapper to make lvmcache easier
 * [OpenDedupe](http://opendedup.org/) - Open source dedupe software, works on both block storage and file systems
+* [Parted Magic](http://partedmagic.com/) - Resize, grow, shrink, clone, recovery, wiping, benchmarking, and more.  Supports Linux and Windows file systems.
 * [RAID LVMs](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Logical_Volume_Manager_Administration/raid_volumes.html) - As of RHEL 6.3 LVM supports software RAID without using mdraid
 * [Red Hat LVM RAID Calculator](https://access.redhat.com/labs/lvmraidcalculator/) - Login required
 * [System Storage Manager (SSM)](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Storage_Administration_Guide/ch-ssm.html) - Generic CLI for managing all types of storage (DM, LVM, multipath), added in RHEL 7
@@ -851,6 +866,7 @@
 * [multitail](http://www.vanheusden.com/multitail/) - Monitor multiple log files in a single terminal window
 * [ncdu](http://linux.die.net/man/1/ncdu) - ncurses version of "du"
 * [Notepad++](http://notepad-plus-plus.org/) - Killer GPL'ed text editor for Windows
+* [observr](https://github.com/kevinburke/observr) - Monitor a directory and kick off an action when a file in the directory changes
 * [parallel](https://www.gnu.org/software/parallel/) - Execute jobs in parallel using one or more computers
 * [percol](https://github.com/mooz/percol) - Interactive grep tool
 * [pv](http://linux.die.net/man/1/pv) - Shows the progress of data as it flows through a pipe
@@ -865,15 +881,19 @@
 * [Silver Searcher, The](https://github.com/ggreer/the_silver_searcher) - Source code searching tool, similar to "ack" but faster
 * [SQL Fiddle](http://sqlfiddle.com/) - Write and test SQL
 * [Sticky Notes](http://sayakb.github.io/sticky-notes/pages/home/) - On-site / local pastebin
+* [Sublime Text](http://www.sublimetext.com/) - Ok it's closed source and costs money but it's probably the best one out there
 * [Synergy](http://synergy-project.org/) - Share a single keyboard and mouse with multiple physical computers
 * [sysadmin-util](https://github.com/skx/sysadmin-util) - A collection of small but useful utilities
 * [tac](http://linux.die.net/man/1/tac) - Reverse "cat" (eg: last line displayed first)
 * [TermRecord](https://github.com/theonewolf/TermRecord) - Record and playback terminal sessions
+* [tup](http://gittup.org/tup/) - Super fast and efficient build system
 * [Unix Rosetta Stone](http://bhami.com/rosetta.html) - The one and only resource for a mixed Linux/Unix environment
 * [Varnish](https://www.varnish-cache.org/) - Caching HTTP accelerator
 * [watch](http://linux.die.net/man/1/watch) - Run a command repeatedly at a specified interval and display the output
+* [watch-make](https://github.com/andrewffff/watch-make) - Monitor Makefile dependencies and kick off make when one changes
 * [watchman](https://github.com/facebook/watchman) - Watch files and take action when they change (eg: kick off the CI system)
 * [Your Own URL Shortener (YOURLS)](http://yourls.org/) - Lets you run your own URL shortener a'la TinyURL or bit.ly
+* [watchr](https://github.com/mynyml/watchr) - Monitor a directory tree and kick off a script when a file changes, written in Ruby
 * [Webjob](http://webjob.sourceforge.net/WebJob/) - Downloads a program or script from a remote WebJob server, executes it, and sends back output to the server
 * [zgrep](http://linux.die.net/man/1/zgrep) - grep the contents of a gzip'ed file without uncompressing and piping
 * [zopfli](https://code.google.com/p/zopfli/) - Much slower than zlib but (almost) always compresses better
