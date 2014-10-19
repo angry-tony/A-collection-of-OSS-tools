@@ -321,6 +321,7 @@
 
 ## High Performance Computing Tools
 * [Clustered File System](https://en.wikipedia.org/wiki/Clustered_file_system) - Ceph, GlusterFS, Lustre, etc, take your pick
+* [dish](https://github.com/LabAdvComp/dish) - Application agnostic library for distributing work across resource scheduler clusters in a relatively fault-tolerant way
 * [HTCondor](http://research.cs.wisc.edu/htcondor/) - 
 * [Maul Cluster Scheduler](http://www.adaptivecomputing.com/products/open-source/maui/) - 
 * [MPI for Python (mpi4py)](http://mpi4py.scipy.org/) - 
@@ -385,7 +386,8 @@
 * [logstalgia](https://code.google.com/p/logstalgia/) - Web site access log visualization tool, aka Apache Pong
 * [logstash](http://logstash.net/) - Collect, parse, and store logs.  A component of the popular ELK stack
 * [logstash-forwarder](https://github.com/elasticsearch/logstash-forwarder) - Formerly Lumberjack, forwards logs to centralized server(s), very lightweight
-* [NXLOG](http://nxlog-ce.sourceforge.net/) - Universal log collector and forwarder, supports many formats/platforms/sources
+* [multilog](http://cr.yp.to/daemontools/multilog.html) - Reads a sequence of lines from stdin and appends selected lines to any number of logs
+* [NXLOG](http://nxlog-ce.sourceforge.net/) - Universal log collector and forwarder, supports many formats/platforms/sources including Windows
 * [OpenTSDB](http://opentsdb.net/) - Store and serve massive amounts of time series data without losing granularity
 * [Piwik](http://piwik.org/) - Web analytics platform with a killer UI
 * [Webalizer](http://www.webalizer.org/) - Web and FTP log analyzer
@@ -548,7 +550,6 @@
 ## Performance Monitoring
 * [apachetop](https://github.com/JeremyJones/Apachetop) - top for Apache
 * [atop](http://www.atoptool.nl/) - Supports both real-time and historical monitoring
-* [atop Case Study: Memory Leakage](http://www.atoptool.nl/download/case_leakage.pdf) - Great document that shows you how to find a memory leak using atop
 * [bandwidthd](http://sourceforge.net/projects/bandwidthd/) - Monitors and graphs bandwidth usage
 * [blktrace](http://www.reddit.com/r/sysadmin/comments/1ib3rl/beyond_iostat_storage_performance_analysis_with/) - Article on blktrace, includes tldr setup steps in the comments
 * [bmon](https://github.com/tgraf/bmon/) - Console based network monitor
@@ -723,6 +724,7 @@
 * [Oracle Database Attacking Tool (ODAT)](https://github.com/quentinhardy/odat) - Open source penetration testing tool that tests the security of Oracle databases remotely
 * [OSSEC](http://www.ossec.net/) - Host based intrusion detection system (HIDS), supports most Unix-like OSes
 * [pfsense](https://www.pfsense.org/) - The best firewall software, supports appliances and Live CDs
+* [pyCAmanager](https://github.com/pymag09/pyCAmanager) - GUI for managing your certificate authority, written in Python
 * [Qualys SSL Server Test](https://www.ssllabs.com/ssltest/) - Evaluates and provides recommendations for the SSL settings of any web site
 * [r/netsec Tools List](http://www.reddit.com/r/netsec/comments/r1603/some_people_asked_for_a_tool_list/) - r/netsec creates a list of security related tools
 * [Red October](https://github.com/cloudflare/redoctober) - Go server for two-man rule style file encryption and decryption
@@ -736,6 +738,8 @@
 * [SoftEther](http://www.softether.org/) - Maybe the best VPN software out there
 * [SSH Guard](http://www.sshguard.net/) - Think fail2ban for SSH
 * [sslconfig](https://github.com/cloudflare/sslconfig) - CloudFlare's Internet facing SSL cipher configuration
+* [sslsniff](https://github.com/moxie0/sslsniff) - A tool for automated MITM attacks on SSL connections
+* [SSLsplit](http://www.roe.ch/SSLsplit) - Transparent and scalable SSL/TLS interception
 * [sslyze](https://github.com/nabla-c0d3/sslyze) - Fast and full-featured SSL scanner, written in Python
 * [sudosh2](http://sourceforge.net/projects/sudosh2/) - Login shell that records all keystrokes and output, supports session playback
 * [tinc](http://www.tinc-vpn.org/) - Simple, multi-platform VPN
@@ -763,6 +767,7 @@
 * [ClusterSSH](https://github.com/duncs/clusterssh/wiki) - Make a change on many servers at the same time
 * [Corkscrew](http://www.agroman.net/corkscrew/) - Tunnel SSH through HTTP proxies
 * [Guacamole](http://guac-dev.org/) - Clientless (in-browser) remote desktop gateway, supports VNC, RDP, and SSH
+* [HPN-SSH](http://hpnssh.sourceforge.net/) - High performance ssh/scp WARNING: seems to disable encryption (null cypher)
 * [Keychain](http://www.funtoo.org/Keychain) - frontend to ssh-agent and ssh-add, reduces the number of times you have to type in your passphrase
 * [KiTTY](http://kitty.9bis.net/) - PuTTY fork with additional features
 * [Match](http://linux.die.net/man/5/sshd_config) - Creates a conditional block, great for controlling actions on a per-user and/or per-host basis
@@ -774,6 +779,7 @@
 * [parallel-ssh (pssh)](https://code.google.com/p/parallel-ssh/) - Parallel version of OpenSSH tools, comes with prsync too
 * [Parallel Distributed Shell (pdsh)](https://code.google.com/p/pdsh/) - Kick off many SSH sessions in parallel
 * [paramiko](http://www.paramiko.org/) - SSH2 protocol library for Python, provides both client and server
+* [Parcel](https://github.com/LabAdvComp/Parcel) - High performance scp replacement, WARNING: uses UDP
 * [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) - The classic SSH client for Windows
 * [rssh](http://www.pizzashack.org/rssh/) - Restricted shell for SSH, only allows scp, sftp, rdist, rsync, and cvs
 * [scponly](https://github.com/scponly/scponly/) - Shell that only allows incoming SCP, supports chroot
@@ -878,12 +884,14 @@
 * [devcheatsheet.com](http://devcheatsheet.com/) - Cheat sheets and quick references for almost every programming language
 * [disown](https://en.wikipedia.org/wiki/Disown_%28Unix%29) - Disowns a processes from the shell, useful if you forgot to use screen or nohup
 * [dotfiles](http://dotfiles.github.io/) - Store your .bashrc and others on GitHub
+* [dsync](https://www.usenix.org/conference/lisa13/technical-sessions/presentation/knauth) - No software yet but a hell of a theory
 * [eatmemory](https://github.com/julman99/eatmemory) - Allocates X amount of memory, great for testing
 * [etckeeper](http://joeyh.name/code/etckeeper/) - Stores /etc in version control
 * [Etherpad](https://github.com/ether) - Enter, save, and share text/code in a web browser
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- closed source
 * [FileUtils](http://fileutils.io/) - File utilities for distributed computing
 * [Filewatcher](https://github.com/thomasfl/filewatcher) - Written in Ruby, monitors changes in the filesystem by polling
+* [ForgeRock](http://forgerock.org/) - Enterprise identification management and access (IAM)
 * [FreeIPA](http://www.freeipa.org/page/Main_Page) - Identity, policy, and audit suite, think Active Directory for Linux
 * [gcalcli](https://github.com/insanum/gcalcli) - CLI for Google Calendar
 * [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any web page look like a Geocities page
@@ -902,6 +910,7 @@
 * [inotify](https://github.com/rvoicilas/inotify-tools) - Watch file(s) for changes, take an action when the change occurs
 * [inxi](https://code.google.com/p/inxi/) - "a full featured system information script" (hardware info, etc)
 * [Keybase](https://keybase.io/) - Upload your public key and find other people's public key via their social media user name(s)
+* [LargeFile](http://www.vim.org/scripts/script.php?script_id=1506) - vim plugin that automatically disables certain things so you can edit large files faster
 * [lz4](https://code.google.com/p/lz4/) - Crazy fast compression algorithm
 * [mockaroo](http://www.mockaroo.com/) - Generate up to 100,000 rows of realistic test data in CSV, JSON, SQL, and Excel formats
 * [moreutils](https://joeyh.name/code/moreutils/) - "Collection of the unix tools that nobody thought to write long ago when unix was young"
@@ -932,11 +941,13 @@
 * [TermRecord](https://github.com/theonewolf/TermRecord) - Record and playback terminal sessions
 * [Tools of the Trade](https://github.com/cjbarber/ToolsOfTheTrade) - Massive list of SaaS, via Hacker News
 * [tup](http://gittup.org/tup/) - Super fast and efficient build system
+* [UDR](https://github.com/LabAdvComp/UDR) - UDT wrapper for rsync that improves throughput of large data transfers over long distances
 * [Unix Rosetta Stone](http://bhami.com/rosetta.html) - The one and only resource for a mixed Linux/Unix environment
 * [Varnish](https://www.varnish-cache.org/) - Caching HTTP accelerator
 * [watch](http://linux.die.net/man/1/watch) - Run a command repeatedly at a specified interval and display the output
 * [watch-make](https://github.com/andrewffff/watch-make) - Monitor Makefile dependencies and kick off make when one changes
 * [watchman](https://github.com/facebook/watchman) - Watch files and take action when they change (eg: kick off the CI system)
+* [xCAT](http://sourceforge.net/p/xcat/wiki/Main_Page/) - Complete management solution for distributed systems
 * [Your Own URL Shortener (YOURLS)](http://yourls.org/) - Lets you run your own URL shortener a'la TinyURL or bit.ly
 * [watchr](https://github.com/mynyml/watchr) - Monitor a directory tree and kick off a script when a file changes, written in Ruby
 * [Webjob](http://webjob.sourceforge.net/WebJob/) - Downloads a program or script from a remote WebJob server, executes it, and sends back output to the server
