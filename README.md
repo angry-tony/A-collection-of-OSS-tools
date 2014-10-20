@@ -269,9 +269,11 @@
 * [libcontainer](https://github.com/docker/libcontainer) - Used by Docker 1.0+ so it doesn't have to use LXC/libvirt/systemd-nspawn
 * [libswarm](https://github.com/docker/libswarm) - Toolkit to compose network services, by Docker
 * [Linux Containers (LXC)](https://linuxcontainers.org/) - Runs an OS instance (sshd, cron, daemons, init, etc) within a container
+* [lmctfy](https://github.com/google/lmctfy/) - Open source version of Google’s container stack, which provides Linux application containers
 * [Longshoreman](https://github.com/longshoreman/longshoreman) - Heroku-like CLI tool for automated Docker deployments
 * [nsenter](https://github.com/jpetazzo/nsenter) - Attach to a Docker container
 * [Panamax](http://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub
+* [pipework](https://github.com/jpetazzo/pipework) - SDN for Linux Containers
 * [Weave](https://github.com/zettio/weave/) - Virtual network that connects Docker containers deployed across multiple hosts
 
 
@@ -371,10 +373,15 @@
 
 
 
-## Logging and Log Management
+## Logging and Log Managemen
 * [Adiscon LogAnalyzer](http://loganalyzer.adiscon.com/) - Slick web interface for syslog messages
 * [Bigdesk](http://bigdesk.org/) - Live charts and statistics for elasticsearch cluster
+* [ElasticDump](https://github.com/taskrabbit/elasticsearch-dump) - Import / export tools for Elasticsearch
 * [Elasticsearch](http://www.elasticsearch.org/) - Component of the ELK stack, used for super fast searches
+* [elasticsearch-river-email](https://github.com/medcl/elasticsearch-river-email) - E-mail river plugin for Elasticsearch
+* [Elasticsearch Copier (escp)](https://github.com/lytics/escp) - Tool to copy elasticsearch indexes, great for copying from prod to dev
+* [Elasticsearch Exporter](https://github.com/mallocator/Elasticsearch-Exporter) - Small script to export data from one Elasticsearch cluster into another
+* [FileSystem River (fsriver)](https://github.com/dadoonet/fsriver) - Elasticsearch river plugin helps to index documents from your local file system and using SSH
 * [Fluentd](http://www.fluentd.org/) - Unified logging layer
 * [Flume](https://github.com/cloudera/flume/wiki) - Distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data
 * [GoAccess](http://goaccess.io/) - Real-time web log analyzer and interactive viewer that runs in a terminal
@@ -411,6 +418,7 @@
 * [Graphite-Sankey](https://github.com/NetworksAreMadeOfString/Graphite-Sankey) - Turns Graphite targets into a D3.js Sankey visualization
 * [Graphite Tools](https://graphite.readthedocs.org/en/latest/tools.html) - Tools that work with Graphite
 * [Icinga](https://www.icinga.org/) - Nagios fork, updated frequently
+* [jmxtrans](https://github.com/jmxtrans/jmxtrans) - Connector between speaking to a JVM via JMX on one end and whatever logging / monitoring / graphing package
 * [LibreNMS](http://www.librenms.org/) - GPL fork of Observium
 * [linux-dash](http://linuxdash.com/) - A simple web dashboard to monitor your Linux server
 * [Monit](http://mmonit.com/monit/) - Includes tools to automatically take action when certain conditions are met
@@ -426,6 +434,7 @@
 * [Open Monitoring Distribution (OMD)](http://omdistro.org/) - Nagios bundled with the most popular plugins and tools
 * [OpsView Core](http://www.opsview.com/resources/downloads/download-opsview-core) - GPL version of OpsView, not as feature-rich as the commercial product
 * [php-weathermap-graphite](https://github.com/alexforrow/php-weathermap-graphite) - Allows Network Weathermap to source data from Graphite
+* [pmacct](http://www.pmacct.net/) - IP and network traffic accounting / monitoring
 * [PNP4Nagios](http://docs.pnp4nagios.org/) - Nagios visualization tool
 * [Really Awesome New Cisco config Differ (RANCID)](http://www.shrubbery.net/rancid/) - Designed to monitor network hardware
 * [riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language.
@@ -599,6 +608,7 @@
 * [cloud-init](http://cloudinit.readthedocs.org/en/latest/) - Configures settings the first time a system spins up (SSH keys, hostname, almost anything else)
 * [Cobbler](http://www.cobblerd.org/) - Provisioning system used in Red Hat's Satellite
 * [Crowbar](https://crowbar.github.io/home.html) - Multi-purpose provisioning tool, originally created by Dell
+* [edeploy](https://github.com/enovance/edeploy) - provision and update systems using trees of files instead of packages or VM images
 * [Foreman](http://theforeman.org/) - Provisioning and life cycle management
 * [gPXE](http://www.etherboot.org) - GPL'ed version of PXE
 * [iPXE](http://ipxe.org/) - GPL'ed version of PXE, replacement for gPXE
@@ -843,7 +853,7 @@
 ## Two Factor Authentication
 * [Authy](https://www.authy.com/) - Provides both personal and enterprise versions
 * [Barada Aint Respecting Any Deceptive Adversaries (BARADA)](http://sourceforge.net/projects/barada/) - PAM module for TFA support
-* [Crypto Stick](https://www.crypto-stick.com/) - OTP and more -- commercial product
+* [Crypto Stick](https://www.crypto-stick.com/) - OTP and more -- commercial products
 * [Duo Security](https://www.duosecurity.com/) - Cloud-based, supports many methods of authentication (hard token, smartphone application, etc) -- commercial product
 * [FreeOTP](https://fedorahosted.org/freeotp/) - Open source fork of Google Authenticator for iOS and Android
 * [Google Authenticator](https://code.google.com/p/google-authenticator/) - Two factor authentication; supports Android, iOS, and even has a PAM module -- closed source
@@ -862,6 +872,7 @@
 * [LinuX Containers (LXC)](#containers) - See the Containers section for more tools
 * [Quick EMUlator (QEMU)](http://wiki.qemu.org/Main_Page) - Supports hardware emulation (SPARC, RISC, etc)
 * [Oracle VM VirtualBox](https://www.virtualbox.org/) - Easy, simple virtualization
+* [virt-manager](http://virt-manager.org/) - KVM / Xen / LXC GUI
 * [Xen](http://www.xenproject.org/) - It's a hypervisor!
 
 
@@ -869,6 +880,7 @@
 ## Misc Tools and Utilities
 * [ack](http://beyondgrep.com/) - grep-like tool designed to search source code
 * [Adminer](http://www.adminer.org/en/) - GUI for database management in a single PHP
+* [appscale](https://github.com/AppScale/appscale) - Deploy and host  Google App Engine applications almost anywhere
 * [AutoHotKey](http://www.autohotkey.com/) - Automate input (desktop and web forms, data entry, keybinds, etc)
 * [autojump](https://github.com/joelthelion/autojump) - Small database of directories that you visited in the past, used to quickly navigate complex directory structures
 * [Awesome Node.js](https://news.ycombinator.com/item?id=8306092) - A curated list of Node.js packages
@@ -876,6 +888,7 @@
 * [Awesome SQLAlchemy](https://github.com/dahlia/awesome-sqlalchemy) - A curated list of awesome tools for SQLAlchemy
 * [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin) - A curated list of open source resources
 * [blockdiag](http://blockdiag.com/en/) - Generate simple block/sequence/activity/network diagrams from text files
+* [boto](https://github.com/boto/boto) - Python interface to AWS
 * [Checkpoint/Restore in Userspace (CRIU)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later
 * [comm](http://linux.die.net/man/1/comm) - Display lines that two files have in common (eg: the opposite of diff)
 * [conserver](http://www.conserver.com/) - Virtual console server with many features
@@ -889,6 +902,7 @@
 * [etckeeper](http://joeyh.name/code/etckeeper/) - Stores /etc in version control
 * [Etherpad](https://github.com/ether) - Enter, save, and share text/code in a web browser
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- closed source
+* [FastGlacier](http://fastglacier.com/) - Amazon Glacier client for Windows -- closed source
 * [FileUtils](http://fileutils.io/) - File utilities for distributed computing
 * [Filewatcher](https://github.com/thomasfl/filewatcher) - Written in Ruby, monitors changes in the filesystem by polling
 * [ForgeRock](http://forgerock.org/) - Enterprise identification management and access (IAM)
@@ -932,6 +946,8 @@
 * [ScreenCloud](https://screencloud.net/) - Take a screenshot and either upload it to their site to share, or save it locally
 * [script](http://linux.die.net/man/1/script) - Standard utility to record commands, input, and output
 * [Silver Searcher, The](https://github.com/ggreer/the_silver_searcher) - Source code searching tool, similar to "ack" but faster
+* [Simple Event Correlator (SEC)](http://simple-evcorr.sourceforge.net/) - Umm, no idea where to put this one, it's super multi-purpose
+* [Snappy](https://code.google.com/p/snappy/) - Compression that aims for very high speed and resonable compression, by Google
 * [SQL Fiddle](http://sqlfiddle.com/) - Write and test SQL
 * [Sticky Notes](http://sayakb.github.io/sticky-notes/pages/home/) - On-site / local pastebin
 * [Sublime Text](http://www.sublimetext.com/) - Ok it's closed source and costs money but it's probably the best one out there
