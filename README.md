@@ -259,6 +259,7 @@
 ## Containers
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers
 * [Control Center](http://controlcenter.io/) - App management and orchestration, can manage Docker applications
+* [crane](https://github.com/michaelsauter/crane) - Docker orchestration
 * [Docker](https://www.docker.com/) - Designed to applications in a container, but not a whole OS instance
 * [Docker Hub Registry](https://registry.hub.docker.com/) - Official Docker images for many projects
 * [Docker-Registry](https://github.com/docker/docker-registry) - Source code to Docker Registry, allows you to create private registries
@@ -375,7 +376,7 @@
 
 
 
-## Logging and Log Managemen
+## Logging and Log Management
 * [Adiscon LogAnalyzer](http://loganalyzer.adiscon.com/) - Slick web interface for syslog messages
 * [Bigdesk](http://bigdesk.org/) - Live charts and statistics for elasticsearch cluster
 * [ElasticDump](https://github.com/taskrabbit/elasticsearch-dump) - Import / export tools for Elasticsearch
@@ -543,6 +544,7 @@
 * [KeePassX](https://www.keepassx.org/) - Alternative to KeePass, requires QT
 * [kpcli](http://kpcli.sourceforge.net/) - Command line interface for KeePass
 * [LastPass](https://lastpass.com/) - Fremium, can sync to other devices -- closed source
+* [lastpass-cli](https://github.com/lastpass/lastpass-cli) - CLI for LastPass
 * [One-Time Secret](https://github.com/onetimesecret/onetimesecret) - Create links that self-destruct after a single viewing, great for sharing passwords
 * [pass](http://www.passwordstore.org/) - Uses GPG at it's core, supports tracking password changes in git
 * [Password Gorilla](https://github.com/zdia/gorilla/wiki) - Written in Tcl/Tk
@@ -779,7 +781,7 @@
 * [ClusterSSH](https://github.com/duncs/clusterssh/wiki) - Make a change on many servers at the same time
 * [Corkscrew](http://www.agroman.net/corkscrew/) - Tunnel SSH through HTTP proxies
 * [Guacamole](http://guac-dev.org/) - Clientless (in-browser) remote desktop gateway, supports VNC, RDP, and SSH
-* [HPN-SSH](http://hpnssh.sourceforge.net/) - High performance ssh/scp WARNING: seems to disable encryption (null cypher)
+* [HPN-SSH](http://hpnssh.sourceforge.net/) - High performance ssh/scp (auth handshake is encrypted, data transfer is not)
 * [Keychain](http://www.funtoo.org/Keychain) - frontend to ssh-agent and ssh-add, reduces the number of times you have to type in your passphrase
 * [KiTTY](http://kitty.9bis.net/) - PuTTY fork with additional features
 * [Match](http://linux.die.net/man/5/sshd_config) - Creates a conditional block, great for controlling actions on a per-user and/or per-host basis
