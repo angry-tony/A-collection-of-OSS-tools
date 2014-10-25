@@ -3,6 +3,7 @@
 * 98% OSS
 * Almost no SaaS
 * Just a little free-as-in-beer commercial software
+* Please don't submit to Reddit, HN, or this post on Twitter.  Share, but share with close friends!
 * [Josh on LinkedIn](https://www.linkedin.com/in/jturgasen)
 * [Josh's Technical Blog](https://jturgasen.github.io)
 * [Josh on Twitter](https://www.twitter.com/joshturgasen)
@@ -250,6 +251,7 @@
 * [Really Awesome New Cisco config Differ (RANCID)](http://www.shrubbery.net/rancid/) - Designed to monitor network hardware
 * [Rudder](http://www.rudder-project.org/site/) - Automation and compliance, uses CFengine
 * [Salt](http://www.saltstack.com/) - Cloud orchestration, server provisioning, and configuration management
+* [ServerSpec](http://serverspec.org/) - Write RSpec tests for checking that your servers are configured correctly
 * [Supermarket](https://github.com/opscode/supermarket) - Community cookbook repository for Chef, can be hosted internally
 * [Using Chef](http://usingchef.com/) - Chef weekly newsletter
 * [Vagrant](https://www.vagrantup.com/) - "Hypervisor wrapper" that leverages CM software to quickly spin up environments
