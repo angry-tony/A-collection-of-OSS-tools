@@ -182,7 +182,6 @@
 * [rsnapshot](http://www.rsnapshot.org/) - Uses rsync and hard links, can keep multiple full backups available while using very little disk space
 * [SafeKeep](http://safekeep.sourceforge.net/) - Superb project, uses LVM snapshots
 * [SnapRAID](http://snapraid.sourceforge.net/) - Backup program that also stores RAID parity information
-* [Unison](http://www.cis.upenn.edu/~bcpierce/unison/) - Multiplatform, feature-rich file sync
 
 
 
@@ -247,6 +246,7 @@
 * [puppet-lint](http://puppet-lint.com/) - Check that your Puppet manifest conform to the style guide
 * [Puppet Forge](https://forge.puppetlabs.com/) - Community repository of Puppet modules
 * [puppet-module-skeleton](https://github.com/garethr/puppet-module-skeleton) - Skeleton modules for Puppet
+* [Really Awesome New Cisco config Differ (RANCID)](http://www.shrubbery.net/rancid/) - Designed to monitor network hardware
 * [Rudder](http://www.rudder-project.org/site/) - Automation and compliance, uses CFengine
 * [Salt](http://www.saltstack.com/) - Cloud orchestration, server provisioning, and configuration management
 * [Supermarket](https://github.com/opscode/supermarket) - Community cookbook repository for Chef, can be hosted internally
@@ -289,6 +289,7 @@
 * [Seafile](http://seafile.com/en/home/) - Also offers a paid professional edition with more features
 * [SparkleShare](http://sparkleshare.org/) - Uses git under the hood
 * [Syncany](https://www.syncany.org/) - Supports tons of different protocols for the transfer
+* [Unison](http://www.cis.upenn.edu/~bcpierce/unison/) - Multiplatform, feature-rich file sync
 
 
 
@@ -439,7 +440,6 @@
 * [php-weathermap-graphite](https://github.com/alexforrow/php-weathermap-graphite) - Allows Network Weathermap to source data from Graphite
 * [pmacct](http://www.pmacct.net/) - IP and network traffic accounting / monitoring
 * [PNP4Nagios](http://docs.pnp4nagios.org/) - Nagios visualization tool
-* [Really Awesome New Cisco config Differ (RANCID)](http://www.shrubbery.net/rancid/) - Designed to monitor network hardware
 * [riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language.
 * [RRDtool](http://oss.oetiker.ch/rrdtool/) - High performance data logging and graphing system for time series data
 * [Sensu](http://sensuapp.org/) - Open source monitoring framework, cloud-focused
