@@ -224,10 +224,13 @@
 ## Configuration Management and Orchestration
 * [Ansible](http://www.ansible.com) - CM and orchestration, also can do provisioning
 * [Ansible Galaxy](https://galaxy.ansible.com/) - Community site for finding, reusing, and sharing Ansible content
+* [Awesome Chef](https://github.com/obazoud/awesome-chef) - A curated list of amazingly awesome Chef resources
 * [BOSH](https://github.com/cloudfoundry/bosh) - Cloud orchestration, supports Docker containers too
 * [Capistrano](http://capistranorb.com/) - Run scripts/commands and push software using SSH, a RubyGem, uses a Rake DSL
 * [Chef](http://www.getchef.com/) - Well known configuration management tool
 * [chef-book](https://github.com/jjasghar/chef-book) - Open source book about Chef
+* [chef-handlers](https://github.com/etsy/chef-handlers) - Log failures to IRC and send metrics to Graphite (including deploys)
+* [ChefScripts](https://github.com/lozzd/ChefScripts) - Quickly parse the Chef run log to get the resources updated recently, in chronological order
 * [Chef Development Kit (ChefDK)](http://downloads.getchef.com/chef-dk/) - Includes Berkshelf, Test Kitchen, ChefSpec, Foodcritic, Knife, Chef Zero, Ohai, and more
 * [Chef is Easy](http://chefiseasy.com/) - Chef tutorial
 * [Chef Solo](http://docs.getchef.com/chef_solo.html) - Allows using cookbooks on nodes without access to a Chef server, designed for testing
@@ -240,8 +243,10 @@
 * [grocery-delivery](https://github.com/facebook/grocery-delivery) - Utility for managing cookbook uploads to distributed Chef backends
 * [Juju](https://juju.ubuntu.com/) - Ubuntu focused but works on RHEL / CentOS now
 * [knife-backup](https://github.com/mdxp/knife-backup) - Knife plugin to help backup and restore a Chef server
+* [Knife Community Plugins](https://docs.getchef.com/community_plugin_knife.html) - 
 * [Learn Chef](http://learn.getchef.com/) - Chef tutorial by Opscode
 * [mcollective](http://puppetlabs.com/mcollective) - Orchestration, can be used independently of Puppet
+* [motherbrain](https://github.com/RiotGames/motherbrain) - Use knife to spin up one node?  Nah, use this to create a whole environment
 * [Open Linux Management Infrastructure (OpenLMI)](http://www.openlmi.org/) - Manage, monitor, and configure servers via API calls (instead of SSH), included in RHEL 7
 * [Opscode](https://github.com/opscode) - Chef / Opscode on Github, tons of great tools
 * [Puppet](http://puppetlabs.com/) - Well known CM tool
@@ -252,6 +257,7 @@
 * [Rudder](http://www.rudder-project.org/site/) - Automation and compliance, uses CFengine
 * [Salt](http://www.saltstack.com/) - Cloud orchestration, server provisioning, and configuration management
 * [ServerSpec](http://serverspec.org/) - Write RSpec tests for checking that your servers are configured correctly
+* [spiceweasel](https://github.com/mattray/spiceweasel) - Quickly automates the creation of whole Chef environments (batch loading)
 * [Supermarket](https://github.com/opscode/supermarket) - Community cookbook repository for Chef, can be hosted internally
 * [Using Chef](http://usingchef.com/) - Chef weekly newsletter
 * [Vagrant](https://www.vagrantup.com/) - "Hypervisor wrapper" that leverages CM software to quickly spin up environments
@@ -303,6 +309,7 @@
 * [git - the simple guide](https://rogerdudler.github.io/git-guide/) - Includes a cheat sheet
 * [git for Ages 4 and Up](https://www.youtube.com/watch?v=1ffBJ4sVUb4) - Very entertaining
 * [Pro Git](http://git-scm.com/book) - Free and full ebook, published by Apress
+* [Pro Git 2nd Edition](http://git-scm.com/book/en/v2) - Second edition, released in 2014
 * [Think like (a) Git](http://think-like-a-git.net/) - Complete online ebook
 
 
@@ -410,6 +417,7 @@
 
 ## Monitoring and Alerting
 * [Adagios](http://adagios.org/) - Web based Nagios configuration interface
+* [Awesome Dashboard](https://github.com/obazoud/awesome-dashboard) - A collection of dashboards
 * [Cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty
 * [Cacti](http://cacti.net/) - Web-based network monitoring and graphing tool designed as a front-end to RRDtool
 * [check_mk](http://mathias-kettner.com/check_mk.html) - Extensions / plugins for Nagios
@@ -432,6 +440,7 @@
 * [Monitorix](http://www.monitorix.org/) - So lightweight that it can be used in mobile devices, aka Mikaku
 * [Multi Router Traffic Grapher (MRTG)](http://oss.oetiker.ch/mrtg/) - Still being updated!
 * [Naemon](http://www.naemon.org/) - Modular Nagios fork
+* [Nagdash](https://github.com/lozzd/Nagdash) - Dashboard / NOC screen for Nagios
 * [Nagios](http://www.nagios.org/) - One of the most widely used OSS monitoring programs
 * [Nagiosgraph](http://nagiosgraph.sourceforge.net/) - Another visualization tool for Nagios data
 * [NagVis](http://www.nagvis.org/) - Visualization suite for Nagios
@@ -783,6 +792,7 @@
 * [cloud-ssh](http://leonsbox.com/cloud-ssh/) - SSH wrapper that supports hostname tab-completion based on name, tag, or security group
 * [ClusterSSH](https://github.com/duncs/clusterssh/wiki) - Make a change on many servers at the same time
 * [Corkscrew](http://www.agroman.net/corkscrew/) - Tunnel SSH through HTTP proxies
+* [Dancer's Shell (dsh)](http://www.netfort.gr.jp/~dancer/software/dsh.html.en) - Wrapper for executing multiple remote shell (rsh/remsh/ssh) commands
 * [Guacamole](http://guac-dev.org/) - Clientless (in-browser) remote desktop gateway, supports VNC, RDP, and SSH
 * [HPN-SSH](http://hpnssh.sourceforge.net/) - High performance ssh/scp (auth handshake is encrypted, data transfer is not)
 * [Keychain](http://www.funtoo.org/Keychain) - frontend to ssh-agent and ssh-add, reduces the number of times you have to type in your passphrase
@@ -925,6 +935,7 @@
 * [httpie](https://github.com/jakubroztocil/httpie) - curl replacement with many new features
 * [incrond](http://inotify.aiken.cz/?section=incron&page=about&lang=en) - Fires off a job when a file system event happens
 * [Inkscape](http://www.inkscape.org/en/) - Open source vector image editor
+* [IRCcat](https://github.com/RJ/irccat) - Sent log messages and alerts to an IRC channel, can also use IRC to send commands
 * [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) - ISO standard for dates, the only way to fly
 * [JSON Formatter](http://www.bodurov.com/JsonFormatter/) - Automatically format JSON code, 100% client side
 * [Inconsolation](http://inconsolation.wordpress.com/index/) - MASSIVE list of lightweight and (legit) obscure tools
