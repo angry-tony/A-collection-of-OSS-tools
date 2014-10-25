@@ -236,6 +236,7 @@
 * [ElasticBox](https://elasticbox.com/) - Create your own catalog of applications and infrastructure components then build, deploy, and go
 * [Fabric](http://www.fabfile.org/) - Python library, uses SSH
 * [Getting Started with Chef](http://gettingstartedwithchef.com/) - Chef tutorial
+* [grocery-delivery](https://github.com/facebook/grocery-delivery) - Utility for managing cookbook uploads to distributed Chef backends
 * [Juju](https://juju.ubuntu.com/) - Ubuntu focused but works on RHEL / CentOS now
 * [knife-backup](https://github.com/mdxp/knife-backup) - Knife plugin to help backup and restore a Chef server
 * [Learn Chef](http://learn.getchef.com/) - Chef tutorial by Opscode
