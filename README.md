@@ -270,8 +270,9 @@
 * [Control Center](http://controlcenter.io/) - App management and orchestration, can manage Docker applications
 * [crane](https://github.com/michaelsauter/crane) - Docker orchestration
 * [Docker](https://www.docker.com/) - Designed to applications in a container, but not a whole OS instance
-* [Docker Hub Registry](https://registry.hub.docker.com/) - Official Docker images for many projects
 * [Docker-Registry](https://github.com/docker/docker-registry) - Source code to Docker Registry, allows you to create private registries
+* [dockerfiles](https://github.com/firecat53/dockerfiles) - Great little collection of pre-made Docker files
+* [Docker Hub Registry](https://registry.hub.docker.com/) - Official Docker images for many projects
 * [Dokku](https://github.com/progrium/dokku) - Docker powered mini-Heroku in around 100 lines of Bash
 * [Dokku Alternative](https://github.com/dokku-alt/dokku-alt) - Dokku fork, supports plugins
 * [Ferry](https://github.com/opencore/ferry) - Big data development environment on your local machine using Docker
