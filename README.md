@@ -76,6 +76,7 @@
 * [TechCrunch](http://techcrunch.com/)
 * [Tech Republic](http://www.techrepublic.com/)
 * [The Inquirer](http://www.theinquirer.net/)
+* [The Next Web](http://thenextweb.com/)
 * [The Register](http://www.theregister.co.uk/)
 * [Virtualization.net](http://www.virtualization.net/)
 * [Web Hosting Industry Review (WHIR)](http://www.thewhir.com/)
@@ -525,12 +526,15 @@
 * [CentOS Errata for Spacewalk (CEFS)](http://cefs.steve-meier.de/) - Import errata information from CentOS-announce into Spacewalk
 * [CentOS Repositories](http://wiki.centos.org/AdditionalResources/Repositories) - Large list of both official and unofficial CentOS software repositories
 * [CentOS Software Collections (SCL)](http://wiki.centos.org/AdditionalResources/Repositories/SCL) - Use multiple versions of software on a system without disturbing the system default version
+* [Copr](https://copr.fedoraproject.org/) - Automatic build system providing a package repository as its output
 * [DNF](https://fedoraproject.org/wiki/Features/DNF) - Package management system that will replace Yum in upcoming Fedora releases
 * [ELRepo](http://elrepo.org) - Repo that focuses on hardware related packages, supports RHEL and CentOS
 * [Extra Packages for Enterprise Linux (EPEL)](https://fedoraproject.org/wiki/EPEL) - Supports CentOS, RHEL, Scientific Linux, and Oracle Linux
+* [Extra Packaging Guidelines and Policies for EPEL](https://fedoraproject.org/wiki/EPEL/GuidelinesAndPolicies) - Packaging guidelines, great even if not creating EPEL stuff
 * [Fedora Packaging Guidelines](https://fedoraproject.org/wiki/Packaging:Guidelines) - Excellent information that can be applied to CentOS & RHEL
 * [Fucking Package Management (fpm)](https://github.com/jordansissel/fpm) - Build packages for multiple platforms (deb, rpm, etc) with great ease and sanity
-* [Koji](https://fedoraproject.org/wiki/Koji) - Software that builds packages for Fedora, can be used for other stuff too
+* [IUS SafeRepo Initiative](https://iuscommunity.org/pages/TheSafeRepoInitiative.html) - Create "safe" 3rd party repos
+* [Koji](https://fedoraproject.org/wiki/Koji) - Software that builds packages for Fedora, can be used for other stuff too, uses mock
 * [Mock](https://fedoraproject.org/wiki/Projects/Mock) - Build packages in a simple chroot so you don't blow up your system
 * [mrepo](http://dag.wiee.rs/home-made/mrepo/) - Yum & APT repository mirroring, formerly Yam
 * [OStree](https://wiki.gnome.org/Projects/OSTree) - Tool for managing bootable, immutable, versioned filesystem trees (not really a package manager but...)
