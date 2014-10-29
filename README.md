@@ -840,6 +840,7 @@
 * [Parted Magic](http://partedmagic.com/) - Resize, grow, shrink, clone, recovery, wiping, benchmarking, and more.  Supports Linux and Windows file systems.
 * [RAID LVMs](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Logical_Volume_Manager_Administration/raid_volumes.html) - As of RHEL 6.3 LVM supports software RAID without using mdraid
 * [Red Hat LVM RAID Calculator](https://access.redhat.com/blogs/759303/posts/917353) - Login required
+* [snapper](http://snapper.io/) - CLI tool to manage Btrfs snapshots, snapshot timelines, and more
 * [System Storage Manager (SSM)](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Storage_Administration_Guide/ch-ssm.html) - Generic CLI for managing all types of storage (DM, LVM, multipath), added in RHEL 7
 * [zram](https://en.wikipedia.org/wiki/Zram) - A compressed, in-memory block device to reduce paging
 * [zswap](https://en.wikipedia.org/wiki/Zswap) - A compressed, write-back cache cache for swapped pages
