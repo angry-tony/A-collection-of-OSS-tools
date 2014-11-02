@@ -146,6 +146,7 @@
 ## Asset Management
 * [Clusto](https://github.com/clusto/clusto) - Inventory tracking and "cluster management" system
 * [Collins](https://github.com/tumblr/collins) - Infrastructure source of truth, created by Tumblr
+* [Fusion Inventory](http://www.fusioninventory.org/) - Mulit-lingual
 * [GestioIP](http://www.gestioip.net/) - IP address management (IPAM), web based, supports discovery
 * [GLPI](http://www.glpi-project.org/spip.php?lang=en) - Also provides license management, software auditing, and ticketing
 * [HostDB](https://github.com/Flipkart/HostDB) - New tool to help manage data center inventory
@@ -161,7 +162,7 @@
 * [Ralph](http://ralph.allegrogroup.com/) - DCIM and CMDB, supports auto-discovery
 * [rho](https://github.com/candlepin/rho) - Scans for and gathers information about Linux and Unix servers
 * [Snipe IT](http://snipeitapp.com/) - Uses Bootstrap, web based, supports mobile
-* [Tracmor](https://code.google.com/p/tracmor/) - Web-based inventory and asset tracking system written in PHP 5 utilizing the Qcodo Framework
+* [Tracmor](http://tracmor.org/) - Web-based inventory and asset tracking system written in PHP 5 utilizing the Qcodo Framework
 
 
 
@@ -262,6 +263,7 @@
 * [Supermarket](https://github.com/opscode/supermarket) - Community cookbook repository for Chef, can be hosted internally
 * [Using Chef](http://usingchef.com/) - Chef weekly newsletter
 * [Vagrant](https://www.vagrantup.com/) - "Hypervisor wrapper" that leverages CM software to quickly spin up environments
+* [VirtKick](https://www.virtkick.io/) - Simple panel for orchestrating VMs and containers
 * [zero-user](https://github.com/rohit01/zero-users) - Zero hassle Linux user management, requires Ansible
 
 
