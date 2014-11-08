@@ -249,6 +249,7 @@
 * [Learn Chef](http://learn.getchef.com/) - Chef tutorial by Opscode
 * [mcollective](http://puppetlabs.com/mcollective) - Orchestration, can be used independently of Puppet
 * [motherbrain](https://github.com/RiotGames/motherbrain) - Use knife to spin up one node?  Nah, use this to create a whole environment
+* [omnibus](https://github.com/opscode/omnibus) - Create full-stack installers for your project, Chef
 * [Open Linux Management Infrastructure (OpenLMI)](http://www.openlmi.org/) - Manage, monitor, and configure servers via API calls (instead of SSH), included in RHEL 7
 * [Opscode](https://github.com/opscode) - Chef / Opscode on Github, tons of great tools
 * [Puppet](http://puppetlabs.com/) - Well known CM tool
@@ -585,7 +586,7 @@
 * [bandwidthd](http://sourceforge.net/projects/bandwidthd/) - Monitors and graphs bandwidth usage
 * [blktrace](http://www.reddit.com/r/sysadmin/comments/1ib3rl/beyond_iostat_storage_performance_analysis_with/) - Article on blktrace, includes tldr setup steps in the comments
 * [bmon](https://github.com/tgraf/bmon/) - Console based network monitor
-* [bwn-ng](http://www.gropp.org/?id=projects&sub=bwm-ng) - Small and simple console-based live network and disk I/O bandwidth monitor
+* [bwm-ng](http://www.gropp.org/?id=projects&sub=bwm-ng) - Small and simple console-based live network and disk I/O bandwidth monitor
 * [collectl](http://collectl.sourceforge.net/) - sar on steroids
 * [Conky](https://github.com/brndnmtthws/conky) - Lightweight system monitor for X windows
 * [Diamond](https://github.com/BrightcoveOS/Diamond) - Python daemon that collects system metrics and publishes them to Graphite (or similar), has an API
@@ -653,21 +654,29 @@
 * [CodeAcademy](http://www.codecademy.com/tracks/python) - Code Academy's online Python course
 * [Common Python Mistakes](https://news.ycombinator.com/item?id=7715349) - Link and discussion on Hacker News
 * [Coursera](https://www.coursera.org/courses?orderby=upcoming&search=python) - Online Python courses at various institutions
+* [Dive Into Python 3](http://getpython3.com/diveintopython3/) - Free ebook
 * [Easy-Python](http://easy-python.readthedocs.org) - Collection of Python resources that "you didn't know you would need"
-* [Google Python Class](https://www.youtube.com/watch?v=tKTZoB2Vjuk) - First in a series of videos by Google Developers
+* [Google Python Class](https://developers.google.com/edu/python/) - By the GOOG
 * [Hitchhiker’s Guide to Python](http://docs.python-guide.org) - Best-practice handbook to the installation, configuration, and usage of Python.
 * [MIT Open Courseware - Introduction to Computer Science and Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/) - Focuses on Python
 * [MIT Open Courseware - A Gentle Introduction to Programming Using Python](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/) - Final project is a Tetris game in Python
 * [MIT Open Courseware - Objects in Python](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-5-objects-in-python/) - Python tuples, lists, and dictionaries, as well as the concept of mutability and how to avoid problems relating to it.
 * [MIT Open Courseware - Python Tutorial](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/python-tutorial/) - Python tutorial for people familiar with basic programming concepts
 * [New Coder](http://newcoder.io/tutorials/) - Python exercises
+* [Online Python Tutor](http://pythontutor.com/) - 100% in-browser
+* [PyCharm](https://www.jetbrains.com/pycharm/) - Killer Python IDE -- commercial software
 * [Python Challenge](http://www.pythonchallenge.com/) - A riddle in Python
+* [Python for You and Me](http://pymbook.readthedocs.org/en/py3/) - The 2.x version is linked on the main page
 * [Python Practice Projects](http://pythonpracticeprojects.com/) - Several practice exercises
+* [Python 2.x Tutorial](https://docs.python.org/2/tutorial/index.html) - For 2.x, part of the official documentation
+* [Python 3.x Tutorial](https://docs.python.org/3/tutorial/index.html) - From the official documentation
 * [Programming Praxis](http://programmingpraxis.com/) - Programming exercises, many posted solutions are in Python
 * [Python Reference](https://github.com/rasbt/python_reference) - A collection of useful scripts, tutorials, and other Python-related things
+* [Quiz and Learn Python](http://mobileicecube.com/quiz-learn-python/) - Designed for mobile devices
 * [r/dailyprogrammer](http://www.reddit.com/r/dailyprogrammer) - Programming exercises, includes Python
 * [r/learnpython](http://www.reddit.com/r/learnpython) - Subreddit for beginners
 * [Think Python: How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/html/index.html) - Awesome free ebook
+* [Tutorials Point's Python Tutorial](http://www.tutorialspoint.com/python/index.htm) - Another one!
 
 
 
@@ -749,6 +758,7 @@
 * [Network Security Toolkit (NST)](http://networksecuritytoolkit.org/nst/index.html) - Live CD that includes most tools in insecure.org's top 125 tools list
 * [nmap](http://nmap.org/) - Classic port scanner
 * [nmap Scripting Engine (NSE)](http://nmap.org/nsedoc/index.html) - Tons of scripts for nmap
+* [nogotofail](https://github.com/google/nogotofail) - Spot and fix weak TLS/SSL connections and sensitive cleartext traffic
 * [OpenSCAP](http://www.open-scap.org/page/Main_Page) - Standardized approach to maintaining the security of systems, evaluates machine compliance with a given profile
 * [OpenVAS](http://www.openvas.org/) - Vulnerability scanner, forked from the now closed-source Nessus scanner
 * [OpenVPN](https://openvpn.net/) - Well known open source VPN
@@ -952,6 +962,7 @@
 * [Keybase](https://keybase.io/) - Upload your public key and find other people's public key via their social media user name(s)
 * [LargeFile](http://www.vim.org/scripts/script.php?script_id=1506) - vim plugin that automatically disables certain things so you can edit large files faster
 * [lz4](https://code.google.com/p/lz4/) - Crazy fast compression algorithm
+* [maim](https://github.com/naelstrof/maim) - Linux desktop screenshot tool
 * [mockaroo](http://www.mockaroo.com/) - Generate up to 100,000 rows of realistic test data in CSV, JSON, SQL, and Excel formats
 * [moreutils](https://joeyh.name/code/moreutils/) - "Collection of the unix tools that nobody thought to write long ago when unix was young"
 * [multicast remote sync (mrsync)](http://sourceforge.net/projects/mrsync/) - Transfers from a master to many remote machines using Unix multicast sockets
