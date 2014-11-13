@@ -423,6 +423,7 @@
 ## Monitoring and Alerting
 * [Adagios](http://adagios.org/) - Web based Nagios configuration interface
 * [Awesome Dashboard](https://github.com/obazoud/awesome-dashboard) - A collection of dashboards
+* [Bosun](http://bosun.org/) - By Stack Exchange
 * [Cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty
 * [Cacti](http://cacti.net/) - Web-based network monitoring and graphing tool designed as a front-end to RRDtool
 * [check_mk](http://mathias-kettner.com/check_mk.html) - Extensions / plugins for Nagios
