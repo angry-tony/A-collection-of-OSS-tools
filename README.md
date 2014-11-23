@@ -493,6 +493,7 @@
 * [BIRD](http://bird.network.cz/) - (Almost) fully functional IP routing daemon for Linux, supports tons of standard routing protocols
 * [Charles Web Debugging Proxy](http://www.charlesproxy.com/) - Highly recommended, includes support for decoding HTTPS traffic and throttling -- commercial software
 * [CoDel](https://en.wikipedia.org/wiki/CoDel) - Network scheduling algorithm designed to overcome bufferbloat
+* [Comcast](https://github.com/tylertreat/Comcast) - Simulate crappy network connections
 * [DNSsec](http://www.reddit.com/r/netsec/comments/vmd2e/i_dont_understand_dnssec_anyone_care_to_give_an/) - Reddit posters in r/netsec explain DNSSec
 * [firewalld](https://fedoraproject.org/wiki/FirewallD) - Replaces iptables, included in RHEL/CentOS 7
 * [ipcalc](http://linux.die.net/man/1/ipcalc) - CLI tool to calculate subnets, netmasks, IP ranges, broadcast addresses, and more
@@ -817,16 +818,20 @@
 * [cloud-ssh](http://leonsbox.com/cloud-ssh/) - SSH wrapper that supports hostname tab-completion based on name, tag, or security group
 * [ClusterSSH](https://github.com/duncs/clusterssh/wiki) - Make a change on many servers at the same time
 * [Corkscrew](http://www.agroman.net/corkscrew/) - Tunnel SSH through HTTP proxies
+* [csshX](https://code.google.com/p/csshx/) - Cluster SSH for OS X
 * [Dancer's Shell (dsh)](http://www.netfort.gr.jp/~dancer/software/dsh.html.en) - Wrapper for executing multiple remote shell (rsh/remsh/ssh) commands
 * [Guacamole](http://guac-dev.org/) - Clientless (in-browser) remote desktop gateway, supports VNC, RDP, and SSH
 * [HPN-SSH](http://hpnssh.sourceforge.net/) - High performance ssh/scp (auth handshake is encrypted, data transfer is not)
+* [KeyBox](http://sshkeybox.com/) - Web-based SSH console that executes commands on multiple shells
 * [Keychain](http://www.funtoo.org/Keychain) - frontend to ssh-agent and ssh-add, reduces the number of times you have to type in your passphrase
 * [KiTTY](http://kitty.9bis.net/) - PuTTY fork with additional features
+* [Mass Parallel SSH (mpssh)](https://github.com/ndenev/mpssh) - Simple parallel SSH
 * [Match](http://linux.die.net/man/5/sshd_config) - Creates a conditional block, great for controlling actions on a per-user and/or per-host basis
 * [MobaXterm](http://mobaxterm.mobatek.net/) - Tabbed SSH, VNC, and RDP client for Windows, free for personal use -- closed source
 * [Mobile Shell (Mosh)](http://mosh.mit.edu/) - Remote shell that supports roaming (client IP address changes) and intermittent connectivity
 * [mRemoteNG](http://www.mremoteng.org/) - Open source, tabbed, multi-protocol, remote connections manager
 * [MTPuTTY (Multi-Tabbed PuTTY)](http://ttyplus.com/multi-tabbed-putty/) - Multiple PuTTY sessions in a single window
+* [MUltihost SSH Wrapper (Mussh)](http://sourceforge.net/projects/mussh/) - SSH wrapper
 * [NoVNC](https://kanaka.github.io/noVNC/) - Client-less VNC in a web browser, uses HTML5 and WebSockets
 * [parallel-ssh (pssh)](https://code.google.com/p/parallel-ssh/) - Parallel version of OpenSSH tools, comes with prsync too
 * [Parallel Distributed Shell (pdsh)](https://code.google.com/p/pdsh/) - Kick off many SSH sessions in parallel
@@ -841,6 +846,7 @@
 * [sshuttle](https://github.com/apenwarr/sshuttle) - Transparent proxy server that works as a poor man's VPN, forwards over SSH, supports DNS tunneling
 * [SuperPutty](https://code.google.com/p/superputty/) - Allows the PuTTY SSH client to be opened in tabs
 * [tmux](http://tmux.sourceforge.net/) - An alternative to GNU screen
+* [tmux-cssh](https://github.com/dennishafemann/tmux-cssh) - Cluster SSH for tmux
 * [WinSCP](http://winscp.net) - The well-known SCP client for Windows
 * [Xming](http://www.straightrunning.com/XmingNotes/) - Windows Xwindows server, supports PuTTY
 
