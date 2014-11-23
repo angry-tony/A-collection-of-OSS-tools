@@ -182,6 +182,7 @@
 * [Obnam](http://obnam.org/) - Snapshots, dedupe, encryption
 * [rdiff-backup](http://www.nongnu.org/rdiff-backup/) - Combines the best features of a mirror and an incremental backup in a bandwidth efficient manner
 * [Redo Backup and Recovery](http://redobackup.org/) - Simple bare metal backup and restore
+* [Relax and Recover (REAR)](http://relax-and-recover.org/) - BMR, simple
 * [rsnapshot](http://www.rsnapshot.org/) - Uses rsync and hard links, can keep multiple full backups available while using very little disk space
 * [SafeKeep](http://safekeep.sourceforge.net/) - Superb project, uses LVM snapshots
 * [SnapRAID](http://snapraid.sourceforge.net/) - Backup program that also stores RAID parity information
@@ -263,7 +264,6 @@
 * [spiceweasel](https://github.com/mattray/spiceweasel) - Quickly automates the creation of whole Chef environments (batch loading)
 * [Supermarket](https://github.com/opscode/supermarket) - Community cookbook repository for Chef, can be hosted internally
 * [Using Chef](http://usingchef.com/) - Chef weekly newsletter
-* [Vagrant](https://www.vagrantup.com/) - "Hypervisor wrapper" that leverages CM software to quickly spin up environments
 * [VirtKick](https://www.virtkick.io/) - Simple panel for orchestrating VMs and containers
 * [zero-user](https://github.com/rohit01/zero-users) - Zero hassle Linux user management, requires Ansible
 
@@ -275,6 +275,7 @@
 * [crane](https://github.com/michaelsauter/crane) - Docker orchestration
 * [Docker](https://www.docker.com/) - Designed to applications in a container, but not a whole OS instance
 * [Docker-Registry](https://github.com/docker/docker-registry) - Source code to Docker Registry, allows you to create private registries
+* [Docker Nano](https://github.com/Docker-nano) - The smallest possible Docker images
 * [dockerfiles](https://github.com/firecat53/dockerfiles) - Great little collection of pre-made Docker files
 * [Docker Hub Registry](https://registry.hub.docker.com/) - Official Docker images for many projects
 * [Dokku](https://github.com/progrium/dokku) - Docker powered mini-Heroku in around 100 lines of Bash
@@ -291,6 +292,7 @@
 * [nsenter](https://github.com/jpetazzo/nsenter) - Attach to a Docker container
 * [Panamax](http://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub
 * [pipework](https://github.com/jpetazzo/pipework) - SDN for Linux Containers
+* [ShutIt](https://github.com/ianmiell/shutit) - Manage your build process in a way that is both structured and flexible
 * [Weave](https://github.com/zettio/weave/) - Virtual network that connects Docker containers deployed across multiple hosts
 
 
@@ -550,6 +552,7 @@
 * [RPM Fusion](http://rpmfusion.org/) - Provides software that the Fedora Project or Red Hat doesn't want to ship
 * [Spacewalk](http://www.spacewalkproject.org/) - Provides package management (among other things)
 * [yum-presto](https://fedoraproject.org/wiki/Features/Presto) - yum plugin that provides support for downloading package deltas instead of whole packages
+* [yum-security](http://linux.die.net/man/8/yum-security) - Plugin to only install security updates
 
 
 
@@ -566,6 +569,7 @@
 * [kpcli](http://kpcli.sourceforge.net/) - Command line interface for KeePass
 * [LastPass](https://lastpass.com/) - Fremium, can sync to other devices -- closed source
 * [lastpass-cli](https://github.com/lastpass/lastpass-cli) - CLI for LastPass
+* [msktutil](http://linux.die.net/man/1/msktutil) - Keytab client for a Microsoft Active Directory environment
 * [One-Time Secret](https://github.com/onetimesecret/onetimesecret) - Create links that self-destruct after a single viewing, great for sharing passwords
 * [pass](http://www.passwordstore.org/) - Uses GPG at it's core, supports tracking password changes in git
 * [Password Gorilla](https://github.com/zdia/gorilla/wiki) - Written in Tcl/Tk
@@ -644,6 +648,7 @@
 * [Razor](https://github.com/puppetlabs/razor-server) - Puppet provisioning software that handles bare metal hardware and virtual server provisioning
 * [Sandstorm.io](https://sandstorm.io/) - Download, install, and run apps in a container
 * [Terraform](http://www.terraform.io/) - Infrastructure provisioning using existing tools
+* [Vagrant](https://www.vagrantup.com/) - "Hypervisor wrapper" that leverages CM software to quickly spin up environments
 * [veewee](https://github.com/jedi4ever/veewee) - Automate all the steps for building Vagrant base boxes
 
 
@@ -964,6 +969,7 @@
 * [LargeFile](http://www.vim.org/scripts/script.php?script_id=1506) - vim plugin that automatically disables certain things so you can edit large files faster
 * [lz4](https://code.google.com/p/lz4/) - Crazy fast compression algorithm
 * [maim](https://github.com/naelstrof/maim) - Linux desktop screenshot tool
+* [Mergeatron ](https://github.com/behance/mergeatron) - Kicks off Jenkins when it sees a PR, gives a thumbs up/down reply
 * [mockaroo](http://www.mockaroo.com/) - Generate up to 100,000 rows of realistic test data in CSV, JSON, SQL, and Excel formats
 * [moreutils](https://joeyh.name/code/moreutils/) - "Collection of the unix tools that nobody thought to write long ago when unix was young"
 * [multicast remote sync (mrsync)](http://sourceforge.net/projects/mrsync/) - Transfers from a master to many remote machines using Unix multicast sockets
@@ -972,6 +978,7 @@
 * [Netflix OSS](https://github.com/netflix) - Netflix OSS tools on GitHub
 * [Notepad++](http://notepad-plus-plus.org/) - Killer GPL'ed text editor for Windows
 * [observr](https://github.com/kevinburke/observr) - Monitor a directory and kick off an action when a file in the directory changes
+* [OpenResty](http://openresty.org/) - Turn nginx into a non-blocking API server
 * [parallel](https://www.gnu.org/software/parallel/) - Execute jobs in parallel using one or more computers
 * [percol](https://github.com/mooz/percol) - Interactive grep tool
 * [pv](http://linux.die.net/man/1/pv) - Shows the progress of data as it flows through a pipe
@@ -992,6 +999,7 @@
 * [Synergy](http://synergy-project.org/) - Share a single keyboard and mouse with multiple physical computers
 * [sysadmin-util](https://github.com/skx/sysadmin-util) - A collection of small but useful utilities
 * [tac](http://linux.die.net/man/1/tac) - Reverse "cat" (eg: last line displayed first)
+* [tengine](https://github.com/alibaba/tengine) - A distribution of Nginx with some advanced features
 * [TermRecord](https://github.com/theonewolf/TermRecord) - Record and playback terminal sessions
 * [Tools of the Trade](https://github.com/cjbarber/ToolsOfTheTrade) - Massive list of SaaS, via Hacker News
 * [tup](http://gittup.org/tup/) - Super fast and efficient build system
