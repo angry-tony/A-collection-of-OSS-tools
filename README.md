@@ -299,6 +299,8 @@
 
 ## File Sync and Sharing
 * [BitTorrent Sync (btsync)](https://www.btsync.com/en/) - Sync on the local network or over the internet -- closed source
+* [CloudBerry Explorer](http://www.cloudberrylab.com/free-amazon-s3-explorer-cloudfront-IAM.aspx) - Windows client for accessing AWS S3 buckets -- freeware, closed source
+* [Cloud Explorer](http://www.getcloudexplorer.com/) - Access storage on multiple clouds, Windows -- freeware, closed source
 * [ownCloud](http://owncloud.org/) - The most popular file sync and share program
 * [Pulse](https://ind.ie/pulse/) - Uses an ID rather than an IP address, share your ID with friends and go.  Formerly Syncthing
 * [Pydio](https://pyd.io/) - Formerly AjaXplorer, AGPL license
@@ -934,6 +936,7 @@
 * [comm](http://linux.die.net/man/1/comm) - Display lines that two files have in common (eg: the opposite of diff)
 * [conserver](http://www.conserver.com/) - Virtual console server with many features
 * [curlish](https://pythonhosted.org/curlish/) - Improved curl, includes cookie management and OAuth support
+* [cwrap](http://cwrap.org/) - Wrappers for creating test scenarios and faking behavior, super useful
 * [Cygwin](https://www.cygwin.com/) - GNU shell and tools for Windows
 * [devcheatsheet.com](http://devcheatsheet.com/) - Cheat sheets and quick references for almost every programming language
 * [disown](https://en.wikipedia.org/wiki/Disown_%28Unix%29) - Disowns a processes from the shell, useful if you forgot to use screen or nohup
