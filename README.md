@@ -549,7 +549,7 @@
 * [OStree](https://wiki.gnome.org/Projects/OSTree) - Tool for managing bootable, immutable, versioned filesystem trees (not really a package manager but...)
 * [Package Repository Manager (PRM)](https://github.com/dnbert/prm) - OS-independent package repository tool
 * [Pulp](http://www.pulpproject.org/) - Next generation repository management, a component of Red Hat Satellite 6
-* [Red Hat Software Collections (SCL)](https://www.softwarecollections.org/) - Use multiple versions of software on a system without disturbing the system default version
+* [Red Hat Software eee (SCL)](https://www.softwarecollections.org/) - Use multiple versions of software on a system without disturbing the system default version
 * [reposync](http://linux.die.net/man/1/reposync) - Synchronize yum repositories to a local directory
 * [rpm-ostree](https://github.com/projectatomic/rpm-ostree) - Take RPM packages and commit them to an OSTree repository
 * [RPM Fusion](http://rpmfusion.org/) - Provides software that the Fedora Project or Red Hat doesn't want to ship
@@ -744,6 +744,7 @@
 * [Computer Aided INvestigative Environment (CAINE)](http://www.caine-live.net/) - Live CD that focuses on forensics
 * [ConfigServer Security and Firewall (CSF)](http://configserver.com/cp/csf.html) - Stateful Packet Inspection (SPI) firewall, Login/Intrusion Detection and Security application for Linux servers
 * [Cryptkeeper](tom.noflag.org.uk/cryptkeeper.html) - System tray applet that manages EncFS encrypted folders
+* [dcfldd](http://dcfldd.sourceforge.net/) - Enhanced dd with security and forensics features
 * [dnscrypt-wrapper](https://github.com/Cofyc/dnscrypt-wrapper) - Add dnscrypt support to any resolver
 * [diskscrub](https://code.google.com/p/diskscrub/) - Supports many disk-wiping standards including military / government grade wipes
 * [duraconf](https://github.com/ioerror/duraconf) - A collection of hardened configuration files for SSL/TLS services by Jacob Appelbaum
@@ -788,6 +789,7 @@
 * [Snoopy Logger](https://github.com/a2o/snoopy) - Logs commands that are executed and saves the information to syslog
 * [Snort](https://www.snort.org/) - The classic network intrusion prevention system (NIPS)
 * [SoftEther](http://www.softether.org/) - Maybe the best VPN software out there
+* [Sphirewall](http://sphirewall.net/) - Firewall with auditing, QoS, VPN support, and more
 * [SSH Guard](http://www.sshguard.net/) - Think fail2ban for SSH
 * [sslconfig](https://github.com/cloudflare/sslconfig) - CloudFlare's Internet facing SSL cipher configuration
 * [sslsniff](https://github.com/moxie0/sslsniff) - A tool for automated MITM attacks on SSL connections
@@ -854,7 +856,7 @@
 
 ## Storage Tools
 * [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) - Send a signal to an ATA drive to perform a hardware-based erase
-* [bcache](http://bcache.evilpiepirate.org/) - Block layer cache, allows SSDs to be used as caches for slower drivers
+* [bcache](http://bcache.evilpiepirate.org/) - Block layer cache, allows SSDs to be used as caches for slower drivers\
 * [EnhanceIO](https://github.com/stec-inc/EnhanceIO) - SSD caching, in the mainline Linux kernel, a fork of Facebook's Flashcache project
 * [Flash-Friendly File System (F2FS)](https://en.wikipedia.org/wiki/F2FS) - File system designed specifically for SSDs
 * [fs-cache](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-fscache.html) - NFS client caching
@@ -930,6 +932,7 @@
 * [ack](http://beyondgrep.com/) - grep-like tool designed to search source code
 * [Adminer](http://www.adminer.org/en/) - GUI for database management in a single PHP
 * [appscale](https://github.com/AppScale/appscale) - Deploy and host  Google App Engine applications almost anywhere
+* [Atom](http://atom.io) - Superb text editor, created by GitHub
 * [AutoHotKey](http://www.autohotkey.com/) - Automate input (desktop and web forms, data entry, keybinds, etc)
 * [autojump](https://github.com/joelthelion/autojump) - Small database of directories that you visited in the past, used to quickly navigate complex directory structures
 * [Awesome Node.js](https://news.ycombinator.com/item?id=8306092) - A curated list of Node.js packages
