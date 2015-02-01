@@ -550,6 +550,7 @@
 * [CoDel](https://en.wikipedia.org/wiki/CoDel) - Network scheduling algorithm designed to overcome bufferbloat
 * [Comcast](https://github.com/tylertreat/Comcast) - Simulate crappy network connections
 * [DNSsec](http://www.reddit.com/r/netsec/comments/vmd2e/i_dont_understand_dnssec_anyone_care_to_give_an/) - Reddit posters in r/netsec explain DNSSec
+* [dummynet](http://info.iet.unipi.it/~luigi/dummynet/) - Simulates/enforces queue and bandwidth limitations, delays, packet losses, and multipath effects
 * [firewalld](https://fedoraproject.org/wiki/FirewallD) - Replaces iptables, included in RHEL/CentOS 7
 * [ipcalc](http://linux.die.net/man/1/ipcalc) - CLI tool to calculate subnets, netmasks, IP ranges, broadcast addresses, and more
 * [iptstate](http://linux.die.net/man/8/iptstate) - A top-like display of IP Tables state table entries
@@ -564,6 +565,7 @@
 * [ncat](http://nmap.org/ncat/) - Improved netcat, written by the Nmap team
 * [netbrake](http://www.hping.org/netbrake/) - Limit the bandwidth used by a process
 * [Netdisco](https://metacpan.org/pod/App::Netdisco) - Open source web-based network management tool
+* [Network Link Conditioner](http://nshipster.com/network-link-conditioner/) - Simulate bandwidth, latency, and packet loss.  For OS X
 * [nfdump](http://nfdump.sourceforge.net/) - Captures network flows
 * [NfSen](http://nfsen.sourceforge.net/) - GUI for nfdump
 * [ngrep](http://linux.die.net/man/8/ngrep) - Network grep
@@ -574,6 +576,7 @@
 * [prettyping.sh](https://bitbucket.org/denilsonsa/small_scripts/src/tip/prettyping.sh) - bash wrapper for ping to create pretty output
 * [Quagga](http://www.nongnu.org/quagga/) - Routing software suite, supports most routing protocols
 * [Server Name Indication (SNI)](https://wiki.apache.org/httpd/NameBasedSSLVHostsWithSNI) - Think vhosts for SSL
+* [Sloppy](http://www.dallaway.com/sloppy/) - Proxy server that slows down connections for testing
 * [SMB Multichannel](http://blogs.technet.com/b/josebda/archive/2012/05/13/the-basics-of-smb-multichannel-a-feature-of-windows-server-2012-and-smb-3-0.aspx) - Multiple SMB streams over a single TCP connection, killer feature
 * [socat](http://www.dest-unreach.org/socat/) - netcat on steroids, supports serial devices
 * [sslh](http://www.rutschle.net/tech/sslh.shtml) - Protocol multiplexer, forwards packets based on the first packet
@@ -729,6 +732,7 @@
 * [Coursera](https://www.coursera.org/courses?orderby=upcoming&search=python) - Online Python courses at various institutions
 * [Dive Into Python 3](http://getpython3.com/diveintopython3/) - Free ebook
 * [Easy-Python](http://easy-python.readthedocs.org) - Collection of Python resources that "you didn't know you would need"
+* [edX](https://www.edx.org/course?search_query=python) - Python courses at edX
 * [Google Python Class](https://developers.google.com/edu/python/) - By the GOOG
 * [Hitchhiker’s Guide to Python](http://docs.python-guide.org) - Best-practice handbook to the installation, configuration, and usage of Python.
 * [IPython](http://ipython.org/) - Interactive Python, like a shell or environment
@@ -738,7 +742,6 @@
 * [MIT Open Courseware - Python Tutorial](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/python-tutorial/) - Python tutorial for people familiar with basic programming concepts
 * [New Coder](http://newcoder.io/tutorials/) - Python exercises
 * [Online Python Tutor](http://pythontutor.com/) - 100% in-browser
-* [PyCharm](https://www.jetbrains.com/pycharm/) - Killer Python IDE -- commercial software
 * [Python Challenge](http://www.pythonchallenge.com/) - A riddle in Python
 * [Python for You and Me](http://pymbook.readthedocs.org/en/py3/) - The 2.x version is linked on the main page
 * [Python Practice Projects](http://pythonpracticeprojects.com/) - Several practice exercises
@@ -753,6 +756,7 @@
 * [Requests](http://docs.python-requests.org/en/latest/) - Killer replacement for the urllib2 module
 * [Think Python: How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/html/index.html) - Awesome free ebook
 * [Tutorials Point's Python Tutorial](http://www.tutorialspoint.com/python/index.htm) - Another one!
+* [virtualenv](https://virtualenv.pypa.io/en/latest/) - Tool to create isolated Python environments
 * [xlwings](http://xlwings.org/) - Replace your Excel VBA code with Python
 
 
@@ -779,7 +783,6 @@
 * [Swingbench](http://www.dominicgiles.com/swingbench.html) - Oracle load generator
 * [SysBench](https://launchpad.net/sysbench) - Evaluates OS parameters that are important for DBs, does not require a DB to be installed
 * [Use the Index, Luke](http://use-the-index-luke.com/) - SQL indexing and tuning for developers
-* [WebScaleSQL](http://webscalesql.org/) - Huge scale MySQL with contributions from Facebook, Google, LinkedIn, and Twitter
 
 
 
@@ -792,7 +795,7 @@
 * [RegExr](http://www.regexr.com/) - Another online regex tool that includes cheat sheets, examples, and community-contributed expressions
 * [RegularExpressions.info](http://www.regular-expressions.info/) - THE BEST regex site
 * [Regular Expressions - A Gentle User Guide and Tutorial](http://www.zytrax.com/tech/web/regex.htm) - The easy way
-* [RexV.2](http://www.rexv.org/) - Online Regex evaulator, supports multiple languages
+* [RexV.2](http://www.rexv.org/) - Online Regex evaluator, supports multiple languages
 * [Rubular](http://rubular.com/) - Online Ruby-only regex evaluator
 * [txt2regex](http://aurelio.net/projects/txt2regex/) - Converts human sentences to regex, written in bash
 
@@ -804,12 +807,16 @@
 * [Bundler](http://bundler.io/) - Manage Gem dependencies
 * [Codecademy](http://www.codecademy.com/tracks/ruby) - Ruby course at Codecademy
 * [Coderbyte](http://coderbyte.com/) - Programming challenges
-* [Codewars](http://www.codewars.com/) - More challenges!* [did_you_mean](https://github.com/yuki24/did_you_mean) - Suggestions for typos in Ruby code
+* [Codewars](http://www.codewars.com/) - More challenges!
+* [Coursera](https://www.coursera.org/courses?orderby=upcoming&search=ruby) - Online Ruby courses at various institutions
+* [did_you_mean](https://github.com/yuki24/did_you_mean) - Suggestions for typos in Ruby code
+* [edX](https://www.edx.org/course?search_query=ruby) - Ruby courses at edX
 * [exercism.io](http://exercism.io/) - Challenges with peer review!
 * [Introduction to Programming with Ruby](http://www.gotealeaf.com/books/ruby) - By Tealeaf Academy
 * [Learn Ruby the Hard Way](http://learnrubythehardway.org/book/) - Have fun with this
-* [Pry](http://pryrepl.org/) - IRB alternative
+* [Pry](http://pryrepl.org/) - IRB alternative, very feature-rich
 * [r/dailyprogrammer](http://www.reddit.com/r/dailyprogrammer) - Programming exercises, includes Ruby
+* [r/learnruby](http://www.reddit.com/r/learnruby) - Subreddit for beginners
 * [Rake](https://github.com/ruby/rake) - Make / Makefile-like build utility
 * [rbenv](https://github.com/sstephenson/rbenv) - Alternative to RVM
 * [replicate](https://github.com/rtomayko/replicate) - Dump and load relational objects between Ruby environments (eg: prod and dev)
@@ -817,13 +824,13 @@
 * [Rubeque](http://www.rubeque.com/problems) - Super easy to hard level challenges
 * [Ruby Gems](https://rubygems.org/) - The Ruby package manager.  Gems = libraries
 * [Ruby Koans](http://rubykoans.com/) - The most highly recommended tutorial
-* [Ruby Monk](https://rubymonk.com/) - 
+* [Ruby Monk](https://rubymonk.com/) - Free, interactive tutorials to help you discover Ruby idioms in your browser
 * [Ruby Quiz](http://rubyquiz.com/) - Weekly programming challenge
 * [Ruby Toolbox](https://www.ruby-toolbox.com/) - Trillions of Ruby projects, categorized
 * [Ruby Version Manager (RVM)](https://rvm.io/) - Install, manage, and work with multiple Ruby environments
 * [Ruby Warrior](https://www.bloc.io/ruby-warrior#/) - Coding challenges **WARNING** sound, but you can turn it off
 * [Try Ruby](http://tryruby.org) - Interactive tutorial in your web browser
-* [Tutorials Point - Ruby](http://www.tutorialspoint.com/ruby/) - 
+* [Tutorials Point](http://www.tutorialspoint.com/ruby/) - Interactive online course
 
 
 
@@ -1136,7 +1143,7 @@
 * [watch](http://linux.die.net/man/1/watch) - Run a command repeatedly at a specified interval and display the output
 * [watch-make](https://github.com/andrewffff/watch-make) - Monitor Makefile dependencies and kick off make when one changes
 * [watchman](https://github.com/facebook/watchman) - Watch files and take action when they change (eg: kick off the CI system)
-* [WebScaleSQL](http://webscalesql.org/) - Collaboration between some big players to make MySQL webscale
+* [WebScaleSQL](http://webscalesql.org/) - Huge scale MySQL with contributions from Facebook, Google, LinkedIn, and Twitter
 * [xCAT](http://sourceforge.net/p/xcat/wiki/Main_Page/) - Complete management solution for distributed systems
 * [Your Own URL Shortener (YOURLS)](http://yourls.org/) - Lets you run your own URL shortener a'la TinyURL or bit.ly
 * [watchr](https://github.com/mynyml/watchr) - Monitor a directory tree and kick off a script when a file changes, written in Ruby
