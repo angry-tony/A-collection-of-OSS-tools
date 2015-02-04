@@ -742,13 +742,15 @@
 * [MIT Open Courseware - Python Tutorial](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/python-tutorial/) - Python tutorial for people familiar with basic programming concepts
 * [New Coder](http://newcoder.io/tutorials/) - Python exercises
 * [Online Python Tutor](http://pythontutor.com/) - 100% in-browser
+* [Programming Praxis](http://programmingpraxis.com/) - Programming exercises, many posted solutions are in Python
 * [Python Challenge](http://www.pythonchallenge.com/) - A riddle in Python
 * [Python for You and Me](http://pymbook.readthedocs.org/en/py3/) - The 2.x version is linked on the main page
+* [Python Package Index (PyPI)](https://pypi.python.org/pypi) - Software repo for Python packages, like Ruby gems
 * [Python Practice Projects](http://pythonpracticeprojects.com/) - Several practice exercises
 * [Python 2.x Tutorial](https://docs.python.org/2/tutorial/index.html) - For 2.x, part of the official documentation
 * [Python 3.x Tutorial](https://docs.python.org/3/tutorial/index.html) - From the official documentation
-* [Programming Praxis](http://programmingpraxis.com/) - Programming exercises, many posted solutions are in Python
 * [Python Reference](https://github.com/rasbt/python_reference) - A collection of useful scripts, tutorials, and other Python-related things
+* [PyPy](http://pypy.org/) - Python alternative with advance features (JIT compiles, sandboxing, etc)
 * [Quiz and Learn Python](http://mobileicecube.com/quiz-learn-python/) - Designed for mobile devices
 * [r/dailyprogrammer](http://www.reddit.com/r/dailyprogrammer) - Programming exercises, includes Python
 * [r/learnpython](http://www.reddit.com/r/learnpython) - Subreddit for beginners
@@ -894,6 +896,7 @@
 * [ScoutBot](http://lansec.net/project/scoutbot/) - Automated network scanner for Raspberry Pi
 * [Security Engineering](http://www.cl.cam.ac.uk/~rja14/book.html) - Free online book
 * [Security Onion](http://securityonion.net/) - Linux distro for IDS, NSM, and log management
+* [Security Technical Implementation Guide (STIG)](http://iase.disa.mil/stigs/Pages/a-z.aspx) - Guides to securing almost every application, by the US military
 * [Snoopy Logger](https://github.com/a2o/snoopy) - Logs commands that are executed and saves the information to syslog
 * [Snort](https://www.snort.org/) - The classic network intrusion prevention system (NIPS)
 * [SoftEther](http://www.softether.org/) - Maybe the best VPN software out there
