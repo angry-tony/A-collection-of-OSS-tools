@@ -25,7 +25,6 @@
 * [Containers](#containers)
 * [Distributed Systems Tools](#distributed-systems-tools)
 * [File Sync and Sharing](#file-sync-and-sharing)
-* [Git and Related Tools](#git-and-related-tools)
 * [High Availability Clustering Tools](#high-availability-clustering-tools)
 * [High Performance Computing Tools](#high-performance-computing-tools)
 * [HTTP Load Generation Tools](#http-load-generation-tools)
@@ -45,6 +44,7 @@
 * [Security Tools](#security-tools)
 * [Shell Scripting](#shell-scripting)
 * [SSH Tools](#ssh-tools)
+* [Software Development Tools](#software-development-tools)
 * [Storage Tools](#storage-tools)
 * [Tracing Debugging Profiling](#tracing-debugging-profiling)
 * [Two Factor Authentication](#two-factor-authentication)
@@ -255,10 +255,12 @@
 * [Rudder](http://www.rudder-project.org/site/) - Automation and compliance, uses CFengine
 * [Rundeck](http://rundeck.org/) - Easy automation
 * [Salt](http://www.saltstack.com/) - Cloud orchestration, server provisioning, and configuration management
+* [ServerSpec](http://serverspec.org/) - RSpec tests for your servers configured by Puppet, Chef or anything else
 * [Slaughter](https://github.com/skx/slaughter) - Centralized system-administration & configuration tool
 * [Sovereign](https://github.com/al3x/sovereign) - Set of Ansible playbooks to deploy your own private cloud, very feature-rich
 * [spiceweasel](https://github.com/mattray/spiceweasel) - Quickly automates the creation of whole Chef environments (batch loading)
 * [ssl-vault](https://github.com/onbeep-cookbooks/ssl-vault) - Chef cookbook to manage SSL keys, certificates & chains using chef-vault
+* [Test Kitchen](http://kitchen.ci/) - Automated testing for configuration management tools (mostly Chef)
 * [Using Chef](http://usingchef.com/) - Chef weekly newsletter
 * [VirtKick](https://www.virtkick.io/) - Simple panel for orchestrating VMs and containers
 * [zero-user](https://github.com/rohit01/zero-users) - Zero hassle Linux user management, requires Ansible
@@ -332,32 +334,6 @@
 * [Syncany](https://www.syncany.org/) - Supports tons of different protocols for the transfer
 * [Tahoe-LAFS](https://www.tahoe-lafs.org/trac/tahoe-lafs) - Free and open decentralized cloud storage system
 * [Unison](http://www.cis.upenn.edu/~bcpierce/unison/) - Multiplatform, feature-rich file sync
-
-
-
-## Git and Related Tools
-* [A Hacker's Guide to Git](https://wildlyinaccurate.com/a-hackers-guide-to-git) - Includes user comments and feedback
-* [A Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html) - Includes diagrams, easy to understand
-* [ack](http://beyondgrep.com/) - grep-like tool designed to search source code
-* [Artifactory](http://www.jfrog.com/open-source/) - Probably the best way to store software artifacts and deal with dependency hell
-* [Barkeep](http://getbarkeep.org/) - Code review tool, kinda sorta like GitHub
-* [BFG Repo-Cleaner](https://github.com/rtyley/bfg-repo-cleaner) - Scrub large blobs and sensitive data from git history
-* [blackbox](https://github.com/StackExchange/blackbox) - Safely store secrets in Git
-* [boar](https://code.google.com/p/boar/) - Stores snapshots of directory trees in a local or remote repository, for BLOBs
-* [Completion](https://github.com/git/git/tree/master/contrib/completion) - Tab completion for branch names, supports various shells
-* [git-arr](http://blitiri.com.ar/p/git-arr/) - Repo browser that uses static HTML pages for reduced overhead
-* [git-fat](https://github.com/jedbrown/git-fat) - Like git-media but without the Ruby dependencies
-* [git-media](https://github.com/alebedev/git-media) - Use Git with large BLOBs without storing the BLOBs in Git itself
-* [GitLab](https://about.gitlab.com/) - Kinda like an open source GitHub
-* [gitwatch](https://github.com/nevik/gitwatch) - Automatically commit changes when specified files or directories are modified
-* [Gource](https://code.google.com/p/gource/) - Software version control visualization tool
-* [Interfaces, Frontends, and Tools](https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools) - Massive list on the kernel.org wiki
-* [Mergeatron ](https://github.com/behance/mergeatron) - Kicks off Jenkins a repo gets a PR, gives a thumbs up/down reply
-* [myrepos](http://myrepos.branchable.com/) - Flexible tool for managing many repos
-* [Phabricator](http://phabricator.org/) - Suite of web-based software development collaboration tools
-* [Pro Git 2nd Edition](http://git-scm.com/book/en/v2) - 100% free and complete ebook, published by Apress, recommended
-* [Silver Searcher, The (aka ag)](https://github.com/ggreer/the_silver_searcher) - Source code searching tool, similar to "ack" but faster
-* [Think like (a) Git](http://think-like-a-git.net/) - Complete online ebook
 
 
 
@@ -459,6 +435,7 @@
 * [logstash-forwarder](https://github.com/elasticsearch/logstash-forwarder) - Formerly Lumberjack, forwards logs to centralized server(s), very lightweight
 * [Logwatch](http://sourceforge.net/projects/logwatch/) - Monitor logs and send an e-mail when event(s) occur
 * [multilog](http://cr.yp.to/daemontools/multilog.html) - Reads a sequence of lines from stdin and appends selected lines to any number of logs
+* [multitail](http://www.vanheusden.com/multitail/) - Monitor multiple log files in a single terminal window
 * [NXLOG](http://nxlog-ce.sourceforge.net/) - Universal log collector and forwarder, supports many formats/platforms/sources including Windows
 * [OpenTSDB](http://opentsdb.net/) - Store and serve massive amounts of time series data without losing granularity
 * [Piwik](http://piwik.org/) - Web analytics platform with a killer UI
@@ -664,13 +641,16 @@
 * [dim_STAT](http://dimitrik.free.fr/) - Collects almost everything and stores it in a MySQL database, produces reports too
 * [dstat](http://dag.wiee.rs/home-made/dstat/) - Versatile replacement for vmstat, iostat, netstat and ifstat
 * [ESnet Fasterdata Knowledge Base](http://fasterdata.es.net/) - Provides proven, operationally sound methods for troubleshooting and solving performance issues
+* [EtherApe](http://etherape.sourceforge.net/) - Graphical network monitor, pretty output
 * [findswappers](https://gist.github.com/anonymous/7529780) - perl script that identifies swapped processes
+* [ftptop](http://linux.die.net/man/1/ftptop) - Monitor FTP connections in real time
 * [Glances](https://nicolargo.github.io/glances/) - Real-time monitoring, written in curses and Python
 * [htop](http://hisham.hm/htop/) - top replacement, has a few additional features
 * [iftop](http://www.ex-parrot.com/pdw/iftop/) - top for network interfaces
 * [ioping](https://code.google.com/p/ioping/) - Monitor I/O latency in real time
 * [iotop](http://guichaz.free.fr/iotop/) - top for I/O requests, displays information on a per-process basis
 * [iptraf](http://iptraf.seul.org/) - A top'esque program for network traffic, has multiple display modes, written in ncurses
+* [jnettop](http://jnettop.kubs.info/wiki/) - Traffic visualizer
 * [ksar](http://sourceforge.net/projects/ksar/) - Creates pretty graphs from sar output
 * [Linux Performance Observability Tools](http://www.brendangregg.com/Perf/linux_observability_tools.png) - Awesome graphic that shows you which tool to use, by Brendan Gregg
 * [mem_logger.sh](http://aarvik.dk/how-to-determine-which-process-is-highly-memory-consuming-over-time/) - Monitor a processes' memory usage over time
@@ -690,8 +670,10 @@
 * [PowerTOP](https://01.org/powertop) - Real-time power consumption on a per-process & per-thread basis
 * [ps_mem](https://github.com/pixelb/ps_mem) - Accurately reports core memory usage for a process
 * [recap](https://github.com/rackerlabs/recap) - Collects info from various standard utilities (free, sar, vmstat, etc) at specified intervals
+* [saidar](http://linux.die.net/man/1/saidar) - ncurses based program for viewing system statistics
 * [slabtop](http://www.toofishes.net/blog/linux-command-day-slabtop/) - Tutorial on how to use slabtop, useful when you have no idea on how your RAM is being used
 * [smem](http://www.selenic.com/smem/) - Reports memory usage based on proportional set size (PSS) instead of the usual resident set size (RSS)
+* [ss](http://linux.die.net/man/8/ss) - Socket statistics, a better netstat
 * [sysdig](http://www.sysdig.org/) - "Think of it as strace + tcpdump + lsof + awesome sauce.", recommended
 * [SmokePing](http://oss.oetiker.ch/smokeping/) - Network latency visualizer, written by the MRTG and RRDtool guy
 * [vnStat](http://humdi.net/vnstat/) - Console based traffic monitor, supports statistic collecting
@@ -719,6 +701,7 @@
 * [Vagrant](https://www.vagrantup.com/) - Quickly spin up environments for local testing and development
 * [Vagrant Manager](http://vagrantmanager.com/) - GUI to manage Vagrant boxes, supports Windows and OS X
 * [veewee](https://github.com/jedi4ever/veewee) - Packer alternative
+* [veewee-to-packer](https://github.com/mitchellh/veewee-to-packer) - Convert Veewee images to Packer
 
 
 
@@ -824,6 +807,7 @@
 * [replicate](https://github.com/rtomayko/replicate) - Dump and load relational objects between Ruby environments (eg: prod and dev)
 * [RSpec](https://en.wikipedia.org/wiki/RSpec) - Behavior-driven development (BDD) testing framework
 * [Rubeque](http://www.rubeque.com/problems) - Super easy to hard level challenges
+* [RuboCop](https://github.com/bbatsov/rubocop) - Static code analyzer that enforces guidelines
 * [Ruby Gems](https://rubygems.org/) - The Ruby package manager.  Gems = libraries
 * [Ruby Koans](http://rubykoans.com/) - The most highly recommended tutorial
 * [Ruby Monk](https://rubymonk.com/) - Free, interactive tutorials to help you discover Ruby idioms in your browser
@@ -969,6 +953,37 @@
 
 
 
+## Software Development Tools
+* [A Hacker's Guide to Git](https://wildlyinaccurate.com/a-hackers-guide-to-git) - Includes user comments and feedback
+* [A Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html) - Includes diagrams, easy to understand
+* [ack](http://beyondgrep.com/) - grep-like tool designed to search source code
+* [Artifactory](http://www.jfrog.com/open-source/) - Probably the best way to store software artifacts and deal with dependency hell
+* [Barkeep](http://getbarkeep.org/) - Code review tool, kinda sorta like GitHub
+* [BFG Repo-Cleaner](https://github.com/rtyley/bfg-repo-cleaner) - Scrub large blobs and sensitive data from git history
+* [blackbox](https://github.com/StackExchange/blackbox) - Safely store secrets in Git
+* [boar](https://code.google.com/p/boar/) - Stores snapshots of directory trees in a local or remote repository, for BLOBs
+* [Completion](https://github.com/git/git/tree/master/contrib/completion) - Tab completion for git branches, supports various shells
+* [GistBox](http://www.gistboxapp.com/) - Web UI for organizing Gists
+* [git-arr](http://blitiri.com.ar/p/git-arr/) - Repo browser that uses static HTML pages for reduced overhead
+* [git-fat](https://github.com/jedbrown/git-fat) - Like git-media but without the Ruby dependencies
+* [git-media](https://github.com/alebedev/git-media) - Use Git with large BLOBs without storing the BLOBs in Git itself
+* [GitLab](https://about.gitlab.com/) - Kinda like an open source GitHub
+* [gitwatch](https://github.com/nevik/gitwatch) - Automatically commit changes when specified files or directories are modified
+* [Gource](https://code.google.com/p/gource/) - Software version control visualization tool
+* [Imhotep](https://github.com/justinabrahms/imhotep) - Comments on commits coming into your repository and checks for syntactic errors and general lint warnings
+* [Interfaces, Frontends, and Tools](https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools) - Massive list on the kernel.org wiki
+* [Jenkins](http://jenkins-ci.org/) - The most popular CI orchestration tool, supports a billion plugins
+* [Mergeatron ](https://github.com/behance/mergeatron) - Kicks off Jenkins a repo gets a PR, gives a thumbs up/down reply
+* [myrepos](http://myrepos.branchable.com/) - Flexible tool for managing many repos
+* [Phabricator](http://phabricator.org/) - Suite of web-based software development collaboration tools
+* [Phare](https://github.com/mirego/phare) - Static code analysis
+* [Pro Git 2nd Edition](http://git-scm.com/book/en/v2) - 100% free and complete ebook, published by Apress, recommended
+* [Silver Searcher, The (aka ag)](https://github.com/ggreer/the_silver_searcher) - Source code searching tool, similar to "ack" but faster
+* [SonarQube](http://www.sonarqube.org/) - Platform / dashboard for managing code quality
+* [Think like (a) Git](http://think-like-a-git.net/) - Complete online ebook
+
+
+
 ## Storage Tools
 * [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) - Send a signal to an ATA drive to perform a hardware-based erase
 * [bcache](http://bcache.evilpiepirate.org/) - Block layer cache, allows SSDs to be used as caches for slower drivers\
@@ -1105,7 +1120,6 @@
 * [mockaroo](http://www.mockaroo.com/) - Generate up to 100,000 rows of realistic test data in CSV, JSON, SQL, and Excel formats
 * [moreutils](https://joeyh.name/code/moreutils/) - "Collection of the unix tools that nobody thought to write long ago when unix was young"
 * [multicast remote sync (mrsync)](http://sourceforge.net/projects/mrsync/) - Transfers from a master to many remote machines using Unix multicast sockets
-* [multitail](http://www.vanheusden.com/multitail/) - Monitor multiple log files in a single terminal window
 * [ncdu](http://linux.die.net/man/1/ncdu) - ncurses version of "du"
 * [Netflix OSS](https://github.com/netflix) - Netflix OSS tools on GitHub
 * [Notepad++](http://notepad-plus-plus.org/) - Killer GPL'ed text editor for Windows
@@ -1117,6 +1131,7 @@
 * [pg_shard](https://github.com/citusdata/pg_shard) - PostgreSQL extension to scale out real-time reads and writes
 * [Postgres-XL](http://www.postgres-xl.org/) - Scale-out version of PostgresSQL
 * [PRoot](http://proot.me/) - User-space version of chroot, great for testing and development
+* [Pushpin](http://pushpin.org/) - Proxy server that adds WebSockets to existing request-response APIs
 * [pv](http://linux.die.net/man/1/pv) - Shows the progress of data as it flows through a pipe
 * [Rackerlabs](https://rackerlabs.github.io/) - Rackspace's OSS tools, hosted on GitHub
 * [rcron](https://code.google.com/p/rcron/) - cron redundancy and failover, ensures a job will only run on the "active" machine
