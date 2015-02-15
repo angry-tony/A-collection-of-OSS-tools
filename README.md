@@ -323,7 +323,9 @@
 * [etcd](https://github.com/coreos/etcd) - Highly-available key value store for shared configuration and service discovery
 * [eureka](https://github.com/Netflix/eureka) - AWS Service registry for resilient mid-tier load balancing and failover, by Netflix
 * [FileUtils](http://fileutils.io/) - File utilities for distributed computing
+* [git2consul](https://www.npmjs.com/package/git2consul) - Mirror git repos to Consult K/V stores
 * [Herd](https://github.com/russss/Herd) - A single-command bittorrent distribution system, based on Twitter's [Murder](https://github.com/lg/murder)
+* [Hystrix](https://github.com/Netflix/Hystrix) - Library to stop cascading failures
 * [jespen](https://github.com/aphyr/jepsen) - Call Me Maybe: simulating network partitions in DBs
 * [kubernetes](https://github.com/GoogleCloudPlatform/kubernetes) - Container cluster manager
 * [Marathon](https://github.com/mesosphere/marathon) - Mesos scheduler for "always on" jobs (eg: web services)
@@ -554,6 +556,7 @@
 * [CoDel](https://en.wikipedia.org/wiki/CoDel) - Network scheduling algorithm designed to overcome bufferbloat
 * [Comcast](https://github.com/tylertreat/Comcast) - Simulate crappy network connections
 * [curlish](https://pythonhosted.org/curlish/) - Improved curl, includes cookie management and OAuth support
+* [Dnsmasq](https://en.wikipedia.org/wiki/Dnsmasq) - Lightweight DNS forwarder and DHCP server
 * [DNSsec](http://www.reddit.com/r/netsec/comments/vmd2e/i_dont_understand_dnssec_anyone_care_to_give_an/) - Reddit posters in r/netsec explain DNSSec
 * [dummynet](http://info.iet.unipi.it/~luigi/dummynet/) - Simulates/enforces queue and bandwidth limitations, delays, packet losses, and multipath effects
 * [firewalld](https://fedoraproject.org/wiki/FirewallD) - Replaces iptables, included in RHEL/CentOS 7
@@ -1031,6 +1034,7 @@
 * [git-arr](http://blitiri.com.ar/p/git-arr/) - Repo browser that uses static HTML pages for reduced overhead
 * [git-fat](https://github.com/jedbrown/git-fat) - Like git-media but without the Ruby dependencies
 * [git-media](https://github.com/alebedev/git-media) - Use Git with large BLOBs without storing the BLOBs in Git itself
+* [GitHub Pull Request Builder Plugin (gprbp)](https://github.com/janinko/ghprb) - Allows certain comment strings to kick off builds
 * [GitLab](https://about.gitlab.com/) - Kinda like an open source GitHub
 * [GitLab CI](https://about.gitlab.com/gitlab-ci/) - CI that integrates with GitLab
 * [Gitorious](http://getgitorious.com/) - Web front end for git, can be deployed as an appliance
@@ -1085,6 +1089,8 @@
 
 ## Text Editors IDEs and Related Tools
 * [Atom](http://atom.io) - Superb text editor, created by GitHub
+* [Atom Linter](https://github.com/AtomLinter) - A collection of lint tools for the Atom editor\
+* [Eclipse](https://eclipse.org/) - The well known Java IDE
 * [Etherpad](https://github.com/ether) - Enter, save, and share text/code in a web browser
 * [HasteBin](http://hastebin.com/about.md) - Open source pastebin alternative for sharing code, can be installed locally / on-site
 * [LargeFile](http://www.vim.org/scripts/script.php?script_id=1506) - vim plugin that automatically disables certain things so you can edit large files faster
