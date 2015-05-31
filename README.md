@@ -75,6 +75,7 @@
 * [IT World](http://www.itworld.com/)
 * [Network Computing](http://www.networkcomputing.com/)
 * [Network World](http://www.networkworld.com)
+* [SD Times](http://sdtimes.com/)
 * [ServerWatch](http://www.serverwatch.com/)
 * [SiliconANGLE](http://siliconangle.com/)
 * [TechCrunch](http://techcrunch.com/)
@@ -244,6 +245,7 @@
 * [grocery-delivery](https://github.com/facebook/grocery-delivery) - Utility for managing cookbook uploads to distributed Chef backends
 * [hiera-eyaml](https://github.com/TomPoulton/hiera-eyaml) - Backend for Hiera that provides per-value encryption of sensitive data within Puppet yaml files
 * [Juju](https://juju.ubuntu.com/) - Ubuntu focused but works on RHEL / CentOS now
+* [kitchen-puppet](https://github.com/neillturner/kitchen-puppet) - Test Kitchen provisioner for Puppet
 * [knife-backup](https://github.com/mdxp/knife-backup) - Knife plugin to help backup and restore a Chef server
 * [knife-sharp](https://github.com/Fotolia/knife-sharp) - Adds features such as data bag/environment/role sync & backup
 * [Knife Community Plugins](https://docs.getchef.com/community_plugin_knife.html) - List of community written plugins for Knife
@@ -297,6 +299,7 @@
 * [Flocker](https://github.com/ClusterHQ/flocker) - Docker container and data management
 * [Flynn](https://flynn.io/) - PaaS built on top of Docker
 * [geard](https://registry.hub.docker.com/u/ccoleman/geard/) - CLI tool for installing Docker images as containers onto a systemd-enabled Linux system
+* [Kitematic](https://kitematic.com/) - Mac app for managing docker containers
 * [libcontainer](https://github.com/docker/libcontainer) - Used by Docker 1.0+ so it doesn't have to use LXC/libvirt/systemd-nspawn
 * [libswarm](https://github.com/docker/libswarm) - Toolkit to compose network services, by Docker
 * [Linux Containers (LXC)](https://linuxcontainers.org/) - Runs an OS instance (sshd, cron, daemons, init, etc) within a container
@@ -305,6 +308,8 @@
 * [nsenter](https://github.com/jpetazzo/nsenter) - Attach to a Docker container
 * [Panamax](http://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub
 * [pipework](https://github.com/jpetazzo/pipework) - SDN for Linux Containers
+* [Rancher](http://rancher.com/) - Docker orchestrator
+* [Registrator](https://github.com/gliderlabs/registrator) - Service registry bridge for Docker
 * [Rocket](https://github.com/coreos/rocket) - New container system by the CoreOS guys
 * [ShutIt](https://github.com/ianmiell/shutit) - Manage your build process in a way that is both structured and flexible
 * [SmartDataCenter (SDC)](https://github.com/joyent/sdc/) - Containers and SmartOS, by Joyent
@@ -410,8 +415,10 @@
 * [Locust](http://locust.io/) - Written in Python, allows you to define user behavior
 * [Siege](http://www.joedog.org/siege-home/) - CLI based, supports basic authentication, cookies, and HTTPS
 * [Tsung](http://tsung.erlang-projects.org/) - Used to stress HTTP, WebDAV, SOAP, PostgreSQL, MySQL, LDAP and Jabber/XMPP servers
+* [vegeta](https://github.com/tsenart/vegeta) - Written in Go
 * [Web Performance Today](http://www.webperformancetoday.com/) - News site dedicated to web / HTTP performance
 * [wrk](https://github.com/wg/wrk) - Multi-threaded CLI tool
+* [wrk2](https://github.com/giltene/wrk2) - Fork of wrk that fixes the coordinated omissions problem
 
 
 
@@ -450,6 +457,7 @@
 * [IRCcat](https://github.com/RJ/irccat) - Sent log messages and alerts to an IRC channel, can also use IRC to send commands
 * [kairosdb](https://github.com/kairosdb/kairosdb) - Time series DB written on top of Cassandra
 * [Kibana](http://www.elasticsearch.org/overview/kibana/) - Visualization component of the ELK stack
+* [Log Courier](https://github.com/driskell/log-courier) - Enhanced fork of Logstash Forwarder
 * [Logplex](https://github.com/heroku/logplex) - Distributed syslog log router, uses Redis
 * [logstalgia](https://code.google.com/p/logstalgia/) - Web site access log visualization tool, aka Apache Pong
 * [logstash](http://logstash.net/) - Collect, parse, and store logs.  A component of the popular ELK stack
@@ -497,6 +505,7 @@
 * [Graphite Tools](https://graphite.readthedocs.org/en/latest/tools.html) - Tools that work with Graphite
 * [Heka / hekad](http://hekad.readthedocs.org/en/latest/) - Stream processing, can gather logs or performance metrics
 * [Icinga](https://www.icinga.org/) - Nagios fork, updated frequently
+* [Icinga2](https://www.icinga.org/icinga/icinga-2/) - Complete re-write of Icinga
 * [jmxtrans](https://github.com/jmxtrans/jmxtrans) - Connector between speaking to a JVM via JMX on one end and whatever logging / monitoring / graphing package
 * [Kale](https://codeascraft.com/2013/06/11/introducing-kale/) - Monitoring stack by Etsy
 * [LibreNMS](http://www.librenms.org/) - GPL fork of Observium
@@ -533,6 +542,7 @@
 * [Thruk](http://www.thruk.org/) - Web based, can create SLA reports, has a mobile client
 * [Uchiwa](https://github.com/sensu/uchiwa) - Dashboard for Sensu
 * [Uptime](https://github.com/fzaninotto/uptime) - Remote monitoring application using Node.js, MongoDB, and Twitter Bootstrap
+* [Varnish Dashboard](https://github.com/brandonwamboldt/varnish-dashboard) - Realtime dashboard for Varnish cache servers
 * [Xymon](https://www.xymon.com/) - Fork of Big Brother
 * [Zabbix](http://www.zabbix.com/) - Stores monitoring data in a DB, has agents for almost every OS
 * [Zenoss](http://www.zenoss.org/) - Supports Nagios plug-in format
@@ -559,11 +569,15 @@
 * [Dnsmasq](https://en.wikipedia.org/wiki/Dnsmasq) - Lightweight DNS forwarder and DHCP server
 * [DNSsec](http://www.reddit.com/r/netsec/comments/vmd2e/i_dont_understand_dnssec_anyone_care_to_give_an/) - Reddit posters in r/netsec explain DNSSec
 * [dummynet](http://info.iet.unipi.it/~luigi/dummynet/) - Simulates/enforces queue and bandwidth limitations, delays, packet losses, and multipath effects
+* [Facebook Open Switching System (FBOSS)](https://github.com/facebook/fboss) - FB's software stack for managing and controlling whitebox switches
 * [firewalld](https://fedoraproject.org/wiki/FirewallD) - Replaces iptables, included in RHEL/CentOS 7
+* [fping](https://github.com/schweikert/fping) - High performance ping (ya, really)
 * [ipcalc](http://linux.die.net/man/1/ipcalc) - CLI tool to calculate subnets, netmasks, IP ranges, broadcast addresses, and more
 * [iptstate](http://linux.die.net/man/8/iptstate) - A top-like display of IP Tables state table entries
 * [GridFTP](http://toolkit.globus.org/toolkit/docs/latest-stable/gridftp/) - Supports parallel streams
+* [httpdiff](https://github.com/jgrahamc/httpdiff) - Perform the same reuqest against two HTTP servers and diff the results
 * [httpie](https://github.com/jakubroztocil/httpie) - curl replacement with many new features
+* [intrace](https://github.com/robertswiecki/intrace) - Enumerate IP hops using existing TCP connections
 * [lftp](http://lftp.yar.ru/) - Supports many protocols (FTPS, HTTPS, SFTP), scheduling, bandwidth throttling, scripting, and more
 * [localtunnel](https://localtunnel.me/) - Share a web service on your local development machine without messing with DNS and firewall settings
 * [mitmproxy](http://mitmproxy.org/) - Intercept, modify, replay and save HTTP/S traffic, edit flows on the fly
@@ -590,36 +604,41 @@
 * [Sloppy](http://www.dallaway.com/sloppy/) - Proxy server that slows down connections for testing
 * [SMB Multichannel](http://blogs.technet.com/b/josebda/archive/2012/05/13/the-basics-of-smb-multichannel-a-feature-of-windows-server-2012-and-smb-3-0.aspx) - Multiple SMB streams over a single TCP connection, killer feature
 * [socat](http://www.dest-unreach.org/socat/) - netcat on steroids, supports serial devices
+* [SSL Decoder](https://github.com/RaymiiOrg/ssl-decoder) - Decodes a SSL connection and displays certificate information
 * [sslh](http://www.rutschle.net/tech/sslh.shtml) - Protocol multiplexer, forwards packets based on the first packet
 * [Stanford Linear Accelerator Center - Network Monitoring Tools](https://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html) - MASSIVE list of network monitoring tools
 * [tc](http://linux.die.net/man/8/tc) - Built-in Linux kernel traffic control
 * [tcpflow](https://github.com/simsong/tcpflow) - TCP demultiplexer, each flow is stored in it's own file
 * [TCPWatch](https://pypi.python.org/pypi/tcpwatch) - TCP monitoring and logging tool
 * [tengine](https://github.com/alibaba/tengine) - A distribution of Nginx with some advanced features
+* [Tracebox](http://www.tracebox.org/) - Detect middleboxes (NAT, transparent proxies, etc) in a network path
 * [trickle](http://linux.die.net/man/1/trickle) - Userspace bandwidth shaper
 * [UDR](https://github.com/LabAdvComp/UDR) - UDT wrapper for rsync that improves throughput of large data transfers over long distances
 * [Varnish](https://www.varnish-cache.org/) - Caching HTTP accelerator
 * [WireShark](https://www.wireshark.org/) - The classic network analyzer
 * [WireShark Tools](http://wiki.wireshark.org/Tools) - Superb list of network tools from the WireShark wiki
+* [Yconalyzer](http://yconalyzer.sourceforge.net/) - Monitor and analyze TCP connections
 * [Your Own URL Shortener (YOURLS)](http://yourls.org/) - Lets you run your own URL shortener a'la TinyURL or bit.ly
 * [ZeroTier](https://www.zerotier.com/) - Cloud / provider-agnostic private network backplanes
 
 
 
 ## Packages and Repositories
+* [Aminator](https://github.com/Netflix/aminator) - Create application-specific custom AMIs, by Netflix
 * [apt-dater](http://www.ibh.de/apt-dater/) - ncurses frontend for package management via SSH, also supports yum
 * [aptly](http://www.aptly.info/) - Debian-centric, includes repo support and the ability to take snapshots for easy rollback
 * [CentOS Errata for Spacewalk (CEFS)](http://cefs.steve-meier.de/) - Import errata information from CentOS-announce into Spacewalk
 * [CentOS Repositories](http://wiki.centos.org/AdditionalResources/Repositories) - Large list of both official and unofficial CentOS software repositories
 * [CentOS Software Collections (SCL)](http://wiki.centos.org/AdditionalResources/Repositories/SCL) - Use multiple versions of software on a system without disturbing the system default version
 * [Copr](https://copr.fedoraproject.org/) - Automatic build system providing a package repository as its output
+* [cowbuilder](https://wiki.debian.org/cowbuilder) - Package builder that uses copy-on-write (COW) to speed up the build process
 * [DNF](https://fedoraproject.org/wiki/Features/DNF) - Package management system that will replace Yum in upcoming Fedora releases
+* [Effing Package Management (fpm)](https://github.com/jordansissel/fpm) - Build packages for multiple platforms (deb, rpm, etc) with great ease and sanity
 * [ELRepo](http://elrepo.org) - Repo that focuses on hardware related packages, supports RHEL and CentOS
 * [Extra Packages for Enterprise Linux (EPEL)](https://fedoraproject.org/wiki/EPEL) - Supports CentOS, RHEL, Scientific Linux, and Oracle Linux
 * [Extra Packaging Guidelines and Policies for EPEL](https://fedoraproject.org/wiki/EPEL/GuidelinesAndPolicies) - Packaging guidelines, great even if not creating EPEL stuff
 * [Fedora Packaging Guidelines](https://fedoraproject.org/wiki/Packaging:Guidelines) - Excellent information that can be applied to CentOS & RHEL
 * [fpm-cookery](https://github.com/bernd/fpm-cookery) - Tool for building software packages with FPM
-* [Fucking Package Management (fpm)](https://github.com/jordansissel/fpm) - Build packages for multiple platforms (deb, rpm, etc) with great ease and sanity
 * [IUS SafeRepo Initiative](https://iuscommunity.org/pages/TheSafeRepoInitiative.html) - Create "safe" 3rd party repos
 * [Koji](https://fedoraproject.org/wiki/Koji) - Software that builds packages for Fedora, can be used for other stuff too, uses mock
 * [Mock](https://fedoraproject.org/wiki/Projects/Mock) - Build packages in a simple chroot so you don't blow up your system
@@ -763,6 +782,8 @@
 * [Google Python Class](https://developers.google.com/edu/python/) - By the GOOG
 * [Hitchhiker’s Guide to Python](http://docs.python-guide.org) - Best-practice handbook to the installation, configuration, and usage of Python.
 * [IPython](http://ipython.org/) - Interactive Python, like a shell or environment
+* [Jinja2](http://jinja.pocoo.org/docs/dev/) - Templating language for Python
+* [Micro Python](https://micropython.org/) - Python for microcontrollers and embedded systems
 * [MIT Open Courseware - Introduction to Computer Science and Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/) - Focuses on Python
 * [MIT Open Courseware - A Gentle Introduction to Programming Using Python](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/) - Final project is a Tetris game in Python
 * [MIT Open Courseware - Objects in Python](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-5-objects-in-python/) - Python tuples, lists, and dictionaries, as well as the concept of mutability and how to avoid problems relating to it.
@@ -791,11 +812,13 @@
 
 
 ## RDBMS Load Generation and Performance Tools
+* [Anemometer](https://github.com/box/Anemometer) - MySQL slow query log monitor and analyzer
 * [db_STRESS](http://dimitrik.free.fr/) - Database benchmarking and stress-testing kit, supports most DBs
 * [DBMonster](http://sourceforge.net/projects/dbmonster/) - Generates random test data and puts it into a SQL database
 * [HammerDB](http://hammerora.sourceforge.net/) - Load testing and benchmark tool, supports most DBs
 * [innotop](https://code.google.com/p/innotop/) - "top" for MySQL -- NOTE: beware of exposing your password
 * [MySQLtuner-perl](http://mysqltuner.com/) - Analyzes a MySQL installation and provides suggestions to increase performance
+* [MySQL Performance Analyzer](https://github.com/yahoo/mysql_perf_analyzer) - Open sourced by Yahoo
 * [MySQL Performance Blog](http://www.percona.com/blog/) - Run by Percona, one of the top names in MySQL support and performance tuning
 * [mytop](http://jeremy.zawodny.com/mysql/mytop/) - Another "top" for MySQL
 * [Open PostgreSQL Monitoring (OPM)](http://opm.io/) - Includes a web console
@@ -820,7 +843,9 @@
 * [Flyway](http://flywaydb.org/) - Version control for DB schemas, supports most DBs, highly recommended
 * [HeidiSQL](http://www.heidisql.com/) - GUI SQL DB browser and editor
 * [migrit](http://whtevn.github.io/migrit/) - Iterative schema migrations for MySQL
+* [MySQL Data Dumper (mydumper)](https://launchpad.net/mydumper) - Much better than mysqldump
 * [pg_shard](https://github.com/citusdata/pg_shard) - PostgreSQL extension to scale out real-time reads and writes
+* [pgloader](http://pgloader.io/) - Fast data loader for PostgreSQL
 * [Postgres-XL](http://www.postgres-xl.org/) - Scale-out version of PostgresSQL
 * [rdbms-subsetter](https://github.com/18F/rdbms-subsetter) - Generate a random sample of rows from a relational database that preserves referential integrity, great for using production data for testing/dev
 * [SQL Fiddle](http://sqlfiddle.com/) - Write and test SQL
@@ -831,7 +856,7 @@
 ## Regular Expressions
 * [Learn regex the Hard Way](http://regex.learncodethehardway.org/book/) - The hard way
 * [Refiddle](http://refiddle.com/) - Online, supports JavaScript, Ruby, and .NET only
-* [regex101](http://regex101.com/) - Online regex tester and debugger, supports multiple languages
+* [regex101](http://regex101.com/) - Online regex tester and debugger, supports multiple languages -- recommended
 * [RegexBuddy](http://www.regexbuddy.com/) - Highly recommended, works on Windows or WINE -- commercial software
 * [RegexOne](http://regexone.com/) - Learn regular expressions with simple, interactive examples.
 * [RegExr](http://www.regexr.com/) - Another online regex tool that includes cheat sheets, examples, and community-contributed expressions
@@ -857,6 +882,7 @@
 * [fog](http://fog.io/) - Cloud services library for Ruby
 * [Introduction to Programming with Ruby](http://www.gotealeaf.com/books/ruby) - By Tealeaf Academy
 * [Learn Ruby the Hard Way](http://learnrubythehardway.org/book/) - Have fun with this
+* [Omniref](https://www.omniref.com/) - A better search site for Ruby documentation
 * [Pry](http://pryrepl.org/) - IRB alternative, very feature-rich
 * [r/dailyprogrammer](http://www.reddit.com/r/dailyprogrammer) - Programming exercises, includes Ruby
 * [r/learnruby](http://www.reddit.com/r/learnruby) - Subreddit for beginners
@@ -880,6 +906,7 @@
 
 ## Security Tools
 * [Advanced Intrusion Detection Environment (AIDE)](http://aide.sourceforge.net/) - File integrity checker, alternative to Tripwire
+* [American Fuzzy Lop (afl-fuzz)](http://lcamtuf.coredump.cx/afl/) - One of the best fuzzers
 * [Angry IP Scanner](http://angryip.org/) - Supports plugins, also gathers NetBIOS information
 * [Armitage](http://www.fastandeasyhacking.com/) - GUI for Metasploit
 * [Automatic Server Hardening](http://telekomlabs.github.io/) - Scripts and cookbooks/manifests for Puppet and Chef
@@ -911,6 +938,7 @@
 * [Information Security Cheat Sheets and Checklists](http://zeltser.com/cheat-sheets/) - An assortment of IS checklists and cheat sheets
 * [Jailkit](http://olivier.sessink.nl/jailkit/) - chroot toolkit
 * [Kali Linux](http://www.kali.org/) - Penetration testing Linux distro
+* [Keywhiz](https://square.github.io/keywhiz/) - A system for distributing and managing secrets (API keys, certificates, etc)
 * [Kippo](https://github.com/desaster/kippo) - SSH honeypot
 * [knockd](http://www.zeroflux.org/projects/knock/) - Port knocking server for Linux
 * [LibreSSL](http://www.libressl.org/) - OpenBSD's fork of OpenSSL, Linux compatible
@@ -926,6 +954,7 @@
 * [OpenVPN](https://openvpn.net/) - Well known open source VPN
 * [Open Source Tripwire](http://sourceforge.net/projects/tripwire/) - File integrity checker and monitor, replacement for the now closed-source Tripwire
 * [Open Web Application Security Project (OWASP)](https://www.owasp.org/index.php/Main_Page) - Focus on application security
+* [Open Web Application Security Project (OWASP)](https://www.owasp.org/index.php/Main_Page) - Focus on application security
 * [Oracle Database Attacking Tool (ODAT)](https://github.com/quentinhardy/odat) - Open source penetration testing tool that tests the security of Oracle databases remotely
 * [OSSEC](http://www.ossec.net/) - Host based intrusion detection system (HIDS), supports most Unix-like OSes
 * [pfsense](https://www.pfsense.org/) - The best firewall software, supports appliances and Live CDs
@@ -939,6 +968,7 @@
 * [Security Engineering](http://www.cl.cam.ac.uk/~rja14/book.html) - Free online book
 * [Security Onion](http://securityonion.net/) - Linux distro for IDS, NSM, and log management
 * [Security Technical Implementation Guide (STIG)](http://iase.disa.mil/stigs/Pages/a-z.aspx) - Guides to securing almost every application, by the US military
+* [Sneaker](https://github.com/codahale/sneaker) - Store secrets on S3 using Amazon KMS
 * [Snoopy Logger](https://github.com/a2o/snoopy) - Logs commands that are executed and saves the information to syslog
 * [Snort](https://www.snort.org/) - The classic network intrusion prevention system (NIPS)
 * [SoftEther](http://www.softether.org/) - Maybe the best VPN software out there
@@ -951,6 +981,7 @@
 * [sudosh2](http://sourceforge.net/projects/sudosh2/) - Login shell that records all keystrokes and output, supports session playback
 * [tinc](http://www.tinc-vpn.org/) - Simple, multi-platform VPN
 * [Tripwire](http://sourceforge.net/projects/tripwire/) - File integrity checker and monitor, open source version
+* [Vault](https://github.com/hashicorp/vault) - Tool for storing secrets (API keys, passwords, certs, etc) by Hashicorp
 * [VirusTotal](https://www.virustotal.com/) - Allows you to upload a file and have it scanned by tons of virus scanners
 * [Zenmap](http://nmap.org/zenmap/) - Official GUI for Nmap
 * [ZMap](https://zmap.io/) - Scan the entire Internet (or a specified IPv4 range)
@@ -1030,14 +1061,17 @@
 * [Elita](https://bitbucket.org/scorebig/elita) - API based CD framework/engine that uses git and Salt
 * [Environment Modules](http://modules.sourceforge.net/) - Dynamic modification of your shell environment using modules
 * [fig](https://github.com/mfoemmel/fig) - A way to create "environments" for developers (dependencies, etc)
+* [FindBugs](https://en.wikipedia.org/wiki/FindBugs) - Static code analyser for Java
 * [GistBox](http://www.gistboxapp.com/) - Web UI for organizing Gists
 * [git-arr](http://blitiri.com.ar/p/git-arr/) - Repo browser that uses static HTML pages for reduced overhead
 * [git-fat](https://github.com/jedbrown/git-fat) - Like git-media but without the Ruby dependencies
 * [git-media](https://github.com/alebedev/git-media) - Use Git with large BLOBs without storing the BLOBs in Git itself
+* [GitBucket](https://github.com/takezoe/gitbucket) - GitHub clone written in Scala
 * [GitHub Pull Request Builder Plugin (gprbp)](https://github.com/janinko/ghprb) - Allows certain comment strings to kick off builds
 * [GitLab](https://about.gitlab.com/) - Kinda like an open source GitHub
 * [GitLab CI](https://about.gitlab.com/gitlab-ci/) - CI that integrates with GitLab
 * [Gitorious](http://getgitorious.com/) - Web front end for git, can be deployed as an appliance
+* [GitTorrent](https://github.com/cjb/gittorrent) - A decentralization of GitHub using BitTorrent and Bitcoin
 * [gitwatch](https://github.com/nevik/gitwatch) - Automatically commit changes when specified files or directories are modified
 * [Gource](https://code.google.com/p/gource/) - Software version control visualization tool
 * [Hubot](https://hubot.github.com/) - Chat bot that can do deploys, look up images, integrate with Google Maps, and tons of other stuff
@@ -1047,13 +1081,15 @@
 * [JSON Formatter](http://www.bodurov.com/JsonFormatter/) - Automatically format JSON code, 100% client side
 * [Mergeatron](https://github.com/behance/mergeatron) - Kicks off Jenkins a repo gets a PR, gives a thumbs up/down reply
 * [myrepos](http://myrepos.branchable.com/) - Flexible tool for managing many repos
-* [PatchELF](https://github.com/NixOS/patchelf) - Simple utility for modifing existing ELF executables and libraries
+* [Ninja](https://martine.github.io/ninja/) - Small build system with a focus on speed
+* [PatchELF](https://github.com/NixOS/patchelf) - Simple utility for modifying existing ELF executables and libraries
 * [Phabricator](http://phabricator.org/) - Suite of web-based software development collaboration tools
 * [Phare](https://github.com/mirego/phare) - Static code analysis
 * [Pro Git 2nd Edition](http://git-scm.com/book/en/v2) - 100% free and complete ebook, published by Apress, recommended
 * [PRoot](http://proot.me/) - User-space version of chroot, great for testing and development
 * [Pushpin](http://pushpin.org/) - Proxy server that adds WebSockets to existing request-response APIs
 * [Review Board](https://www.reviewboard.org/) - Code review tool for multiple SCM systems
+* [RocksDB](http://rocksdb.org/) - Library that provides an embeddable, persistent key-value store for fast storage - by Facebook
 * [Silver Searcher, The (aka ag)](https://github.com/ggreer/the_silver_searcher) - Source code searching tool, similar to "ack" but faster
 * [SonarQube](http://www.sonarqube.org/) - Platform / dashboard for managing code quality
 * [Swagger](http://swagger.io/) - A JSON format/standard that describes a RESTful API
@@ -1098,6 +1134,7 @@
 * [percol](https://github.com/mooz/percol) - Interactive grep tool
 * [Sticky Notes](http://sayakb.github.io/sticky-notes/pages/home/) - On-site / local pastebin
 * [Sublime Text](http://www.sublimetext.com/) - Ok it's closed source and costs money but it's probably the best one out there
+* [vim-json](https://github.com/elzr/vim-json) - A better JSON plugin for vim
 
 
 
@@ -1118,6 +1155,7 @@
 * [MiniProfiler](https://github.com/MiniProfiler/rack-mini-profiler) - Ruby rack profiler
 * [netconsole](https://wiki.archlinux.org/index.php/Netconsole) - Send console messages over the network
 * [OProfile](http://oprofile.sourceforge.net/) - System-wide statistical profiling tool
+* [peep](https://github.com/evan/peep) - Heap inspector for live memcached instances
 * [perf](https://perf.wiki.kernel.org/index.php/Main_Page) - User-land performance analysis tool
 * [pstore](http://lwn.net/Articles/434821/) - Save kernel crash info in a platform-specific area to ensure the data is not lost (eg: disks failed, can't write it there)
 * [rails-footnotes](https://github.com/josevalim/rails-footnotes) - Rails performance profiler
@@ -1175,19 +1213,22 @@
 * [Filewatcher](https://github.com/thomasfl/filewatcher) - Written in Ruby, monitors changes in the file system by polling
 * [ForgeRock](http://forgerock.org/) - Enterprise identification management and access (IAM)
 * [FreeIPA](http://www.freeipa.org/page/Main_Page) - Identity, policy, and audit suite, think Active Directory for Linux
+* [FreeMind](http://freemind.sourceforge.net/) - OSS mind mapping software, great for brainstorming
 * [gcalcli](https://github.com/insanum/gcalcli) - CLI for Google Calendar
 * [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any web page look like a Geocities page
 * [grabmem](https://github.com/dacresni/grabmem) - Allocates memory until the machine runs out or you quit it with ctrl-c
+* [Graphviz](http://www.graphviz.org/) - Graph visualization and flow chart software
 * [Gravit](http://hub.gravit.io/browser/) - Web-based vector image editor / design tool, source code is available on GitHub
 * [gt5](http://gt5.sourceforge.net/) - A "du browser", handy for finding large files
 * [incrond](http://inotify.aiken.cz/?section=incron&page=about&lang=en) - Fires off a job when a file system event happens
 * [Inkscape](http://www.inkscape.org/en/) - Open source vector image editor
 * [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) - ISO standard for dates, the only way to fly
-* [jclouds](https://jclouds.apache.org/) - Multi-cloud toolkit for the Java platform, create apps that are portable across clouds
 * [Inconsolation](http://inconsolation.wordpress.com/index/) - MASSIVE list of lightweight and (legit) obscure tools
 * [inotify](https://github.com/rvoicilas/inotify-tools) - Watch file(s) for changes, take an action when the change occurs
 * [inxi](https://code.google.com/p/inxi/) - "a full featured system information script" (hardware info, etc)
+* [jq](https://stedolan.github.io/jq/) - Command line JSON processor
 * [Keybase](https://keybase.io/) - Upload your public key and find other people's public key via their social media user name(s)
+* [Let's Chat](https://sdelements.github.io/lets-chat/) - Self-hosted open source HipChat clone
 * [lz4](https://code.google.com/p/lz4/) - Crazy fast compression algorithm
 * [maim](https://github.com/naelstrof/maim) - Linux desktop screenshot tool
 * [mockaroo](http://www.mockaroo.com/) - Generate up to 100,000 rows of realistic test data in CSV, JSON, SQL, and Excel formats
@@ -1201,6 +1242,7 @@
 * [rcron](https://code.google.com/p/rcron/) - cron redundancy and failover, ensures a job will only run on the "active" machine
 * [Request Tracker](http://www.bestpractical.com/rt/) - Bug tracking, help desk ticketing, customer service, workflow processes, change management and more
 * [ScreenCloud](https://screencloud.net/) - Take a screenshot and either upload it to their site to share, or save it locally
+* [Skitch](https://evernote.com/skitch/) - Feature-rich screenshot and annotation tool
 * [Snappy](https://code.google.com/p/snappy/) - Compression that aims for very high speed and reasonable compression, by Google
 * [supervisord](http://supervisord.org/) - Process control, kinda like an init replacement but not really
 * [Synergy](http://synergy-project.org/) - Share a single keyboard and mouse with multiple physical computers
