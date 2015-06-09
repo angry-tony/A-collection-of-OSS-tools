@@ -188,6 +188,7 @@
 * [Disk ARchive (DAR)](http://dar.linux.free.fr/) - Better than tar, focuses on disks instead of tapes
 * [Duplicati](http://www.duplicati.com/) - Supports encryption and dedupe
 * [Duplicity](http://duplicity.nongnu.org/) - Encrypted bandwidth-efficient backup using the rsync algorithm
+* [Fpart](http://sourceforge.net/projects/fpart/) - Packs file systems into "partitions" so you can do multi-threaded or multi-node rsyncs
 * [FSArchiver](http://www.fsarchiver.org/Main_Page) - Save the contents of a file system to a compressed archive, if one of the checksums doesn't match the file is lost, not the whole backup
 * [Grsync](http://www.opbyte.it/grsync/) - GUI for rsync
 * [lsyncd](https://github.com/axkibe/lsyncd) - Watches a local directory trees event monitor interface (inotify or fsevents) and kicks off an rsync when things change
@@ -472,6 +473,7 @@
 * [pgBadger](http://dalibo.github.io/pgbadger/) - PostgreSQL log analyzer
 * [Simple Event Correlator (SEC)](http://simple-evcorr.sourceforge.net/) - Event correlation tool for advanced event processing
 * [swatch](http://linux.die.net/man/1/swatch) - Simple watcher
+* [sysinfo_influxdb](https://github.com/novaquark/sysinfo_influxdb) - Collect system metrics and store them in an InfluxDB server
 * [Webalizer](http://www.webalizer.org/) - Web and FTP log analyzer
 
 
@@ -597,6 +599,7 @@
 * [OpenResty](http://openresty.org/) - Turn nginx into a non-blocking API server
 * [Paris Traceroute](http://www.paris-traceroute.net/) - Shows proper network topology when load balancers and load-balanced routers are used
 * [PageKite](https://pagekite.net/) - Makes web servers or SSH publicly available on any server
+* [POSTman](https://github.com/a85/POSTMan-Chrome-Extension/) - Create and share HTTP requests, great for testing APIs - Chrome plugin
 * [prettyping.sh](https://bitbucket.org/denilsonsa/small_scripts/src/tip/prettyping.sh) - bash wrapper for ping to create pretty output
 * [Quagga](http://www.nongnu.org/quagga/) - Routing software suite, supports most routing protocols
 * [Repose](http://openrepose.org/) - REST proxy
@@ -608,6 +611,7 @@
 * [sslh](http://www.rutschle.net/tech/sslh.shtml) - Protocol multiplexer, forwards packets based on the first packet
 * [Stanford Linear Accelerator Center - Network Monitoring Tools](https://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html) - MASSIVE list of network monitoring tools
 * [tc](http://linux.die.net/man/8/tc) - Built-in Linux kernel traffic control
+* [tcpdstat](https://github.com/netik/tcpdstat) - Get protocol statistics from tcpdump / PCAP files
 * [tcpflow](https://github.com/simsong/tcpflow) - TCP demultiplexer, each flow is stored in it's own file
 * [TCPWatch](https://pypi.python.org/pypi/tcpwatch) - TCP monitoring and logging tool
 * [tengine](https://github.com/alibaba/tengine) - A distribution of Nginx with some advanced features
@@ -650,6 +654,7 @@
 * [reposync](http://linux.die.net/man/1/reposync) - Synchronize yum repositories to a local directory
 * [rpm-ostree](https://github.com/projectatomic/rpm-ostree) - Take RPM packages and commit them to an OSTree repository
 * [RPM Fusion](http://rpmfusion.org/) - Provides software that the Fedora Project or Red Hat doesn't want to ship
+* [schroot](http://linux.die.net/man/1/schroot) - Allow non-root users to create chroot environments, great for package testing
 * [Spacewalk](http://www.spacewalkproject.org/) - Provides package management (among other things)
 * [yum-presto](https://fedoraproject.org/wiki/Features/Presto) - yum plugin that provides support for downloading package deltas instead of whole packages
 * [yum-security](http://linux.die.net/man/8/yum-security) - Plugin to only install security updates
@@ -1078,6 +1083,7 @@
 * [Imhotep](https://github.com/justinabrahms/imhotep) - Comments on commits coming into your repository and checks for syntactic errors and general lint warnings
 * [Interfaces, Frontends, and Tools](https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools) - Massive list on the kernel.org wiki
 * [Jenkins](http://jenkins-ci.org/) - The most popular CI orchestration tool, supports a billion plugins
+* [Jenkins Job DSL Plugin](https://github.com/jenkinsci/job-dsl-plugin) - Groovy-based DSL for writing Jenkins jobs
 * [JSON Formatter](http://www.bodurov.com/JsonFormatter/) - Automatically format JSON code, 100% client side
 * [Mergeatron](https://github.com/behance/mergeatron) - Kicks off Jenkins a repo gets a PR, gives a thumbs up/down reply
 * [myrepos](http://myrepos.branchable.com/) - Flexible tool for managing many repos
