@@ -323,6 +323,7 @@
 * [Aurora](https://aurora.incubator.apache.org/) - Mesos scheduler for "always on" jobs, similar to Marathon
 * [Bamboo](https://github.com/QubitProducts/bamboo) - HAProxy auto configuration and auto service discovery for Marathon
 * [Chronos](https://github.com/airbnb/chronos) - Distributed, fault tolerant cron scheduler that runs on top of Apache Mesos
+* [Cisco Cloud Microservices Infrastructure](https://github.com/CiscoCloud/microservices-infrastructure) - Complete suite of OSS tools
 * [crypt](https://github.com/xordataexchange/crypt) - Store and retrieve encrypted configs from etcd or consul
 * [consul](http://www.consul.io/) - Service discovery and configuration via DNS or HTTP, great for auto-scaling
 * [Curator](https://github.com/Netflix/curator) - ZooKeeper client wrapper and rich ZooKeeper framework, by Netflix
@@ -333,9 +334,12 @@
 * [Herd](https://github.com/russss/Herd) - A single-command bittorrent distribution system, based on Twitter's [Murder](https://github.com/lg/murder)
 * [Hystrix](https://github.com/Netflix/Hystrix) - Library to stop cascading failures
 * [jespen](https://github.com/aphyr/jepsen) - Call Me Maybe: simulating network partitions in DBs
+* [Kong](http://getkong.org/) - Microservice / API management layer
 * [kubernetes](https://github.com/GoogleCloudPlatform/kubernetes) - Container cluster manager
 * [Marathon](https://github.com/mesosphere/marathon) - Mesos scheduler for "always on" jobs (eg: web services)
+* [marathon-consul](https://github.com/CiscoCloud/marathon-consul) - Bridge Marathon information into Consul K/V stores
 * [Mesos](https://mesos.apache.org/) - Cluster manager and scheduler, similar to Google's Borg and Omega projects
+* [mesos-consul](https://github.com/CiscoCloud/mesos-consul) - Register/de-register Mesos tasks in Consul
 * [Mesosphere](https://github.com/mesosphere) - Apache Mesos schedulers for almost anything
 * [Myriad](https://github.com/mesos/myriad) - YARN framework/scheduler
 * [nsq](http://nsq.io/) - Realtime distributed messaging platform / message queue
@@ -471,6 +475,7 @@
 * [OpenTSDB](http://opentsdb.net/) - Store and serve massive amounts of time series data without losing granularity
 * [Piwik](http://piwik.org/) - Web analytics platform with a killer UI
 * [pgBadger](http://dalibo.github.io/pgbadger/) - PostgreSQL log analyzer
+* [Sentry](https://github.com/getsentry/sentry) - Application exception logging
 * [Simple Event Correlator (SEC)](http://simple-evcorr.sourceforge.net/) - Event correlation tool for advanced event processing
 * [swatch](http://linux.die.net/man/1/swatch) - Simple watcher
 * [sysinfo_influxdb](https://github.com/novaquark/sysinfo_influxdb) - Collect system metrics and store them in an InfluxDB server
@@ -1207,6 +1212,7 @@
 * [Awesome](https://github.com/sindresorhus/awesome) - A curated list of awesome lists
 * [blockdiag](http://blockdiag.com/en/) - Generate simple block/sequence/activity/network diagrams from text files
 * [Checkpoint/Restore in Userspace (CRIU)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later
+* [CockroachDB](http://www.cockroachlabs.com/) - Open source version of Google's Spanner storage system
 * [conserver](http://www.conserver.com/) - Virtual console server with many features
 * [Cygwin](https://www.cygwin.com/) - GNU shell and tools for Windows
 * [dotfiles](http://dotfiles.github.io/) - Store your .bashrc and others on GitHub
