@@ -19,6 +19,7 @@
 
 # Table of Contents
 * [Asset Management](#asset-management)
+* [AWS Tools](#aws-tools)
 * [Backups](#backups)
 * [Bootable USB Tools](#bootable-usb-tools)
 * [Configuration Management and Orchestration](#configuration-management-and-orchestration)
@@ -174,6 +175,20 @@
 
 
 
+## AWS Tools
+* [awstools](https://github.com/iMilnb/awstools) - Some handy AWS tools and scripts that use boto3 and troposphere
+* [boto](https://github.com/boto/boto) - Python library for interfacing with AWS **USE BOTO3 INSTEAD**
+* [boto3](https://github.com/boto/boto3) - Python library for interfacing with AWS, aka AWS SDK for Python
+* [CloudBerry Explorer](http://www.cloudberrylab.com/free-amazon-s3-explorer-cloudfront-IAM.aspx) - Windows client for accessing AWS S3 buckets -- freeware, closed source
+* [Developer Tools](https://aws.amazon.com/developertools/) - 3rd party tools for AWS - not screened or supported by Amazon
+* [ElasticWolf](http://www.elasticwolf.com/) - Client-side GUI for managing AWS, has versions for Windows/Mac/Linux/Firefox
+* [troposphere](https://github.com/cloudtools/troposphere) - Python library to create CloudFormation descriptions
+* [s3cmd](http://s3tools.org/s3cmd) - Backup to AWS via the command line
+* [StarCluster](http://star.mit.edu/cluster/) - Toolkit for using AWS for high performance computing (HPC)
+* [Tools for Amazon Web Services](https://aws.amazon.com/tools/) - Amazon's portal for their official tools
+
+
+
 ## Backups
 * [Amanda](http://www.amanda.org/) - The classic
 * [Attimatic](https://torsion.org/atticmatic/) - Wrapper for attic to make it easier and more reliable 
@@ -181,6 +196,7 @@
 * [Backupninja](https://labs.riseup.net/code/projects/backupninja) - Centralize way to configure and schedule many different backup utilities
 * [BackUp and Restore Program (BURP)](http://burp.grke.org/) - Reduces network traffic and the amount of space required by using librsync
 * [BackupPC](http://backuppc.sourceforge.net/) - Dedupe and a web GUI for restores
+* [Backup](https://github.com/backup/backup) - RubyGem for backup and restore, supports tons of platforms and notifiers (RDBMS, S3, Dropbox, rsync, Hipchat, Zabbix)
 * [Bacula](http://www.bacula.org/) - Open source backup tool, lots of downloads so I guess it's good I don't know
 * [Back in Time](http://backintime.le-web.org/) - Similar to TimeMachine, simple GUI backup program
 * [bup](https://github.com/bup/bup) - Uses the git packfile format, supports global dedupe, can use "par2" redundancy
@@ -198,7 +214,6 @@
 * [Redo Backup and Recovery](http://redobackup.org/) - Simple bare metal backup and restore
 * [Relax and Recover (REAR)](http://relax-and-recover.org/) - BMR, simple
 * [rsnapshot](http://www.rsnapshot.org/) - Uses rsync and hard links, can keep multiple full backups available while using very little disk space
-* [s3cmd](http://s3tools.org/s3cmd) - Backup to AWS via the command line
 * [SafeKeep](http://safekeep.sourceforge.net/) - Superb project, uses LVM snapshots
 * [SnapRAID](http://snapraid.sourceforge.net/) - Backup program that also stores RAID parity information
 * [UrBackup](http://www.urbackup.org/) - Supports Windows, has a web interface
@@ -229,6 +244,7 @@
 * [Awesome Chef](https://github.com/obazoud/awesome-chef) - A curated list of amazingly awesome Chef resources
 * [Batou](http://batou.readthedocs.org/en/latest/) - Define and perform automated service deployments
 * [Berkshelf](http://berkshelf.com/) - Like Bundler for Chef cookbooks, manages dependencies
+* [Blueprint](https://github.com/devstructure/blueprint) - Reverse engineer a server configuration
 * [BOSH](https://github.com/cloudfoundry/bosh) - Cloud orchestration, supports Docker containers too
 * [Boxen](https://github.com/boxen/our-boxen) - Focused on Mac / OS X
 * [Capistrano](http://capistranorb.com/) - Run scripts/commands and push software using SSH, a RubyGem, uses a Rake DSL
@@ -275,6 +291,7 @@
 * [Sovereign](https://github.com/al3x/sovereign) - Set of Ansible playbooks to deploy your own private cloud, very feature-rich
 * [spiceweasel](https://github.com/mattray/spiceweasel) - Quickly automates the creation of whole Chef environments (batch loading)
 * [ssl-vault](https://github.com/onbeep-cookbooks/ssl-vault) - Chef cookbook to manage SSL keys, certificates & chains using chef-vault
+* [tarball](https://github.com/ooyala/tarball-chef-cookbook) - Ruby-based resource provider to manage tarballs in Chef
 * [Test Kitchen](http://kitchen.ci/) - Automated testing for configuration management tools (mostly Chef)
 * [Using Chef](http://usingchef.com/) - Chef weekly newsletter
 * [VirtKick](https://www.virtkick.io/) - Simple panel for orchestrating VMs and containers
@@ -283,6 +300,7 @@
 
 
 ## Containers
+* [Bocker](https://github.com/p8952/bocker) - Docker written in 100 lines of shell
 * [boot2docker](http://boot2docker.io/) - Lightweight Linux distribution running Docker, packaged as an VM for OS X and Windows
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers
 * [Control Center](http://controlcenter.io/) - App management and orchestration, can manage Docker applications
@@ -291,6 +309,7 @@
 * [Docker-Registry](https://github.com/docker/docker-registry) - Source code to Docker Registry, allows you to create private registries
 * [Docker Nano](https://github.com/Docker-nano) - The smallest possible Docker images
 * [dockerfiles](https://github.com/firecat53/dockerfiles) - Great little collection of pre-made Docker files
+* [DockerUI](https://github.com/crosbymichael/dockerui) - Web interface for Docker
 * [Docker Hub Registry](https://registry.hub.docker.com/) - Official Docker images for many projects
 * [Dokku](https://github.com/progrium/dokku) - Docker powered mini-Heroku in around 100 lines of Bash
 * [Dokku Alternative](https://github.com/dokku-alt/dokku-alt) - Dokku fork, supports plugins
@@ -300,6 +319,7 @@
 * [Flocker](https://github.com/ClusterHQ/flocker) - Docker container and data management
 * [Flynn](https://flynn.io/) - PaaS built on top of Docker
 * [geard](https://registry.hub.docker.com/u/ccoleman/geard/) - CLI tool for installing Docker images as containers onto a systemd-enabled Linux system
+* [Hyper](https://hyper.sh/) - Hypervisor-agnostic Docker engine
 * [Kitematic](https://kitematic.com/) - Mac app for managing docker containers
 * [libcontainer](https://github.com/docker/libcontainer) - Used by Docker 1.0+ so it doesn't have to use LXC/libvirt/systemd-nspawn
 * [libswarm](https://github.com/docker/libswarm) - Toolkit to compose network services, by Docker
@@ -312,6 +332,7 @@
 * [Rancher](http://rancher.com/) - Docker orchestrator
 * [Registrator](https://github.com/gliderlabs/registrator) - Service registry bridge for Docker
 * [Rocket](https://github.com/coreos/rocket) - New container system by the CoreOS guys
+* [Shipyard](https://github.com/shipyard/shipyard) - Composable Docker management toolkit
 * [ShutIt](https://github.com/ianmiell/shutit) - Manage your build process in a way that is both structured and flexible
 * [SmartDataCenter (SDC)](https://github.com/joyent/sdc/) - Containers and SmartOS, by Joyent
 * [Ventriloquist](https://github.com/fgrehm/ventriloquist) - Combines Vagrant and Docker to give developers the ability to configure portable and disposable dev environments
@@ -353,7 +374,6 @@
 
 ## File Sync and Sharing
 * [BitTorrent Sync (btsync)](https://www.btsync.com/en/) - Sync on the local network or over the internet -- closed source
-* [CloudBerry Explorer](http://www.cloudberrylab.com/free-amazon-s3-explorer-cloudfront-IAM.aspx) - Windows client for accessing AWS S3 buckets -- freeware, closed source
 * [Cloud Explorer](http://www.getcloudexplorer.com/) - Access storage on multiple clouds, Windows -- freeware, closed source
 * [ownCloud](http://owncloud.org/) - The most popular file sync and share program
 * [Pulse](https://ind.ie/pulse/) - Uses an ID rather than an IP address, share your ID with friends and go.  Formerly Syncthing
@@ -405,7 +425,6 @@
 * [Parallel Python](http://www.parallelpython.com/) - 
 * [Rocks Cluster Distribution](http://www.rocksclusters.org/wordpress/) - 
 * [Simple Linux Utility for Resource Management (Slurm)](http://slurm.schedmd.com/) - One of the mostly widely used schedulers
-* [StarCluster](http://star.mit.edu/cluster/) - Toolkit for using AWS for HPC
 * [TORQUE](http://www.adaptivecomputing.com/products/open-source/torque/) - 
 
 
@@ -608,10 +627,12 @@
 * [prettyping.sh](https://bitbucket.org/denilsonsa/small_scripts/src/tip/prettyping.sh) - bash wrapper for ping to create pretty output
 * [Quagga](http://www.nongnu.org/quagga/) - Routing software suite, supports most routing protocols
 * [Repose](http://openrepose.org/) - REST proxy
+* [scapy](https://pypi.python.org/pypi/scapy) - Interactive packet manipulation tools written in Python
 * [Server Name Indication (SNI)](https://wiki.apache.org/httpd/NameBasedSSLVHostsWithSNI) - Think vhosts for SSL
 * [Sloppy](http://www.dallaway.com/sloppy/) - Proxy server that slows down connections for testing
 * [SMB Multichannel](http://blogs.technet.com/b/josebda/archive/2012/05/13/the-basics-of-smb-multichannel-a-feature-of-windows-server-2012-and-smb-3-0.aspx) - Multiple SMB streams over a single TCP connection, killer feature
 * [socat](http://www.dest-unreach.org/socat/) - netcat on steroids, supports serial devices
+* [spiped](https://www.tarsnap.com/spiped.html) - Create encrypted pipes between socket addresses using PSKs, similar to ssh -L
 * [SSL Decoder](https://github.com/RaymiiOrg/ssl-decoder) - Decodes a SSL connection and displays certificate information
 * [sslh](http://www.rutschle.net/tech/sslh.shtml) - Protocol multiplexer, forwards packets based on the first packet
 * [Stanford Linear Accelerator Center - Network Monitoring Tools](https://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html) - MASSIVE list of network monitoring tools
@@ -654,6 +675,7 @@
 * [mrepo](http://dag.wiee.rs/home-made/mrepo/) - Yum & APT repository mirroring, formerly Yam
 * [OStree](https://wiki.gnome.org/Projects/OSTree) - Tool for managing bootable, immutable, versioned filesystem trees (not really a package manager but...)
 * [Package Repository Manager (PRM)](https://github.com/dnbert/prm) - OS-independent package repository tool
+* [pkgr](http://crohr.me/pkgr/) - Made deb or RPM packages out of any Ruby, NodeJS, or Go app
 * [Pulp](http://www.pulpproject.org/) - Next generation repository management, a component of Red Hat Satellite 6
 * [Red Hat Software eee (SCL)](https://www.softwarecollections.org/) - Use multiple versions of software on a system without disturbing the system default version
 * [reposync](http://linux.die.net/man/1/reposync) - Synchronize yum repositories to a local directory
@@ -681,11 +703,13 @@
 * [lastpass-cli](https://github.com/lastpass/lastpass-cli) - CLI for LastPass
 * [msktutil](http://linux.die.net/man/1/msktutil) - Keytab client for a Microsoft Active Directory environment
 * [One-Time Secret](https://github.com/onetimesecret/onetimesecret) - Create links that self-destruct after a single viewing, great for sharing passwords
-* [pass](http://www.passwordstore.org/) - Uses GPG at it's core, supports tracking password changes in git
+* [pass (passwordstore)](http://www.passwordstore.org/) - Uses GPG at it's core, supports tracking password changes in git
+* [passff](https://github.com/jvenant/passff) - Firefox addon for interacting with the a pass/passwordstore repository
 * [Password Gorilla](https://github.com/zdia/gorilla/wiki) - Written in Tcl/Tk
 * [Password Pusher](https://github.com/pglombardo/PasswordPusher) - Links to passwords expire after a certain number of views and/or time has passed, RoR app
 * [Password Safe](http://pwsafe.org/) - Designed by Bruce Schneier himself
 * [Pleasant Password Server](http://www.pleasantsolutions.com/passwordserver/) - Multi-user management tool for KeePass, great for businesses -- commercial software
+* [pwd.sh](https://github.com/drduh/pwd.sh) - Script to manage passwords in an encrypted file using GPG
 * [pwgen](http://linux.die.net/man/1/pwgen) - Password generated, included in most Linux distros
 * [RatticDB](http://rattic.org/) - Web-based password management, includes an API, great for teams or companies
 * [scrypt](https://www.tarsnap.com/scrypt.html) - Super secure against hardware brute-force attacks, is also a part of/module for most programming languages
@@ -736,6 +760,7 @@
 * [pmap](http://milianw.de/code-snippets/tracking-memory-consumption-using-pmap) - Shell scripts for tracking memory usage using "pmap"
 * [PowerTOP](https://01.org/powertop) - Real-time power consumption on a per-process & per-thread basis
 * [ps_mem](https://github.com/pixelb/ps_mem) - Accurately reports core memory usage for a process
+* [ptop](https://github.com/black-perl/ptop) - top/ntop-like task monitor written in Python
 * [recap](https://github.com/rackerlabs/recap) - Collects info from various standard utilities (free, sar, vmstat, etc) at specified intervals
 * [saidar](http://linux.die.net/man/1/saidar) - ncurses based program for viewing system statistics
 * [slabtop](http://www.toofishes.net/blog/linux-command-day-slabtop/) - Tutorial on how to use slabtop, useful when you have no idea on how your RAM is being used
@@ -744,6 +769,7 @@
 * [sysdig](http://www.sysdig.org/) - "Think of it as strace + tcpdump + lsof + awesome sauce.", recommended
 * [SmokePing](http://oss.oetiker.ch/smokeping/) - Network latency visualizer, written by the MRTG and RRDtool guy
 * [vnStat](http://humdi.net/vnstat/) - Console based traffic monitor, supports statistic collecting
+* [vnstati](http://linux.die.net/man/1/vnstati) - Creates PNG images using vnStat data
 * [wtop](https://github.com/ClockworkNet/wtop) - Another top for Apache
 
 
@@ -767,7 +793,7 @@
 * [Pallet](http://palletops.com/) - Aims to solve the problem of providing a consistently configured running image across a range of clouds
 * [Razor](https://github.com/puppetlabs/razor-server) - Puppet provisioning software that handles bare metal hardware and virtual server provisioning
 * [Sandstorm](https://sandstorm.io/) - Download, install, and run apps in a container
-* [Terraform](http://www.terraform.io/) - Infrastructure provisioning using existing tools
+* [Terraform](http://www.terraform.io/) - Infrastructure provisioning using existing tools, supports many providers (AWS, Azure, DO, OpenStack, etc)
 * [Vagrant](https://www.vagrantup.com/) - Quickly spin up environments for local testing and development
 * [vagrant-cachier](http://fgrehm.viewdocs.io/vagrant-cachier) - Creates a common cache among all Vagrant boxes to reduce the amount of downloading
 * [Vagrant Manager](http://vagrantmanager.com/) - GUI to manage Vagrant boxes, supports Windows and OS X
@@ -781,9 +807,9 @@
 * [2.7 and 3.x Differences](https://news.ycombinator.com/item?id=8026102) - The differences between 2.7 and 3.x with examples, via Hacker News
 * [500 Lines](https://github.com/aosabook/500lines) - Many full Python programs written in 500 lines or less, great for beginners
 * [Awesome Python](https://github.com/vinta/awesome-python) - Very large list of Python resources
-* [boto](https://github.com/boto/boto) - Python interface to AWS
 * [bpython](http://bpython-interpreter.org/) - Killer interface for the Python interpreter
 * [Codecademy](http://www.codecademy.com/tracks/python) - Codecademy's online Python course
+* [CodingBat](http://codingbat.com/python) - Practice problems
 * [Common Python Mistakes](https://news.ycombinator.com/item?id=7715349) - Link and discussion on Hacker News
 * [Coursera](https://www.coursera.org/courses?orderby=upcoming&search=python) - Online Python courses at various institutions
 * [Dive Into Python 3](http://getpython3.com/diveintopython3/) - Free ebook
@@ -855,6 +881,7 @@
 * [migrit](http://whtevn.github.io/migrit/) - Iterative schema migrations for MySQL
 * [MySQL Data Dumper (mydumper)](https://launchpad.net/mydumper) - Much better than mysqldump
 * [pg_shard](https://github.com/citusdata/pg_shard) - PostgreSQL extension to scale out real-time reads and writes
+* [pgcli](https://github.com/dbcli/pgcli) - Postgres CLI with autocomplete and syntax highlighting
 * [pgloader](http://pgloader.io/) - Fast data loader for PostgreSQL
 * [Postgres-XL](http://www.postgres-xl.org/) - Scale-out version of PostgresSQL
 * [rdbms-subsetter](https://github.com/18F/rdbms-subsetter) - Generate a random sample of rows from a relational database that preserves referential integrity, great for using production data for testing/dev
@@ -942,6 +969,7 @@
 * [Forensics Wiki](http://www.forensicswiki.org/wiki/Main_Page) - Digital forensics wiki, tons of tools and information
 * [FTimes](http://sourceforge.net/projects/ftimes/) - System baselining and evidence collection tool
 * [fwknop (FireWall KNock OPerator)](http://www.cipherdyne.org/fwknop/) - Single Packet Authorization (SPA) aka next-generation port knocking
+* [hashcat (oclHashcat)](https://hashcat.net/oclhashcat/) - World's fastest password cracker / recovery software, supports GPUs
 * [HoneyDrive](http://bruteforce.gr/honeydrive) - Honeypot appliance
 * [hping](http://www.hping.org/) - Create custom TCP/IP packets, very flexible, see also hping3
 * [HTTP Strict Transport Secuirity (HSTS)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) - Forces browsers to interact with a site by only using HTTPS
@@ -988,10 +1016,13 @@
 * [sslsniff](https://github.com/moxie0/sslsniff) - A tool for automated MITM attacks on SSL connections
 * [SSLsplit](http://www.roe.ch/SSLsplit) - Transparent and scalable SSL/TLS interception
 * [sslyze](https://github.com/nabla-c0d3/sslyze) - Fast and full-featured SSL scanner, written in Python
+* [SubBrute](https://github.com/TheRook/subbrute) - Subdomain enumeration tool for penetration testers
 * [sudosh2](http://sourceforge.net/projects/sudosh2/) - Login shell that records all keystrokes and output, supports session playback
 * [tinc](http://www.tinc-vpn.org/) - Simple, multi-platform VPN
+* [Tomb](https://github.com/dyne/tomb) - zsh wrapper script for cryptsetup + gpg + LUKS volumes
 * [Tripwire](http://sourceforge.net/projects/tripwire/) - File integrity checker and monitor, open source version
 * [Vault](https://github.com/hashicorp/vault) - Tool for storing secrets (API keys, passwords, certs, etc) by Hashicorp
+* [VeraCrypt](https://veracrypt.codeplex.com/) - Successor to and fork of TrueCrypt, supports Linux, Windows, and Mac
 * [VirusTotal](https://www.virustotal.com/) - Allows you to upload a file and have it scanned by tons of virus scanners
 * [Zenmap](http://nmap.org/zenmap/) - Official GUI for Nmap
 * [ZMap](https://zmap.io/) - Scan the entire Internet (or a specified IPv4 range)
@@ -1083,13 +1114,16 @@
 * [Gitorious](http://getgitorious.com/) - Web front end for git, can be deployed as an appliance
 * [GitTorrent](https://github.com/cjb/gittorrent) - A decentralization of GitHub using BitTorrent and Bitcoin
 * [gitwatch](https://github.com/nevik/gitwatch) - Automatically commit changes when specified files or directories are modified
+* [gkv](https://github.com/ybur-yug/gkv) - Use git as a KV key/value store
 * [Gource](https://code.google.com/p/gource/) - Software version control visualization tool
 * [Hubot](https://hubot.github.com/) - Chat bot that can do deploys, look up images, integrate with Google Maps, and tons of other stuff
 * [Imhotep](https://github.com/justinabrahms/imhotep) - Comments on commits coming into your repository and checks for syntactic errors and general lint warnings
 * [Interfaces, Frontends, and Tools](https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools) - Massive list on the kernel.org wiki
 * [Jenkins](http://jenkins-ci.org/) - The most popular CI orchestration tool, supports a billion plugins
-* [Jenkins Job DSL Plugin](https://github.com/jenkinsci/job-dsl-plugin) - Groovy-based DSL for writing Jenkins jobs
+* [Jenkins JobConfigHistory](https://wiki.jenkins-ci.org/display/JENKINS/JobConfigHistory+Plugin) - Tracks changes to system and job configurations
+* [Jenkins Job DSL Plugin (jenkins-job-dsl)](https://github.com/jenkinsci/job-dsl-plugin) - Groovy-based DSL for writing Jenkins jobs
 * [JSON Formatter](http://www.bodurov.com/JsonFormatter/) - Automatically format JSON code, 100% client side
+* [libgit2](https://github.com/libgit2) - Library for interfacing with git via Ruby, Python, Go, and others
 * [Mergeatron](https://github.com/behance/mergeatron) - Kicks off Jenkins a repo gets a PR, gives a thumbs up/down reply
 * [myrepos](http://myrepos.branchable.com/) - Flexible tool for managing many repos
 * [Ninja](https://martine.github.io/ninja/) - Small build system with a focus on speed
@@ -1241,6 +1275,7 @@
 * [jq](https://stedolan.github.io/jq/) - Command line JSON processor
 * [Keybase](https://keybase.io/) - Upload your public key and find other people's public key via their social media user name(s)
 * [Let's Chat](https://sdelements.github.io/lets-chat/) - Self-hosted open source HipChat clone
+* [LICEcap](http://www.cockos.com/licecap/) - Capture an area of your desktop (eg: a terminal) and save it to a GIF
 * [lz4](https://code.google.com/p/lz4/) - Crazy fast compression algorithm
 * [maim](https://github.com/naelstrof/maim) - Linux desktop screenshot tool
 * [mockaroo](http://www.mockaroo.com/) - Generate up to 100,000 rows of realistic test data in CSV, JSON, SQL, and Excel formats
@@ -1249,6 +1284,7 @@
 * [Netflix OSS](https://github.com/netflix) - Netflix OSS tools on GitHub
 * [observr](https://github.com/kevinburke/observr) - Monitor a directory and kick off an action when a file in the directory changes
 * [parallel](https://www.gnu.org/software/parallel/) - Execute jobs in parallel using one or more computers
+* [pigz](http://zlib.net/pigz/) - Parallel gzip for multi-processor/core systems
 * [pv](http://linux.die.net/man/1/pv) - Shows the progress of data as it flows through a pipe
 * [Rackerlabs](https://rackerlabs.github.io/) - Rackspace's OSS tools, hosted on GitHub
 * [rcron](https://code.google.com/p/rcron/) - cron redundancy and failover, ensures a job will only run on the "active" machine
