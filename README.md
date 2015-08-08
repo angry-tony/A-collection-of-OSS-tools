@@ -24,6 +24,7 @@
 * [Bootable USB Tools](#bootable-usb-tools)
 * [Configuration Management and Orchestration](#configuration-management-and-orchestration)
 * [Containers](#containers)
+* [Dashboards and Visualization](#dashboards-and-visualization)
 * [Distributed Systems Tools](#distributed-systems-tools)
 * [File Sync and Sharing](#file-sync-and-sharing)
 * [High Availability Clustering Tools](#high-availability-clustering-tools)
@@ -31,21 +32,25 @@
 * [HTTP Load Generation Tools](#http-load-generation-tools)
 * [IO Load Generation Tools](#io-load-generation-tools)
 * [Logging and Log Management](#logging-and-log-management)
+* [Metric Collection Analaysis and Storage](#metric-collection-analaysis-and-storage)
 * [Monitoring and Alerting](#monitoring-and-alerting)
 * [Network Load Generation Tools](#network-load-generation-tools)
 * [Networking Tools](#networking-tools)
 * [Packages and Repositories](#packages-and-repositories)
-* [Password Management](#password-management)
+* [Password and Secret Management](#password-and-secret-management)
 * [Performance Monitoring](#performance-monitoring)
 * [Provisioning and Lifecycle Management](#provisioning-and-lifecycle-management)
-* [Python Tutorials and Resources](#python-tutorials-and-resources)
+* [Python Resources](#python-resources)
+* [Python Tutorials](#python-tutorials)
 * [RDBMS Load Generation and Performance Tools](#rdbms-load-generation-and-performance-tools)
 * [RDBMS Tools](#rdbms-tools)
 * [Regular Expressions](#regular-expressions)
-* [Ruby Tutorials and Resources](#ruby-tutorials-and-resources)
+* [Ruby Resources](#ruby-resources)
+* [Ruby Tutorials](#ruby-tutorials)
 * [Security Tools](#security-tools)
 * [Shell Scripting](#shell-scripting)
 * [SSH Tools](#ssh-tools)
+* [SSL TLS HTTPS Tools](#ssl-tls-https-tools)
 * [Software Development Tools](#software-development-tools)
 * [Storage Tools](#storage-tools)
 * [Text Editors, IDEs, and Related Tools](text-editors-ides-and-related-tools)
@@ -184,6 +189,7 @@
 * [ElasticWolf](http://www.elasticwolf.com/) - Client-side GUI for managing AWS, has versions for Windows/Mac/Linux/Firefox
 * [troposphere](https://github.com/cloudtools/troposphere) - Python library to create CloudFormation descriptions
 * [s3cmd](http://s3tools.org/s3cmd) - Backup to AWS via the command line
+* [Sneaker](https://github.com/codahale/sneaker) - Store secrets on S3 using Amazon KMS
 * [StarCluster](http://star.mit.edu/cluster/) - Toolkit for using AWS for high performance computing (HPC)
 * [Tools for Amazon Web Services](https://aws.amazon.com/tools/) - Amazon's portal for their official tools
 
@@ -340,6 +346,46 @@
 
 
 
+## Dashboards and Visualization
+* [Awesome Dashboard](https://github.com/obazoud/awesome-dashboard) - A collection of dashboards
+* [Bigdesk](http://bigdesk.org/) - Live charts and statistics for Elasticsearch cluster
+* [blockdiag](http://blockdiag.com/en/) - Generate simple block/sequence/activity/network diagrams from text files
+* [Cachet](https://cachethq.io/) - Create beautiful, responsive status pages.  Written in PHP
+* [Cacti](http://cacti.net/) - Web-based network monitoring and graphing tool designed as a front-end to RRDtool
+* [collectd3](https://github.com/StackStorm/collectd3) - Beautiful D3JS visualizations of system performance statistics
+* [Dashing](http://dashing.io/) - Dashboard framework written in Ruby
+* [Dashing Widgets](https://github.com/Shopify/dashing/wiki/Additional-Widgets) - Massive collection of widgets for Dashing
+* [draw.io](https://www.draw.io/) - Free online flow chart maker / Visio alternative
+* [Freeboard](http://freeboard.io/) - Ridiculously simple dashboards for your devices
+* [GoAccess](http://goaccess.io/) - Real-time web log analyzer and interactive viewer that runs in a terminal and/or dashboard
+* [Graphite-Sankey](https://github.com/NetworksAreMadeOfString/Graphite-Sankey) - Turns Graphite targets into a D3.js Sankey visualization
+* [Inkscape](http://www.inkscape.org/en/) - Open source vector image editor
+* [Kibana](http://www.elasticsearch.org/overview/kibana/) - Visualization component of the ELK stack
+* [ksar](http://sourceforge.net/projects/ksar/) - Creates pretty graphs from sar output
+* [LICEcap](http://www.cockos.com/licecap/) - Capture an area of your desktop (eg: a terminal) and save it to a GIF
+* [linux-dash](http://linuxdash.com/) - A simple web dashboard to monitor your Linux server
+* [logstalgia](https://code.google.com/p/logstalgia/) - Web site access log visualization tool, aka Apache Pong
+* [Grafana](http://grafana.org/) - Modern dashboard for Graphite
+* [Graphviz](http://www.graphviz.org/) - Graph visualization and flow chart software
+* [Gravit](http://hub.gravit.io/browser/) - Web-based vector image editor / design tool, source code is available on GitHub
+* [maim](https://github.com/naelstrof/maim) - The most powerful and flexible Linux desktop screenshot tool
+* [Nagdash](https://github.com/lozzd/Nagdash) - Dashboard / NOC screen for Nagios
+* [NagVis](http://www.nagvis.org/) - Visualization suite for Nagios
+* [Nagiosgraph](http://nagiosgraph.sourceforge.net/) - Another visualization tool for Nagios data
+* [Network Weathermap](http://www.network-weathermap.com/) - Network visualization tool, create a "weather map" just like big ISPs use
+* [php-weathermap-graphite](https://github.com/alexforrow/php-weathermap-graphite) - Allows Network Weathermap to source data from Graphite
+* [PNP4Nagios](http://docs.pnp4nagios.org/) - Nagios visualization tool
+* [ScreenCloud](https://screencloud.net/) - Take a screenshot and either upload it to their site to share, or save it locally
+* [Seyren](https://github.com/scobal/seyren) - Alerting dashboard for Graphite
+* [Skitch](https://evernote.com/skitch/) - Feature-rich screenshot editing, sharing, and annotation tool -- closed source
+* [TermRecord](https://github.com/theonewolf/TermRecord) - Record and playback terminal sessions
+* [Thruk](http://www.thruk.org/) - Web interface for Nagios, Icinga, Shinken and Naemon, can create SLA reports, has a mobile client
+* [Uchiwa](https://github.com/sensu/uchiwa) - Dashboard for Sensu
+* [Varnish Dashboard](https://github.com/brandonwamboldt/varnish-dashboard) - Realtime dashboard for Varnish cache servers
+* [vnstati](http://linux.die.net/man/1/vnstati) - Creates PNG images using vnStat data
+
+
+
 ## Distributed Systems Tools
 * [Aurora](https://aurora.incubator.apache.org/) - Mesos scheduler for "always on" jobs, similar to Marathon
 * [Bamboo](https://github.com/QubitProducts/bamboo) - HAProxy auto configuration and auto service discovery for Marathon
@@ -364,9 +410,11 @@
 * [Mesosphere](https://github.com/mesosphere) - Apache Mesos schedulers for almost anything
 * [Myriad](https://github.com/mesos/myriad) - YARN framework/scheduler
 * [nsq](http://nsq.io/) - Realtime distributed messaging platform / message queue
+* [parallel](https://www.gnu.org/software/parallel/) - Execute jobs in parallel using one or more computers
 * [Serf](https://github.com/hashicorp/serf) - Decentralized solution for service discovery and orchestration that is lightweight, highly available, and fault tolerant
 * [SmartStack](http://nerds.airbnb.com/smartstack-service-discovery-cloud/) - Automated service discovery and registration framework, includes Nerve and Synapse
 * [vulcand](https://github.com/mailgun/vulcand) - HTTP proxy that uses etcd as a configuration backend
+* [Webjob](http://webjob.sourceforge.net/WebJob/) - Downloads a program or script from a remote WebJob server, executes it, and sends back output to a server
 * [xCAT](http://sourceforge.net/p/xcat/wiki/Main_Page/) - Complete management solution for distributed systems
 * [Zookeeper](https://zookeeper.apache.org/) - Distributed configuration service, synchronization service, and naming registry
 
@@ -465,7 +513,6 @@
 
 ## Logging and Log Management
 * [Adiscon LogAnalyzer](http://loganalyzer.adiscon.com/) - Slick web interface for syslog messages
-* [Bigdesk](http://bigdesk.org/) - Live charts and statistics for elasticsearch cluster
 * [ElasticDump](https://github.com/taskrabbit/elasticsearch-dump) - Import / export tools for Elasticsearch
 * [Elasticsearch](http://www.elasticsearch.org/) - Component of the ELK stack, used for super fast searches
 * [elasticsearch-river-email](https://github.com/medcl/elasticsearch-river-email) - E-mail river plugin for Elasticsearch
@@ -475,15 +522,11 @@
 * [FileSystem River (fsriver)](https://github.com/dadoonet/fsriver) - Elasticsearch river plugin helps to index documents from your local file system and using SSH
 * [Fluentd](http://www.fluentd.org/) - Unified logging layer
 * [Flume](https://github.com/cloudera/flume/wiki) - Distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data
-* [GoAccess](http://goaccess.io/) - Real-time web log analyzer and interactive viewer that runs in a terminal
 * [Graylog2](http://graylog2.org/) - Log capture and analysis
-* [InfluxDB](http://influxdb.com/) - Distributed time series database with no external dependencies
-* [IRCcat](https://github.com/RJ/irccat) - Sent log messages and alerts to an IRC channel, can also use IRC to send commands
-* [kairosdb](https://github.com/kairosdb/kairosdb) - Time series DB written on top of Cassandra
-* [Kibana](http://www.elasticsearch.org/overview/kibana/) - Visualization component of the ELK stack
+* [Heka / hekad](http://hekad.readthedocs.org/en/latest/) - Stream processing, can gather logs or performance metrics
+* [IRCcat](https://github.com/RJ/irccat) - Send log messages and alerts to an IRC channel, can also use IRC to send commands
 * [Log Courier](https://github.com/driskell/log-courier) - Enhanced fork of Logstash Forwarder
 * [Logplex](https://github.com/heroku/logplex) - Distributed syslog log router, uses Redis
-* [logstalgia](https://code.google.com/p/logstalgia/) - Web site access log visualization tool, aka Apache Pong
 * [logstash](http://logstash.net/) - Collect, parse, and store logs.  A component of the popular ELK stack
 * [logstash-forwarder](https://github.com/elasticsearch/logstash-forwarder) - Formerly Lumberjack, forwards logs to centralized server(s), very lightweight
 * [Logster](https://github.com/etsy/logster) - Utility for reading log files and generating metrics to configurable outputs by Etsy
@@ -491,84 +534,71 @@
 * [multilog](http://cr.yp.to/daemontools/multilog.html) - Reads a sequence of lines from stdin and appends selected lines to any number of logs
 * [multitail](http://www.vanheusden.com/multitail/) - Monitor multiple log files in a single terminal window
 * [NXLOG](http://nxlog-ce.sourceforge.net/) - Universal log collector and forwarder, supports many formats/platforms/sources including Windows
-* [OpenTSDB](http://opentsdb.net/) - Store and serve massive amounts of time series data without losing granularity
 * [Piwik](http://piwik.org/) - Web analytics platform with a killer UI
-* [pgBadger](http://dalibo.github.io/pgbadger/) - PostgreSQL log analyzer
 * [Sentry](https://github.com/getsentry/sentry) - Application exception logging
 * [Simple Event Correlator (SEC)](http://simple-evcorr.sourceforge.net/) - Event correlation tool for advanced event processing
 * [swatch](http://linux.die.net/man/1/swatch) - Simple watcher
-* [sysinfo_influxdb](https://github.com/novaquark/sysinfo_influxdb) - Collect system metrics and store them in an InfluxDB server
 * [Webalizer](http://www.webalizer.org/) - Web and FTP log analyzer
+
+
+
+## Metric Collection Analaysis and Storage
+* [collectd](http://collectd.org/) - Collects system performance statistics
+* [collectd Related Sites](http://collectd.org/related.shtml) - Great tools that integrate with collectd
+* [collectd-openstack](https://github.com/catalyst/collectd-openstack) - collectd plugin for monitoring OpenStack components
+* [collectl](http://collectl.sourceforge.net/) - sar on steroids
+* [Diamond](https://github.com/BrightcoveOS/Diamond) - Python daemon that collects system metrics and publishes them to Graphite (or similar), has an API
+* [dim_STAT](http://dimitrik.free.fr/) - Collects almost everything and stores it in a MySQL database, produces reports too
+* [FastForward](https://github.com/spotify/ffwd) - Flexible system event and metric forwarding agent by Spotify
+* [Graphite](https://github.com/graphite-project/graphite-web) - Store numeric time-series data and render graphs of the data on demand
+* [Graphite Tools](https://graphite.readthedocs.org/en/latest/tools.html) - Tools that work with Graphite
+* [Heka / hekad](http://hekad.readthedocs.org/en/latest/) - Stream processing, can gather logs or performance metrics
+* [InfluxDB](http://influxdb.com/) - Distributed time series database with no external dependencies
+* [kairosdb](https://github.com/kairosdb/kairosdb) - Time series DB written on top of Cassandra
+* [Node-Bell](https://github.com/eleme/node-bell) - Real-time anomalies detection system for periodic time series
+* [OpenTSDB](http://opentsdb.net/) - Store and serve massive amounts of time series data without losing granularity
+* [RRDtool](http://oss.oetiker.ch/rrdtool/) - High performance data logging and graphing system for time series data
+* [Scales](https://github.com/Cue/scales) - Metrics collection, written in Python
+* [Skyline](https://github.com/etsy/skyline) - Real-time anomaly detection system to enable passive monitoring of metrics without the need to configure thresholds
+* [sysinfo_influxdb](https://github.com/novaquark/sysinfo_influxdb) - Collect system metrics and store them in an InfluxDB server
 
 
 
 ## Monitoring and Alerting
 * [Adagios](http://adagios.org/) - Web based Nagios configuration interface
-* [Awesome Dashboard](https://github.com/obazoud/awesome-dashboard) - A collection of dashboards
 * [bluepill](https://github.com/bluepill-rb/bluepill) - Simple process monitoring, written in Ruby
-* [Bosun](http://bosun.org/) - By Stack Exchange
+* [Bosun](http://bosun.org/) - Monitoring and alerting system written by Stack Exchange
 * [Cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty
-* [Cachet](https://cachethq.io/) - Create beautiful, responsive status pages.  Written in PHP
-* [Cacti](http://cacti.net/) - Web-based network monitoring and graphing tool designed as a front-end to RRDtool
 * [check_mk](http://mathias-kettner.com/check_mk.html) - Extensions / plugins for Nagios
 * [check_mk Multisite](https://mathias-kettner.de/checkmk_multisite.html) - GUI for check_mk
-* [collectd](http://collectd.org/) - Collects system performance statistics
-* [collectd3](https://github.com/StackStorm/collectd3) - Beautiful D3JS visualizations of system performance statistics
-* [collectd Related Sites](http://collectd.org/related.shtml) - Great tools that integrate with collectd
-* [collectd-openstack](https://github.com/catalyst/collectd-openstack) - collectd plugin for monitoring OpenStack components
-* [Dashing](http://dashing.io/) - Dashboard framework written in Ruby
-* [Dashing Widgets](https://github.com/Shopify/dashing/wiki/Additional-Widgets) - Massive collection of widgets for Dashing
 * [Daemon Tools](http://cr.yp.to/daemontools.html) - Service monitoring and management tools by DJB
-* [Diamond](https://github.com/BrightcoveOS/Diamond) - Python daemon that collects system metrics and publishes them
 * [FastForward](https://github.com/spotify/ffwd) - Flexible system event and metric forwarding agent by Spotify
 * [Flapjack](http://flapjack.io/) - Alert routing and rollup so you don't get tons of alerts for large failures
-* [Freeboard](http://freeboard.io/) - Ridiculously simple dashboards for your devices
 * [Fully Automated Nagios](http://www.fullyautomatednagios.org/) - Easy to install, pre-packaged Nagios that includes the most-used tools and plugins
 * [Ganglia](http://ganglia.info/) - Monitoring software that's focused on HPC / distributed clusters
-* [Grafana](http://grafana.org/) - Modern dashboard for Graphite
-* [Graphite](http://graphite.wikidot.com/) - Store numeric time-series data and render graphs of the data on demand
-* [Graphite-Sankey](https://github.com/NetworksAreMadeOfString/Graphite-Sankey) - Turns Graphite targets into a D3.js Sankey visualization
-* [Graphite Tools](https://graphite.readthedocs.org/en/latest/tools.html) - Tools that work with Graphite
-* [Heka / hekad](http://hekad.readthedocs.org/en/latest/) - Stream processing, can gather logs or performance metrics
 * [Icinga](https://www.icinga.org/) - Nagios fork, updated frequently
 * [Icinga2](https://www.icinga.org/icinga/icinga-2/) - Complete re-write of Icinga
 * [jmxtrans](https://github.com/jmxtrans/jmxtrans) - Connector between speaking to a JVM via JMX on one end and whatever logging / monitoring / graphing package
 * [Kale](https://codeascraft.com/2013/06/11/introducing-kale/) - Monitoring stack by Etsy
 * [LibreNMS](http://www.librenms.org/) - GPL fork of Observium
-* [linux-dash](http://linuxdash.com/) - A simple web dashboard to monitor your Linux server
 * [Monit](http://mmonit.com/monit/) - Includes tools to automatically take action when certain conditions are met
 * [Monitorix](http://www.monitorix.org/) - So lightweight that it can be used in mobile devices, aka Mikaku
 * [Multi Router Traffic Grapher (MRTG)](http://oss.oetiker.ch/mrtg/) - Still being updated!
-* [multicast remote sync (mrsync)](http://sourceforge.net/projects/mrsync/) - Transfers from a master to many remote machines using Unix multicast sockets
 * [Naemon](http://www.naemon.org/) - Modular Nagios fork
-* [Nagdash](https://github.com/lozzd/Nagdash) - Dashboard / NOC screen for Nagios
 * [Nagios](http://www.nagios.org/) - One of the most widely used OSS monitoring programs
 * [nagios-herald](https://github.com/etsy/nagios-herald) - Gives context to Nagios alerts, by Etsy
-* [Nagiosgraph](http://nagiosgraph.sourceforge.net/) - Another visualization tool for Nagios data
-* [NagVis](http://www.nagvis.org/) - Visualization suite for Nagios
 * [NeDi](http://www.nedi.ch/) - Network discovery and monitoring
-* [Network Weathermap](http://www.network-weathermap.com/) - Network visualization tool, create a "weather map" just like big ISPs
-* [Node-Bell](https://github.com/eleme/node-bell) - Real-time anomalies detection system for periodic time series
 * [OpenNMS](http://www.opennms.org/) - Network monitoring, also supports configuration/asset management
 * [Open Monitoring Distribution (OMD)](http://omdistro.org/) - Nagios bundled with the most popular plugins and tools
 * [OpsView Core](http://www.opsview.com/resources/downloads/download-opsview-core) - GPL version of OpsView, not as feature-rich as the commercial product
 * [Packetbeat](http://packetbeat.com/) - Distributed packet monitoring system that can be used for application performance management
-* [php-weathermap-graphite](https://github.com/alexforrow/php-weathermap-graphite) - Allows Network Weathermap to source data from Graphite
 * [pmacct](http://www.pmacct.net/) - IP and network traffic accounting / monitoring
-* [PNP4Nagios](http://docs.pnp4nagios.org/) - Nagios visualization tool
 * [Riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language, for distributed systems
-* [RRDtool](http://oss.oetiker.ch/rrdtool/) - High performance data logging and graphing system for time series data
-* [Scales](https://github.com/Cue/scales) - Metrics collection, written in Python
 * [Sensu](http://sensuapp.org/) - Open source monitoring framework, cloud-focused
-* [Seyren](https://github.com/scobal/seyren) - Alerting dashboard for Graphite
 * [Shinken](http://www.shinken-monitoring.org/) - Compatible with Nagios
-* [Skyline](https://github.com/etsy/skyline) - Designed to be used wherever there are a large quantity of high-resolution timeseries which need constant monitoring
-* [StatsD](https://github.com/etsy/statsd/) - Monitoring in node.js
+* [StatsD](https://github.com/etsy/statsd/) - Monitoring in node.js bu Etsy
 * [Tattle](https://github.com/wayfair/Graphite-Tattle) - Self service alerting and dashboard frontend for Graphite and Ganglia
-* [Thruk](http://www.thruk.org/) - Web based, can create SLA reports, has a mobile client
-* [Uchiwa](https://github.com/sensu/uchiwa) - Dashboard for Sensu
 * [Uptime](https://github.com/fzaninotto/uptime) - Remote monitoring application using Node.js, MongoDB, and Twitter Bootstrap
-* [Varnish Dashboard](https://github.com/brandonwamboldt/varnish-dashboard) - Realtime dashboard for Varnish cache servers
 * [Xymon](https://www.xymon.com/) - Fork of Big Brother
 * [Zabbix](http://www.zabbix.com/) - Stores monitoring data in a DB, has agents for almost every OS
 * [Zenoss](http://www.zenoss.org/) - Supports Nagios plug-in format
@@ -586,6 +616,8 @@
 
 ## Networking Tools
 * [Argus](http://www.qosient.com/argus/) - Generates network activity reports
+* [Augmented Traffic Control (ATC)](https://github.com/facebook/augmented-traffic-control) - A tool to simulate network conditions, by Facebook
+* [bbcp](http://www.slac.stanford.edu/~abh/bbcp/) - Copies files using multiple TCP streams to greatly increase throughput
 * [bbFTP](http://doc.in2p3.fr/bbftp/) - Uses it's own transfer protocol, optimized for large file transfers
 * [BIRD](http://bird.network.cz/) - (Almost) fully functional IP routing daemon for Linux, supports tons of standard routing protocols
 * [Charles Web Debugging Proxy](http://www.charlesproxy.com/) - Highly recommended, includes support for decoding HTTPS traffic and throttling -- commercial software
@@ -610,6 +642,7 @@
 * [moloch](https://github.com/aol/moloch) - Large scale IPv4 full PCAP capturing, indexing and database system
 * [mountebank](http://www.mbtest.org/) - Stub downstream resources for testing, supports HTTP HTTPS SMTP TCP
 * [mtr (My traceroute)](https://github.com/traviscross/mtr) - Combines ping and traceroute into a single program
+* [multicast remote sync (mrsync)](http://sourceforge.net/projects/mrsync/) - Transfers from a master to many remote machines using Unix multicast sockets
 * [namebench](https://code.google.com/p/namebench/) - Hunts down the fastest DNS servers for your computer to use
 * [ncat](http://nmap.org/ncat/) - Improved netcat, written by the Nmap team
 * [netbrake](http://www.hping.org/netbrake/) - Limit the bandwidth used by a process
@@ -628,12 +661,10 @@
 * [Quagga](http://www.nongnu.org/quagga/) - Routing software suite, supports most routing protocols
 * [Repose](http://openrepose.org/) - REST proxy
 * [scapy](https://pypi.python.org/pypi/scapy) - Interactive packet manipulation tools written in Python
-* [Server Name Indication (SNI)](https://wiki.apache.org/httpd/NameBasedSSLVHostsWithSNI) - Think vhosts for SSL
 * [Sloppy](http://www.dallaway.com/sloppy/) - Proxy server that slows down connections for testing
 * [SMB Multichannel](http://blogs.technet.com/b/josebda/archive/2012/05/13/the-basics-of-smb-multichannel-a-feature-of-windows-server-2012-and-smb-3-0.aspx) - Multiple SMB streams over a single TCP connection, killer feature
 * [socat](http://www.dest-unreach.org/socat/) - netcat on steroids, supports serial devices
 * [spiped](https://www.tarsnap.com/spiped.html) - Create encrypted pipes between socket addresses using PSKs, similar to ssh -L
-* [SSL Decoder](https://github.com/RaymiiOrg/ssl-decoder) - Decodes a SSL connection and displays certificate information
 * [sslh](http://www.rutschle.net/tech/sslh.shtml) - Protocol multiplexer, forwards packets based on the first packet
 * [Stanford Linear Accelerator Center - Network Monitoring Tools](https://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html) - MASSIVE list of network monitoring tools
 * [tc](http://linux.die.net/man/8/tc) - Built-in Linux kernel traffic control
@@ -645,6 +676,7 @@
 * [trickle](http://linux.die.net/man/1/trickle) - Userspace bandwidth shaper
 * [UDR](https://github.com/LabAdvComp/UDR) - UDT wrapper for rsync that improves throughput of large data transfers over long distances
 * [Varnish](https://www.varnish-cache.org/) - Caching HTTP accelerator
+* [WANem](http://wanem.sourceforge.net/) - WAN emulator for testing response over low bandwidth and/or high latency connections
 * [WireShark](https://www.wireshark.org/) - The classic network analyzer
 * [WireShark Tools](http://wiki.wireshark.org/Tools) - Superb list of network tools from the WireShark wiki
 * [Yconalyzer](http://yconalyzer.sourceforge.net/) - Monitor and analyze TCP connections
@@ -688,8 +720,9 @@
 
 
 
-## Password Management
+## Password and Secret Management
 * [1Password](https://agilebits.com/onepassword) - Password manager for OS X, Windows, iOS, and Android -- closed source
+* [blackbox](https://github.com/StackExchange/blackbox) - Safely store secrets in Git
 * [ccrypt](http://ccrypt.sourceforge.net/) - Replacement for the standard Unix "crypt" utility
 * [Diceware](http://world.std.com/~reinhold/diceware.html) - Neat passphrase generator
 * [GNU Privacy Guard (GPG)](https://www.gnupg.org/) - The original! Store em in text files and encrypt
@@ -698,6 +731,7 @@
 * [Keepass2Android](https://keepass2android.codeplex.com/) - Compatible with KeePass 2.x, requires MONO
 * [KeePassDroid](http://www.keepassdroid.com/) - Compatible with KeePass 1.x
 * [KeePassX](https://www.keepassx.org/) - Alternative to KeePass, requires QT
+* [Keywhiz](https://square.github.io/keywhiz/) - A system for distributing and managing secrets (API keys, certificates, etc)
 * [kpcli](http://kpcli.sourceforge.net/) - Command line interface for KeePass
 * [LastPass](https://lastpass.com/) - Freemium, can sync to other devices -- closed source
 * [lastpass-cli](https://github.com/lastpass/lastpass-cli) - CLI for LastPass
@@ -714,6 +748,7 @@
 * [RatticDB](http://rattic.org/) - Web-based password management, includes an API, great for teams or companies
 * [scrypt](https://www.tarsnap.com/scrypt.html) - Super secure against hardware brute-force attacks, is also a part of/module for most programming languages
 * [TeamPass](http://www.teampass.net/) - Collaborative password management using the LAMP stack
+* [Vault](https://github.com/hashicorp/vault) - Tool for storing secrets (API keys, passwords, certs, etc) by Hashicorp
 * [webpasswordsafe](https://code.google.com/p/webpasswordsafe/) - Very powerful, designed "for the enterprise"
 * [zxcvbn](https://github.com/dropbox/zxcvbn) - Password strength estimator, written by Dropbox, operates in a browser window
 
@@ -721,38 +756,35 @@
 
 ## Performance Monitoring
 * [apachetop](https://github.com/JeremyJones/Apachetop) - top for Apache
-* [atop](http://www.atoptool.nl/) - Supports both real-time and historical monitoring
+* [atop](http://www.atoptool.nl/) - Supports both real-time and historical erformance monitoring
 * [bandwidthd](http://sourceforge.net/projects/bandwidthd/) - Monitors and graphs bandwidth usage
 * [blktrace](http://www.reddit.com/r/sysadmin/comments/1ib3rl/beyond_iostat_storage_performance_analysis_with/) - Article on blktrace, includes tldr setup steps in the comments
 * [bmon](https://github.com/tgraf/bmon/) - Console based network monitor
 * [bwm-ng](http://www.gropp.org/?id=projects&sub=bwm-ng) - Small and simple console-based live network and disk I/O bandwidth monitor
-* [collectl](http://collectl.sourceforge.net/) - sar on steroids
 * [Conky](https://github.com/brndnmtthws/conky) - Lightweight system monitor for X windows
-* [Diamond](https://github.com/BrightcoveOS/Diamond) - Python daemon that collects system metrics and publishes them to Graphite (or similar), has an API
-* [dim_STAT](http://dimitrik.free.fr/) - Collects almost everything and stores it in a MySQL database, produces reports too
 * [dstat](http://dag.wiee.rs/home-made/dstat/) - Versatile replacement for vmstat, iostat, netstat and ifstat
 * [ESnet Fasterdata Knowledge Base](http://fasterdata.es.net/) - Provides proven, operationally sound methods for troubleshooting and solving performance issues
 * [EtherApe](http://etherape.sourceforge.net/) - Graphical network monitor, pretty output
 * [findswappers](https://gist.github.com/anonymous/7529780) - perl script that identifies swapped processes
 * [ftptop](http://linux.die.net/man/1/ftptop) - Monitor FTP connections in real time
-* [Glances](https://nicolargo.github.io/glances/) - Real-time monitoring, written in curses and Python
+* [Glances](https://nicolargo.github.io/glances/) - Real-time performance monitoring, written in curses and Python
+* [gt5](http://gt5.sourceforge.net/) - A "du browser", handy for finding large files
 * [htop](http://hisham.hm/htop/) - top replacement, has a few additional features
 * [iftop](http://www.ex-parrot.com/pdw/iftop/) - top for network interfaces
 * [ioping](https://code.google.com/p/ioping/) - Monitor I/O latency in real time
 * [iotop](http://guichaz.free.fr/iotop/) - top for I/O requests, displays information on a per-process basis
 * [iptraf](http://iptraf.seul.org/) - A top'esque program for network traffic, has multiple display modes, written in ncurses
-* [jnettop](http://jnettop.kubs.info/wiki/) - Traffic visualizer
-* [ksar](http://sourceforge.net/projects/ksar/) - Creates pretty graphs from sar output
 * [Linux Performance Observability Tools](http://www.brendangregg.com/Perf/linux_observability_tools.png) - Awesome graphic that shows you which tool to use, by Brendan Gregg
 * [mem_logger.sh](http://aarvik.dk/how-to-determine-which-process-is-highly-memory-consuming-over-time/) - Monitor a processes' memory usage over time
 * [Munin](http://munin-monitoring.org/) - Historical performance monitoring to help determine when you server became "slow"
 * [nbwmon](https://github.com/causes-/nbwmon) - Ncurses bandwidth monitor
+* [ncdu](http://linux.die.net/man/1/ncdu) - ncurses version of "du"
 * [netatop](http://www.atoptool.nl/netatop.php) - Kernel module for atop to watch and report on network packets
 * [NetHogs](http://nethogs.sourceforge.net/) - Displays per-process bandwidth usage
 * [ngxtop](https://github.com/lebinh/ngxtop) - top for nginx
 * [nicstat](http://sourceforge.net/projects/nicstat/) - vmstat for network interfaces
 * [nload](http://www.roland-riegel.de/nload/index.html) - Console application that monitors network traffic and bandwidth usage in real time, neat ASCII graphs
-* [nmon](http://nmon.sourceforge.net/pmwiki.php) - Provides both real-time and historical monitoring
+* [nmon](http://nmon.sourceforge.net/pmwiki.php) - Provides both real-time and historical performance metrics
 * [PageSpeed Module](https://developers.google.com/speed/pagespeed/module) - Reduce page load time without modify your existing content or workflow
 * [perf-tools](https://github.com/brendangregg/perf-tools) - By Brendan Gregg, uses perf and ftrace, includes iosnoop, KILLER TOOLS
 * [Performance Co-Pilot (PCP)](http://www.performancecopilot.org/) - Included in RHEL / CentOS 7
@@ -768,8 +800,8 @@
 * [ss](http://linux.die.net/man/8/ss) - Socket statistics, a better netstat
 * [sysdig](http://www.sysdig.org/) - "Think of it as strace + tcpdump + lsof + awesome sauce.", recommended
 * [SmokePing](http://oss.oetiker.ch/smokeping/) - Network latency visualizer, written by the MRTG and RRDtool guy
+* [USE Method](http://www.brendangregg.com/USEmethod/use-rosetta.html) - Brendan Gregg's rosetta stone for performance analysis and tuning
 * [vnStat](http://humdi.net/vnstat/) - Console based traffic monitor, supports statistic collecting
-* [vnstati](http://linux.die.net/man/1/vnstati) - Creates PNG images using vnStat data
 * [wtop](https://github.com/ClockworkNet/wtop) - Another top for Apache
 
 
@@ -803,23 +835,33 @@
 
 
 
-## Python Tutorials and Resources
+## Python Resources
 * [2.7 and 3.x Differences](https://news.ycombinator.com/item?id=8026102) - The differences between 2.7 and 3.x with examples, via Hacker News
-* [500 Lines](https://github.com/aosabook/500lines) - Many full Python programs written in 500 lines or less, great for beginners
 * [Awesome Python](https://github.com/vinta/awesome-python) - Very large list of Python resources
 * [bpython](http://bpython-interpreter.org/) - Killer interface for the Python interpreter
+* [Common Python Mistakes](https://news.ycombinator.com/item?id=7715349) - Link and discussion on Hacker News
+* [IPython](http://ipython.org/) - Interactive Python, like a shell or environment
+* [Jinja2](http://jinja.pocoo.org/docs/dev/) - Templating language for Python
+* [Micro Python](https://micropython.org/) - Python for microcontrollers and embedded systems
+* [Python Package Index (PyPI)](https://pypi.python.org/pypi) - Software repo for Python packages, like Ruby gems
+* [Python Reference](https://github.com/rasbt/python_reference) - A collection of useful scripts, tutorials, and other Python-related things
+* [PyPy](http://pypy.org/) - Python alternative with advance features (JIT compiles, sandboxing, etc)
+* [Requests](http://docs.python-requests.org/en/latest/) - Killer replacement for the urllib2 module
+* [virtualenv](https://virtualenv.pypa.io/en/latest/) - Tool to create isolated Python environments
+* [xlwings](http://xlwings.org/) - Replace your Excel VBA code with Python
+
+
+
+## Python Tutorials
+* [500 Lines](https://github.com/aosabook/500lines) - Many full Python programs written in 500 lines or less, great for beginners
 * [Codecademy](http://www.codecademy.com/tracks/python) - Codecademy's online Python course
 * [CodingBat](http://codingbat.com/python) - Practice problems
-* [Common Python Mistakes](https://news.ycombinator.com/item?id=7715349) - Link and discussion on Hacker News
 * [Coursera](https://www.coursera.org/courses?orderby=upcoming&search=python) - Online Python courses at various institutions
 * [Dive Into Python 3](http://getpython3.com/diveintopython3/) - Free ebook
 * [Easy-Python](http://easy-python.readthedocs.org) - Collection of Python resources that "you didn't know you would need"
 * [edX](https://www.edx.org/course?search_query=python) - Python courses at edX
 * [Google Python Class](https://developers.google.com/edu/python/) - By the GOOG
 * [Hitchhiker’s Guide to Python](http://docs.python-guide.org) - Best-practice handbook to the installation, configuration, and usage of Python.
-* [IPython](http://ipython.org/) - Interactive Python, like a shell or environment
-* [Jinja2](http://jinja.pocoo.org/docs/dev/) - Templating language for Python
-* [Micro Python](https://micropython.org/) - Python for microcontrollers and embedded systems
 * [MIT Open Courseware - Introduction to Computer Science and Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/) - Focuses on Python
 * [MIT Open Courseware - A Gentle Introduction to Programming Using Python](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/) - Final project is a Tetris game in Python
 * [MIT Open Courseware - Objects in Python](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-5-objects-in-python/) - Python tuples, lists, and dictionaries, as well as the concept of mutability and how to avoid problems relating to it.
@@ -829,21 +871,14 @@
 * [Programming Praxis](http://programmingpraxis.com/) - Programming exercises, many posted solutions are in Python
 * [Python Challenge](http://www.pythonchallenge.com/) - A riddle in Python
 * [Python for You and Me](http://pymbook.readthedocs.org/en/py3/) - The 2.x version is linked on the main page
-* [Python Package Index (PyPI)](https://pypi.python.org/pypi) - Software repo for Python packages, like Ruby gems
 * [Python Practice Projects](http://pythonpracticeprojects.com/) - Several practice exercises
 * [Python 2.x Tutorial](https://docs.python.org/2/tutorial/index.html) - For 2.x, part of the official documentation
 * [Python 3.x Tutorial](https://docs.python.org/3/tutorial/index.html) - From the official documentation
-* [Python Reference](https://github.com/rasbt/python_reference) - A collection of useful scripts, tutorials, and other Python-related things
-* [PyPy](http://pypy.org/) - Python alternative with advance features (JIT compiles, sandboxing, etc)
 * [Quiz and Learn Python](http://mobileicecube.com/quiz-learn-python/) - Designed for mobile devices
 * [r/dailyprogrammer](http://www.reddit.com/r/dailyprogrammer) - Programming exercises, includes Python
-* [r/learnpython](http://www.reddit.com/r/learnpython) - Subreddit for beginners
-* [r/learnpython wiki](https://www.reddit.com/r/learnpython/wiki/index) - Tons of resources for learning Python
-* [Requests](http://docs.python-requests.org/en/latest/) - Killer replacement for the urllib2 module
+* [r/learnpython](http://www.reddit.com/r/learnpython) - Subreddit for beginners, be sure to check the wiki too
 * [Think Python: How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/html/index.html) - Awesome free ebook
 * [Tutorials Point's Python Tutorial](http://www.tutorialspoint.com/python/index.htm) - Another one!
-* [virtualenv](https://virtualenv.pypa.io/en/latest/) - Tool to create isolated Python environments
-* [xlwings](http://xlwings.org/) - Replace your Excel VBA code with Python
 
 
 
@@ -881,6 +916,7 @@
 * [migrit](http://whtevn.github.io/migrit/) - Iterative schema migrations for MySQL
 * [MySQL Data Dumper (mydumper)](https://launchpad.net/mydumper) - Much better than mysqldump
 * [pg_shard](https://github.com/citusdata/pg_shard) - PostgreSQL extension to scale out real-time reads and writes
+* [pgBadger](http://dalibo.github.io/pgbadger/) - PostgreSQL log analyzer
 * [pgcli](https://github.com/dbcli/pgcli) - Postgres CLI with autocomplete and syntax highlighting
 * [pgloader](http://pgloader.io/) - Fast data loader for PostgreSQL
 * [Postgres-XL](http://www.postgres-xl.org/) - Scale-out version of PostgresSQL
@@ -905,36 +941,40 @@
 
 
 
-## Ruby Tutorials and Resources
+## Ruby Resources
 * [Awesome Ruby](https://github.com/markets/awesome-ruby) - A collection of awesome Ruby libraries, tools, frameworks and software
-* [Basic Ruby](http://www.basicruby.com/) - Videos and exercises
 * [Bundler](http://bundler.io/) - Manage Gem dependencies
-* [Codecademy](http://www.codecademy.com/tracks/ruby) - Ruby course at Codecademy
-* [Coderbyte](http://coderbyte.com/) - Programming challenges
-* [Codewars](http://www.codewars.com/) - More challenges!
-* [Coursera](https://www.coursera.org/courses?orderby=upcoming&search=ruby) - Online Ruby courses at various institutions
 * [did_you_mean](https://github.com/yuki24/did_you_mean) - Suggestions for typos in Ruby code
-* [edX](https://www.edx.org/course?search_query=ruby) - Ruby courses at edX
-* [exercism.io](http://exercism.io/) - Challenges with peer review!
 * [fog](http://fog.io/) - Cloud services library for Ruby
-* [Introduction to Programming with Ruby](http://www.gotealeaf.com/books/ruby) - By Tealeaf Academy
-* [Learn Ruby the Hard Way](http://learnrubythehardway.org/book/) - Have fun with this
 * [Omniref](https://www.omniref.com/) - A better search site for Ruby documentation
 * [Pry](http://pryrepl.org/) - IRB alternative, very feature-rich
-* [r/dailyprogrammer](http://www.reddit.com/r/dailyprogrammer) - Programming exercises, includes Ruby
-* [r/learnruby](http://www.reddit.com/r/learnruby) - Subreddit for beginners
 * [Rake](https://github.com/ruby/rake) - Make / Makefile-like build utility
 * [rbenv](https://github.com/sstephenson/rbenv) - Alternative to RVM
 * [replicate](https://github.com/rtomayko/replicate) - Dump and load relational objects between Ruby environments (eg: prod and dev)
 * [RSpec](https://en.wikipedia.org/wiki/RSpec) - Behavior-driven development (BDD) testing framework
-* [Rubeque](http://www.rubeque.com/problems) - Super easy to hard level challenges
 * [RuboCop](https://github.com/bbatsov/rubocop) - Static code analyzer that enforces guidelines
 * [Ruby Gems](https://rubygems.org/) - The Ruby package manager.  Gems = libraries
+* [Ruby Toolbox](https://www.ruby-toolbox.com/) - Trillions of Ruby projects, categorized
+* [Ruby Version Manager (RVM)](https://rvm.io/) - Install, manage, and work with multiple Ruby environments
+
+
+
+## Ruby Tutorials
+* [Basic Ruby](http://www.basicruby.com/) - Videos and exercises
+* [Codecademy](http://www.codecademy.com/tracks/ruby) - Ruby course at Codecademy
+* [Coderbyte](http://coderbyte.com/) - Programming challenges
+* [Codewars](http://www.codewars.com/) - More challenges!
+* [Coursera](https://www.coursera.org/courses?orderby=upcoming&search=ruby) - Online Ruby courses at various institutions
+* [edX](https://www.edx.org/course?search_query=ruby) - Ruby courses at edX
+* [exercism.io](http://exercism.io/) - Challenges with peer review!
+* [Introduction to Programming with Ruby](http://www.gotealeaf.com/books/ruby) - By Tealeaf Academy
+* [Learn Ruby the Hard Way](http://learnrubythehardway.org/book/) - Have fun with this
+* [r/dailyprogrammer](http://www.reddit.com/r/dailyprogrammer) - Programming exercises, includes Ruby
+* [r/learnruby](http://www.reddit.com/r/learnruby) - Subreddit for beginners
+* [Rubeque](http://www.rubeque.com/problems) - Super easy to hard level challenges
 * [Ruby Koans](http://rubykoans.com/) - The most highly recommended tutorial
 * [Ruby Monk](https://rubymonk.com/) - Free, interactive tutorials to help you discover Ruby idioms in your browser
 * [Ruby Quiz](http://rubyquiz.com/) - Weekly programming challenge
-* [Ruby Toolbox](https://www.ruby-toolbox.com/) - Trillions of Ruby projects, categorized
-* [Ruby Version Manager (RVM)](https://rvm.io/) - Install, manage, and work with multiple Ruby environments
 * [Ruby Warrior](https://www.bloc.io/ruby-warrior#/) - Coding challenges **WARNING** sound, but you can turn it off
 * [Try Ruby](http://tryruby.org) - Interactive tutorial in your web browser
 * [Tutorials Point](http://www.tutorialspoint.com/ruby/) - Interactive online course
@@ -946,13 +986,11 @@
 * [American Fuzzy Lop (afl-fuzz)](http://lcamtuf.coredump.cx/afl/) - One of the best fuzzers
 * [Angry IP Scanner](http://angryip.org/) - Supports plugins, also gathers NetBIOS information
 * [Armitage](http://www.fastandeasyhacking.com/) - GUI for Metasploit
-* [Automatic Server Hardening](http://telekomlabs.github.io/) - Scripts and cookbooks/manifests for Puppet and Chef
+* [Automatic Server Hardening](http://hardening.io/) - Linux hardening cookbooks/manifests/playbooks for Puppet, Chef, and Ansible
 * [BlackArch Linux](http://blackarch.org/) - Penetration testing Linux distro, based off of Arch Linux
-* [BoringSSL](https://boringssl.googlesource.com/boringssl/) - Google's fork of OpenSSL, does not guarantee API and ABI compatibility
 * [Brakeman](https://github.com/presidentbeef/brakeman) - Static analysis security vulnerability scanner for Ruby on Rails applications
 * [bro](https://github.com/bro/bro) - Framework for network analysis and security monitoring
 * [chkrootkit](http://www.chkrootkit.org/) - Rootkit checker, best used from a live CD
-* [cipherscan](https://github.com/jvehent/cipherscan) - Find out which SSL ciphersuites are supported by a target
 * [CIS-CAT Benchmark Tool](http://benchmarks.cisecurity.org/downloads/audit-tools/) - Center for Internet Security's benchmark tool, evaluates systems based on their hardening recommendations
 * [CIS Linux Benchmarks](http://benchmarks.cisecurity.org/downloads/browse/index.cfm?category=benchmarks.os.linux) - Linux OS hardening guides, superb!
 * [Computer Aided INvestigative Environment (CAINE)](http://www.caine-live.net/) - Live CD that focuses on forensics
@@ -962,7 +1000,6 @@
 * [dnscrypt-wrapper](https://github.com/Cofyc/dnscrypt-wrapper) - Add dnscrypt support to any resolver
 * [diskscrub](https://code.google.com/p/diskscrub/) - Supports many disk-wiping standards including military / government grade wipes
 * [Dshell](https://github.com/USArmyResearchLab/Dshell) - Network forensic analysis framework, written by the US Army
-* [duraconf](https://github.com/ioerror/duraconf) - A collection of hardened configuration files for SSL/TLS services by Jacob Appelbaum
 * [EncFS](http://www.arg0.net/encfs) - Encrypted file system in user space via FUSE
 * [fail2ban](http://www.fail2ban.org/) - Watches log files to ban IPs based on rules (too many failed logins, exploit attempts, brute force attacks, etc)
 * [fail2ban Dashboard](https://github.com/oussemos/fail2ban-dashboard) - Written with Flask
@@ -972,32 +1009,26 @@
 * [hashcat (oclHashcat)](https://hashcat.net/oclhashcat/) - World's fastest password cracker / recovery software, supports GPUs
 * [HoneyDrive](http://bruteforce.gr/honeydrive) - Honeypot appliance
 * [hping](http://www.hping.org/) - Create custom TCP/IP packets, very flexible, see also hping3
-* [HTTP Strict Transport Secuirity (HSTS)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) - Forces browsers to interact with a site by only using HTTPS
 * [Information Security Cheat Sheets and Checklists](http://zeltser.com/cheat-sheets/) - An assortment of IS checklists and cheat sheets
 * [Jailkit](http://olivier.sessink.nl/jailkit/) - chroot toolkit
 * [Kali Linux](http://www.kali.org/) - Penetration testing Linux distro
-* [Keywhiz](https://square.github.io/keywhiz/) - A system for distributing and managing secrets (API keys, certificates, etc)
 * [Kippo](https://github.com/desaster/kippo) - SSH honeypot
 * [knockd](http://www.zeroflux.org/projects/knock/) - Port knocking server for Linux
-* [LibreSSL](http://www.libressl.org/) - OpenBSD's fork of OpenSSL, Linux compatible
 * [Lynis](http://cisofy.com/lynis/) - Auditing and hardening tool, supports most Unix-like operating systems
 * [Metasploit](http://www.metasploit.com/) - Classic exploit framework
 * [mtree](http://linux.die.net/man/8/mtree) - Can be used as a simple IDS
 * [Network Security Toolkit (NST)](http://networksecuritytoolkit.org/nst/index.html) - Live CD that includes most tools in insecure.org's top 125 tools list
 * [nmap](http://nmap.org/) - Classic port scanner
 * [nmap Scripting Engine (NSE)](http://nmap.org/nsedoc/index.html) - Tons of scripts for nmap
-* [nogotofail](https://github.com/google/nogotofail) - Spot and fix weak TLS/SSL connections and sensitive cleartext traffic
 * [OpenSCAP](http://www.open-scap.org/page/Main_Page) - Standardized approach to maintaining the security of systems, evaluates machine compliance with a given profile
 * [OpenVAS](http://www.openvas.org/) - Vulnerability scanner, forked from the now closed-source Nessus scanner
 * [OpenVPN](https://openvpn.net/) - Well known open source VPN
 * [Open Source Tripwire](http://sourceforge.net/projects/tripwire/) - File integrity checker and monitor, replacement for the now closed-source Tripwire
 * [Open Web Application Security Project (OWASP)](https://www.owasp.org/index.php/Main_Page) - Focus on application security
-* [Open Web Application Security Project (OWASP)](https://www.owasp.org/index.php/Main_Page) - Focus on application security
 * [Oracle Database Attacking Tool (ODAT)](https://github.com/quentinhardy/odat) - Open source penetration testing tool that tests the security of Oracle databases remotely
 * [OSSEC](http://www.ossec.net/) - Host based intrusion detection system (HIDS), supports most Unix-like OSes
 * [pfsense](https://www.pfsense.org/) - The best firewall software, supports appliances and Live CDs
 * [pyCAmanager](https://github.com/pymag09/pyCAmanager) - GUI for managing your certificate authority, written in Python
-* [Qualys SSL Server Test](https://www.ssllabs.com/ssltest/) - Evaluates and provides recommendations for the SSL settings of any web site
 * [r/netsec Tools List](http://www.reddit.com/r/netsec/comments/r1603/some_people_asked_for_a_tool_list/) - r/netsec creates a list of security related tools
 * [Red October](https://github.com/cloudflare/redoctober) - Go server for two-man rule style file encryption and decryption
 * [Rootkit Hunter](http://rkhunter.sourceforge.net/) - Compares hashes of important files with known good hashes that are stored in online databases
@@ -1006,22 +1037,16 @@
 * [Security Engineering](http://www.cl.cam.ac.uk/~rja14/book.html) - Free online book
 * [Security Onion](http://securityonion.net/) - Linux distro for IDS, NSM, and log management
 * [Security Technical Implementation Guide (STIG)](http://iase.disa.mil/stigs/Pages/a-z.aspx) - Guides to securing almost every application, by the US military
-* [Sneaker](https://github.com/codahale/sneaker) - Store secrets on S3 using Amazon KMS
 * [Snoopy Logger](https://github.com/a2o/snoopy) - Logs commands that are executed and saves the information to syslog
 * [Snort](https://www.snort.org/) - The classic network intrusion prevention system (NIPS)
 * [SoftEther](http://www.softether.org/) - Maybe the best VPN software out there
 * [Sphirewall](http://sphirewall.net/) - Firewall with auditing, QoS, VPN support, and more
 * [SSH Guard](http://www.sshguard.net/) - Think fail2ban for SSH
-* [sslconfig](https://github.com/cloudflare/sslconfig) - CloudFlare's Internet facing SSL cipher configuration
-* [sslsniff](https://github.com/moxie0/sslsniff) - A tool for automated MITM attacks on SSL connections
-* [SSLsplit](http://www.roe.ch/SSLsplit) - Transparent and scalable SSL/TLS interception
-* [sslyze](https://github.com/nabla-c0d3/sslyze) - Fast and full-featured SSL scanner, written in Python
 * [SubBrute](https://github.com/TheRook/subbrute) - Subdomain enumeration tool for penetration testers
 * [sudosh2](http://sourceforge.net/projects/sudosh2/) - Login shell that records all keystrokes and output, supports session playback
 * [tinc](http://www.tinc-vpn.org/) - Simple, multi-platform VPN
 * [Tomb](https://github.com/dyne/tomb) - zsh wrapper script for cryptsetup + gpg + LUKS volumes
 * [Tripwire](http://sourceforge.net/projects/tripwire/) - File integrity checker and monitor, open source version
-* [Vault](https://github.com/hashicorp/vault) - Tool for storing secrets (API keys, passwords, certs, etc) by Hashicorp
 * [VeraCrypt](https://veracrypt.codeplex.com/) - Successor to and fork of TrueCrypt, supports Linux, Windows, and Mac
 * [VirusTotal](https://www.virustotal.com/) - Allows you to upload a file and have it scanned by tons of virus scanners
 * [Zenmap](http://nmap.org/zenmap/) - Official GUI for Nmap
@@ -1033,8 +1058,12 @@
 ## Shell Scripting
 * [Advanced Bash-Scripting Guide](http://www.tldp.org/LDP/abs/html/) - By the Linux Documentation Project (LDP)
 * [Bash Hackers Wiki](http://wiki.bash-hackers.org/start) - Human-readable bash documentation so you don't have to dig through the man page
+* [CommandlineFu](http://www.commandlinefu.com/commands/browse) - Killer code snippets
 * [Explain Shell](http://explainshell.com/) - Enter a command-line to see the help text that matches each argument
+* [Fu](https://github.com/samirahmed/fu) - CLI for CommandlineFu.com, allows for easy searches
 * [ShellCheck](http://www.shellcheck.net/) - Checks shell scripts for common mistakes
+* [tldr](https://github.com/tldr-pages/tldr) - Simplified and community-driven man pages, cuts out a lot of cruft
+* [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) - Master the command line, in one page 
 
 
 
@@ -1070,7 +1099,7 @@
 * [rssh](http://www.pizzashack.org/rssh/) - Restricted shell for SSH, only allows scp, sftp, rdist, rsync, and cvs
 * [scponly](https://github.com/scponly/scponly/) - Shell that only allows incoming SCP, supports chroot
 * [SSH Power Tool (sshpt)](https://code.google.com/p/sshpt/) - Execute commands and upload files to many servers simultaneously via SSH without using pre-shared keys
-* [ssh-ldap-helper](http://linux.die.net/man/8/ssh-ldap-helper) - Store private keys in LDAP
+* [ssh-ldap-helper](http://linux.die.net/man/8/ssh-ldap-helper) - Store public keys in LDAP
 * [SSHFS](http://linux.die.net/man/1/sshfs) - Mount remote file systems using a SSH tunnel
 * [sshrc](https://github.com/Russell91/sshrc/) - Sources the ~/.sshrc on your local computer after logging in remotely
 * [sshuttle](https://github.com/apenwarr/sshuttle) - Transparent proxy server that works as a poor man's VPN, forwards over SSH, supports DNS tunneling
@@ -1083,20 +1112,35 @@
 
 
 
+## SSL TLS HTTPS Tools
+* [BoringSSL](https://boringssl.googlesource.com/boringssl/) - Google's fork of OpenSSL, does not guarantee API and ABI compatibility
+* [cipherscan](https://github.com/jvehent/cipherscan) - Find out which SSL ciphersuites are supported by a target
+* [duraconf](https://github.com/ioerror/duraconf) - A collection of hardened configuration files for SSL/TLS services by Jacob Appelbaum
+* [HTTP Strict Transport Secuirity (HSTS)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) - Forces browsers to interact with a site by only using HTTPS
+* [LibreSSL](http://www.libressl.org/) - OpenBSD's fork of OpenSSL, Linux compatible
+* [Mozilla SSL Configuration Generator](https://mozilla.github.io/server-side-tls/ssl-config-generator/) - Generate SSL configs for Apache, Nginx, ELB, HAproxy and more
+* [nogotofail](https://github.com/google/nogotofail) - Spot and fix weak TLS/SSL connections and sensitive cleartext traffic
+* [Qualys SSL Server Test](https://www.ssllabs.com/ssltest/) - Evaluates and provides recommendations for the SSL settings of any web site
+* [Server Name Indication (SNI)](https://wiki.apache.org/httpd/NameBasedSSLVHostsWithSNI) - Think vhosts for SSL
+* [sslconfig](https://github.com/cloudflare/sslconfig) - CloudFlare's Internet facing SSL cipher configuration
+* [sslsniff](https://github.com/moxie0/sslsniff) - A tool for automated MITM attacks on SSL connections
+* [SSLsplit](http://www.roe.ch/SSLsplit) - Transparent and scalable SSL/TLS interception
+* [sslyze](https://github.com/nabla-c0d3/sslyze) - Fast and full-featured SSL scanner, written in Python
+* [SSL Decoder](https://github.com/RaymiiOrg/ssl-decoder) - Decodes a SSL connection and displays certificate information
+
+
+
 ## Software Development Tools
-* [A Hacker's Guide to Git](https://wildlyinaccurate.com/a-hackers-guide-to-git) - Includes user comments and feedback
-* [A Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html) - Includes diagrams, easy to understand
 * [ack](http://beyondgrep.com/) - grep-like tool designed to search source code
 * [Artifactory](http://www.jfrog.com/open-source/) - Probably the best way to store software artifacts and deal with dependency hell
 * [Barkeep](http://getbarkeep.org/) - Code review tool, kinda sorta like GitHub
 * [BFG Repo-Cleaner](https://github.com/rtyley/bfg-repo-cleaner) - Scrub large blobs and sensitive data from git history
-* [blackbox](https://github.com/StackExchange/blackbox) - Safely store secrets in Git
 * [boar](https://code.google.com/p/boar/) - Stores snapshots of directory trees in a local or remote repository, for BLOBs
 * [Buildbot](http://buildbot.net/) - CI framework
 * [Codeine](https://github.com/codeine-cd/codeine) - CD with built in monitoring and automation
 * [comm](http://linux.die.net/man/1/comm) - Display lines that two files have in common (eg: the opposite of diff)
 * [Completion](https://github.com/git/git/tree/master/contrib/completion) - Tab completion for git branches, supports various shells
-* [cwrap](http://cwrap.org/) - Wrappers for creating test scenarios and faking behavior, super useful
+* [cwrap](http://cwrap.org/) - Wrappers for creating test scenarios and faking behavior, **recommended**
 * [devcheatsheet.com](http://devcheatsheet.com/) - Cheat sheets and quick references for almost every programming language
 * [drone](https://github.com/drone/drone) - CI platform built on Docker
 * [Elita](https://bitbucket.org/scorebig/elita) - API based CD framework/engine that uses git and Salt
@@ -1112,13 +1156,13 @@
 * [GitLab](https://about.gitlab.com/) - Kinda like an open source GitHub
 * [GitLab CI](https://about.gitlab.com/gitlab-ci/) - CI that integrates with GitLab
 * [Gitorious](http://getgitorious.com/) - Web front end for git, can be deployed as an appliance
-* [GitTorrent](https://github.com/cjb/gittorrent) - A decentralization of GitHub using BitTorrent and Bitcoin
+* [GitTorrent](https://github.com/cjb/gittorrent) - A decentralization of GitHub using BitTorrent and Bitcoin/blockchain
 * [gitwatch](https://github.com/nevik/gitwatch) - Automatically commit changes when specified files or directories are modified
+* [Git Interfaces, Frontends, and Tools](https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools) - Massive list on the kernel.org wiki
 * [gkv](https://github.com/ybur-yug/gkv) - Use git as a KV key/value store
 * [Gource](https://code.google.com/p/gource/) - Software version control visualization tool
 * [Hubot](https://hubot.github.com/) - Chat bot that can do deploys, look up images, integrate with Google Maps, and tons of other stuff
 * [Imhotep](https://github.com/justinabrahms/imhotep) - Comments on commits coming into your repository and checks for syntactic errors and general lint warnings
-* [Interfaces, Frontends, and Tools](https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools) - Massive list on the kernel.org wiki
 * [Jenkins](http://jenkins-ci.org/) - The most popular CI orchestration tool, supports a billion plugins
 * [Jenkins JobConfigHistory](https://wiki.jenkins-ci.org/display/JENKINS/JobConfigHistory+Plugin) - Tracks changes to system and job configurations
 * [Jenkins Job DSL Plugin (jenkins-job-dsl)](https://github.com/jenkinsci/job-dsl-plugin) - Groovy-based DSL for writing Jenkins jobs
@@ -1130,7 +1174,6 @@
 * [PatchELF](https://github.com/NixOS/patchelf) - Simple utility for modifying existing ELF executables and libraries
 * [Phabricator](http://phabricator.org/) - Suite of web-based software development collaboration tools
 * [Phare](https://github.com/mirego/phare) - Static code analysis
-* [Pro Git 2nd Edition](http://git-scm.com/book/en/v2) - 100% free and complete ebook, published by Apress, recommended
 * [PRoot](http://proot.me/) - User-space version of chroot, great for testing and development
 * [Pushpin](http://pushpin.org/) - Proxy server that adds WebSockets to existing request-response APIs
 * [Review Board](https://www.reviewboard.org/) - Code review tool for multiple SCM systems
@@ -1138,7 +1181,6 @@
 * [Silver Searcher, The (aka ag)](https://github.com/ggreer/the_silver_searcher) - Source code searching tool, similar to "ack" but faster
 * [SonarQube](http://www.sonarqube.org/) - Platform / dashboard for managing code quality
 * [Swagger](http://swagger.io/) - A JSON format/standard that describes a RESTful API
-* [Think like (a) Git](http://think-like-a-git.net/) - Complete online ebook
 * [tortilla](https://github.com/redodo/tortilla) - Easily wrap web APIs, written in Python
 * [tup](http://gittup.org/tup/) - Super fast and efficient build system
 * [watch-make](https://github.com/andrewffff/watch-make) - Monitor Makefile dependencies and kick off make when one changes
@@ -1149,6 +1191,7 @@
 ## Storage Tools
 * [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) - Send a signal to an ATA drive to perform a hardware-based erase
 * [bcache](http://bcache.evilpiepirate.org/) - Block layer cache, allows SSDs to be used as caches for slower drivers\
+* [CockroachDB](http://www.cockroachlabs.com/) - Open source version of Google's Spanner storage system
 * [EnhanceIO](https://github.com/stec-inc/EnhanceIO) - SSD caching, in the mainline Linux kernel, a fork of Facebook's Flashcache project
 * [Flash-Friendly File System (F2FS)](https://en.wikipedia.org/wiki/F2FS) - File system designed specifically for SSDs
 * [fs-cache](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-fscache.html) - NFS client caching
@@ -1240,17 +1283,17 @@
 
 
 ## Misc Tools and Utilities
-* [appscale](https://github.com/AppScale/appscale) - Deploy and host Google App Engine applications almost anywhere
+* [appscale](https://github.com/AppScale/appscale) - Open source implementation of Google App Engine
 * [AutoHotKey](http://www.autohotkey.com/) - Automate input (desktop and web forms, data entry, keybinds, etc)
 * [autojump](https://github.com/joelthelion/autojump) - Small database of directories that you visited in the past, used to quickly navigate complex directory structures
 * [Awesome](https://github.com/sindresorhus/awesome) - A curated list of awesome lists
-* [blockdiag](http://blockdiag.com/en/) - Generate simple block/sequence/activity/network diagrams from text files
+* [Awesome-Selfhosted](https://github.com/Kickball/awesome-selfhosted) - Free selfhosted software you can use instead of SaaS
+* [Bento](https://www.bento.io/grid) - Links to tutorials based on subject (programming, sysadmin, protocols, standards, etc)
+* [bro pages](http://bropages.org/browse) - Simplifed man pages and examples
 * [Checkpoint/Restore in Userspace (CRIU)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later
-* [CockroachDB](http://www.cockroachlabs.com/) - Open source version of Google's Spanner storage system
 * [conserver](http://www.conserver.com/) - Virtual console server with many features
 * [Cygwin](https://www.cygwin.com/) - GNU shell and tools for Windows
 * [dotfiles](http://dotfiles.github.io/) - Store your .bashrc and others on GitHub
-* [draw.io](https://www.draw.io/) - Free online flow chart maker / Visio alternative
 * [dsync](https://www.usenix.org/conference/lisa13/technical-sessions/presentation/knauth) - No software yet but a hell of a theory
 * [dtrx](http://brettcsmith.org/2007/dtrx/) - Single command to extract almost any type of archive
 * [eatmemory](https://github.com/julman99/eatmemory) - Allocates X amount of memory, great for testing
@@ -1263,11 +1306,7 @@
 * [gcalcli](https://github.com/insanum/gcalcli) - CLI for Google Calendar
 * [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any web page look like a Geocities page
 * [grabmem](https://github.com/dacresni/grabmem) - Allocates memory until the machine runs out or you quit it with ctrl-c
-* [Graphviz](http://www.graphviz.org/) - Graph visualization and flow chart software
-* [Gravit](http://hub.gravit.io/browser/) - Web-based vector image editor / design tool, source code is available on GitHub
-* [gt5](http://gt5.sourceforge.net/) - A "du browser", handy for finding large files
 * [incrond](http://inotify.aiken.cz/?section=incron&page=about&lang=en) - Fires off a job when a file system event happens
-* [Inkscape](http://www.inkscape.org/en/) - Open source vector image editor
 * [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) - ISO standard for dates, the only way to fly
 * [Inconsolation](http://inconsolation.wordpress.com/index/) - MASSIVE list of lightweight and (legit) obscure tools
 * [inotify](https://github.com/rvoicilas/inotify-tools) - Watch file(s) for changes, take an action when the change occurs
@@ -1275,29 +1314,22 @@
 * [jq](https://stedolan.github.io/jq/) - Command line JSON processor
 * [Keybase](https://keybase.io/) - Upload your public key and find other people's public key via their social media user name(s)
 * [Let's Chat](https://sdelements.github.io/lets-chat/) - Self-hosted open source HipChat clone
-* [LICEcap](http://www.cockos.com/licecap/) - Capture an area of your desktop (eg: a terminal) and save it to a GIF
-* [lz4](https://code.google.com/p/lz4/) - Crazy fast compression algorithm
+* [lz4](https://github.com/Cyan4973/lz4) - Crazy fast compression algorithm
 * [maim](https://github.com/naelstrof/maim) - Linux desktop screenshot tool
 * [mockaroo](http://www.mockaroo.com/) - Generate up to 100,000 rows of realistic test data in CSV, JSON, SQL, and Excel formats
 * [moreutils](https://joeyh.name/code/moreutils/) - "Collection of the unix tools that nobody thought to write long ago when unix was young"
-* [ncdu](http://linux.die.net/man/1/ncdu) - ncurses version of "du"
 * [Netflix OSS](https://github.com/netflix) - Netflix OSS tools on GitHub
 * [observr](https://github.com/kevinburke/observr) - Monitor a directory and kick off an action when a file in the directory changes
-* [parallel](https://www.gnu.org/software/parallel/) - Execute jobs in parallel using one or more computers
 * [pigz](http://zlib.net/pigz/) - Parallel gzip for multi-processor/core systems
 * [pv](http://linux.die.net/man/1/pv) - Shows the progress of data as it flows through a pipe
-* [Rackerlabs](https://rackerlabs.github.io/) - Rackspace's OSS tools, hosted on GitHub
+* [Rackerlabs](https://github.com/rackerlabs) - Rackspace's OSS tools, hosted on GitHub
 * [rcron](https://code.google.com/p/rcron/) - cron redundancy and failover, ensures a job will only run on the "active" machine
 * [Request Tracker](http://www.bestpractical.com/rt/) - Bug tracking, help desk ticketing, customer service, workflow processes, change management and more
-* [ScreenCloud](https://screencloud.net/) - Take a screenshot and either upload it to their site to share, or save it locally
-* [Skitch](https://evernote.com/skitch/) - Feature-rich screenshot and annotation tool
-* [Snappy](https://code.google.com/p/snappy/) - Compression that aims for very high speed and reasonable compression, by Google
+* [Snappy](https://github.com/google/snappy) - Compression that aims for very high speed and reasonable compression, by Google
 * [supervisord](http://supervisord.org/) - Process control, kinda like an init replacement but not really
 * [Synergy](http://synergy-project.org/) - Share a single keyboard and mouse with multiple physical computers
 * [sysadmin-util](https://github.com/skx/sysadmin-util) - A collection of small but useful utilities
-* [TermRecord](https://github.com/theonewolf/TermRecord) - Record and playback terminal sessions
 * [Tools of the Trade](https://github.com/cjbarber/ToolsOfTheTrade) - Massive list of SaaS, via Hacker News
 * [Unix Rosetta Stone](http://bhami.com/rosetta.html) - The one and only resource for a mixed Linux/Unix environment
 * [watchr](https://github.com/mynyml/watchr) - Monitor a directory tree and kick off a script when a file changes, written in Ruby
-* [Webjob](http://webjob.sourceforge.net/WebJob/) - Downloads a program or script from a remote WebJob server, executes it, and sends back output to the server
 * [zopfli](https://code.google.com/p/zopfli/) - Much slower than zlib but (almost) always compresses better
