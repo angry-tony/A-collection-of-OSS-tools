@@ -10,14 +10,15 @@
 
 
 
-## IT News, Resources, and Community Sites
-* [IT News](#it-news)
-* [Linux News and Articles](#linux-news-and-articles)
-* [Message Boards and Forums](#message-boards-and-forums)
-
-
-
 # Table of Contents
+* [Tools by Category](#tools-by-category)
+* [General IT News](#general-it-news)
+* [Linux News and Articles](#linux-news-and-articles)
+* [Linux Message Boards and Forums](#linux-message-boards-and-forums)
+
+
+
+## Tools by Category
 * [Asset Management](#asset-management)
 * [AWS Tools](#aws-tools)
 * [Backups](#backups)
@@ -61,7 +62,7 @@
 
 
 
-## IT News
+## General IT News
 * [Ars Technica](http://arstechnica.com/)
 * [CIO.com](http://www.cio.com/)
 * [Computerworld](http://www.computerworld.com/)
@@ -135,7 +136,7 @@
 
 
 
-## Message Boards and Forums
+## Linux Message Boards and Forums
 * [Mailing Lists](http://www.example.com) - No link, there's like 4 trillion of them
 * [IRC](http://www.example.com) - Same as above
 * [Ask Ubuntu](https://askubuntu.com/)
@@ -182,17 +183,19 @@
 
 ## AWS Tools
 * [awstools](https://github.com/iMilnb/awstools) - Some handy AWS tools and scripts that use boto3 and troposphere
-* [boto](https://github.com/boto/boto) - Python library for interfacing with AWS **USE BOTO3 INSTEAD**
 * [boto3](https://github.com/boto/boto3) - Python library for interfacing with AWS, aka AWS SDK for Python
 * [CloudBerry Explorer](http://www.cloudberrylab.com/free-amazon-s3-explorer-cloudfront-IAM.aspx) - Windows client for accessing AWS S3 buckets -- freeware, closed source
 * [Developer Tools](https://aws.amazon.com/developertools/) - 3rd party tools for AWS - not screened or supported by Amazon
+* [ec2dns](https://github.com/fruux/ec2dns) - CLI tools to display public host names of instances and SSH into them via their tag
 * [ElasticWolf](http://www.elasticwolf.com/) - Client-side GUI for managing AWS, has versions for Windows/Mac/Linux/Firefox
 * [haproxy-autoscale](https://github.com/markcaudill/haproxy-autoscale) - Wrapper for haproxy that handles auto-scaling EC2 instances
-* [troposphere](https://github.com/cloudtools/troposphere) - Python library to create CloudFormation descriptions
+* [JAWS Stack](https://github.com/jaws-stack/JAWS) - Javascript + AWS stack, the entire backend is Lambda functions, server-free
+* [kappa](https://github.com/garnaat/kappa) - CLI tool that makes it easier to deploy, update, and test Lambda functions
 * [s3cmd](http://s3tools.org/s3cmd) - Backup to AWS via the command line
 * [Sneaker](https://github.com/codahale/sneaker) - Store secrets on S3 using Amazon KMS
 * [StarCluster](http://star.mit.edu/cluster/) - Toolkit for using AWS for high performance computing (HPC)
 * [Tools for Amazon Web Services](https://aws.amazon.com/tools/) - Amazon's portal for their official tools
+* [troposphere](https://github.com/cloudtools/troposphere) - Python library to create CloudFormation descriptions
 
 
 
@@ -902,6 +905,7 @@
 * [migrit](http://whtevn.github.io/migrit/) - Iterative schema migrations for MySQL
 * [MariaDB Galera Cluster](https://downloads.mariadb.org/mariadb-galera/) - HA for MariaDB
 * [MySQL Data Dumper (mydumper)](https://launchpad.net/mydumper) - Much better than mysqldump
+* [Navicat](http://www.navicat.com/) - GUI for RDBMS administration and development, RECOMMENDED -- commercial software
 * [Percona XtraDB Cluster](http://www.percona.com/software/percona-xtradb-cluster) - HA clustering for MySQL / MariaDB, supports active/active
 * [pg_shard](https://github.com/citusdata/pg_shard) - PostgreSQL extension to scale out real-time reads and writes
 * [pgBadger](http://dalibo.github.io/pgbadger/) - PostgreSQL log analyzer
@@ -1051,6 +1055,7 @@
 * [tldr](https://github.com/tldr-pages/tldr) - Simplified and community-driven man pages, cuts out a lot of cruft
 * [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) - Master the command line, in one page
 * [Unix Rosetta Stone](http://bhami.com/rosetta.html) - The one and only resource for a mixed Linux/Unix environment
+* [Unix Toolbox](http://cb.vu/unixtoolbox.xhtml) - A collection of Unix/Linux/BSD commands and tasks for advanced users
 
 
 
