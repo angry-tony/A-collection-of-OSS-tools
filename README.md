@@ -184,6 +184,7 @@
 ## AWS Tools
 * [awstools](https://github.com/iMilnb/awstools) - Some handy AWS tools and scripts that use boto3 and troposphere
 * [boto3](https://github.com/boto/boto3) - Python library for interfacing with AWS, aka AWS SDK for Python
+* [CASTER](https://chrome.google.com/webstore/detail/chrome-aws-saml-token-exp/mbfkedefmlagincpblmgeeeehhamgpbn?hl=en-US) - Chrome extension that automatically re-logs into AWS via ADFS before credentials expire
 * [CloudBerry Explorer](http://www.cloudberrylab.com/free-amazon-s3-explorer-cloudfront-IAM.aspx) - Windows client for accessing AWS S3 buckets -- freeware, closed source
 * [Developer Tools](https://aws.amazon.com/developertools/) - 3rd party tools for AWS - not screened or supported by Amazon
 * [ec2dns](https://github.com/fruux/ec2dns) - CLI tools to display public host names of instances and SSH into them via their tag
