@@ -421,9 +421,11 @@
 ## File Sync and Sharing
 * [BitTorrent Sync (btsync)](https://www.getsync.com/) - Sync on the local network or over the internet -- closed source
 * [Cloud Explorer](http://www.getcloudexplorer.com/) - GUI to access storage on multiple clouds, for Windows -- freeware, closed source
+* [Drive](https://github.com/odeke-em/drive) - Push or pull files to Google Drive via the command line
 * [Heartbeat](https://ind.ie/) - Uses an ID rather than an IP address, share your ID with friends and go.  Formerly Syncthing, formerly Pulse
 * [ownCloud](http://owncloud.org/) - The most popular file sync and share program
 * [Pydio](https://pyd.io/) - Formerly AjaXplorer, AGPL license
+* [Skicka](https://github.com/google/skicka) - Command line tool for working with Google Drive, by Google
 * [Seafile](http://seafile.com/en/home/) - Also offers a paid professional edition with more features
 * [SparkleShare](http://sparkleshare.org/) - Uses git under the hood
 * [Syncany](https://www.syncany.org/) - Supports tons of different protocols for the transfer
