@@ -317,6 +317,7 @@
 * [DockerUI](https://github.com/crosbymichael/dockerui) - Web interface for Docker
 * [Docker Compose](https://github.com/docker/compose) - Define and run multi-container apps with Docker, previously known as fig
 * [Docker Hub](https://registry.hub.docker.com/) - Official Docker images for many projects
+* [Docker Toolbox](https://www.docker.com/toolbox) - Docker Client, Machine, Compose, Kitematic, and VirtualBox in a single package
 * [Dokku](https://github.com/progrium/dokku) - Docker powered mini-Heroku (PaaS) in around 100 lines of Bash
 * [Dokku Alternative](https://github.com/dokku-alt/dokku-alt) - Dokku fork, supports plugins
 * [Ferry](https://github.com/opencore/ferry) -  Launch, run, and manage big data clusters without worry about infrastructure
@@ -830,8 +831,9 @@
 * [Awesome Python](https://github.com/vinta/awesome-python) - Very large list of Python resources
 * [bpython](http://bpython-interpreter.org/) - Killer interface for the Python interpreter
 * [Common Python Mistakes](https://news.ycombinator.com/item?id=7715349) - Link and discussion on Hacker News
-* [IPython](http://ipython.org/) - Interactive Python, like a shell or environment
+* [IPython](http://ipython.org/) - Interactive Python shell and the kernel for Jupyter
 * [Jinja2](http://jinja.pocoo.org/docs/dev/) - Templating language for Python
+* [Jupyter](https://jupyter.org/) - The language-agnostic parts of IPython
 * [Micro Python](https://micropython.org/) - Python for microcontrollers and embedded systems
 * [Parallel Python](http://www.parallelpython.com/) - Provides a mechanism for parallel execution of Python code on SMP and clusters
 * [Python Package Index (PyPI)](https://pypi.python.org/pypi) - Software repo for Python packages, like Ruby gems
@@ -1049,12 +1051,14 @@
 
 ## Shell Scripting
 * [Advanced Bash-Scripting Guide](http://www.tldp.org/LDP/abs/html/) - By the Linux Documentation Project (LDP)
+* [BashGuide](http://mywiki.wooledge.org/BashGuide) - Targeted at beginners
 * [Bash Hackers Wiki](http://wiki.bash-hackers.org/start) - Human-readable bash documentation so you don't have to dig through the man page
 * [bro pages](http://bropages.org/browse) - Simplifed man pages and examples
 * [CommandlineFu](http://www.commandlinefu.com/commands/browse) - Killer code snippets
 * [Explain Shell](http://explainshell.com/) - Enter a command-line to see the help text that matches each argument
 * [Fu](https://github.com/samirahmed/fu) - CLI for CommandlineFu.com, allows for easy searches
-* [ShellCheck](http://www.shellcheck.net/) - Checks shell scripts for common mistakes
+* [Grymoire awk Tutorial](http://www.grymoire.com/Unix/Awk.html) - Easy to understand awk tutorial
+* [ShellCheck](http://www.shellcheck.net/) - Checks shell scripts for common mistakes, essentially a linter
 * [tldr](https://github.com/tldr-pages/tldr) - Simplified and community-driven man pages, cuts out a lot of cruft
 * [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) - Master the command line, in one page
 * [Unix Rosetta Stone](http://bhami.com/rosetta.html) - The one and only resource for a mixed Linux/Unix environment
