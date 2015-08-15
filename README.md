@@ -31,7 +31,7 @@
 * [Git and GitHub Tools](#git-and-github-tools)
 * [High Availability Clustering Tools](#high-availability-clustering-tools)
 * [High Performance Computing Tools](#high-performance-computing-tools)
-* [HTTP Load Generation Tools](#http-load-generation-tools)
+* [HTTP Load Generation and Performance Tools](#http-load-generation-and-performance-tools)
 * [IO Load Generation Tools](#io-load-generation-tools)
 * [Logging and Log Management](#logging-and-log-management)
 * [Metric Collection Analaysis and Storage](#metric-collection-analaysis-and-storage)
@@ -249,7 +249,7 @@
 
 
 
-## CLoud File Sync and Sharing
+## Cloud File Sync and Sharing
 * [BitTorrent Sync (btsync)](https://www.getsync.com/) - Sync on the local network or over the internet -- closed source
 * [Cloud Explorer](http://www.getcloudexplorer.com/) - GUI to access storage on multiple clouds, for Windows -- freeware, closed source
 * [Drive](https://github.com/odeke-em/drive) - Push or pull files to Google Drive via the command line
@@ -381,6 +381,7 @@
 * [LICEcap](http://www.cockos.com/licecap/) - Capture an area of your desktop (eg: a terminal) and save it to a GIF
 * [linux-dash](http://linuxdash.com/) - A simple web dashboard to monitor your Linux server
 * [logstalgia](https://code.google.com/p/logstalgia/) - Web site access log visualization tool, aka Apache Pong
+* [GNU Image Manipulation Program (GIMP)](http://www.gimp.org/) - Open source Photoshop replacement
 * [Grafana](http://grafana.org/) - Modern dashboard for Graphite
 * [Graphviz](http://www.graphviz.org/) - Graph visualization and flow chart software
 * [Gravit](http://hub.gravit.io/browser/) - Web-based vector image editor / design tool, source code is available on GitHub
@@ -446,6 +447,7 @@
 * [git-fat](https://github.com/jedbrown/git-fat) - Like git-media but without the Ruby dependencies
 * [git-media](https://github.com/alebedev/git-media) - Use Git with large BLOBs without storing the BLOBs in Git itself
 * [GitBucket](https://github.com/takezoe/gitbucket) - GitHub clone written in Scala
+* [GitHub Desktop](https://desktop.github.com/) - Official desktop app from GitHub, supports branching, PRs, graphs, and more
 * [GitHub Pull Request Builder Plugin (gprbp)](https://github.com/janinko/ghprb) - Allows certain comment strings to kick off builds
 * [GitLab](https://about.gitlab.com/) - Kinda like an open source GitHub
 * [GitLab CI](https://about.gitlab.com/gitlab-ci/) - CI that integrates with GitLab
@@ -500,7 +502,7 @@
 
 
 
-## HTTP Load Generation Tools
+## HTTP Load Generation and Performance Tools
 * [Gatling](http://gatling.io/) - HTTP, JMS, and WebSocket load generator
 * [FunkLoad](https://pypi.python.org/pypi/funkload) - Functional and load web tester, written in Python
 * [httperf](https://github.com/httperf/httperf) - HTTP load generator, originally created, by HP
@@ -508,9 +510,12 @@
 * [JChav](http://jchav.blogspot.com/) - Visualize JMeter output
 * [JMeter](https://jmeter.apache.org/) - Designed to load test functional behavior and measure performance, written in Java
 * [Locust](http://locust.io/) - Written in Python, allows you to define user behavior
+* [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) - Analyzes the content of a web page, then generates suggestions to make that page faster, by Google
+* [PageSpeed Module](https://developers.google.com/speed/pagespeed/module) - Reduce page load time without modify your existing content or workflow
 * [Siege](http://www.joedog.org/siege-home/) - CLI based, supports basic authentication, cookies, and HTTPS
 * [Tsung](http://tsung.erlang-projects.org/) - Distributed stress tester, also supports stress testing DBs
 * [vegeta](https://github.com/tsenart/vegeta) - Written in Go
+* [Web Page Test](http://www.webpagetest.org/) - Free website speed test from multiple locations around the globe using real browsers (IE and Chrome) and at real consumer connection speeds
 * [Web Performance Today](http://www.webperformancetoday.com/) - News site dedicated to web / HTTP performance
 * [wrk](https://github.com/wg/wrk) - Multi-threaded CLI tool
 * [wrk2](https://github.com/giltene/wrk2) - Fork of wrk that fixes the coordinated omissions problem
@@ -688,6 +693,7 @@
 * [tc](http://linux.die.net/man/8/tc) - Built-in Linux kernel traffic control
 * [tcpdstat](https://github.com/netik/tcpdstat) - Get protocol statistics from tcpdump / PCAP files
 * [tcpflow](https://github.com/simsong/tcpflow) - TCP demultiplexer, each flow is stored in it's own file
+* [tcptrack](http://linux.die.net/man/1/tcptrack) - Console based connection tracker
 * [TCPWatch](https://pypi.python.org/pypi/tcpwatch) - TCP monitoring and logging tool
 * [tengine](https://github.com/alibaba/tengine) - A distribution of Nginx with some advanced features, by Alibaba
 * [Tracebox](http://www.tracebox.org/) - Detect middleboxes (NAT, transparent proxies, etc) in a network path
@@ -803,7 +809,6 @@
 * [nicstat](http://sourceforge.net/projects/nicstat/) - vmstat for network interfaces
 * [nload](http://www.roland-riegel.de/nload/index.html) - Console application that monitors network traffic and bandwidth usage in real time, neat ASCII graphs
 * [nmon](http://nmon.sourceforge.net/pmwiki.php) - Provides both real-time and historical performance metrics
-* [PageSpeed Module](https://developers.google.com/speed/pagespeed/module) - Reduce page load time without modify your existing content or workflow
 * [perf-tools](https://github.com/brendangregg/perf-tools) - By Brendan Gregg, uses perf and ftrace, includes iosnoop, KILLER TOOLS
 * [Performance Co-Pilot (PCP)](http://www.performancecopilot.org/) - System performance and analysis framework, included in RHEL 7
 * [pidstat](http://linux.die.net/man/1/pidstat) - vmstat type output for CPU, disk I/O, page faults, and more on a per-process basis
@@ -867,6 +872,7 @@
 * [PyPy](http://pypy.org/) - Python alternative with advance features (JIT compiles, sandboxing, etc)
 * [Requests](http://docs.python-requests.org/en/latest/) - Killer replacement for the urllib2 module
 * [virtualenv](https://virtualenv.pypa.io/en/latest/) - Tool to create isolated Python environments
+* [virtualenvwrapper](https://pypi.python.org/pypi/virtualenvwrapper) - Extensions to virtualenv, highly recommended
 * [xlwings](http://xlwings.org/) - Replace your Excel VBA code with Python
 
 
@@ -935,6 +941,7 @@
 * [HeidiSQL](http://www.heidisql.com/) - GUI SQL DB browser and editor
 * [migrit](http://whtevn.github.io/migrit/) - Iterative schema migrations for MySQL
 * [MariaDB Galera Cluster](https://downloads.mariadb.org/mariadb-galera/) - HA for MariaDB
+* [Mycli](http://mycli.net/) - CLI for MySQL and derivates with auto-completion and syntax highlighting
 * [MySQL Data Dumper (mydumper)](https://launchpad.net/mydumper) - Much better than mysqldump
 * [Navicat](http://www.navicat.com/) - GUI for RDBMS administration and development, RECOMMENDED -- commercial software
 * [Percona XtraDB Cluster](http://www.percona.com/software/percona-xtradb-cluster) - HA clustering for MySQL / MariaDB, supports active/active
@@ -1153,6 +1160,7 @@
 * [SSLsplit](http://www.roe.ch/SSLsplit) - Transparent and scalable SSL/TLS interception
 * [sslyze](https://github.com/nabla-c0d3/sslyze) - Fast and full-featured SSL scanner, written in Python
 * [SSL Decoder](https://github.com/RaymiiOrg/ssl-decoder) - Decodes a SSL connection and displays certificate information
+* [StartSSL](https://www.startssl.com/?app=1) - Free SSL certificates for non-commercial use
 
 
 
@@ -1172,6 +1180,7 @@
 * [fig](https://github.com/mfoemmel/fig) - A way to create "environments" for developers (dependencies, etc)
 * [FindBugs](https://en.wikipedia.org/wiki/FindBugs) - Static code analyser for Java
 * [Gource](https://github.com/acaudwell/Gource) - Software version control visualization tool
+* [Gulp](http://gulpjs.com/) - Built system / toolkit that helps you automate time-consuming tasks in your development workflow
 * [Hubot](https://hubot.github.com/) - Chat bot that can do deploys, look up images, integrate with Google Maps, and tons of other stuff
 * [Jenkins](http://jenkins-ci.org/) - The most popular CI orchestration tool, supports a billion plugins
 * [Jenkins JobConfigHistory](https://wiki.jenkins-ci.org/display/JENKINS/JobConfigHistory+Plugin) - Tracks changes to system and job configurations
@@ -1215,7 +1224,8 @@
 
 ## Text Editors IDEs and Related Tools
 * [Atom](http://atom.io) - Superb text editor, created by GitHub
-* [Atom Linter](https://github.com/AtomLinter) - A collection of lint tools for the Atom editor\
+* [Atom Vim Mode](https://github.com/atom/vim-mode) - vi/vim style controls for Atom
+* [Atom Linter](https://github.com/AtomLinter) - A collection of lint tools for the Atom editor
 * [Eclipse](https://eclipse.org/) - The well known Java IDE
 * [Etherpad](https://github.com/ether) - Enter, save, and share text/code in a web browser
 * [HasteBin](http://hastebin.com/about.md) - Open source pastebin alternative for sharing code, can be installed locally / on-site
@@ -1225,6 +1235,7 @@
 * [Sticky Notes](http://sayakb.github.io/sticky-notes/pages/home/) - On-site / local pastebin
 * [Sublime Text](http://www.sublimetext.com/) - Ok it's closed source and costs money but it's probably the best one out there
 * [vim-json](https://github.com/elzr/vim-json) - A better JSON plugin for vim
+* [Vimium](https://vimium.github.io/) - Chrome extension that provides vi/vim style shortcuts for navigation and control
 
 
 
