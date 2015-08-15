@@ -23,11 +23,12 @@
 * [AWS Tools](#aws-tools)
 * [Backups](#backups)
 * [Bootable USB Tools](#bootable-usb-tools)
+* [Cloud File Sync and Sharing](#cloud-file-sync-and-sharing)
 * [Configuration Management and Orchestration](#configuration-management-and-orchestration)
 * [Containers](#containers)
 * [Dashboards and Visualization](#dashboards-and-visualization)
 * [Distributed Systems Tools](#distributed-systems-tools)
-* [File Sync and Sharing](#file-sync-and-sharing)
+* [Git and GitHub Tools](#git-and-github-tools)
 * [High Availability Clustering Tools](#high-availability-clustering-tools)
 * [High Performance Computing Tools](#high-performance-computing-tools)
 * [HTTP Load Generation Tools](#http-load-generation-tools)
@@ -248,6 +249,22 @@
 
 
 
+## CLoud File Sync and Sharing
+* [BitTorrent Sync (btsync)](https://www.getsync.com/) - Sync on the local network or over the internet -- closed source
+* [Cloud Explorer](http://www.getcloudexplorer.com/) - GUI to access storage on multiple clouds, for Windows -- freeware, closed source
+* [Drive](https://github.com/odeke-em/drive) - Push or pull files to Google Drive via the command line
+* [Heartbeat](https://ind.ie/) - Uses an ID rather than an IP address, share your ID with friends and go.  Formerly Syncthing, formerly Pulse
+* [ownCloud](http://owncloud.org/) - The most popular file sync and share program
+* [Pydio](https://pyd.io/) - Formerly AjaXplorer, AGPL license
+* [Skicka](https://github.com/google/skicka) - Command line tool for working with Google Drive, by Google
+* [Seafile](http://seafile.com/en/home/) - Also offers a paid professional edition with more features
+* [SparkleShare](http://sparkleshare.org/) - Uses git under the hood
+* [Syncany](https://www.syncany.org/) - Supports tons of different protocols for the transfer
+* [Tahoe-LAFS](https://www.tahoe-lafs.org/trac/tahoe-lafs) - Free and open decentralized cloud storage system
+* [Unison](http://www.cis.upenn.edu/~bcpierce/unison/) - Multiplatform, feature-rich file sync
+
+
+
 ## Configuration Management and Orchestration
 * [Ansible](http://www.ansible.com) - CM and orchestration, also can do provisioning
 * [Ansible Galaxy](https://galaxy.ansible.com/) - Community site for finding, reusing, and sharing Ansible content
@@ -372,11 +389,13 @@
 * [NagVis](http://www.nagvis.org/) - Visualization suite for Nagios
 * [Nagiosgraph](http://nagiosgraph.sourceforge.net/) - Another visualization tool for Nagios data
 * [Network Weathermap](http://www.network-weathermap.com/) - Network visualization tool, create a "weather map" just like big ISPs use
+* [Pencil](http://pencil.evolus.vn/) - Open source GUI prototyping and mockup tool, supports all platforms
 * [php-weathermap-graphite](https://github.com/alexforrow/php-weathermap-graphite) - Allows Network Weathermap to source data from Graphite
 * [PNP4Nagios](http://docs.pnp4nagios.org/) - Nagios visualization tool
 * [ScreenCloud](https://screencloud.net/) - Take a screenshot and either upload it to their site to share, or save it locally
 * [Seyren](https://github.com/scobal/seyren) - Alerting dashboard for Graphite
 * [Skitch](https://evernote.com/skitch/) - Feature-rich screenshot editing, sharing, and annotation tool -- closed source
+* [Staytus](https://github.com/adamcooke/staytus) - Complete solution for publishing the latest info about issues with your web applications, networks or services
 * [TermRecord](https://github.com/theonewolf/TermRecord) - Record and playback terminal sessions
 * [Thruk](http://www.thruk.org/) - Web interface for Nagios, Icinga, Shinken and Naemon, can create SLA reports, has a mobile client
 * [Uchiwa](https://github.com/sensu/uchiwa) - Dashboard for Sensu
@@ -396,7 +415,7 @@
 * [etcd](https://github.com/coreos/etcd) - Distributed, consistent key-value store for shared configuration and service discovery
 * [eureka](https://github.com/Netflix/eureka) - AWS Service registry for resilient mid-tier load balancing and failover, by Netflix
 * [FileUtils](http://fileutils.io/) - File utilities for distributed computing
-* [git2consul](https://www.npmjs.com/package/git2consul) - Mirror git repos to Consult K/V stores
+* [git2consul](https://www.npmjs.com/package/git2consul) - Mirror git repos to Consul K/V stores
 * [Herd](https://github.com/russss/Herd) - A single-command bittorrent distribution system, based on Twitter's [Murder](https://github.com/lg/murder)
 * [Hystrix](https://github.com/Netflix/Hystrix) - Library to stop cascading failures
 * [jespen](https://github.com/aphyr/jepsen) - Call Me Maybe: simulating network partitions in DBs
@@ -419,19 +438,26 @@
 
 
 
-## File Sync and Sharing
-* [BitTorrent Sync (btsync)](https://www.getsync.com/) - Sync on the local network or over the internet -- closed source
-* [Cloud Explorer](http://www.getcloudexplorer.com/) - GUI to access storage on multiple clouds, for Windows -- freeware, closed source
-* [Drive](https://github.com/odeke-em/drive) - Push or pull files to Google Drive via the command line
-* [Heartbeat](https://ind.ie/) - Uses an ID rather than an IP address, share your ID with friends and go.  Formerly Syncthing, formerly Pulse
-* [ownCloud](http://owncloud.org/) - The most popular file sync and share program
-* [Pydio](https://pyd.io/) - Formerly AjaXplorer, AGPL license
-* [Skicka](https://github.com/google/skicka) - Command line tool for working with Google Drive, by Google
-* [Seafile](http://seafile.com/en/home/) - Also offers a paid professional edition with more features
-* [SparkleShare](http://sparkleshare.org/) - Uses git under the hood
-* [Syncany](https://www.syncany.org/) - Supports tons of different protocols for the transfer
-* [Tahoe-LAFS](https://www.tahoe-lafs.org/trac/tahoe-lafs) - Free and open decentralized cloud storage system
-* [Unison](http://www.cis.upenn.edu/~bcpierce/unison/) - Multiplatform, feature-rich file sync
+## Git and GitHub Tools
+* [BFG Repo-Cleaner](https://github.com/rtyley/bfg-repo-cleaner) - Scrub large blobs and sensitive data from git history
+* [Completion](https://github.com/git/git/tree/master/contrib/completion) - Tab completion for git branches, supports various shells
+* [GistBox](http://www.gistboxapp.com/) - Web UI for organizing Gists
+* [git-arr](http://blitiri.com.ar/p/git-arr/) - Repo browser that uses static HTML pages for reduced overhead
+* [git-fat](https://github.com/jedbrown/git-fat) - Like git-media but without the Ruby dependencies
+* [git-media](https://github.com/alebedev/git-media) - Use Git with large BLOBs without storing the BLOBs in Git itself
+* [GitBucket](https://github.com/takezoe/gitbucket) - GitHub clone written in Scala
+* [GitHub Pull Request Builder Plugin (gprbp)](https://github.com/janinko/ghprb) - Allows certain comment strings to kick off builds
+* [GitLab](https://about.gitlab.com/) - Kinda like an open source GitHub
+* [GitLab CI](https://about.gitlab.com/gitlab-ci/) - CI that integrates with GitLab
+* [Gitorious](http://getgitorious.com/) - Web front end for git, can be deployed as an appliance
+* [GitTorrent](https://github.com/cjb/gittorrent) - A decentralization of GitHub using BitTorrent and Bitcoin/blockchain
+* [gitwatch](https://github.com/nevik/gitwatch) - Automatically commit changes when specified files or directories are modified
+* [Git Interfaces, Frontends, and Tools](https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools) - Massive list on the kernel.org wiki
+* [gkv](https://github.com/ybur-yug/gkv) - Use git as a KV key/value store
+* [Imhotep](https://github.com/justinabrahms/imhotep) - Comments on commits coming into your repository and checks for syntactic errors and general lint warnings
+* [libgit2](https://github.com/libgit2) - Library for interfacing with git via Ruby, Python, Go, and others
+* [Mergeatron](https://github.com/behance/mergeatron) - Kicks off Jenkins a repo gets a PR, gives a thumbs up/down reply
+* [myrepos](http://myrepos.branchable.com/) - Flexible tool for managing many repos
 
 
 
@@ -1108,6 +1134,7 @@
 * [WinSCP](http://winscp.net) - The well-known SCP client for Windows
 * [x2go](http://wiki.x2go.org/doku.php) - One of the best remote-desktop-over-SSH clients
 * [Xming](http://www.straightrunning.com/XmingNotes/) - Windows Xwindows server, supports PuTTY
+* [Xshell](https://www.netsarang.com/products/xsh_overview.html) - SSH client for Windows, free for personal use -- closed source
 
 
 
@@ -1133,12 +1160,10 @@
 * [ack](http://beyondgrep.com/) - grep-like tool designed to search source code
 * [Artifactory](http://www.jfrog.com/open-source/) - Probably the best way to store software artifacts and deal with dependency hell
 * [Barkeep](http://getbarkeep.org/) - Code review tool, kinda sorta like GitHub
-* [BFG Repo-Cleaner](https://github.com/rtyley/bfg-repo-cleaner) - Scrub large blobs and sensitive data from git history
 * [boar](https://bitbucket.org/mats_ekberg/boar/wiki/Home) - Stores snapshots of directory trees in a local or remote repository, for BLOBs
 * [Buildbot](http://buildbot.net/) - CI framework
 * [Codeine](https://github.com/codeine-cd/codeine) - CD with built in monitoring and automation
 * [comm](http://linux.die.net/man/1/comm) - Display lines that two files have in common (eg: the opposite of diff)
-* [Completion](https://github.com/git/git/tree/master/contrib/completion) - Tab completion for git branches, supports various shells
 * [cwrap](http://cwrap.org/) - Wrappers for creating test scenarios and faking behavior, **recommended**
 * [devcheatsheet.com](http://devcheatsheet.com/) - Cheat sheets and quick references for almost every programming language
 * [drone](https://github.com/drone/drone) - CI platform built on Docker
@@ -1146,29 +1171,12 @@
 * [Environment Modules](http://modules.sourceforge.net/) - Dynamic modification of your shell environment using modules
 * [fig](https://github.com/mfoemmel/fig) - A way to create "environments" for developers (dependencies, etc)
 * [FindBugs](https://en.wikipedia.org/wiki/FindBugs) - Static code analyser for Java
-* [GistBox](http://www.gistboxapp.com/) - Web UI for organizing Gists
-* [git-arr](http://blitiri.com.ar/p/git-arr/) - Repo browser that uses static HTML pages for reduced overhead
-* [git-fat](https://github.com/jedbrown/git-fat) - Like git-media but without the Ruby dependencies
-* [git-media](https://github.com/alebedev/git-media) - Use Git with large BLOBs without storing the BLOBs in Git itself
-* [GitBucket](https://github.com/takezoe/gitbucket) - GitHub clone written in Scala
-* [GitHub Pull Request Builder Plugin (gprbp)](https://github.com/janinko/ghprb) - Allows certain comment strings to kick off builds
-* [GitLab](https://about.gitlab.com/) - Kinda like an open source GitHub
-* [GitLab CI](https://about.gitlab.com/gitlab-ci/) - CI that integrates with GitLab
-* [Gitorious](http://getgitorious.com/) - Web front end for git, can be deployed as an appliance
-* [GitTorrent](https://github.com/cjb/gittorrent) - A decentralization of GitHub using BitTorrent and Bitcoin/blockchain
-* [gitwatch](https://github.com/nevik/gitwatch) - Automatically commit changes when specified files or directories are modified
-* [Git Interfaces, Frontends, and Tools](https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools) - Massive list on the kernel.org wiki
-* [gkv](https://github.com/ybur-yug/gkv) - Use git as a KV key/value store
 * [Gource](https://github.com/acaudwell/Gource) - Software version control visualization tool
 * [Hubot](https://hubot.github.com/) - Chat bot that can do deploys, look up images, integrate with Google Maps, and tons of other stuff
-* [Imhotep](https://github.com/justinabrahms/imhotep) - Comments on commits coming into your repository and checks for syntactic errors and general lint warnings
 * [Jenkins](http://jenkins-ci.org/) - The most popular CI orchestration tool, supports a billion plugins
 * [Jenkins JobConfigHistory](https://wiki.jenkins-ci.org/display/JENKINS/JobConfigHistory+Plugin) - Tracks changes to system and job configurations
 * [Jenkins Job DSL Plugin (jenkins-job-dsl)](https://github.com/jenkinsci/job-dsl-plugin) - Groovy-based DSL for writing Jenkins jobs
 * [JSON Formatter](http://www.bodurov.com/JsonFormatter/) - Automatically format JSON code, 100% client side
-* [libgit2](https://github.com/libgit2) - Library for interfacing with git via Ruby, Python, Go, and others
-* [Mergeatron](https://github.com/behance/mergeatron) - Kicks off Jenkins a repo gets a PR, gives a thumbs up/down reply
-* [myrepos](http://myrepos.branchable.com/) - Flexible tool for managing many repos
 * [Ninja](https://martine.github.io/ninja/) - Small build system with a focus on speed
 * [PatchELF](https://github.com/NixOS/patchelf) - Simple utility for modifying existing ELF executables and libraries
 * [Phabricator](http://phabricator.org/) - Suite of web-based software development collaboration tools
@@ -1183,12 +1191,12 @@
 * [tortilla](https://github.com/redodo/tortilla) - Easily wrap web APIs, written in Python
 * [tup](http://gittup.org/tup/) - Super fast and efficient build system
 * [watch-make](https://github.com/andrewffff/watch-make) - Monitor Makefile dependencies and kick off make when one changes
-* [watchman](https://github.com/facebook/watchman) - Watch files and take action when they change (eg: kick off the CI system)
 
 
 
 ## Storage Tools
 * [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) - Send a signal to an ATA drive to perform a hardware-based erase
+* [Clonezilla](http://clonezilla.org/) - Disk image/cloning tool, supports most file system types
 * [CockroachDB](http://www.cockroachlabs.com/) - Open source version of Google's Spanner storage system
 * [EnhanceIO](https://github.com/stec-inc/EnhanceIO) - SSD caching, in the mainline Linux kernel, a fork of Facebook's Flashcache project
 * [fs-cache](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-fscache.html) - NFS client caching
@@ -1312,8 +1320,11 @@
 * [Rackerlabs](https://github.com/rackerlabs) - Rackspace's OSS tools, hosted on GitHub
 * [rcron](https://code.google.com/p/rcron/) - cron redundancy and failover, ensures a job will only run on the "active" machine
 * [Request Tracker](http://www.bestpractical.com/rt/) - Bug tracking, help desk ticketing, customer service, workflow processes, change management and more
+* [runit](http://smarden.org/runit/) - UNIX init scheme with service supervision, great for containers
+* [runwhen](http://code.dogmap.org/runwhen/) - Utilities for running commands at particular times, cron on steroids
 * [supervisord](http://supervisord.org/) - Process control, kinda like an init replacement but not really
 * [Synergy](http://synergy-project.org/) - Share a single keyboard and mouse with multiple physical computers
 * [sysadmin-util](https://github.com/skx/sysadmin-util) - A collection of small but useful utilities
 * [Tools of the Trade](https://github.com/cjbarber/ToolsOfTheTrade) - Massive list of SaaS, via Hacker News
+* [watchman](https://github.com/facebook/watchman) - Watch files and take action when they change (eg: kick off the CI system)
 * [watchr](https://github.com/mynyml/watchr) - Monitor a directory tree and kick off a script when a file changes, written in Ruby
