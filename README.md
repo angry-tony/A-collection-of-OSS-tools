@@ -50,7 +50,7 @@
 * [Ruby Resources](#ruby-tools-and-resources)
 * [Ruby Tutorials](#ruby-tutorials)
 * [Security Tools](#security-tools)
-* [Shell Scripting](#shell-scripting)
+* [Shell Tools and Scripting](#shell-tools-and-scripting)
 * [SSH Tools](#ssh-tools)
 * [SSL TLS HTTPS Tools](#ssl-tls-https-tools)
 * [Software Development Tools](#software-development-tools)
@@ -862,6 +862,7 @@
 * [Awesome Python](https://github.com/vinta/awesome-python) - Very large list of Python resources
 * [bpython](http://bpython-interpreter.org/) - Killer interface for the Python interpreter
 * [Common Python Mistakes](https://news.ycombinator.com/item?id=7715349) - Link and discussion on Hacker News
+* [Google Python Style Guide](https://google-styleguide.googlecode.com/svn/trunk/pyguide.html) - Google's Python style guide
 * [IPython](http://ipython.org/) - Interactive Python shell and the kernel for Jupyter
 * [Jinja2](http://jinja.pocoo.org/docs/dev/) - Templating language for Python
 * [Jupyter](https://jupyter.org/) - The language-agnostic parts of IPython
@@ -871,6 +872,7 @@
 * [Python Reference](https://github.com/rasbt/python_reference) - A collection of useful scripts, tutorials, and other Python-related things
 * [PyPy](http://pypy.org/) - Python alternative with advance features (JIT compiles, sandboxing, etc)
 * [Requests](http://docs.python-requests.org/en/latest/) - Killer replacement for the urllib2 module
+* [sh](https://pypi.python.org/pypi/sh) - Library that allows you to call any program (shell command) as if it were a function
 * [virtualenv](https://virtualenv.pypa.io/en/latest/) - Tool to create isolated Python environments
 * [virtualenvwrapper](https://pypi.python.org/pypi/virtualenvwrapper) - Extensions to virtualenv, highly recommended
 * [xlwings](http://xlwings.org/) - Replace your Excel VBA code with Python
@@ -878,6 +880,7 @@
 
 
 ## Python Tutorials
+* [46 Simple Python Exercises](https://github.com/R4meau/46-simple-python-exercises) - Focuses on Python 3
 * [500 Lines](https://github.com/aosabook/500lines) - Many full Python programs written in 500 lines or less, great for beginners
 * [Codecademy](http://www.codecademy.com/tracks/python) - Codecademy's online Python course
 * [CodingBat](http://codingbat.com/python) - Practice problems
@@ -887,6 +890,9 @@
 * [edX](https://www.edx.org/course?search_query=python) - Python courses at edX
 * [Google Python Class](https://developers.google.com/edu/python/) - By the GOOG
 * [Hitchhiker’s Guide to Python](http://docs.python-guide.org) - Best-practice handbook to the installation, configuration, and usage of Python.
+* [Invent with Python](http://inventwithpython.com/) - Series of free ebooks, includes Automate the Boring Stuff with Python, recommended books
+* [importpython's Python Book List](http://importpython.com/books/) - Includes both free and pay, ebooks and physical
+* [Learn Python, Break Python](http://learnpythonbreakpython.com/) - Free ebook
 * [MIT Open Courseware - Introduction to Computer Science and Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/) - Focuses on Python
 * [MIT Open Courseware - A Gentle Introduction to Programming Using Python](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/) - Final project is a Tetris game in Python
 * [MIT Open Courseware - Objects in Python](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-5-objects-in-python/) - Python tuples, lists, and dictionaries, as well as the concept of mutability and how to avoid problems relating to it.
@@ -895,6 +901,7 @@
 * [Online Python Tutor](http://pythontutor.com/) - 100% in-browser
 * [Programming Praxis](http://programmingpraxis.com/) - Programming exercises, many posted solutions are in Python
 * [Python Challenge](http://www.pythonchallenge.com/) - A riddle in Python
+* [Python for Infomatcis](http://www.pythonlearn.com/book.php) - Free ebook
 * [Python for You and Me](http://pymbook.readthedocs.org/en/py3/) - The 2.x version is linked on the main page
 * [Python Practice Projects](http://pythonpracticeprojects.com/) - Several practice exercises
 * [Python 2.x Tutorial](https://docs.python.org/2/tutorial/index.html) - For 2.x, part of the official documentation
@@ -902,6 +909,7 @@
 * [Quiz and Learn Python](http://mobileicecube.com/quiz-learn-python/) - Designed for mobile devices
 * [r/dailyprogrammer](http://www.reddit.com/r/dailyprogrammer) - Programming exercises, includes Python
 * [r/learnpython](http://www.reddit.com/r/learnpython) - Subreddit for beginners, be sure to check the wiki too
+* [Supporting Python 3](https://github.com/regebro/supporting-python-3) - Free ebook that focuses on porting to Python 3.x
 * [Think Python: How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/html/index.html) - Awesome free ebook
 * [Tutorials Point's Python Tutorial](http://www.tutorialspoint.com/python/index.htm) - Another one!
 
@@ -957,7 +965,9 @@
 
 
 ## Regular Expressions
+* [Debuggex](https://www.debuggex.com/) - Online regex debugger
 * [Learn regex the Hard Way](http://regex.learncodethehardway.org/book/) - The hard way
+* [perlretut](http://perldoc.perl.org/perlretut.html) - perl-focused but very useful for all regex
 * [Refiddle](http://refiddle.com/) - Online, supports JavaScript, Ruby, and .NET only
 * [regex101](http://regex101.com/) - Online regex tester and debugger, supports multiple languages -- recommended
 * [RegexBuddy](http://www.regexbuddy.com/) - Highly recommended, works on Windows or WINE -- commercial software
@@ -1082,12 +1092,14 @@
 
 
 
-## Shell Scripting
+## Shell Tools and Scripting
 * [Advanced Bash-Scripting Guide](http://www.tldp.org/LDP/abs/html/) - By the Linux Documentation Project (LDP)
 * [BashGuide](http://mywiki.wooledge.org/BashGuide) - Targeted at beginners
+* [bashrc PS1 Generator](http://bashrcgenerator.com/) - Drag and drop to create a custom PS1 prompt
 * [Bash Hackers Wiki](http://wiki.bash-hackers.org/start) - Human-readable bash documentation so you don't have to dig through the man page
 * [bro pages](http://bropages.org/browse) - Simplifed man pages and examples
 * [CommandlineFu](http://www.commandlinefu.com/commands/browse) - Killer code snippets
+* [Custom Reporting Utilities for SHell (CRUSH)](https://github.com/google/crush-tools) - Killer toolset for working on delimited data, by Google
 * [Explain Shell](http://explainshell.com/) - Enter a command-line to see the help text that matches each argument
 * [Fu](https://github.com/samirahmed/fu) - CLI for CommandlineFu.com, allows for easy searches
 * [Grymoire awk Tutorial](http://www.grymoire.com/Unix/Awk.html) - Easy to understand awk tutorial
@@ -1130,11 +1142,11 @@
 * [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) - The classic SSH client for Windows
 * [rssh](http://www.pizzashack.org/rssh/) - Restricted shell for SSH, only allows scp, sftp, rdist, rsync, and cvs
 * [scponly](https://github.com/scponly/scponly/) - Shell that only allows incoming SCP, supports chroot
-* [SSH Power Tool (sshpt)](https://code.google.com/p/sshpt/) - Execute commands and upload files to many servers simultaneously via SSH without using pre-shared keys
 * [ssh-ldap-helper](http://linux.die.net/man/8/ssh-ldap-helper) - Store public keys in LDAP
 * [SSHFS](http://linux.die.net/man/1/sshfs) - Mount remote file systems using a SSH tunnel
 * [sshrc](https://github.com/Russell91/sshrc/) - Sources the ~/.sshrc on your local computer after logging in remotely
 * [sshuttle](https://github.com/apenwarr/sshuttle) - Transparent proxy server that works as a poor man's VPN, forwards over SSH, supports DNS tunneling
+* [SSH Power Tool (sshpt)](https://code.google.com/p/sshpt/) - Execute commands and upload files to many servers simultaneously via SSH without using pre-shared keys
 * [SuperPutty](https://github.com/jimradford/superputty) - Allows the PuTTY SSH client to be opened in tabs
 * [tmux](http://tmux.sourceforge.net/) - An alternative to GNU screen
 * [tmux-cssh](https://github.com/dennishafemann/tmux-cssh) - Cluster SSH for tmux
@@ -1159,6 +1171,7 @@
 * [sslsniff](https://github.com/moxie0/sslsniff) - A tool for automated MITM attacks on SSL connections
 * [SSLsplit](http://www.roe.ch/SSLsplit) - Transparent and scalable SSL/TLS interception
 * [sslyze](https://github.com/nabla-c0d3/sslyze) - Fast and full-featured SSL scanner, written in Python
+* [SSL Checker](https://www.sslshopper.com/ssl-checker.html) - Type in a domain name and it will dump info about its cert
 * [SSL Decoder](https://github.com/RaymiiOrg/ssl-decoder) - Decodes a SSL connection and displays certificate information
 * [StartSSL](https://www.startssl.com/?app=1) - Free SSL certificates for non-commercial use
 
@@ -1197,6 +1210,7 @@
 * [Silver Searcher, The (aka ag)](https://github.com/ggreer/the_silver_searcher) - Source code searching tool, similar to "ack" but faster
 * [SonarQube](http://www.sonarqube.org/) - Platform / dashboard for managing code quality
 * [Swagger](http://swagger.io/) - A JSON format/standard that describes a RESTful API
+* [Test Load Balancer (TLB)](http://test-load-balancer.github.io/) - Automatically partition tests into multiple subsets that can be executed in parallel
 * [tortilla](https://github.com/redodo/tortilla) - Easily wrap web APIs, written in Python
 * [tup](http://gittup.org/tup/) - Super fast and efficient build system
 * [watch-make](https://github.com/andrewffff/watch-make) - Monitor Makefile dependencies and kick off make when one changes
