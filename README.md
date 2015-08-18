@@ -276,6 +276,7 @@
 * [BOSH](https://github.com/cloudfoundry/bosh) - Cloud orchestration, supports Docker containers too
 * [Boxen](https://boxen.github.com/) - Focused on Mac / OS X
 * [Capistrano](http://capistranorb.com/) - Run scripts/commands and push software using SSH, a RubyGem, uses a Rake DSL
+* [Chake](https://gitlab.com/terceiro/chake) - tool that helps you manage multiple hosts with chef-solo
 * [Chef](http://chef.io/) - Well known configuration management tool
 * [chef-handlers](https://github.com/etsy/chef-handlers) - Log failures to IRC and send metrics to Graphite (including deploys)
 * [chef-relevant-test](https://github.com/brigade/chef-relevant-tests) - Runs Test Kitchen tests only on the parts of your code that changed (rather than the full suite)
@@ -287,6 +288,7 @@
 * [Fabric](http://www.fabfile.org/) - Python library, uses SSH
 * [grocery-delivery](https://github.com/facebook/grocery-delivery) - Utility for managing cookbook uploads to distributed Chef backends, by Facebook
 * [hiera-eyaml](https://github.com/TomPoulton/hiera-eyaml) - Backend for Hiera that provides per-value encryption of sensitive data within Puppet yaml files
+* [Itamae](https://github.com/itamae-kitchen/itamae) - CM tool inspired by Chef, but simpler and lightweight, formerly Lightchef
 * [Juju](https://juju.ubuntu.com/) - Ubuntu focused but works on RHEL / CentOS now
 * [kitchen-puppet](https://github.com/neillturner/kitchen-puppet) - Test Kitchen provisioner for Puppet
 * [knife-backup](https://github.com/mdxp/knife-backup) - Knife plugin to help backup and restore a Chef server
@@ -623,6 +625,7 @@
 * [pmacct](http://www.pmacct.net/) - IP and network traffic accounting / monitoring
 * [Riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language, for distributed systems
 * [Sensu](http://sensuapp.org/) - Open source monitoring framework, cloud-focused
+* [Sensu Plugins](https://github.com/sensu-plugins) - Official community site for Sensu plugins
 * [Shinken](http://www.shinken-monitoring.org/) - Compatible with Nagios
 * [StatsD](https://github.com/etsy/statsd/) - Monitoring in node.js bu Etsy
 * [Tattle](https://github.com/wayfair/Graphite-Tattle) - Self service alerting and dashboard frontend for Graphite and Ganglia
@@ -890,8 +893,9 @@
 * [edX](https://www.edx.org/course?search_query=python) - Python courses at edX
 * [Google Python Class](https://developers.google.com/edu/python/) - By the GOOG
 * [Hitchhiker’s Guide to Python](http://docs.python-guide.org) - Best-practice handbook to the installation, configuration, and usage of Python.
-* [Invent with Python](http://inventwithpython.com/) - Series of free ebooks, includes Automate the Boring Stuff with Python, recommended books
 * [importpython's Python Book List](http://importpython.com/books/) - Includes both free and pay, ebooks and physical
+* [Intermediate Python](http://book.pythontips.com/en/latest/) - Free ebook
+* [Invent with Python](http://inventwithpython.com/) - Series of free ebooks, includes Automate the Boring Stuff with Python, recommended books
 * [Learn Python, Break Python](http://learnpythonbreakpython.com/) - Free ebook
 * [MIT Open Courseware - Introduction to Computer Science and Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/) - Focuses on Python
 * [MIT Open Courseware - A Gentle Introduction to Programming Using Python](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/) - Final project is a Tetris game in Python
@@ -1079,6 +1083,7 @@
 * [SoftEther](http://www.softether.org/) - Maybe the best VPN software out there
 * [Sphirewall](http://sphirewall.net/) - Firewall with auditing, QoS, VPN support, and more
 * [SSH Guard](http://www.sshguard.net/) - Think fail2ban for SSH
+* [strongSwan](https://www.strongswan.org/) - IPsec-based VPN
 * [SubBrute](https://github.com/TheRook/subbrute) - Subdomain enumeration tool for penetration testers
 * [sudosh2](http://sourceforge.net/projects/sudosh2/) - Login shell that records all keystrokes and output, supports session playback
 * [tinc](http://www.tinc-vpn.org/) - Simple, multi-platform VPN
