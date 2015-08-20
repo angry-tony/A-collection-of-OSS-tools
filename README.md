@@ -543,6 +543,7 @@
 
 ## Logging and Log Management
 * [Adiscon LogAnalyzer](http://loganalyzer.adiscon.com/) - Slick web interface for syslog messages
+* [Apache Log Generator](http://www.apacheloggenerator.com/) - Drag and drop to create Apache log syntax
 * [ElasticDump](https://github.com/taskrabbit/elasticsearch-dump) - Import / export tools for Elasticsearch
 * [Elasticsearch](http://www.elasticsearch.org/) - Component of the ELK stack, used for super fast searches
 * [elasticsearch-river-email](https://github.com/medcl/elasticsearch-river-email) - E-mail river plugin for Elasticsearch
@@ -1102,6 +1103,7 @@
 * [BashGuide](http://mywiki.wooledge.org/BashGuide) - Targeted at beginners
 * [bashrc PS1 Generator](http://bashrcgenerator.com/) - Drag and drop to create a custom PS1 prompt
 * [Bash Hackers Wiki](http://wiki.bash-hackers.org/start) - Human-readable bash documentation so you don't have to dig through the man page
+* [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Common errors that bash programmers make
 * [bro pages](http://bropages.org/browse) - Simplifed man pages and examples
 * [CommandlineFu](http://www.commandlinefu.com/commands/browse) - Killer code snippets
 * [Custom Reporting Utilities for SHell (CRUSH)](https://github.com/google/crush-tools) - Killer toolset for working on delimited data, by Google
