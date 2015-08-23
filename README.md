@@ -191,6 +191,7 @@
 * [ec2dns](https://github.com/fruux/ec2dns) - CLI tools to display public host names of instances and SSH into them via their tag
 * [ElasticWolf](http://www.elasticwolf.com/) - Client-side GUI for managing AWS, has versions for Windows/Mac/Linux/Firefox
 * [haproxy-autoscale](https://github.com/markcaudill/haproxy-autoscale) - Wrapper for haproxy that handles auto-scaling EC2 instances
+* [Ice](https://github.com/Netflix/ice) - AWS usage tool, by Netflix
 * [JAWS Stack](https://github.com/jaws-stack/JAWS) - Javascript + AWS stack, the entire backend is Lambda functions, server-free
 * [kappa](https://github.com/garnaat/kappa) - CLI tool that makes it easier to deploy, update, and test Lambda functions
 * [s3cmd](http://s3tools.org/s3cmd) - Backup to AWS via the command line
@@ -549,6 +550,7 @@
 * [elasticsearch-river-email](https://github.com/medcl/elasticsearch-river-email) - E-mail river plugin for Elasticsearch
 * [Elasticsearch Copier (escp)](https://github.com/lytics/escp) - Tool to copy elasticsearch indexes, great for copying from prod to dev
 * [Elasticsearch Exporter](https://github.com/mallocator/Elasticsearch-Exporter) - Small script to export data from one Elasticsearch cluster into another
+* [Eliot](https://pypi.python.org/pypi/eliot) - Outputs causal chains of actions happening within and across process boundaries aka a logical trace of the system’s operation
 * [Errbit](https://github.com/errbit/errbit) - Tool for collecting and managing errors from other application, Airbrake API compliant
 * [FileSystem River (fsriver)](https://github.com/dadoonet/fsriver) - Elasticsearch river plugin helps to index documents from your local file system and using SSH
 * [Fluentd](http://www.fluentd.org/) - Unified logging layer
