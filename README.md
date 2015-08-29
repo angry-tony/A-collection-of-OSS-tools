@@ -573,6 +573,7 @@
 * [NXLOG](http://nxlog-ce.sourceforge.net/) - Universal log collector and forwarder, supports many formats/platforms/sources including Windows
 * [Piwik](http://piwik.org/) - Web analytics platform with a killer UI
 * [Sentry](https://github.com/getsentry/sentry) - Application exception logging
+* [Sexilog](http://www.sexilog.fr/) - ELK stack virtual appliance designed for vSphere / VMware ESXi logs
 * [Simple Event Correlator (SEC)](http://simple-evcorr.sourceforge.net/) - Event correlation tool for advanced event processing
 * [swatch](http://linux.die.net/man/1/swatch) - Simple watcher
 * [Webalizer](http://www.webalizer.org/) - Web and FTP log analyzer
@@ -700,7 +701,7 @@
 * [Sloppy](http://www.dallaway.com/sloppy/) - Proxy server that slows down connections for testing
 * [socat](http://www.dest-unreach.org/socat/) - netcat on steroids, supports serial devices
 * [spiped](https://www.tarsnap.com/spiped.html) - Create encrypted pipes between socket addresses using PSKs, similar to ssh -L
-* [sslh](http://www.rutschle.net/tech/sslh.shtml) - Protocol multiplexer, forwards packets based on the first packet
+* [sslh](http://www.rutschle.net/tech/sslh.shtml) - Protocol multiplexer, let multiple daemons listen on a single port
 * [Stanford Linear Accelerator Center - Network Monitoring Tools](https://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html) - MASSIVE list of network monitoring tools
 * [tc](http://linux.die.net/man/8/tc) - Built-in Linux kernel traffic control
 * [tcpdstat](https://github.com/netik/tcpdstat) - Get protocol statistics from tcpdump / PCAP files
