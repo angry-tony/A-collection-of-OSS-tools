@@ -171,13 +171,14 @@
 * [Network UPS Tools](http://www.networkupstools.org/) - Manage power devices from over 100 manufacturers using a single web interface
 * [OCS Inventory NG (OCS-NG)](http://www.ocsinventory-ng.org/en/) - Automated inventory, deployment system, can sync with GLPI
 * [openDCIM](http://opendcim.org/) - Data center infrastructure management
+* [Open-AudIT](http://open-audit.org/) - Track and report assets and configurations, supports Windows and Linux
 * [phpIPAM](http://phpipam.net/) - Written in perl.  No, Ruby.  No, Perl.  Probably PHP
 * [RackMonkey](https://flux.org.uk/projects/rackmonkey/) - No longer under development as of 2013
 * [RackTables](http://www.racktables.org/) - Data center asset management, highly recommended
 * [racktables-contribs](https://github.com/RackTables/racktables-contribs/) - RackTables user-contributed plugins
 * [Ralph](http://ralph.allegrogroup.com/) - DCIM and CMDB, supports auto-discovery
 * [rho](https://github.com/candlepin/rho) - Scans for and gathers information about Linux and Unix servers
-* [Snipe IT](http://snipeitapp.com/) - Uses Bootstrap, web based, supports mobile
+* [Snipe-IT](http://snipeitapp.com/) - Uses Bootstrap, web based, supports mobile
 * [Tracmor](http://tracmor.org/) - Web-based inventory and asset tracking system written in PHP 5 utilizing the Qcodo Framework
 
 
@@ -193,6 +194,7 @@
 * [haproxy-autoscale](https://github.com/markcaudill/haproxy-autoscale) - Wrapper for haproxy that handles auto-scaling EC2 instances
 * [Ice](https://github.com/Netflix/ice) - AWS usage tool, by Netflix
 * [JAWS Stack](https://github.com/jaws-stack/JAWS) - Javascript + AWS stack, the entire backend is Lambda functions, server-free
+* [jungle](https://github.com/achiku/jungle) - awscli wrapper to make commands simpler and more UNIX-like
 * [kappa](https://github.com/garnaat/kappa) - CLI tool that makes it easier to deploy, update, and test Lambda functions
 * [s3cmd](http://s3tools.org/s3cmd) - Backup to AWS via the command line
 * [Sneaker](https://github.com/codahale/sneaker) - Store secrets on S3 using Amazon KMS
@@ -349,6 +351,7 @@
 * [Kitematic](https://kitematic.com/) - Mac app for managing Docker containers
 * [libcontainer](https://github.com/docker/libcontainer) - Used by Docker 1.0+ so it doesn't have to use LXC/libvirt/systemd-nspawn
 * [Linux Containers (LXC)](https://linuxcontainers.org/) - Runs an OS instance (sshd, cron, daemons, init, etc) within a container
+* [OpenShift](http://www.openshift.org/) - Docker + Kubernetes, both OSS and a commercial product from Red Hat
 * [Panamax](http://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub
 * [pipework](https://github.com/jpetazzo/pipework) - SDN for Linux Containers
 * [Rancher](http://rancher.com/) - Provides a complete platform for operating Docker in production
@@ -468,6 +471,7 @@
 
 ## High Availability Clustering Tools
 * [AN! Cluster Tutorial 2](https://alteeve.ca/w/AN!Cluster_Tutorial_2) - Building clusters with OSS software, very detailed, highly recommended
+* [Cluster Manager (cman)](http://linux.die.net/man/5/cman) - Clustering framework that's built into RHEL/CentOS/Fedora
 * [Corosync](https://corosync.github.io/corosync/) - HA framework and cluster engine
 * [csync2](http://oss.linbit.com/csync2/) - Cluster file sync tool
 * [Distributed Replicated Block Device (DRBD)](http://www.drbd.org/) - Mirror block devices to a remote system
@@ -587,9 +591,10 @@
 * [Graphite Tools](https://graphite.readthedocs.org/en/latest/tools.html) - Tools that work with Graphite
 * [Heka / hekad](http://hekad.readthedocs.org/en/latest/) - Stream processing, can gather logs or performance metrics
 * [InfluxDB](http://influxdb.com/) - Distributed time series database with no external dependencies
-* [kairosdb](https://github.com/kairosdb/kairosdb) - Time series DB written on top of Cassandra
+* [KairosDB](https://github.com/kairosdb/kairosdb) - Time series DB written on top of Cassandra
 * [Node-Bell](https://github.com/eleme/node-bell) - Real-time anomalies detection system for periodic time series
 * [OpenTSDB](http://opentsdb.net/) - Store and serve massive amounts of time series data without losing granularity
+* [Prometheus](http://prometheus.io/) - Metrics collection and storage, can trigger alerts when thresholds are breached
 * [RRDtool](http://oss.oetiker.ch/rrdtool/) - High performance data logging and graphing system for time series data
 * [Scales](https://github.com/Cue/scales) - Metrics collection, written in Python
 * [Skyline](https://github.com/etsy/skyline) - Real-time anomaly detection system to enable passive monitoring of metrics without the need to configure thresholds
@@ -620,6 +625,7 @@
 * [Naemon](http://www.naemon.org/) - Modular Nagios fork
 * [Nagios](http://www.nagios.org/) - One of the most widely used OSS monitoring programs
 * [nagios-herald](https://github.com/etsy/nagios-herald) - Gives context to Nagios alerts, by Etsy
+* [Nagios Exchange](https://exchange.nagios.org/) - Centralized repository of Nagios plugins, addons, extensions, etc
 * [NeDi](http://www.nedi.ch/) - Network discovery and monitoring
 * [OpenNMS](http://www.opennms.org/) - Network monitoring, also supports configuration/asset management
 * [Open Monitoring Distribution (OMD)](http://omdistro.org/) - Nagios bundled with the most popular plugins and tools
@@ -954,6 +960,7 @@
 * [Flyway](http://flywaydb.org/) - Version control for DB schemas, supports most DBs, highly recommended
 * [Galera Cluster](http://galeracluster.com/) - HA clustering for MySQL
 * [HeidiSQL](http://www.heidisql.com/) - GUI SQL DB browser and editor
+* [Large Hardon Migrator (LHM)](https://github.com/soundcloud/lhm) - Live, online MySQL migrations
 * [migrit](http://whtevn.github.io/migrit/) - Iterative schema migrations for MySQL
 * [MariaDB Galera Cluster](https://downloads.mariadb.org/mariadb-galera/) - HA for MariaDB
 * [Mycli](http://mycli.net/) - CLI for MySQL and derivates with auto-completion and syntax highlighting
@@ -1109,6 +1116,7 @@
 * [bro pages](http://bropages.org/browse) - Simplifed man pages and examples
 * [CommandlineFu](http://www.commandlinefu.com/commands/browse) - Killer code snippets
 * [Custom Reporting Utilities for SHell (CRUSH)](https://github.com/google/crush-tools) - Killer toolset for working on delimited data, by Google
+* [Cygwin](https://www.cygwin.com/) - GNU shell and tools for Windows
 * [Explain Shell](http://explainshell.com/) - Enter a command-line to see the help text that matches each argument
 * [Fu](https://github.com/samirahmed/fu) - CLI for CommandlineFu.com, allows for easy searches
 * [Grymoire awk Tutorial](http://www.grymoire.com/Unix/Awk.html) - Easy to understand awk tutorial
@@ -1195,6 +1203,7 @@
 * [Codeine](https://github.com/codeine-cd/codeine) - CD with built in monitoring and automation
 * [comm](http://linux.die.net/man/1/comm) - Display lines that two files have in common (eg: the opposite of diff)
 * [cwrap](http://cwrap.org/) - Wrappers for creating test scenarios and faking behavior, **recommended**
+* [deployinator](https://github.com/etsy/deployinator) - Etsy's deployment framework (Ruby gem)
 * [devcheatsheet.com](http://devcheatsheet.com/) - Cheat sheets and quick references for almost every programming language
 * [drone](https://github.com/drone/drone) - CI platform built on Docker
 * [Elita](https://bitbucket.org/scorebig/elita) - API based CD framework/engine that uses git and Salt
@@ -1325,7 +1334,6 @@
 * [Bento](https://www.bento.io/grid) - Links to tutorials based on subject (programming, sysadmin, protocols, standards, etc)
 * [Checkpoint/Restore in Userspace (CRIU)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later
 * [conserver](http://www.conserver.com/) - Virtual console server with many features
-* [Cygwin](https://www.cygwin.com/) - GNU shell and tools for Windows
 * [Deltacloud](https://deltacloud.apache.org/) - API that abstracts the differences between clouds (AWS, OpenStack, etc)
 * [dotfiles](http://dotfiles.github.io/) - Store your .bashrc and others on GitHub
 * [dtrx](http://brettcsmith.org/2007/dtrx/) - Single command to extract almost any type of archive, requires Python 2.4+
