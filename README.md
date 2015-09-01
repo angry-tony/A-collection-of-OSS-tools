@@ -385,7 +385,7 @@
 * [Panamax](http://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub
 * [pipework](https://github.com/jpetazzo/pipework) - SDN for Linux Containers
 * [Rancher](http://rancher.com/) - Provides a complete platform for operating Docker in production
-* [Registrator](https://github.com/gliderlabs/registrator) - Service registry bridge for Docker, supports Consult, etcd
+* [Registrator](https://github.com/gliderlabs/registrator) - Service registry bridge for Docker, supports Consul, etcd
 * [rkt (Rocket)](https://github.com/coreos/rocket) - New container system by the CoreOS guys
 * [Shipyard](https://github.com/shipyard/shipyard) - Composable Docker management toolkit
 * [ShutIt](https://github.com/ianmiell/shutit) - Manage your build process in a way that is both structured and flexible
@@ -407,6 +407,7 @@
 * [collectd3](https://github.com/StackStorm/collectd3) - Beautiful D3JS visualizations of system performance statistics
 * [Dashing](http://dashing.io/) - Dashboard framework written in Ruby
 * [Dashing Widgets](https://github.com/Shopify/dashing/wiki/Additional-Widgets) - Massive collection of widgets for Dashing
+* [Dashplay](http://dashplay.io/) - Display multiple dashboards on wall mounted screens using just a browser
 * [draw.io](https://www.draw.io/) - Free online flow chart maker / Visio alternative
 * [Facette](https://facette.io/) - Time series data visualization and graphing software
 * [Freeboard](http://freeboard.io/) - Ridiculously simple dashboards for your devices
@@ -441,6 +442,7 @@
 * [Thruk](http://www.thruk.org/) - Web interface for Nagios, Icinga, Shinken and Naemon, can create SLA reports, has a mobile client
 * [Uchiwa](https://github.com/sensu/uchiwa) - Dashboard for Sensu
 * [Varnish Dashboard](https://github.com/brandonwamboldt/varnish-dashboard) - Realtime dashboard for Varnish cache servers
+* [VisioCafe](http://www.visiocafe.com/) - The largest collection of free Visio stencils
 * [vnstati](http://linux.die.net/man/1/vnstati) - Creates PNG images using vnStat data
 
 
@@ -452,6 +454,8 @@
 * [Cisco Cloud Microservices Infrastructure](https://github.com/CiscoCloud/microservices-infrastructure) - Complete suite of OSS tools
 * [crypt](https://github.com/xordataexchange/crypt) - Store and retrieve encrypted configs from etcd or Consul
 * [consul](http://www.consul.io/) - Service discovery and configuration via DNS or HTTP, great for auto-scaling
+* [consul-do](https://github.com/zeroXten/consul-do) - Take action (eg: run a cron job) based on Consul leadership status
+* [consul Tools](https://www.consul.io/downloads_tools.html) - Includes consul-template and others
 * [Curator](http://curator.apache.org/) - ZooKeeper client wrapper and rich ZooKeeper framework, by Netflix
 * [etcd](https://github.com/coreos/etcd) - Distributed, consistent key-value store for shared configuration and service discovery
 * [eureka](https://github.com/Netflix/eureka) - AWS Service registry for resilient mid-tier load balancing and failover, by Netflix
@@ -519,6 +523,7 @@
 * [huptime](https://github.com/amscanne/huptime) - Zero downtime restarts of unmodified programs
 * [Linux-HA](http://www.linux-ha.org) - Building blocks for high availability systems
 * [Pacemaker](http://clusterlabs.org/) - HA resource manager
+* [rmanager](http://linux.die.net/man/8/rgmanager) - Resource group manager daemon for cluster services
 * [Spread](http://www.spread.org/SpreadOverview.html) - Fault resilient message bus
 * [UCARP](http://www.pureftpd.org/project/ucarp) - VIP management using the CARP protocol
 * [Vippy](https://github.com/postwait/vippy) - VIP management, written in node.js
@@ -1274,7 +1279,7 @@
 * [Pushpin](http://pushpin.org/) - Proxy server that adds WebSockets to existing request-response APIs
 * [Review Board](https://www.reviewboard.org/) - Code review tool for multiple SCM systems
 * [RocksDB](http://rocksdb.org/) - Library that provides an embeddable, persistent key-value store for fast storage - by Facebook
-* [Silver Searcher, The (aka ag)](https://github.com/ggreer/the_silver_searcher) - Source code searching tool, similar to "ack" but faster
+* [Silver Searcher, The (aka ag)](https://github.com/ggreer/the_silver_searcher) - Source code searching tool, a better grep
 * [SonarQube](http://www.sonarqube.org/) - Platform / dashboard for managing code quality
 * [Swagger](http://swagger.io/) - A JSON format/standard that describes a RESTful API
 * [Test Load Balancer (TLB)](http://test-load-balancer.github.io/) - Automatically partition tests into multiple subsets that can be executed in parallel
@@ -1315,6 +1320,7 @@
 * [LargeFile](http://www.vim.org/scripts/script.php?script_id=1506) - vim plugin that automatically disables certain things so you can edit large files faster
 * [Light Table](http://lighttable.com/) - Next-generation editor that gives you instant feedback
 * [Lime](http://limetext.org/) - Open source API-compatible alternative to Sublime Text
+* [MacVim](https://github.com/macvim-dev/macvim) - Has far more features than the vim that's included with the OS
 * [Notepad++](http://notepad-plus-plus.org/) - Killer GPL'ed text editor for Windows
 * [percol](https://github.com/mooz/percol) - Interactive grep tool
 * [Sticky Notes](http://sayakb.github.io/sticky-notes/pages/home/) - On-site / local pastebin
@@ -1383,16 +1389,18 @@
 
 ## VMware Tools
 * [Flings](https://labs.vmware.com/flings) - Tons of a little apps written by VMware engineers, worth exploring
+* [Onyx](https://labs.vmware.com/flings/onyx) - Do something in vSphere and it will create a PowerCLI script to do that thing (think AIX's SMITTY)
 * [RVtools](http://www.robware.net/) - Killer GUI for viewing information about your VMware environment, written in .NET -- closed source
 * [Sexilog](http://www.sexilog.fr/) - ELK stack virtual appliance designed for vSphere / VMware ESXi logs
 * [SpyStudio](http://www.nektra.com/products/spystudio-api-monitor/) - API monitor, recommended -- closed source
-* [vCheck](https://github.com/alanrenouf/vCheck-vSphere) - Daily report for vSphere
+* [vCheck](https://github.com/alanrenouf/vCheck-vSphere) - Get an overview of a new environment or check the health of an existing one
 * [Veeam Backup Free Edition](http://www.veeam.com/virtual-machine-backup-solution-free.html) - The one and only -- closed source
 * [Veeam ONE Free Edition](http://www.veeam.com/virtual-server-management-one-free.html) - Monitoring, reporting, alerting, analytics and more -- closed source
 * [vGhetto Script Repository](https://github.com/lamw/vghetto-scripts) - Various scripts from virtuallyGhetto
 * [VMTurbo Virtual Health Monitor](http://vmturbo.com/downloads/vmturbo-virtual-health-monitor/) - Monitoring and reporting tool -- closed source
 * [VMware Community PowerPack](http://en.community.dell.com/techcenter/powergui/m/powerpacks/20438900) - A variety of scripts from Virtu-al.net and now other blogs such as ict-freak.nl and ntpro.nl
 * [VMware on Github](https://github.com/vmware) - VMware's Github repos
+* [VMware Sample Exchange](http://developercenter.vmware.com/samples) - Code samples & scripts by both VMware and the community
 * [vSphere Health Check Report](https://communities.vmware.com/docs/DOC-9842) - Reports a massive amount of information, by VMware
 * [vSphere Mobile Watchlist](https://communities.vmware.com/community/vmtn/vsphere/vsphere-mobile) - Monitor VMs on your phone -- closed source
 
@@ -1414,6 +1422,7 @@
 * [AutoHotKey](http://www.autohotkey.com/) - Automate input (desktop and web forms, data entry, keybinds, etc)
 * [autojump](https://github.com/joelthelion/autojump) - Small database of directories that you visited in the past, used to quickly navigate complex directory structures
 * [Awesome](https://github.com/sindresorhus/awesome) - A curated list of awesome lists
+* [Awesome AutoHotKey](https://github.com/ahkscript/awesome-AutoHotkey) - A collection of AutoHotKey scripts
 * [Awesome Sysadmin](https://github.com/n1trux/awesome-sysadmin) - An updated version of the original (3k+ stars)
 * [Bento](https://www.bento.io/grid) - Links to tutorials based on subject (programming, sysadmin, protocols, standards, etc)
 * [Checkpoint/Restore in Userspace (CRIU)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later
@@ -1430,6 +1439,7 @@
 * [gcalcli](https://github.com/insanum/gcalcli) - CLI for Google Calendar
 * [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any web page look like a Geocities page
 * [grabmem](https://github.com/dacresni/grabmem) - Allocates memory until the machine runs out or you quit it with ctrl-c
+* [icdiff](http://www.jefftk.com/icdiff) - diff tool that highlights the differences
 * [incrond](http://inotify.aiken.cz/?section=incron&page=about&lang=en) - Fires off a job when a file system event happens
 * [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) - ISO standard for dates, the only way to fly
 * [inotify](https://github.com/rvoicilas/inotify-tools) - Watch file(s) for changes, take an action when the change occurs
@@ -1441,6 +1451,7 @@
 * [moreutils](https://joeyh.name/code/moreutils/) - "Collection of the unix tools that nobody thought to write long ago when unix was young"
 * [Netflix OSS](https://github.com/netflix) - Netflix OSS tools on GitHub
 * [observr](https://github.com/kevinburke/observr) - Monitor a directory and kick off an action when a file in the directory changes
+* [Pandoc](http://pandoc.org/) - Convert files from one markup format to another, supports a ton of formats
 * [pigz](http://zlib.net/pigz/) - Parallel gzip for multi-processor/core systems
 * [pv](http://linux.die.net/man/1/pv) - Shows the progress of data as it flows through a pipe
 * [Rackerlabs](https://github.com/rackerlabs) - Rackspace's OSS tools, hosted on GitHub
