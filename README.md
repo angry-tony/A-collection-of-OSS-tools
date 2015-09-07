@@ -190,6 +190,7 @@
 * [CloudBerry Explorer](http://www.cloudberrylab.com/free-amazon-s3-explorer-cloudfront-IAM.aspx) - Windows client for accessing AWS S3 buckets -- freeware, closed source
 * [Developer Tools](https://aws.amazon.com/developertools/) - 3rd party tools for AWS - not screened or supported by Amazon
 * [Disaster Recovery for Elastic Block Store (DREBS)](https://github.com/dojo4/drebs) - Tool for taking periodic snapshots of EBS volumes
+* [eb_deploy](https://github.com/ThoughtWorksStudios/eb_deployer) - Elastic Beanstalk blue-green deployment automation
 * [ec2dns](https://github.com/fruux/ec2dns) - CLI tools to display public host names of instances and SSH into them via their tag
 * [ElasticWolf](http://www.elasticwolf.com/) - Client-side GUI for managing AWS, has versions for Windows/Mac/Linux/Firefox
 * [haproxy-autoscale](https://github.com/markcaudill/haproxy-autoscale) - Wrapper for haproxy that handles auto-scaling EC2 instances
@@ -1091,6 +1092,7 @@
 * [Ruby Monk](https://rubymonk.com/) - Free, interactive tutorials to help you discover Ruby idioms in your browser
 * [Ruby Quiz](http://rubyquiz.com/) - Weekly programming challenge
 * [Ruby Warrior](https://www.bloc.io/ruby-warrior#/) - Coding challenges **WARNING** sound, but you can turn it off
+* [Treehouse Ruby Courses](http://teamtreehouse.com/library/topic:ruby) - Recommended
 * [Try Ruby](http://tryruby.org) - Interactive tutorial in your web browser
 * [Tutorials Point](http://www.tutorialspoint.com/ruby/) - Interactive online course
 
