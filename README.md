@@ -729,7 +729,7 @@
 * [localtunnel](https://localtunnel.me/) - Share a web service on your local development machine without messing with DNS and firewall settings
 * [mitmproxy](http://mitmproxy.org/) - Intercept, modify, replay and save HTTP/S traffic, edit flows on the fly
 * [moloch](https://github.com/aol/moloch) - Large scale IPv4 full PCAP capturing, indexing and database system
-* [mountebank](http://www.mbtest.org/) - Stub downstream resources for testing, supports HTTP HTTPS SMTP TCP
+* [mTCP](http://shader.kaist.edu/mtcp/) - High-performance user-level TCP stack for multicore systems
 * [mtr (My traceroute)](https://github.com/traviscross/mtr) - Combines ping and traceroute into a single program
 * [multicast remote sync (mrsync)](http://sourceforge.net/projects/mrsync/) - Transfers from a master to many remote machines using Unix multicast sockets
 * [namebench](https://code.google.com/p/namebench/) - Hunts down the fastest DNS servers for your computer to use
@@ -745,6 +745,7 @@
 * [OpenResty](http://openresty.org/) - Turn nginx into a non-blocking API server
 * [Paris Traceroute](http://www.paris-traceroute.net/) - Shows proper network topology when load balancers and load-balanced routers are used
 * [PageKite](https://pagekite.net/) - Makes web servers or SSH publicly available on any server
+* [PFQ](http://pfq.github.io/PFQ/) - Framework that allows efficient packets capture/transmission, in-kernel functional processing, and packets steering across sockets/end-points
 * [POSTman](http://www.getpostman.com/) - Create and share HTTP requests, great for testing APIs - Chrome plugin
 * [prettyping.sh](https://bitbucket.org/denilsonsa/small_scripts/src/tip/prettyping.sh) - bash wrapper for ping to create pretty output
 * [Quagga](http://www.nongnu.org/quagga/) - Routing software suite, supports most routing protocols
@@ -1225,6 +1226,7 @@
 * [scponly](https://github.com/scponly/scponly/) - Shell that only allows incoming SCP, supports chroot
 * [ssh-ldap-helper](http://linux.die.net/man/8/ssh-ldap-helper) - Store public keys in LDAP
 * [SSHFS](http://linux.die.net/man/1/sshfs) - Mount remote file systems using a SSH tunnel
+* [sshmuxd](https://github.com/joushou/sshmuxd) - SSH jumphost style proxy
 * [sshrc](https://github.com/Russell91/sshrc/) - Sources the ~/.sshrc on your local computer after logging in remotely
 * [SSH Power Tool (sshpt)](https://code.google.com/p/sshpt/) - Execute commands and upload files to many servers simultaneously via SSH without using pre-shared keys
 * [storm](https://github.com/emre/storm) - Command line tool to manage your SSH connections
@@ -1283,6 +1285,7 @@
 * [Jenkins JobConfigHistory](https://wiki.jenkins-ci.org/display/JENKINS/JobConfigHistory+Plugin) - Tracks changes to system and job configurations
 * [Jenkins Job DSL Plugin (jenkins-job-dsl)](https://github.com/jenkinsci/job-dsl-plugin) - Groovy-based DSL for writing Jenkins jobs
 * [JSON Formatter](http://www.bodurov.com/JsonFormatter/) - Automatically format JSON code, 100% client side
+* [mountebank](http://www.mbtest.org/) - Stub downstream resources for testing, supports HTTP HTTPS SMTP TCP
 * [Ninja](https://martine.github.io/ninja/) - Small build system with a focus on speed
 * [OverAPI](http://overapi.com/) - Large collection of cheat sheets for almost anything
 * [PatchELF](https://github.com/NixOS/patchelf) - Simple utility for modifying existing ELF executables and libraries
@@ -1432,7 +1435,7 @@
 * [OpenVPN](https://openvpn.net/) - The one and only
 * [Pritunl](http://pritunl.com/) - Distributed enterprise VPN server built using the OpenVPN protocol, supports Google sign-in
 * [SoftEther](http://www.softether.org/) - Perhaps the best VPN software out there
-* [sshuttle](https://github.com/apenwarr/sshuttle) - Transparent proxy server that works as a poor man's VPN, forwards over SSH, supports DNS tunneling
+* [sshuttle](https://github.com/sshuttle/sshuttle) - Transparent proxy server that works as a poor man's VPN, forwards over SSH, supports DNS tunneling
 * [strongSwan](https://www.strongswan.org/) - IPsec-based
 * [tinc](http://www.tinc-vpn.org/) - Simple, multi-platform VPN
 
