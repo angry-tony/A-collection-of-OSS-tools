@@ -193,6 +193,7 @@
 * [eb_deploy](https://github.com/ThoughtWorksStudios/eb_deployer) - Elastic Beanstalk blue-green deployment automation
 * [ec2dns](https://github.com/fruux/ec2dns) - CLI tools to display public host names of instances and SSH into them via their tag
 * [ElasticWolf](http://www.elasticwolf.com/) - Client-side GUI for managing AWS, has versions for Windows/Mac/Linux/Firefox
+* [ELB Consul](https://github.com/sebest/docker-elb-consul) - Docker container that allows you to (de)register EC2 instances belonging to a specific Consul service with an ELB
 * [haproxy-autoscale](https://github.com/markcaudill/haproxy-autoscale) - Wrapper for haproxy that handles auto-scaling EC2 instances
 * [Ice](https://github.com/Netflix/ice) - AWS usage tool, by Netflix
 * [JAWS Stack](https://github.com/jaws-stack/JAWS) - Javascript + AWS stack, the entire backend is Lambda functions, server-free
@@ -421,7 +422,7 @@
 * [ksar](http://sourceforge.net/projects/ksar/) - Creates pretty graphs from sar output
 * [LICEcap](http://www.cockos.com/licecap/) - Capture an area of your desktop (eg: a terminal) and save it to a GIF
 * [linux-dash](http://linuxdash.com/) - A simple web dashboard to monitor your Linux server
-* [logstalgia](https://code.google.com/p/logstalgia/) - Web site access log visualization tool, aka Apache Pong
+* [logstalgia](http://logstalgia.io/) - Web site access log visualization tool, aka Apache Pong
 * [GNU Image Manipulation Program (GIMP)](http://www.gimp.org/) - Open source Photoshop replacement
 * [Grafana](http://grafana.org/) - Modern dashboard for Graphite
 * [Graphviz](http://www.graphviz.org/) - Graph visualization and flow chart software
@@ -735,7 +736,7 @@
 * [namebench](https://code.google.com/p/namebench/) - Hunts down the fastest DNS servers for your computer to use
 * [ncat](http://nmap.org/ncat/) - Improved netcat, written by the Nmap team
 * [netbrake](http://www.hping.org/netbrake/) - Limit the bandwidth used by a process
-* [Netdisco](https://metacpan.org/pod/App::Netdisco) - Web-based network management tool, written in perl, uses SNMP
+* [Netdisco](https://metacpan.org/pod/App::Netdisco) - Web-based network management and discovery tool, written in perl, uses SNMP
 * [Network Link Conditioner](http://nshipster.com/network-link-conditioner/) - Simulate bandwidth, latency, and packet loss.  For OS X
 * [nfdump](http://nfdump.sourceforge.net/) - Captures network flows
 * [NfSen](http://nfsen.sourceforge.net/) - GUI for nfdump
@@ -1034,6 +1035,7 @@
 * [pgloader](http://pgloader.io/) - Fast data loader for PostgreSQL
 * [Postgres-XL](http://www.postgres-xl.org/) - Scale-out version of PostgresSQL
 * [rdbms-subsetter](https://github.com/18F/rdbms-subsetter) - Generate a random sample of rows from a relational database that preserves referential integrity, great for using production data for testing/dev
+* [SchemaSpy](http://schemaspy.sourceforge.net/) - Analyze the metadata of a schema and visualize it in HTML
 * [SQLite](http://sqlite.org/) - Self-contained, serverless, zero-configuration, transactional SQL database engine
 * [SQL Fiddle](http://sqlfiddle.com/) - Write and test SQL
 * [wal-e](https://github.com/wal-e/wal-e) - Simple continuous archiving for Postgres
@@ -1358,7 +1360,7 @@
 * [django-speedbar](https://pypi.python.org/pypi/django-speedbar) - Shows a breakdown of page loading time
 * [Flame Graphs](http://www.brendangregg.com/flamegraphs.html) - Stack trace visualizer by Brendan Gregg
 * [flask-debugtoolbar](https://github.com/mgood/flask-debugtoolbar) - The Django Debug Toolbar ported to Flask
-* [Google Performance Tools (gperftools)](https://code.google.com/p/gperftools/) - Focused on multithreaded applications written in C++
+* [Google Performance Tools (gperftools)](https://github.com/gperftools/gperftools) - Focused on multithreaded applications written in C++
 * [kdump](https://wiki.archlinux.org/index.php/Kdump) - Linux kernel dump facility
 * [ktap](http://www.ktap.org/) - Another lightweight kernel tracing tool for Linux
 * [Linux Trace Toolkit - Next Generation (LLTng)](http://lttng.org/) - Linux kernel tracer and profiler, lower overhead than System Tap
@@ -1470,7 +1472,7 @@
 * [incrond](http://inotify.aiken.cz/?section=incron&page=about&lang=en) - Fires off a job when a file system event happens
 * [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) - ISO standard for dates, the only way to fly
 * [inotify](https://github.com/rvoicilas/inotify-tools) - Watch file(s) for changes, take an action when the change occurs
-* [inxi](https://code.google.com/p/inxi/) - "a full featured system information script" (hardware info, etc)
+* [inxi](https://github.com/smxi/inxi) - "a full featured system information script" (hardware info, etc)
 * [jq](https://stedolan.github.io/jq/) - Command line JSON processor
 * [Keybase](https://keybase.io/) - Upload your public key and find other people's public key via their social media user name(s)
 * [LearnXinYMinutes](http://learnxinyminutes.com/) - Super fast tutorials for almost every programming language
