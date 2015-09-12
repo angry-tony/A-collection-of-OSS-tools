@@ -440,7 +440,7 @@
 * [ServerStatus](https://github.com/BotoX/ServerStatus) - Display and monitor your servers statistics in a beatiful way
 * [Seyren](https://github.com/scobal/seyren) - Alerting dashboard for Graphite
 * [ShareX](https://getsharex.com/) - One of the best screenshot/screencast capture and sharing tools for Windows
-* [Skitch](https://evernote.com/skitch/) - Feature-rich screenshot editing, sharing, and annotation tool -- closed source
+* [Skitch](https://evernote.com/skitch/) - Feature-rich screenshot editing, sharing, and annotation tool Mac/OS X -- closed source
 * [Stashboard](http://www.stashboard.org/) - Status dashboard for APIs and software services
 * [Staytus](https://github.com/adamcooke/staytus) - Complete solution for publishing the latest info about issues with your web applications, networks or services
 * [TermRecord](https://github.com/theonewolf/TermRecord) - Record and playback terminal sessions
@@ -568,12 +568,14 @@
 * [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) - Analyzes the content of a web page, then generates suggestions to make that page faster, by Google
 * [PageSpeed Module](https://developers.google.com/speed/pagespeed/module) - Reduce page load time without modify your existing content or workflow
 * [Siege](http://www.joedog.org/siege-home/) - CLI based HTTP load generation tool, supports basic authentication, cookies, and HTTPS
+* [Speed Tracer](https://developers.google.com/web-toolkit/speedtracer/?csw=1) - Helps you identify and fix performance problems in your web applications, by Google
 * [Tsung](http://tsung.erlang-projects.org/) - Distributed stress tester, also supports stress testing DBs
 * [vegeta](https://github.com/tsenart/vegeta) - HTTP load testing tool, written in Go
 * [Web Page Test](http://www.webpagetest.org/) - Free website speed test from multiple locations around the globe using real browsers (IE and Chrome) and at real consumer connection speeds
 * [Web Performance Today](http://www.webperformancetoday.com/) - News site dedicated to web / HTTP performance
 * [wrk](https://github.com/wg/wrk) - Multi-threaded CLI-based HTTP load generation tool
 * [wrk2](https://github.com/giltene/wrk2) - Fork of wrk that fixes the coordinated omissions problem
+* [YSlow](http://yslow.org/) - Analyzes web pages and why they're slow based on Yahoo!'s rules for high performance web sites, customizable
 
 
 
@@ -741,6 +743,7 @@
 * [nfdump](http://nfdump.sourceforge.net/) - Captures network flows
 * [NfSen](http://nfsen.sourceforge.net/) - GUI for nfdump
 * [ngrep](http://linux.die.net/man/8/ngrep) - Network grep
+* [ngrok](https://ngrok.com) - Reverse proxy that creates a secure tunnel from a public endpoint to a locally running web service and captures & analyzes all traffic over the tunnel for later inspection and replay
 * [nping](http://nmap.org/nping/) - Create custom network packets
 * [ntopng](http://www.ntop.org/products/ntop/) - New version of the popular ntop tool
 * [OpenResty](http://openresty.org/) - Turn nginx into a non-blocking API server
@@ -1012,6 +1015,7 @@
 * [SysBench](https://github.com/akopytov/sysbench) - Evaluates OS parameters that are important for DBs, does not require a DB to be installed
 * [Tsung](http://tsung.erlang-projects.org/) - Distributed stress tester, also supports stress testing DBs
 * [Use the Index, Luke](http://use-the-index-luke.com/) - SQL indexing and tuning for developers
+* [WWW SQL Designer](https://github.com/ondras/wwwsqldesigner/) - Designing RDBMS schemas features saving, exporting to XML, and SQL script creation, free SaaS version [here](http://ondras.zarovi.cz/sql/demo/)
 
 
 
@@ -1051,11 +1055,13 @@
 * [regex101](http://regex101.com/) - Online regex tester and debugger, supports multiple languages -- recommended
 * [RegexBuddy](http://www.regexbuddy.com/) - Highly recommended, works on Windows or WINE -- commercial software
 * [RegexOne](http://regexone.com/) - Learn regular expressions with simple, interactive examples.
+* [regexper](http://regexper.com/) - Regex visualizer using railroad diagrams, great for debugging
 * [RegExr](http://www.regexr.com/) - Another online regex tool that includes cheat sheets, examples, and community-contributed expressions
 * [RegularExpressions.info](http://www.regular-expressions.info/) - THE BEST regex site
 * [Regular Expressions - A Gentle User Guide and Tutorial](http://www.zytrax.com/tech/web/regex.htm) - The easy way
 * [RexV.2](http://www.rexv.org/) - Online Regex evaluator, supports multiple languages
 * [Rubular](http://rubular.com/) - Online Ruby-only regex evaluator
+* [txt2re](http://txt2re.com/) - Regex generator -- recommended
 * [txt2regex](http://aurelio.net/projects/txt2regex/) - Converts human sentences to regex, written in bash
 
 
@@ -1416,6 +1422,7 @@
 * [Foglight](http://software.dell.com/products/foglight-for-virtualization-free-edition/) - Monitor performance, capacity utilization and storage -- closed source
 * [Onyx](https://labs.vmware.com/flings/onyx) - Do something in vSphere and it will create a PowerCLI script to do that thing (think AIX's SMITTY/SMIT)
 * [RVtools](http://www.robware.net/) - Killer GUI for viewing information about your VMware environment, written in .NET -- closed source
+* [RVtools Export](https://github.com/Sneddo/Powershell/blob/master/VMware/RVToolsExport.ps1)  - Wrapper script to save daily snapshots of your environment using RVtools
 * [Sexilog](http://www.sexilog.fr/) - ELK stack virtual appliance designed for vSphere / VMware ESXi logs
 * [SiteSurvey](https://www.vmware.com/support/shared_utilities) -  report hardware and software configuration compatibility with advanced VMware features such as FT -- closed source
 * [SpyStudio](http://www.nektra.com/products/spystudio-api-monitor/) - API monitor, recommended -- closed source
@@ -1454,6 +1461,7 @@
 * [Bento](https://www.bento.io/grid) - Links to tutorials based on subject (programming, sysadmin, protocols, standards, etc)
 * [Checkpoint/Restore in Userspace (CRIU)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later
 * [conserver](http://www.conserver.com/) - Virtual console server with many features
+* [Cyberduck](https://cyberduck.io/) - GUI FTP, SFTP, WebDAV, S3 & OpenStack Swift browser for Mac and Windows
 * [Deltacloud](https://deltacloud.apache.org/) - API that abstracts the differences between clouds (AWS, OpenStack, etc)
 * [dev-setup](https://github.com/donnemartin/dev-setup) - Automated setup scripts for tools like Sublime Text, AWS, Spark, Android dev, and more
 * [DevDocs](http://devdocs.io/) - API documentation browser
