@@ -4,7 +4,6 @@
 * 1% free-as-in-beer closed source software
 * 1% in-browser tools
 * Please don't submit to Reddit, HN, or post this on Twitter.  Share, but share with close friends!
-
 * Josh on [LinkedIn](https://www.linkedin.com/in/jturgasen)
 * Josh's [Technical Blog](https://jturgasen.github.io)
 * Josh  [Twitter](https://www.twitter.com/joshturgasen)
@@ -31,7 +30,7 @@
 * [X](#collaboration-tools) Collaboration Tools
 * [X](#configuration-management) Configuration Management
 * [X](#containers) Containers
-* [X](#data-visualization-and-dashboards Data Visualization and Dashboards
+* [X](#data-visualization-and-dashboards) Data Visualization and Dashboards
 * [X](#distributed-systems-tools) Distributed Systems Tools
 * [X](#editors) Editors
 * [X](#git-tools) Git Tools
@@ -41,7 +40,7 @@
 * [X](#logging) Logging
 * [X](#metrics) Metrics
 * [X](#monitoring-and-alerting) Monitoring and Alerting
-* [X][#networking-tools) Networking Tools]
+* [X](#networking-tools) Networking Tools
 * [X](#network-performance-analysis-tools) Network Performance Analysis Tools
 * [X](#orchestration) Orchestration
 * [X](#package-and-repository-tools) Package and Repository Tools
@@ -304,7 +303,7 @@ See Also [Cloud File Sync and Sharing](#cloud-file-sync-and-sharing)
 * [Berkshelf](http://berkshelf.com/) - Like gem bundler for Chef cookbooks, manages dependencies -- `Ruby gem`
 * [Chake](https://gitlab.com/terceiro/chake) - Tool that helps you manage multiple hosts with chef-solo -- `Ruby gem`
 * [chef-attribute-validator](https://github.com/clintoncwolfe/chef-attribute-validator) - Define, enforce, and handle violations of validation rules for Chef node attributes -- `Ruby gem`
-* [chef-cutlery[(https://github.com/realityforge/chef-cutlery) - Contains a collection of useful library code -- `Ruby`
+* [chef-cutlery](https://github.com/realityforge/chef-cutlery) - Contains a collection of useful library code -- `Ruby`
 * [chef-guard](https://github.com/xanzy/chef-guard) - feature rich Chef add-on that protects your Chef server from untested and potentially dangerous cookbooks -- `Ruby`
 * [chef-provisioning-docker](https://github.com/chef/chef-provisioning-docker) - Docker provisioning via Chef -- `Ruby`
 * [chef-relevant-tests](https://github.com/brigade/chef-relevant-tests) - Runs Test Kitchen tests only on the parts of your code that changed (rather than the full suite) -- `Ruby gem`
@@ -448,7 +447,7 @@ See Also [Backups](#backups)
 * [Docker Toolbox](https://www.docker.com/toolbox) - Docker Client, Machine, Compose, Kitematic, and VirtualBox in a single package -- `various lang`
 * [Dokku](https://github.com/progrium/dokku) - Docker powered mini-Heroku (PaaS) in around 100 lines of bash -- `shell`
 * [drone](https://github.com/drone/drone) - CI platform built on Docker -- `Golang`
-* [Fabric8[(http://fabric8.io/) - Deploy and manage middleware components or long running Java programs running in a repeatable and controllable way  -- `Java`
+* [Fabric8](http://fabric8.io/) - Deploy and manage middleware components or long running Java programs running in a repeatable and controllable way  -- `Java`
 * [Ferry](https://github.com/opencore/ferry) -  Launch, run, and manage big data clusters without worrying about infrastructure -- `Python`
 * [Flocker](https://github.com/ClusterHQ/flocker) - Docker data management for stateful services such as DBs -- `Python`
 * [Flynn](https://flynn.io/) - PaaS built on top of Docker, can run stateful services -- `Golang`
@@ -1112,7 +1111,7 @@ See Also [Backups](#backups)
 * [MaxScale](https://github.com/mariadb-corporation/MaxScale) - General purpose DB query proxy, router, and load balancer by MariaDB -- `C`
 * [mycli](http://mycli.net/) - CLI for MySQL and derivates with auto-completion and syntax highlighting -- `Python`
 * [mydumper (MySQL Data Dumper)](https://launchpad.net/mydumper) - Much better than mysqldump, works in parallel -- `perl`
-* [MySQL sys schema)https://github.com/MarkLeith/mysql-sys) - Collection of views, functions and procedures to help MySQL administrators get insight into MySQL usage -- `SQL`
+* [MySQL sys schema]https://github.com/MarkLeith/mysql-sys) - Collection of views, functions and procedures to help MySQL administrators get insight into MySQL usage -- `SQL`
 * [MySQL Utilities](https://dev.mysql.com/downloads/utilities/) - Official collection of MySQL tools -- `various lang` `Python`
 * [MySQL Workbench](https://www.mysql.com/products/workbench/) - The official MySQL GUI for admins, devs, DBAs, and architects -- `various lang`
 * [Oracle TPT Scripts](http://blog.tanelpoder.com/files/) - Tab completion for Oracle -- `SQL`
@@ -1571,7 +1570,7 @@ OS-level virtualization and emulation
 * [oVirt](http://www.ovirt.org/Home) - Virtualization management platform -- `Java`
 * [phpVirtualBox](http://sourceforge.net/projects/phpvirtualbox/) - Web front-end for VirtualBox -- `PHP`
 * [virt-manager](http://virt-manager.org/) - KVM / Xen / LXC GUI -- `Python`
-* [Xen](http://www.xenproject.org/) - It's a hypervisor! -- `no idea`
+* [Xen](http://www.xenproject.org/) - It's a hypervisor! -- `C`
 
 
 ---
