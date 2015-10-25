@@ -1,4 +1,4 @@
-# My Links
+My Links
 
 * 98% OSS
 * 1% free-as-in-beer closed source software
@@ -207,6 +207,7 @@ Discussions, troubleshooting, and more
 > Tools for interacting with the Amazon Web Services ecosystem
 
 * [Aminator](https://github.com/Netflix/aminator) - Create application-specific custom AMIs, by Netflix -- `Python`
+* [Awesome AWS](https://github.com/donnemartin/awesome-aws) - Curated list of AWS resources -- `collection`
 * [awstools](https://github.com/iMilnb/awstools) - Some handy AWS tools and scripts that use boto3 and troposphere -- `Python`
 * [CASTER](https://chrome.google.com/webstore/detail/chrome-aws-saml-token-exp/mbfkedefmlagincpblmgeeeehhamgpbn?hl=en-US) - Automatically re-logs into AWS via ADFS before credentials expire -- `Chrome`
 * [cloud-ssh](http://leonsbox.com/cloud-ssh/) - SSH wrapper that supports hostname tab-completion based on AWS name, tag, or security group -- `Golang`
@@ -304,7 +305,6 @@ See Also [Cloud File Sync and Sharing](#cloud-file-sync-and-sharing)
 * [berks viz](http://berkshelf.com/) - Visualize cookbook and recipe dependencies for a cookbook -- `built-in`
 * [Chake](https://gitlab.com/terceiro/chake) - Tool that helps you manage multiple hosts with chef-solo -- `Ruby gem`
 * [chef-attribute-validator](https://github.com/clintoncwolfe/chef-attribute-validator) - Define, enforce, and handle violations of validation rules for Chef node attributes -- `Ruby gem`
-* [chef-cutlery](https://github.com/realityforge/chef-cutlery) - Contains a collection of useful library code -- `Ruby`
 * [chef-guard](https://github.com/xanzy/chef-guard) - feature rich Chef add-on that protects your Chef server from untested and potentially dangerous cookbooks -- `Ruby`
 * [chef-provisioning-docker](https://github.com/chef/chef-provisioning-docker) - Docker provisioning via Chef, official -- `Ruby`
 * [chef-relevant-tests](https://github.com/brigade/chef-relevant-tests) - Runs Test Kitchen tests only on the parts of your code that changed (rather than the full suite) -- `Ruby gem`
@@ -379,6 +379,7 @@ See Also [Backups](#backups)
 * [Let's Chat](https://sdelements.github.io/lets-chat/) - Self-hosted open source HipChat clone -- `JavaScript`
 * [Lita](https://www.lita.io/) - Chat bot written in Ruby, supports plugins -- `Ruby gem`
 * [mac2imgur](https://github.com/mileswd/mac2imgur) - Auto-upload screenshots to Imgur -- `Swift` `OS X`
+* [Mattermost](http://www.mattermost.org/) - OSS Slack alternative -- `Golang` `JavaScript`
 * [OpenProject](https://www.openproject.org) - Web-based project management system built on Ruby on Rails -- `Ruby`
 * [osTicket](http://osticket.com/) - Routes inquiries created via email, web-forms and phone calls into a web-based customer support platform -- `PHP`
 * [OTRS](http://www.otrs.com/) - Open source help desk software -- `perl`
@@ -586,13 +587,15 @@ See Also [Backups](#backups)
 * [MacVim](https://github.com/macvim-dev/macvim) - Has far more features than the vim that's included with the OS -- `C`
 * [Nuclide](http://nuclide.io/) - Collection of packages for Atom to provide IDE-like functionality for a variety of programming languages and technologies, by Facebook -- `JavaScript`
 * [Notepad++](http://notepad-plus-plus.org/) - Killer GPL'ed text editor for Windows -- `C++`
+* [OpenVim](http://www.openvim.com/tutorial.html) - In-browser vim tutorial -- `JavaScript` `in-browser`
 * [percol](https://github.com/mooz/percol) - Interactive grep tool -- `Python`
 * [Powerline](https://github.com/powerline/powerline) - Provides various statues on the bottom of your session, flexible -- `Python`
-* [Textmate](http://macromates.com/) - GUI text editor for OS X -- `closed source`
+* [Textmate](http://macromates.com/) - GUI text editor for OS X -- `C++`
 * [UltiSnips](https://github.com/SirVer/ultisnips) - The ultimate snippet solution for vim -- `Python`
 * [vim-json](https://github.com/elzr/vim-json) - A better JSON plugin for vim -- `vim`
 * [vim-snippets](https://github.com/honza/vim-snippets) - snipMate & UltiSnip snippets -- `vim`
 * [Vimium](https://vimium.github.io/) - Chrome extension that provides vi/vim style shortcuts for navigation and control -- `CoffeeScript` `Chrome`
+* [Vim Adventures](http://vim-adventures.com/) - A game to learn vim using your browser -- `closed source` `in-browser`
 * [Vundle](https://github.com/VundleVim/Vundle.vim) - Popular plug-in manager for vim -- `vim`
 * [wasavi](https://github.com/akahuku/wasavi) - vim/vi controls in browser text areas -- `JavaScript` `Firefox` `Chrome`
 * [YouCompleteMe](http://valloric.github.io/YouCompleteMe/) - Fuzzy-search code completion engine for vim -- `Python`
@@ -663,6 +666,7 @@ See Also [Backups](#backups)
 * [keepalived](http://www.keepalived.org/) - Load balancing and high availability -- `C`
 * [huptime](https://github.com/amscanne/huptime) - Zero downtime restarts of unmodified programs -- `C`
 * [Linux-HA](http://www.linux-ha.org) - Building blocks for high availability systems -- `wiki-and-collection`
+* [LVS (Linux Virtual Server](http://www.linuxvirtualserver.org/) - Linux-based load balancer -- `
 * [Pacemaker](http://clusterlabs.org/) - HA resource manager -- `C`
 * [rcron](https://code.google.com/p/rcron/) - cron redundancy and failover, ensures a job will only run on the "active" machine -- `C`
 * [rmanager](http://linux.die.net/man/8/rgmanager) - Resource group manager daemon for cluster services -- `built-in`
@@ -782,7 +786,7 @@ See Also [Backups](#backups)
 * [jmxtrans](https://github.com/jmxtrans/jmxtrans) - Connector between speaking to a JVM via JMX on one end and whatever logging / monitoring / graphing package -- `Java`
 * [Kale](https://codeascraft.com/2013/06/11/introducing-kale/) - Monitoring stack by Etsy -- `article`
 * [LibreNMS](http://www.librenms.org/) - GPL fork of Observium -- `various lang`
-* [Monit](http://mmonit.com/monit/) - Includes tools to automatically take action when certain conditions are met -- `C`
+* [Monit](http://mmonit.com/monit/) - Includes tools to automatically take action when certain conditions are met (eg: restart a process when it dies) -- `C`
 * [Monitorix](http://www.monitorix.org/) - So lightweight that it can be used in mobile devices, aka Mikaku -- `perl`
 * [Naemon](http://www.naemon.org/) - Modular Nagios fork -- `various lang`
 * [Nagios](http://www.nagios.org/) - One of the most widely used OSS monitoring programs -- `various lang`
@@ -813,6 +817,7 @@ See Also [Backups](#backups)
 * [bbcp](http://www.slac.stanford.edu/~abh/bbcp/) - Copies files using multiple TCP streams to greatly increase throughput -- `C`
 * [bbFTP](http://doc.in2p3.fr/bbftp/) - Uses it's own transfer protocol, optimized for large file transfers -- `C`
 * [BIRD Internet Routing Daemon (BIRD)](http://bird.network.cz/) - (Almost) fully functional IP routing daemon for Linux, supports tons of standard routing protocols -- `C`
+* [CERT NetSA Security Suite](https://tools.netsa.cert.org/) - Network flow analysis tools -- `various lang`
 * [Cyberduck](https://cyberduck.io/) - GUI FTP, SFTP, WebDAV, S3 & OpenStack Swift browser for Mac and Windows -- `itsaduck`
 * [dnscrypt-wrapper](https://github.com/Cofyc/dnscrypt-wrapper) - Add dnscrypt support to any resolver, server-side dnscrypt proxy -- `C`
 * [fail2ban](http://www.fail2ban.org/) - Watches log files to ban IPs based on rules (too many failed logins, exploit attempts, brute force attacks, etc) -- `Python`
@@ -873,6 +878,7 @@ See Also [Backups](#backups)
 * [iperf3](http://software.es.net/iperf/) - Supports tuning of various parameters related to timing, protocols, and buffers -- `C`
 * [iptraf-ng](https://fedorahosted.org/iptraf-ng/) - Updated fork of iptraf -- `C`
 * [mtr (my traceroute)](https://github.com/traviscross/mtr) - Combines ping and traceroute into a single program -- `C`
+* [Muxy](https://github.com/mefellows/muxy) - Muck with your system and application context layers 4-7 -- `Golang` `OS X`
 * [namebench](https://code.google.com/p/namebench/) - Hunts down the fastest DNS servers for your computer to use -- `Python` `Windows` `OS X`
 * [nbwmon](https://github.com/causes-/nbwmon) - Ncurses bandwidth monitor -- `C`
 * [netatop](http://www.atoptool.nl/netatop.php) - Kernel module for atop to watch and report on network packets -- `C`
@@ -933,6 +939,7 @@ See Also [Backups](#backups)
 * [Rundeck](http://rundeck.org/) - Job scheduler and runbook automation, enable self-service access to existing scripts and tools -- `Groovy`
 * [Salt / Saltstack](http://www.saltstack.com/) - Orchestration, server provisioning, and configuration management -- `Python`
 * [Spacewalk](http://www.spacewalkproject.org/) - Provides package management (among other things) -- `various`
+* [tmux-cssh](https://github.com/dennishafemann/tmux-cssh) - Cluster SSH via tmux -- `shell`
 
 
 ---
@@ -941,6 +948,7 @@ See Also [Backups](#backups)
 > Repos, RPM/APT packages, tutorials, packaging guidelines, and patch management
 
 * [aptly](http://www.aptly.info/) - Swiss army knife for Debian repository management, has the ability to take snapshots for easy rollback -- `C`
+* [AutoPkg](https://autopkg.github.io/autopkg/) - Packaging and distribution for OS X, great for managing many laptops -- `Python` `OS X`
 * [CentOS Errata for Spacewalk (CEFS)](http://cefs.steve-meier.de/) - Import errata information from CentOS-announce into Spacewalk -- `useit`
 * [CentOS Repositories](http://wiki.centos.org/AdditionalResources/Repositories) - Large list of both official and unofficial CentOS software repositories -- `collection`
 * [CentOS Software Collections (SCL)](http://wiki.centos.org/AdditionalResources/Repositories/SCL) - Use multiple versions of software on a system without disturbing the system default version -- `C`
@@ -957,6 +965,7 @@ See Also [Backups](#backups)
 * [Koji](https://fedoraproject.org/wiki/Koji) - Software that builds packages for Fedora, can be used for other stuff too, uses mock -- `C`
 * [Mock](https://fedoraproject.org/wiki/Projects/Mock) - Build packages in a simple chroot so you don't blow up your system -- `C`
 * [mrepo](http://dag.wiee.rs/home-made/mrepo/) - RPM repository management tool supporting ftp/http/sftp/rsync/rhn/you, formerly Yam -- `Python`
+* [Munki](https://www.munki.org/munki/) - Managed software installation for OS X, great for managing laptops -- `Python` `OS X` 
 * [OStree](https://wiki.gnome.org/Projects/OSTree) - Tool for managing bootable, immutable, versioned filesystem trees (not really a package manager but...) -- `thefuture` `C`
 * [Package Repository Manager (PRM)](https://github.com/dnbert/prm) - OS-independent package repo creation and management tool -- `Ruby gem`
 * [pkgr](http://crohr.me/pkgr/) - Made deb or RPM packages out of any Ruby, NodeJS, or Go app -- `Ruby`
@@ -1390,6 +1399,7 @@ See Also [Backups](#backups)
 * [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins) - Collection of plugins for Quick Look in the Mac Finder -- `OS X` -- `various lang`
 * [RocksDB](http://rocksdb.org/) - Library that provides an embeddable, persistent key-value store for fast storage - by Facebook -- `C++`
 * [rpm-maven-plugin](https://github.com/mojohaus/rpm-maven-plugin) - Package artifacts as a RPM -- `Java`
+* [Software Engineering Blogs](https://github.com/kilimchoi/engineering-blogs) - A curated list of software engineering blogs -- `collection`
 * [SonarQube](http://www.sonarqube.org/) - Platform and dashboard for managing code quality -- `Ruby` `Java`
 * [Sonatype Nexus](http://www.sonatype.org/nexus/) - Software / binary artifact storage -- `Java`
 * [Valgrind](http://valgrind.org/info/tools.html) - Tool suite that includes cache profilers, heap profiles, thread race condition checkers, and more -- `C`
@@ -1520,6 +1530,7 @@ See Also [Backups](#backups)
 * [MTPuTTY (Multi-Tabbed PuTTY)](http://ttyplus.com/multi-tabbed-putty/) - Multiple PuTTY sessions in a single window -- `Windows`
 * [NoVNC](https://kanaka.github.io/noVNC/) - Client-less VNC in a web browser, uses HTML5 and WebSockets -- `in-browser`
 * [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) - The classic SSH client -- `Windows`
+* [reptyr](https://github.com/nelhage/reptyr) - Reparent a running program to a new terminal -- `C`
 * [SuperPutty](https://github.com/jimradford/superputty) - Allows the PuTTY SSH client to be opened in tabs -- `Windows`
 * [tmate](http://tmate.io/) - Instant terminal sharing, tmux fork -- `OS X`
 * [tmux](https://tmux.github.io/) - Aalternative to GNU screen -- `C`
@@ -1568,7 +1579,7 @@ See Also [Backups](#backups)
 ---
 ## Virtualization
 
-OS-level virtualization and emulation
+> OS-level virtualization and emulation
 
 * [DOSbox](http://www.dosbox.com/) - Open source DOS emulator, great for running old games or utilities -- `C` `C++`
 * [KVM (Kernel Virtual Machine)](http://www.linux-kvm.org/page/Main_Page) - The one, the only -- `C`
@@ -1588,11 +1599,12 @@ OS-level virtualization and emulation
 
 > Mostly unofficial VMware tools and some PowerCLI scripts
 
-* [Compliance Checker for vSphere](http://www.vmware.com/products/vsphere-compliance-checker/overview) - Provides detailed compliance checks against the vSphere hardening guidelines -- `closed source`
+* [Compliance Checker for vSphere](http://www.vmware.com/products/vsphere-compliance-checker/overview) - Provides detailed compliance checks against vSphere hardening guidelines, official tool -- `closed source`
 * [Flings](https://labs.vmware.com/flings) - Tons of a little apps written by VMware engineers, worth exploring -- `closed source?` `various lang`
 * [Onyx](https://labs.vmware.com/flings/onyx) - Do something in vSphere and it will create a PowerCLI script to do that thing that it did -- `closed source` `PowerShell` `Windows` 
 * [RVtools](http://www.robware.net/) - Killer GUI for viewing information about your VMware environment -- `closed source` `.NET` `Windows`
 * [RVtools Export](https://github.com/Sneddo/Powershell/blob/master/VMware/RVToolsExport.ps1)  - Wrapper script to save daily snapshots of your environment using RVtools -- `PowerShell`
+* [Sexigraph](http://www.sexigraf.fr/) - Graphite-based visualization appliance for Sexilog -- `various lang`
 * [Sexilog](http://www.sexilog.fr/) - ELK stack virtual appliance designed for vSphere / VMware ESXi logs -- `various lang`
 * [vCheck](https://github.com/alanrenouf/vCheck-vSphere) - Get an overview of a new environment or check the health of an existing one -- `PowerShell`
 * [vDisk Informer](http://read.virtualizeplanet.com/?p=366) - Check vDisks alignment and see if they have wasted space -- `closed source` `Windows`
@@ -1626,7 +1638,7 @@ OS-level virtualization and emulation
 
 [See also](#ssl-tools) SSL Tools
 
-[See also](#network-tools) Network Tools
+[See also](#networking-tools) Networking Tools
 
 * [API Blueprint](https://apiblueprint.org/) - Supports bindings/plugins for many APIs -- `various lang`
 * [Awesome JSON](https://github.com/burningtree/awesome-json) It's the new XML -- `collection`
@@ -1635,6 +1647,7 @@ OS-level virtualization and emulation
 * [curlish](https://pythonhosted.org/curlish/) - Improved curl, includes cookie management and OAuth 2.0 support -- `Python pip`
 * [Fiddler](http://www.telerik.com/fiddler) - HTTP/HTTPS debugging proxy for any browser, system or platform -- `closed source`
 * [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any HTML web page look like a Geocities page -- `in-browser` `sweeeeeeet`
+* [gRPC](http://www.grpc.io/) - High performance RPC via HTTP/2, by Google -- `C`
 * [Hipache](https://github.com/hipache/hipache) - Distributed HTTP and websocket proxy, supports load balancing -- `JavaScript`
 * [htaccess Snippits](https://github.com/phanan/htaccess) - Huge collection of common and useful .htaccess snippets, please contribute -- `collection`
 * [httpdiff](https://github.com/jgrahamc/httpdiff) - Perform the same reuqest against two HTTP servers and diff the results -- `Golang`
@@ -1653,6 +1666,7 @@ OS-level virtualization and emulation
 * [PageKite](https://pagekite.net/) - Makes HTTP servers or SSH publicly available on any server -- `Python`
 * [POSTman](http://www.getpostman.com/) - Create and share API and HTTP requests, great for testing and sharing - `Chrome`
 * [Pushpin](http://pushpin.org/) - Proxy server that adds WebSockets to existing request-response APIs -- `C++`
+* [Redirect Detective](http://redirectdetective.com/) - See the complete path a redirected URL goes through -- `closed source` `in-browser`
 * [Repose](http://openrepose.org/) - REST proxy, solutions to API tasks such as auth, rate limiting, API validation, HTTP logging, and much more -- `Java`
 * [Resty](https://github.com/micha/resty) - CLI REST client you can use in shell/bash/zsh pipes -- `shell`
 * [Swagger](http://swagger.io/) - A JSON format/standard that describes a RESTful API -- `various lang`
@@ -1671,7 +1685,7 @@ OS-level virtualization and emulation
 
 [See also](#ssl-tools) SSL Tools
 
-[See also](#network-performance-analysis-tools) Network Performance analysis tools
+[See also](#network-performance-analysis-tools) Network Performance Analysis Tools
 
 * [Awesome Web Performance Optimization](https://github.com/davidsonfellipe/awesome-wpo) - Collection of web performance optimization (WPO) tools, articles, and more -- `collection`
 * [apachetop](https://github.com/JeremyJones/Apachetop) - top for Apache -- `perl`
