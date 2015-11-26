@@ -1150,6 +1150,7 @@ See Also [Backups](#backups)
 * [pgcli](https://github.com/dbcli/pgcli) - Postgres CLI with autocomplete and syntax highlighting -- `Python`
 * [pgloader](http://pgloader.io/) - Fast data loader for PostgreSQL -- `Lisp`
 * [pg_repack](https://reorg.github.io/pg_repack/) - Remove bloat from tables and indexes without using an exclusive lock -- `C`
+* [Phinx](https://phinx.org/) - Database migrations in SQL or PHP -- `PHP`
 * [Postgres-XL](http://www.postgres-xl.org/) - Scale-out version of PostgresSQL -- `C`
 * [PostgREST](https://github.com/begriffs/postgrest) - Create a REST API for any Postgres DB -- `Haskell`
 * [PostgreSQL GUI Tools](https://wiki.postgresql.org/wiki/Community_Guide_to_PostgreSQL_GUI_Tools) - A huge list on the official wiki -- `collection`
@@ -1713,6 +1714,7 @@ See Also [Backups](#backups)
 
 * [Awesome Web Performance Optimization](https://github.com/davidsonfellipe/awesome-wpo) - Collection of web performance optimization (WPO) tools, articles, and more -- `collection`
 * [apachetop](https://github.com/JeremyJones/Apachetop) - top for Apache -- `perl`
+* [Betwixt](https://github.com/kdzwinel/betwixt) - Web debugging proxy with a Chrome DevTools look -- `JavaScript`
 * [boom](https://github.com/rakyll/boom) - HTTP load generator written in -- `Golang`
 * [django-debug-toolbar](https://github.com/django-debug-toolbar/django-debug-toolbar) - Panels that display profiling information about the current request/response -- `Python pip`
 * [django-speedbar](https://pypi.python.org/pypi/django-speedbar) - Shows a breakdown of page loading time -- `Python pip`
