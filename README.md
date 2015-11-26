@@ -88,6 +88,7 @@ My Links
 * [eWeek](http://www.eweek.com/)
 * [Gigaom](http://gigaom.com/)
 * [Hacker News](https://news.ycombinator.com/)
+* [High Scalability](http://highscalability.com/)
 * [InfoQ](http://www.infoq.com/)
 * [Information Age](http://www.information-age.com/)
 * [InfoWorld](http://www.infoworld.com/)
@@ -102,7 +103,7 @@ My Links
 * [The Inquirer](http://www.theinquirer.net/)
 * [The New Stack](http://thenewstack.io/)
 * [The Next Web](http://thenextweb.com/)
-* [The Platform](http://www.theplatform.net/)
+* [The Next Platform](http://www.thenextplatform.net/)
 * [The Register](http://www.theregister.co.uk/)
 * [Web Hosting Industry Review (WHIR)](http://www.thewhir.com/)
 * [Web Performance Today](http://www.webperformancetoday.com/)
@@ -290,7 +291,7 @@ See Also [Cloud File Sync and Sharing](#cloud-file-sync-and-sharing)
 * [Rufus](http://rufus.akeo.ie/) - Create bootable USB flash drives -- `Windows`
 * [Stresslinux](http://www.stresslinux.org/sl/) - Hardware burn-in and stress testing -- `various lang`
 * [System Rescue CD](http://www.sysresccd.org/SystemRescueCd_Homepage) - System recovery CD that focuses on Linux system recovery -- `various lang`
-* [Ultimate Boot CD](http://www.ultimatebootcd.com) - Tons of x86 diagnostic and stress test tools on a single CD -- `closed source` `Windows`
+* [Ultimate Boot CD (UBCD)](http://www.ultimatebootcd.com) - Tons of x86 diagnostic and stress test tools on a single CD -- `closed source` `Windows`
 * [UNetbootin](http://unetbootin.sourceforge.net/) - Create custom, bootable USB Linux CDs -- `Windows` `OS X`
 * [YUMI](http://www.pendrivelinux.com/yumi-multiboot-usb-creator/) - Multiboot USB creator, Linux and -- `Windows`
 
@@ -305,6 +306,7 @@ See Also [Cloud File Sync and Sharing](#cloud-file-sync-and-sharing)
 * [berks viz](http://berkshelf.com/) - Visualize cookbook and recipe dependencies for a cookbook -- `built-in`
 * [Chake](https://gitlab.com/terceiro/chake) - Tool that helps you manage multiple hosts with chef-solo -- `Ruby gem`
 * [chef-attribute-validator](https://github.com/clintoncwolfe/chef-attribute-validator) - Define, enforce, and handle violations of validation rules for Chef node attributes -- `Ruby gem`
+* [chef-consul](https://github.com/samdunne/chef-consul) - Access Consul via Chef's node object -- `Ruby`
 * [chef-guard](https://github.com/xanzy/chef-guard) - feature rich Chef add-on that protects your Chef server from untested and potentially dangerous cookbooks -- `Ruby`
 * [chef-provisioning-docker](https://github.com/chef/chef-provisioning-docker) - Docker provisioning via Chef, official -- `Ruby`
 * [chef-relevant-tests](https://github.com/brigade/chef-relevant-tests) - Runs Test Kitchen tests only on the parts of your code that changed (rather than the full suite) -- `Ruby gem`
@@ -380,6 +382,8 @@ See Also [Backups](#backups)
 * [Lita](https://www.lita.io/) - Chat bot written in Ruby, supports plugins -- `Ruby gem`
 * [mac2imgur](https://github.com/mileswd/mac2imgur) - Auto-upload screenshots to Imgur -- `Swift` `OS X`
 * [Mattermost](http://www.mattermost.org/) - OSS Slack alternative -- `Golang` `JavaScript`
+* [MultiRBL](http://multirbl.valli.org/) - SMTP blackhole lookup tools -- `in-browser`
+* [MX Toolbox](https://mxtoolbox.com/) - SMTP blacklist lookup, header analysis, and more -- `in-browser`
 * [OpenProject](https://www.openproject.org) - Web-based project management system built on Ruby on Rails -- `Ruby`
 * [osTicket](http://osticket.com/) - Routes inquiries created via email, web-forms and phone calls into a web-based customer support platform -- `PHP`
 * [OTRS](http://www.otrs.com/) - Open source help desk software -- `perl`
@@ -452,11 +456,13 @@ See Also [Backups](#backups)
 * [drone](https://github.com/drone/drone) - CI platform built on Docker -- `Golang`
 * [Fabric8](http://fabric8.io/) - Deploy and manage middleware components or long running Java programs running in a repeatable and controllable way  -- `Java`
 * [Ferry](https://github.com/opencore/ferry) -  Launch, run, and manage big data clusters without worrying about infrastructure -- `Python`
+* [Flannel](https://github.com/coreos/flannel) - Network fabric for containers via etcd -- `Golang`
 * [Flocker](https://github.com/ClusterHQ/flocker) - Docker data management for stateful services such as DBs -- `Python`
 * [Flynn](https://flynn.io/) - PaaS built on top of Docker, can run stateful services -- `Golang`
 * [Heapster](https://github.com/kubernetes/heapster) - Container cluster monitoring and performance analysis for Kubernetes and CoreOS -- `Golang`
 * [Hyper](https://hyper.sh/) - Hypervisor-agnostic Docker engine -- `Golang`
 * [Kitematic](https://kitematic.com/) - App for managing Docker containers -- `JavaScript` `Windows` `OS X`
+* [Logspout](https://github.com/gliderlabs/logspout) - Log router for Docker containers -- `Golang`
 * [LXC (Linux Containers)](https://linuxcontainers.org/) - Runs an OS instance (sshd, cron, daemons, init, etc) within a container
 * [OpenShift](http://www.openshift.org/) - Docker + Kubernetes, both OSS and a commercial product from Red Hat -- `Golang`
 * [Panamax](http://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub -- `various lang`
@@ -468,6 +474,7 @@ See Also [Backups](#backups)
 * [Sandstorm](https://sandstorm.io/) - Download, install, and run apps in a container -- `IDK but hashi`
 * [Shipyard](https://github.com/shipyard/shipyard) - Composable Docker management toolkit -- `Golang`
 * [ShutIt](https://github.com/ianmiell/shutit) - All-in-one build system featuring Docker -- `Python`
+* [systemd-nspawn](https://lwn.net/Articles/572957/) - Spawn containers via systemd -- `C` `article`
 * [Swarm](https://github.com/docker/libswarm) - Docker-native clustering system -- `Golang`
 * [Tsuru](https://github.com/tsuru/tsuru) - Docker-based PaaS -- `Golang`
 * [Ventriloquist](https://github.com/fgrehm/ventriloquist) - Combines Vagrant and Docker to give developers the ability to configure portable and disposable dev environments -- `Ruby`
@@ -536,6 +543,7 @@ See Also [Backups](#backups)
 * [Curator](http://curator.apache.org/) - ZooKeeper client wrapper and rich ZooKeeper framework, by Netflix -- `Java`
 * [etcd](https://github.com/coreos/etcd) - Distributed, consistent key-value store for shared configuration and service discovery -- `Golang`
 * [eureka](https://github.com/Netflix/eureka) - AWS Service registry for resilient mid-tier load balancing and failover, by Netflix -- `Java`
+* [fabio](https://github.com/eBay/fabio) - Zero-conf load balancing HTTP(S) router for deploying microservices managed by Consul -- `Golang`
 * [fswatch](https://emcrisostomo.github.io/fswatch/) - Cross-platform for watching files and taking action when they change -- `C++`
 * [git2consul](https://www.npmjs.com/package/git2consul) - Mirror git repos to Consul K/V stores -- `JavaScript`
 * [gkv](https://github.com/ybur-yug/gkv) - Use git as a KV key/value store -- `Ruby gem`
@@ -564,6 +572,7 @@ See Also [Backups](#backups)
 * [SkyDNS](https://github.com/skynetservices/skydns) - Service discovery via DNS for etcd -- `Golang`
 * [SmartStack](http://nerds.airbnb.com/smartstack-service-discovery-cloud/) - Automated service discovery and registration framework, by Airbnb -- `Ruby`
 * [Spring Cloud Config](http://cloud.spring.io/spring-cloud-config/) - Allows Java Spring to read config info from service discovery or similar source -- `Java`
+* [Synapse](https://github.com/airbnb/synapse) - Service discovery framework by Airbnb -- `Ruby`
 * [vulcand](https://github.com/mailgun/vulcand) - Programmatically extendable proxy for microservices and API management -- `Golang`
 * [Webjob](http://webjob.sourceforge.net/WebJob/) - Downloads a program or script from a remote WebJob server, executes it, and sends back output to a server -- `C`
 * [xCAT](http://sourceforge.net/p/xcat/wiki/Main_Page/) - Complete management solution for distributed systems -- `various`
@@ -616,7 +625,9 @@ See Also [Backups](#backups)
 * [GitHub Pull Request Builder Plugin (gprbp)](https://github.com/janinko/ghprb) - Allows certain comment strings to kick off builds -- `Java`
 * [GitLab](https://about.gitlab.com/) - Kinda like an open source GitHub, has both a community and paid version -- `Ruby`
 * [GitLab CI](https://about.gitlab.com/gitlab-ci/) - CI that integrates with GitLab -- `Ruby`
+* [GitRob](https://github.com/michenriksen/gitrob) - Scan repos for sensitive information -- `Ruby`
 * [GitTorrent](https://github.com/cjb/gittorrent) - A decentralization of GitHub using BitTorrent and Bitcoin/blockchain -- `JavaScript`
+* [GitUp](http://gitup.co) - Maybe the best git GUI -- `Objective-C`
 * [gitwatch](https://github.com/nevik/gitwatch) - Automatically commit changes when specified files or directories are modified -- `shell`
 * [Git Interfaces, Frontends, and Tools](https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools) - Massive list on the kernel.org wiki -- `various lang`
 * [gkv](https://github.com/ybur-yug/gkv) - Use git as a KV key/value store -- `Ruby gem`
@@ -753,6 +764,7 @@ See Also [Backups](#backups)
 * [Graphite](https://github.com/graphite-project/graphite-web) - Store numeric time-series data and render graphs of the data on demand -- `Python`
 * [Graphite Tools](https://graphite.readthedocs.org/en/latest/tools.html) - Tools that work with Graphite -- `collection`
 * [Heka / hekad](http://hekad.readthedocs.org/en/latest/) - Stream processing, can gather logs or performance metrics, by Mozilla -- `Golang`
+* [Heroic](https://github.com/spotify/heroic) - TSDB by Spotify -- `Java`
 * [InfluxDB](http://influxdb.com/) - Distributed time series database with no external dependencies -- `Golang`
 * [KairosDB](https://github.com/kairosdb/kairosdb) - Time series DB written on top of Cassandra -- `Java`
 * [Node-Bell](https://github.com/eleme/node-bell) - Real-time anomalies detection system for periodic time series -- `JavaScript`
@@ -817,6 +829,8 @@ See Also [Backups](#backups)
 * [bbcp](http://www.slac.stanford.edu/~abh/bbcp/) - Copies files using multiple TCP streams to greatly increase throughput -- `C`
 * [bbFTP](http://doc.in2p3.fr/bbftp/) - Uses it's own transfer protocol, optimized for large file transfers -- `C`
 * [BIRD Internet Routing Daemon (BIRD)](http://bird.network.cz/) - (Almost) fully functional IP routing daemon for Linux, supports tons of standard routing protocols -- `C`
+* [BPF Tools](https://github.com/cloudflare/bpftools) - BSD Packet Filter (BPF) and pcap tools, by CloudFlare -- `Python`
+* [Calico](http://www.projectcalico.org/) - L3 fabric that runs a vRouter on each node, supports containers -- `Python`
 * [CERT NetSA Security Suite](https://tools.netsa.cert.org/) - Network flow analysis tools -- `various lang`
 * [Cyberduck](https://cyberduck.io/) - GUI FTP, SFTP, WebDAV, S3 & OpenStack Swift browser for Mac and Windows -- `itsaduck`
 * [dnscrypt-wrapper](https://github.com/Cofyc/dnscrypt-wrapper) - Add dnscrypt support to any resolver, server-side dnscrypt proxy -- `C`
@@ -916,6 +930,7 @@ See Also [Backups](#backups)
 * [Archipel](http://archipelproject.org/) - Use XMPP push notifications to manage, supervise, and orchestrate VMs -- `Objective-J`
 * [Batou](http://batou.readthedocs.org/en/latest/) - Define and perform automated service deployments -- `Python pip`
 * [Capistrano](http://capistranorb.com/) - Run scripts/commands and push software using SSH, provides a rake DSL -- `Ruby gem`
+* [ClusterSHISH](http://www.siftsoft.com/clustershish.html) - Cluster SSH for Windows, works with PuTTY and OpenSSH for Windows -- `closed source` `Windows`
 * [ClusterSSH](https://github.com/duncs/clusterssh/) - Make a change on many servers at the same time -- `perl`
 * [csshX](https://github.com/brockgr/csshx) - Cluster SSH for OS X -- `C`
 * [Deltacloud](https://deltacloud.apache.org/) - API that abstracts the differences between clouds (AWS, OpenStack, etc) -- `Ruby`
@@ -926,7 +941,7 @@ See Also [Backups](#backups)
 * [Mass Parallel SSH (mpssh)](https://github.com/ndenev/mpssh) - Simple parallel SSH -- `C`
 * [mcollective (Marionette Collective)](http://puppetlabs.com/mcollective) - Orchestration, can be used independently of Puppet -- `Ruby gem`
 * [motherbrain](https://github.com/RiotGames/motherbrain) - Use knife to spin up one node?  Nah, use this to create a whole environment -- `Ruby gem`
-* [mussh](http://linux.die.net/man/1/mussh) - MUltihost SSH -- `C` `built-in` 
+* [mussh](http://linux.die.net/man/1/mussh) - MUltihost SSH -- `C` `built-in`
 * [OpenLMI (Open Linux Management Infrastructure)](http://www.openlmi.org/) - Manage, monitor, and configure servers via API calls (instead of SSH), included in RHEL 7 -- `various lang`
 * [Overcast](https://github.com/andrewchilds/overcast) - VM orchestration and provisioning for DigitalOcean, Linode and Amazon, or locally using Vagrant + Virtualbox -- `JavaScript`
 * [parallel](https://www.gnu.org/software/parallel/) - Execute jobs in parallel using one or more computers -- `built-in`
@@ -1134,9 +1149,11 @@ See Also [Backups](#backups)
 * [Percona Toolkit for MySQL](https://www.percona.com/software/mysql-tools/percona-toolkit) - Percona's special toolkit -- `various lang`
 * [pgcli](https://github.com/dbcli/pgcli) - Postgres CLI with autocomplete and syntax highlighting -- `Python`
 * [pgloader](http://pgloader.io/) - Fast data loader for PostgreSQL -- `Lisp`
+* [pg_repack](https://reorg.github.io/pg_repack/) - Remove bloat from tables and indexes without using an exclusive lock -- `C`
 * [Postgres-XL](http://www.postgres-xl.org/) - Scale-out version of PostgresSQL -- `C`
 * [PostgREST](https://github.com/begriffs/postgrest) - Create a REST API for any Postgres DB -- `Haskell`
 * [PostgreSQL GUI Tools](https://wiki.postgresql.org/wiki/Community_Guide_to_PostgreSQL_GUI_Tools) - A huge list on the official wiki -- `collection`
+* [Presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data, by Facebook -- `Java`
 * [rdbms-subsetter](https://github.com/18F/rdbms-subsetter) - Generate a random sample of rows from a relational database that preserves referential integrity, great for using production data for testing/dev -- `Python`
 * [rlwrap](http://www.oraclealchemist.com/news/add-history-and-tab-completion-to-sqlplus/) - Add history and tab completion to SQLplus -- `C`
 * [SchemaSpy](http://schemaspy.sourceforge.net/) - Analyze the metadata of a schema and visualize it in HTML -- `Java`
@@ -1396,12 +1413,15 @@ See Also [Backups](#backups)
 * [OverAPI](http://overapi.com/) - Large collection of cheat sheets for almost anything -- `collection`
 * [PatchELF](https://github.com/NixOS/patchelf) - Simple utility for modifying existing ELF executables and libraries -- `C`
 * [PRoot](http://proot.me/) - chroot, mount --bind, and binfmt_misc without privilege/setup -- `C`
+* [Proxygen](https://github.com/facebook/proxygen) - Modern C++ HTTP library, by Facebook -- `C++`
 * [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins) - Collection of plugins for Quick Look in the Mac Finder -- `OS X` -- `various lang`
+* [REST-assured](https://github.com/jayway/rest-assured) - Java DSL for testing of REST services -- `Java`
 * [RocksDB](http://rocksdb.org/) - Library that provides an embeddable, persistent key-value store for fast storage - by Facebook -- `C++`
 * [rpm-maven-plugin](https://github.com/mojohaus/rpm-maven-plugin) - Package artifacts as a RPM -- `Java`
 * [Software Engineering Blogs](https://github.com/kilimchoi/engineering-blogs) - A curated list of software engineering blogs -- `collection`
 * [SonarQube](http://www.sonarqube.org/) - Platform and dashboard for managing code quality -- `Ruby` `Java`
 * [Sonatype Nexus](http://www.sonatype.org/nexus/) - Software / binary artifact storage -- `Java`
+* [Spinnaker](http://spinnaker.io/) - Cloud-focused CI/CD system by Netflix -- `Python`
 * [Valgrind](http://valgrind.org/info/tools.html) - Tool suite that includes cache profilers, heap profiles, thread race condition checkers, and more -- `C`
 * [watchman](https://github.com/facebook/watchman) - Watch files and take action when they change (eg: kick off the CI system), by Facebook -- `C`
 * [WireMock](http://wiremock.org/) - Flexible stubbing and mocking services -- `Java`
@@ -1453,6 +1473,7 @@ See Also [Backups](#backups)
 * [etcd-ca](https://github.com/coreos/etcd-ca) - Simple CA by the CoreOS guys -- `Golang`
 * [HSTS (HTTP Strict Transport Secuirity)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) - Forces browsers to interact with a site by only using HTTPS -- `article`
 * [Lemur](https://github.com/Netflix/lemur) - Broker between CAs and environments providing a central portal for developers to issue TLS certificates with 'sane' defaults -- `Python`
+* [Let's Encrypt](https://letsencrypt.org/) - Free SSL certs from a real CA -- `in-browser`
 * [LibreSSL](http://www.libressl.org/) - OpenBSD's fork of OpenSSL, Linux compatible -- `C`
 * [Mozilla Server Side TLS](https://wiki.mozilla.org/Security/Server_Side_TLS) - Mozilla's extensive server side TLS configuration guide -- `wiki`
 * [Mozilla SSL Configuration Generator](https://mozilla.github.io/server-side-tls/ssl-config-generator/) - Generate SSL configs for Apache, Nginx, ELB, HAproxy and more -- `in-browser`
@@ -1476,6 +1497,7 @@ See Also [Backups](#backups)
 * [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) - Send a signal to an ATA drive to perform a hardware-based erase -- `article`
 * [Clonezilla](http://clonezilla.org/) - Disk image/cloning tool, supports most file system types -- `perl` `shell`
 * [CockroachDB](http://www.cockroachlabs.com/) - Open source version of Google's Spanner storage system -- `thefuture` `Golang`
+* [CrystalDiskInfo](http://crystalmark.info/software/CrystalDiskInfo/index-e.html) - S.M.A.R.T. GUI tool for Windows -- `closed source` `Windows`
 * [EnhanceIO](https://github.com/stec-inc/EnhanceIO) - SSD caching, in the mainline Linux kernel, a fork of Facebook's Flashcache project -- `C`
 * [Fog](https://www.fogproject.org/) - Cloning tool -- `C++`
 * [fs-cache](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-fscache.html) - Modern NFS client-side caching -- `built-in`
@@ -1647,7 +1669,9 @@ See Also [Backups](#backups)
 * [curlish](https://pythonhosted.org/curlish/) - Improved curl, includes cookie management and OAuth 2.0 support -- `Python pip`
 * [Fiddler](http://www.telerik.com/fiddler) - HTTP/HTTPS debugging proxy for any browser, system or platform -- `closed source`
 * [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any HTML web page look like a Geocities page -- `in-browser` `sweeeeeeet`
+* [gor](https://github.com/buger/gor) - Capture and replay HTTP traffic for testing -- `Golang`
 * [gRPC](http://www.grpc.io/) - High performance RPC via HTTP/2, by Google -- `C`
+* [Hamms](https://github.com/kevinburke/hamms) - Simulate/create connection failures, malformed response data, slow servers, fat headers, and more! -- `Python`
 * [Hipache](https://github.com/hipache/hipache) - Distributed HTTP and websocket proxy, supports load balancing -- `JavaScript`
 * [htaccess Snippits](https://github.com/phanan/htaccess) - Huge collection of common and useful .htaccess snippets, please contribute -- `collection`
 * [httpdiff](https://github.com/jgrahamc/httpdiff) - Perform the same reuqest against two HTTP servers and diff the results -- `Golang`
@@ -1730,6 +1754,7 @@ See Also [Backups](#backups)
 * [AutoHotKey](http://ahkscript.org/) - Automate input (desktop and web forms, data entry, keybinds, etc) -- `C++` `Windows`
 * [Awesome AutoHotKey](https://github.com/ahkscript/awesome-AutoHotkey) - A collection of AutoHotKey scripts and libraries -- `various lang`
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- `closed source` `USETHIS`
+* [Google Advanced Operators for Web Search](https://sites.google.com/site/gwebsearcheducation/advanced-operators) - Search modifiers for more accurate results, by Google -- `collection`
 * [inxi](https://github.com/smxi/inxi) - "a full featured system information script" (hardware info, etc) -- `shell`
 * [Mjolnir](https://github.com/sdegutis/mjolnir) - Automation for OS X, think AutoHotKey for Mac -- `C` `OS X`
 * [Netflix OSS](https://github.com/netflix) - Netflix OSS tools on GitHub -- `owns` `mostly Java`
