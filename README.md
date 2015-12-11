@@ -1,4 +1,5 @@
-My Links
+---
+# My Links
 
 * 98% OSS
 * 1% free-as-in-beer closed source software
@@ -6,7 +7,6 @@ My Links
 * Please don't submit to Reddit, HN, or post this on Twitter.  Share, but share with close friends!
 * Josh on [LinkedIn](https://www.linkedin.com/in/jturgasen)
 * Josh's [Technical Blog](https://jturgasen.github.io)
-* Josh  on [Twitter](https://www.twitter.com/joshturgasen)
 
 ---
 # Table of Contents
@@ -115,41 +115,29 @@ My Links
 
 > Linux-focused news and article sites
 
-* [Admin Magazine](http://www.admin-magazine.com/)
 * [Distro Watch](http://distrowatch.com/)
 * [Fedora Magazine](http://fedoramagazine.org/)
 * [FOSS Force](http://fossforce.com/)
-* [Fresh News](http://www.freshnews.org/)
 * [Full Circle Magazine](http://fullcirclemagazine.org/)
-* [HowtoForge](http://www.howtoforge.com/)
 * [Linux.com](http://www.linux.com/)
-* [Linux.org](http://www.linux.org/)
 * [Linux Insider](http://www.linuxinsider.com/)
 * [Linux Journal](http://www.linuxjournal.com/)
 * [Linux Magazine](http://www.linux-magazine.com/)
 * [Linux Today](http://www.linuxtoday.com/)
 * [Linux User & Developer](http://www.linuxuser.co.uk/)
 * [Linux Weekly News (LWN)](http://lwn.net/)
-* [LXer](http://lxer.com/)
-* [MakeUseOf](http://www.makeuseof.com/service/linux/)
 * [OMG! Ubuntu!](http://www.omgubuntu.co.uk/)
 * [OpenSource.com](http://opensource.com/)
 * [OStatic](http://ostatic.com/)
 * [Phoronix](http://www.phoronix.com)
 * [Planet Fedora](http://planet.fedoraproject.org/)
-* [Planet Sysadmin](http://planetsysadmin.com/)
 * [Planet Ubuntu](http://planet.ubuntu.com/)
 * [r/linux](http://www.reddit.com/r/linux)
 * [Red Hat Developer Blog](http://developerblog.redhat.com/)
 * [Red Hat Enterprise Linux Blog](http://rhelblog.redhat.com/)
-* [Tecmint](http://www.tecmint.com/)
-* [The Mukt](http://www.themukt.com/)
 * [Tux Machines](http://www.tuxmachines.org/)
 * [Ubuntu Geek](http://www.ubuntugeek.com/)
 * [Ubuntu Weekly Newsletter](https://wiki.ubuntu.com/UbuntuWeeklyNewsletter)
-* [Unixmen](http://www.unixmen.com/)
-* [Web Upd8](http://www.webupd8.org/)
-* [Xmodulo](http://xmodulo.com/)
 
 ---
 # Linux Message Boards and Forums
@@ -158,7 +146,7 @@ Discussions, troubleshooting, and more
 
 * [Mailing Lists](http://www.example.com) - No link, there's like 4 trillion of them
 * [IRC](http://www.example.com) - Same as above
-* [Vendor Support](http://www.example.com) - Lean on em
+* [Vendor Support](http://www.example.com) - You pay em, lean on em
 * [Ask Ubuntu](https://askubuntu.com/)
 * [CentOS Forums](https://www.centos.org/forums/)
 * [Fedora Forums](http://www.forums.fedoraforum.org/)
@@ -166,12 +154,11 @@ Discussions, troubleshooting, and more
 * [LinuxQuestions.org](https://www.linuxquestions.org/questions/)
 * [r/linuxquestions](http://www.reddit.com/r/linuxquestions)
 * [r/linuxadmmin](http://www.reddit.com/r/linuxadmin)
-* [r/commandline](http://www.reddit.com/r/commandline)
 * [serverfault.com](http://serverfault.com/)
 * [superuser.com](https://superuser.com/)
 * [UbuntuForums.org](http://ubuntuforums.org/)
 * [Unix.com](http://www.unix.com/)
-* [unix.stackexchange.com](https://unix.stackexchange.com/)
+* [linux.stackexchange.com](https://linux.stackexchange.com/)
 * [Web Hosting Talk](https://www.webhostingtalk.com/)
 
 
@@ -330,6 +317,7 @@ See Also [Cloud File Sync and Sharing](#cloud-file-sync-and-sharing)
 * [knife-push](https://docs.chef.io/push_jobs.html) - Push jobs - action or a command to be executed against a subset of nodes -- `Ruby`
 * [knife-sharp](https://github.com/Fotolia/knife-sharp) - Adds features such as data bag/environment/role sync & backup -- `Ruby gem`
 * [Knife Plugins](https://docs.chef.io/community_plugin_knife.html) - The official list of community written plugins for Knife -- `collection`
+* [motherbrain](https://github.com/RiotGames/motherbrain) - Use knife to spin up one node?  Nah, use this to create a whole environment -- `Ruby gem`
 * [omnibus](https://github.com/chef/omnibus) - Create full-stack installers for your project -- `Ruby gem`
 * [Policy File](https://docs.chef.io/config_rb_policyfile.html) - Policyfile is a single document to specify the cookbooks and recipes that should be applied to node(s) -- `official` `experimental`
 * [Ridley](https://github.com/reset/ridley) - Chef API client -- `Ruby gem`
@@ -347,9 +335,7 @@ See Also [Cloud File Sync and Sharing](#cloud-file-sync-and-sharing)
 
 See Also [Backups](#backups)
 
-* [btsync (BitTorrent Sync)](https://www.getsync.com/) - Sync on the local network or over the internet -- `closed source` `Windows` `OS X` `mobile`
 * [boar](https://bitbucket.org/mats_ekberg/boar/wiki/Home) - Stores snapshots of directory trees in a local or remote repository, for BLOBs (pictures, videos , etc) -- `Python` `C`
-* [Cloud Explorer](http://www.getcloudexplorer.com/) - GUI to access storage on multiple clouds -- `closed source` `Windows`
 * [csync2](http://oss.linbit.com/csync2/) - Cluster file sync tool
 * [Drive](https://github.com/odeke-em/drive) - Push or pull files to Google Drive via the command line -- `Golang`
 * [git-annex Assistant](http://git-annex.branchable.com/assistant/) - Sync folder(s) to any device
@@ -695,7 +681,6 @@ See Also [Backups](#backups)
 [See Also](#distributed-systems-tools) Distributed Systems Tools
 
 * [Clustered File System](https://en.wikipedia.org/wiki/Clustered_file_system) - Ceph, GlusterFS, Lustre, etc, take your pick -- `various lang`
-* [dish](https://github.com/LabAdvComp/dish) - Application agnostic library for distributing work across resource scheduler clusters in a relatively fault-tolerant way
 * [HTCondor](http://research.cs.wisc.edu/htcondor/) - Workload management system for compute-intensive jobs, formerly Condor
 * [Maul Cluster Scheduler](http://www.adaptivecomputing.com/products/open-source/maui/) - Precursor to the Moab HPC Suite
 * [MPI for Python (mpi4py)](https://pypi.python.org/pypi/mpi4py) - Python bindings for the Message Passing Interface (MPI) standard
@@ -942,7 +927,6 @@ See Also [Backups](#backups)
 * [ManageIQ](http://manageiq.org/) - Upstream OSS project for Red Hat's CloudForms -- `Ruby`
 * [Mass Parallel SSH (mpssh)](https://github.com/ndenev/mpssh) - Simple parallel SSH -- `C`
 * [mcollective (Marionette Collective)](http://puppetlabs.com/mcollective) - Orchestration, can be used independently of Puppet -- `Ruby gem`
-* [motherbrain](https://github.com/RiotGames/motherbrain) - Use knife to spin up one node?  Nah, use this to create a whole environment -- `Ruby gem`
 * [mussh](http://linux.die.net/man/1/mussh) - MUltihost SSH -- `C` `built-in`
 * [OpenLMI (Open Linux Management Infrastructure)](http://www.openlmi.org/) - Manage, monitor, and configure servers via API calls (instead of SSH), included in RHEL 7 -- `various lang`
 * [Overcast](https://github.com/andrewchilds/overcast) - VM orchestration and provisioning for DigitalOcean, Linode and Amazon, or locally using Vagrant + Virtualbox -- `JavaScript`
@@ -1012,6 +996,7 @@ See Also [Backups](#backups)
 * [mem_logger.sh](http://aarvik.dk/how-to-determine-which-process-is-highly-memory-consuming-over-time/) - Monitor a processes' memory usage over time -- `shell`
 * [Munin](http://munin-monitoring.org/) - Historical performance monitoring to help determine when you server became "slow" -- `perl`
 * [nmon](http://nmon.sourceforge.net/pmwiki.php) - Provides both real-time and historical performance metrics -- `C`
+* [NumaTOP](https://01.org/numatop) - top for NUMA systems, shows hotspots, call chains, etc -- `C`
 * [OProfile](http://oprofile.sourceforge.net/) - System-wide statistical profiling tool -- `C`
 * [perf](https://perf.wiki.kernel.org/index.php/Main_Page) - User-land performance analysis tool -- `C`
 * [perf-tools](https://github.com/brendangregg/perf-tools) - Uses perf and ftrace, includes iosnoop -- `Brendan Gregg`
@@ -1339,6 +1324,7 @@ See Also [Backups](#backups)
 * [Security Onion](http://securityonion.net/) - Linux distro for IDS, NSM, and log management -- `various lang`
 * [Security Technical Implementation Guide (STIG)](http://iase.disa.mil/stigs/Pages/a-z.aspx) - Guides to securing almost every application, by the US military -- `collection`
 * [Snort](https://www.snort.org/) - The classic network intrusion prevention system (NIPS) -- `C`
+* [Spiderfoot](http://www.spiderfoot.net/) - Automate the process of gathering intelligence about a given target -- `Python`
 * [sudosh2](https://github.com/squash/sudosh2) - Records all keystrokes and output and can play back the session as just like a VCR -- `C`
 * [Tripwire](http://sourceforge.net/projects/tripwire/) - File integrity checker and monitor, replacement for the now closed-source Tripwire -- `C`
 * [VirusTotal](https://www.virustotal.com/) - Allows you to upload a file and have it scanned by tons of virus scanners -- `in-browser`
@@ -1531,6 +1517,7 @@ See Also [Backups](#backups)
 * [findswappers](https://gist.github.com/anonymous/7529780) - perl script that identifies swapped processes -- `perl`
 * [fio](http://freecode.com/projects/fio) - Supports 19 different I/O engines (sync, mmap, libaio, posixaio, etc), very powerful, recommended -- `C`
 * [Flexible File System Benchmark (FFSB)](http://sourceforge.net/projects/ffsb/) - Load generator #436345423 -- `C`
+* [Fnotifystat](http://kernel.ubuntu.com/~cking/fnotifystat/) - Dumps the file system activity in a given period of time -- `C`
 * [IObench](http://dimitrik.free.fr/IObench.html) - Generic I/O stress tool that's a part of dim_STAT -- `C`
 * [iometer](http://www.iometer.org/) - Multi-platform, by Intel, recommended -- `C++`
 * [ioping](https://github.com/koct9i/ioping) - Monitor I/O latency in real time -- `C`
@@ -1666,9 +1653,9 @@ See Also [Backups](#backups)
 [See also](#networking-tools) Networking Tools
 
 * [API Blueprint](https://apiblueprint.org/) - Supports bindings/plugins for many APIs -- `various lang`
-* [Awesome JSON](https://github.com/burningtree/awesome-json) It's the new XML -- `collection`
+* [Awesome JSON](https://github.com/burningtree/awesome-json) - It's the new XML -- `collection`
 * [Awesome Nginx](https://github.com/fcambus/nginx-resources) - A collection of resources covering Nginx, Nginx + Lua, OpenResty and Tengine -- `collection`
-* [Charles Web Debugging Proxy](http://www.charlesproxy.com/) - Highly recommended, includes support for decoding HTTPS traffic and throttling -- `closed source `commercial product`
+* [Charles Web Debugging Proxy](http://www.charlesproxy.com/) - Highly recommended, includes support for decoding HTTPS traffic and throttling -- `closed source` `commercial product`
 * [curlish](https://pythonhosted.org/curlish/) - Improved curl, includes cookie management and OAuth 2.0 support -- `Python pip`
 * [Fiddler](http://www.telerik.com/fiddler) - HTTP/HTTPS debugging proxy for any browser, system or platform -- `closed source`
 * [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any HTML web page look like a Geocities page -- `in-browser` `sweeeeeeet`
