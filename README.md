@@ -606,7 +606,7 @@ See Also [Backups](#backups)
 * [vim-json](https://github.com/elzr/vim-json) - A better JSON plugin for vim -- `vim`
 * [vim-snippets](https://github.com/honza/vim-snippets) - snipMate & UltiSnip snippets -- `vim`
 * [Vimium](https://vimium.github.io/) - Chrome extension that provides vi/vim style shortcuts for navigation and control -- `CoffeeScript` `Chrome`
-* [Vim Adventures](http://vim-adventures.com/) - A game to learn vim using your browser -- `closed source` `in-browser`
+* [Vim Adventures](http://vim-adventures.com/) - A game to learn vim using your browser -- `in-browser`
 * [Vundle](https://github.com/VundleVim/Vundle.vim) - Popular plug-in manager for vim -- `vim`
 * [wasavi](https://github.com/akahuku/wasavi) - vim/vi controls in browser text areas -- `JavaScript` `Firefox` `Chrome`
 * [YouCompleteMe](http://valloric.github.io/YouCompleteMe/) - Fuzzy-search code completion engine for vim -- `Python`
@@ -633,9 +633,8 @@ See Also [Backups](#backups)
 * [gitwatch](https://github.com/nevik/gitwatch) - Automatically commit changes when specified files or directories are modified -- `shell`
 * [Git Interfaces, Frontends, and Tools](https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools) - Massive list on the kernel.org wiki -- `various lang`
 * [gkv](https://github.com/ybur-yug/gkv) - Use git as a KV key/value store -- `Ruby gem`
-* [Gogs](http://gogs.io/) - Painless, self-hosted Git service -- `Golang`
+* [Gogs](http://gogs.io/) - Painless, self-hosted Git service written in -- `Golang`
 * [hub](https://hub.github.com/) - Official CLI for GitHub -- `Golang`
-* [IMHOtep](https://github.com/justinabrahms/imhotep) - Comments on commits coming into your repository and checks for syntactic errors and general lint warnings -- `Python`
 * [libgit2](https://github.com/libgit2) - Library for interfacing with git via Ruby, Python, Go, and others -- `various lang`
 * [Mergeatron](https://github.com/behance/mergeatron) - Kicks off Jenkins a repo gets a PR, gives a thumbs up/down reply -- `JavaScript`
 * [myrepos](http://myrepos.branchable.com/) - Flexible tool for managing many repos -- `perl`
@@ -756,7 +755,7 @@ See Also [Backups](#backups)
 ---
 ## Metrics
 
-> Collection, analysis, and storage of metrics or telemetry data from almost any source
+> Collection, analysis, and storage of metrics, telemetry, and instrumentation data from almost any source
 
 * [collectd](http://collectd.org/) - Collects system performance statistics -- `C`
 * [collectd Related Sites](http://collectd.org/related.shtml) - Great tools that integrate with collectd -- `collection`
@@ -1270,7 +1269,6 @@ See Also [Backups](#backups)
 
 > Password, private key, and secret API key storage and management tools
 
-* [1Password](https://agilebits.com/onepassword) - Password manager for almost any platform -- `closed source` `mobile` `Windows` `OS X`
 * [blackbox](https://github.com/StackExchange/blackbox) - Safely store secrets in Git, by Stack Exchange -- `shell`
 * [Diceware](http://world.std.com/~reinhold/diceware.html) - Neat IRL passphrase generator -- `doitirl`
 * [GPG (GNU Privacy Guard)](https://www.gnupg.org/) - The original! Store em in text files and encrypt -- `C` `pro`
@@ -1282,7 +1280,6 @@ See Also [Backups](#backups)
 * [KeePassX](https://www.keepassx.org/) - Alternative to KeePass, requires QT -- `C++` `Windows` `OS X`
 * [Keywhiz](https://square.github.io/keywhiz/) - A system for distributing and managing secrets (API keys, certificates, etc), by Square -- `Java`
 * [kpcli](http://kpcli.sourceforge.net/) - Command line interface / CLI for KeePass -- `perl`
-* [LastPass](https://lastpass.com/) - Can sync to multiple devices -- `closed source` `most platforms`
 * [lastpass-cli](https://github.com/lastpass/lastpass-cli) - CLI for LastPass -- `C`
 * [msktutil](http://linux.die.net/man/1/msktutil) - Keytab client for a Microsoft Active Directory environment -- `built-in`
 * [One-Time Secret](https://github.com/onetimesecret/onetimesecret) - Create links that self-destruct after a single viewing, great for sharing passwords -- `Ruby`
@@ -1403,7 +1400,7 @@ See Also [Backups](#backups)
 * [CRIU (Checkpoint/Restore in Userspace)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
 * [cwrap](http://cwrap.org/) - Wrappers for creating test scenarios and faking behavior/ stubbing, mostly network focused -- `bytheSambaguys`
 * [deployinator](https://github.com/etsy/deployinator) - Etsy's deployment framework -- `Ruby gem`
-* [DevDocs](http://devdocs.io/) - API documentation browser -- `collection`
+* [DevDocs](http://devdocs.io/) - Documentation browser for almost every API -- `collection`
 * [dev-setup](https://github.com/donnemartin/dev-setup) - Automated setup scripts for tools like Sublime Text, AWS, Spark, Android dev, and more -- `collection`
 * [Go (GoCD)](http://www.go.cd) - Go continuous delivery platform by ThoughtWorks -- `Java`
 * [Guard](https://github.com/guard/guard) - Flexible framework to take action on file system change event -- `Ruby gem`
@@ -1599,9 +1596,8 @@ See Also [Backups](#backups)
 > Two-factor authentication / TFA / 2FA and multi-factor authentication / MFA, pls use
 
 * [Two Factor Auth (2FA)](https://twofactorauth.org/) - Massive list of web sites that support two factor authentication -- `checkit` `collection`
-* [Authy](https://www.authy.com/) - Provides both personal and enterprise versions -- `closed source` `mobile`
 * [FreeOTP](https://fedorahosted.org/freeotp/) - Open source fork of Google Authenticator for iOS and Android on Fedorahosted -- `needs help`
-* [Google Authenticator](https://github.com/google/google-authenticator) - Two factor authentication; supports Android, iOS, and even has a PAM module -- `closed source`
+* [Google Authenticator](https://github.com/google/google-authenticator) - Official project, supports Android, iOS, and even has a PAM module -- `C`
 * [Yubico PAM](https://github.com/Yubico/yubico-pam) - PAM module for use with YubiKey devices -- `C`
 
 
@@ -1699,7 +1695,7 @@ See Also [Backups](#backups)
 * [PageKite](https://pagekite.net/) - Makes HTTP servers or SSH publicly available on any server -- `Python`
 * [POSTman](http://www.getpostman.com/) - Create and share API and HTTP requests, great for testing and sharing - `Chrome`
 * [Pushpin](http://pushpin.org/) - Proxy server that adds WebSockets to existing request-response APIs -- `C++`
-* [Redirect Detective](http://redirectdetective.com/) - See the complete path a redirected URL goes through -- `closed source` `in-browser`
+* [Redirect Detective](http://redirectdetective.com/) - See the complete path a redirected URL goes through -- `in-browser`
 * [Repose](http://openrepose.org/) - REST proxy, solutions to API tasks such as auth, rate limiting, API validation, HTTP logging, and much more -- `Java`
 * [Resty](https://github.com/micha/resty) - CLI REST client you can use in shell/bash/zsh pipes -- `shell`
 * [Swagger](http://swagger.io/) - A JSON format/standard that describes a RESTful API -- `various lang`
