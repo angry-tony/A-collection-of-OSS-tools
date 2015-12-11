@@ -62,7 +62,7 @@ My Links
 * [X](#storage-tools) Storage Tools
 * [X](#storage-performance-analysis-tools) Storage Performance Analysis
 * [X](#terminal-tools-and-ssh-clients) Terminal Tools and SSH Clients
-* [X](#tracing-debugging-and-profiling) Tracing and Debugging
+* [X](#tracing-and-debugging) Tracing and Debugging
 * [X](#two-factor-authentication) Two Factor Authentication
 * [X](#virtualization) Virtualization
 * [X](#vmware-tools) VMware Tools
@@ -78,6 +78,7 @@ My Links
 
 * [Ars Technica](http://arstechnica.com/)
 * [CIO.com](http://www.cio.com/)
+* [CIO Today](http://www.cio-today.com/)
 * [Computerworld](http://www.computerworld.com/)
 * [CRN](http://www.crn.com)
 * [Data Center Journal](http://www.datacenterjournal.com/)
@@ -86,24 +87,24 @@ My Links
 * [EnterpriseTech](http://www.enterprisetech.com/)
 * [Enterprise Networking Planet](http://www.enterprisenetworkingplanet.com/)
 * [eWeek](http://www.eweek.com/)
-* [Gigaom](http://gigaom.com/)
 * [Hacker News](https://news.ycombinator.com/)
 * [High Scalability](http://highscalability.com/)
 * [InfoQ](http://www.infoq.com/)
 * [Information Age](http://www.information-age.com/)
 * [InfoWorld](http://www.infoworld.com/)
 * [IT World](http://www.itworld.com/)
+* [Light Reading](http://www.lightreading.com/)
 * [Network Computing](http://www.networkcomputing.com/)
 * [Network World](http://www.networkworld.com)
-* [Software Development Times](http://sdtimes.com/)
+* [Re/Code](https://recode.net/)
+* [Software Development Times (SD Times)](http://sdtimes.com/)
 * [ServerWatch](http://www.serverwatch.com/)
-* [SiliconANGLE](http://siliconangle.com/)
 * [TechCrunch](http://techcrunch.com/)
 * [Tech Republic](http://www.techrepublic.com/)
 * [The Inquirer](http://www.theinquirer.net/)
 * [The New Stack](http://thenewstack.io/)
 * [The Next Web](http://thenextweb.com/)
-* [The Next Platform](http://www.thenextplatform.net/)
+* [The Next Platform](http://www.nextplatform.com/)
 * [The Register](http://www.theregister.co.uk/)
 * [Web Hosting Industry Review (WHIR)](http://www.thewhir.com/)
 * [Web Performance Today](http://www.webperformancetoday.com/)
@@ -213,6 +214,7 @@ Discussions, troubleshooting, and more
 * [CASTER](https://chrome.google.com/webstore/detail/chrome-aws-saml-token-exp/mbfkedefmlagincpblmgeeeehhamgpbn?hl=en-US) - Automatically re-logs into AWS via ADFS before credentials expire -- `Chrome`
 * [cloud-ssh](http://leonsbox.com/cloud-ssh/) - SSH wrapper that supports hostname tab-completion based on AWS name, tag, or security group -- `Golang`
 * [CloudBerry Explorer](http://www.cloudberrylab.com/free-amazon-s3-explorer-cloudfront-IAM.aspx) - Windows client for accessing AWS S3 buckets -- `closed source` `Windows`
+* [CloudCraft](https://cloudcraft.co/) - Create professional AWS architecture diagrams -- `in-browser`
 * [Developer Tools](https://aws.amazon.com/developertools/) - 3rd party tools for AWS - not screened or supported by Amazon -- `various lang`
 * [DREBS (Disaster Recovery for Elastic Block Store)](https://github.com/dojo4/drebs) - Tool for taking periodic snapshots of EBS volumes -- `Ruby gem`
 * [eb_deploy](https://github.com/ThoughtWorksStudios/eb_deployer) - Elastic Beanstalk blue-green deployment automation -- `Ruby gem`
@@ -645,6 +647,7 @@ See Also [Backups](#backups)
 > Not everything happens in the browser or on the command line
 
 * [blockdiag](http://blockdiag.com/en/) - Generate simple block/sequence/activity/network diagrams from text files -- `Python pip`
+* [CloudCraft](https://cloudcraft.co/) - Create professional AWS architecture diagrams -- `in-browser`
 * [draw.io](https://www.draw.io/) - Free online flow chart maker / Visio alternative -- `in-browser`
 * [FreeMind](http://freemind.sourceforge.net/) - OSS mind mapping software, great for brainstorming -- `Java` `Windows` `OS X`
 * [GlyphSearch](http://glyphsearch.com/) - Search for icons from Font Awesome, Glyphicons, IcoMoon, Ionicons, and Octicons -- `collection`
@@ -1081,7 +1084,7 @@ See Also [Backups](#backups)
 * [PyPI (Python Package Index)](https://pypi.python.org/pypi) - Software repo for Python packages, like Ruby gems or a RPM repo -- `collection`
 * [Python Reference](https://github.com/rasbt/python_reference) - A collection of useful scripts, tutorials, and other Python-related things -- `collection`
 * [PyPy](http://pypy.org/) - Python alternative with advance features (JIT compiles, sandboxing, etc) -- `Python`
-* [Requests](http://docs.python-requests.org/en/latest/) - Killer replacement for the urllib2 module -- `Python pip`
+* [Requests](http://docs.python-requests.org/en/latest/) - The best HTTP library -- `Python pip`
 * [sh](https://pypi.python.org/pypi/sh) - Library that allows you to call any program (shell command) as if it were a function -- `Python pip`
 * [virtualenv](https://virtualenv.pypa.io/en/latest/) - Tool to create isolated Python environments -- `Python pip`
 * [virtualenvwrapper](https://pypi.python.org/pypi/virtualenvwrapper) - Extensions to virtualenv, highly recommended -- `Python pip`
@@ -1318,13 +1321,14 @@ See Also [Backups](#backups)
 * [Forensics Wiki](http://www.forensicswiki.org/wiki/Main_Page) - Digital forensics wiki, tons of tools and information -- `wiki`
 * [FTimes](http://sourceforge.net/projects/ftimes/) - System baselining and evidence collection tool -- `C`
 * [fwknop (FireWall KNock OPerator)](http://www.cipherdyne.org/fwknop/) - Single Packet Authorization (SPA) aka next-generation port knocking -- `various lang`
-* [hashcat (oclHashcat)](https://hashcat.net/oclhashcat/) - World's fastest password cracker / recovery software, supports GPUs -- `closed source`
+* [hashcat](https://hashcat.net/hashcat/) - World's fastest CPU password cracker / password recovery -- `C`
 * [Information Security Cheat Sheets and Checklists](http://zeltser.com/cheat-sheets/) - An assortment of IS checklists and cheat sheets -- `collection`
 * [Jailkit](http://olivier.sessink.nl/jailkit/) - chroot toolkit -- `C`
 * [Lynis](http://cisofy.com/lynis/) - Auditing and hardening tool, supports most Unix-like operating systems -- `shell`
 * [Metasploit](http://www.metasploit.com/) - Classic exploit framework -- `various lang`
 * [nmap Scripting Engine (NSE)](http://nmap.org/nsedoc/index.html) - Tons of scripts for nmap -- `various lang`
-* [OpenSCAP](http://www.open-scap.org/page/Main_Page) - NIST Certified SCAP 1.2 toolkit -- `C` 
+* [oclHashcat](https://hashcat.net/oclhashcat/) - World's fastest CPU + GPU password cracker / recovery software -- `C`
+* [OpenSCAP](http://www.open-scap.org/page/Main_Page) - NIST Certified SCAP 1.2 toolkit -- `C`
 * [OpenVAS](http://www.openvas.org/) - Vulnerability scanner, forked from the now closed-source Nessus scanner -- `C`
 * [Open Web Application Security Project (OWASP)](https://www.owasp.org/index.php/Main_Page) - Focus on web application security -- `organization`
 * [Oracle Database Attacking Tool (ODAT)](https://github.com/quentinhardy/odat) - Open source penetration testing tool that tests the security of Oracle databases remotely -- `Python`
@@ -1369,10 +1373,12 @@ See Also [Backups](#backups)
 * [Environment Modules](http://modules.sourceforge.net/) - Dynamic modification of your shell environment using modules -- `Tcl` `Windows`
 * [Explain Shell](http://explainshell.com/) - Enter a command-line to see the help text that matches each argument -- `in-browser`
 * [fu](https://github.com/samirahmed/fu) - CLI for CommandlineFu.com, allows for easy searches -- `Python`
+* [fzf](https://github.com/junegunn/fzf) - Command line fuzzy finder, supports tmux/bash/zsh -- `Golang`
 * [Grymoire awk Tutorial](http://www.grymoire.com/Unix/Awk.html) - Easy to understand awk tutorial -- `tutorial`
 * [gt5](http://gt5.sourceforge.net/) - A "du browser" in curses, handy for finding large files -- `shell`
 * [icdiff](http://www.jefftk.com/icdiff) - diff tool that highlights the differences -- `Python` `OS X`
 * [moreutils](https://joeyh.name/code/moreutils/) - "Collection of the unix tools that nobody thought to write long ago when unix was young" -- `neat`
+* [notify](https://mashlol.github.io/notify/) - Send a SMS to your phone from the CLI -- `JavaScript` `Shell`
 * [pigz](http://zlib.net/pigz/) - Parallel gzip for multi-processor/core systems -- `C`
 * [pv](http://linux.die.net/man/1/pv) - Shows the progress of data as it flows through a pipe -- `built-in`
 * [ShellCheck](http://www.shellcheck.net/) - Checks shell scripts for common mistakes, essentially a linter -- `in-browser`
@@ -1672,6 +1678,8 @@ See Also [Backups](#backups)
 * [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any HTML web page look like a Geocities page -- `in-browser` `sweeeeeeet`
 * [gor](https://github.com/buger/gor) - Capture and replay HTTP traffic for testing -- `Golang`
 * [gRPC](http://www.grpc.io/) - High performance RPC via HTTP/2, by Google -- `C`
+* [h2c](https://github.com/fstab/h2c) - HTTP/2 CLI client, can keep connections open to receive push messages and capture individual frames -- `Golang`
+* [h2i](https://github.com/golang/net/tree/master/http2/h2i) - Go's interactive HTTP/2 console debugger, send raw frames, etc -- `Golang`
 * [Hamms](https://github.com/kevinburke/hamms) - Simulate/create connection failures, malformed response data, slow servers, fat headers, and more! -- `Python`
 * [Hipache](https://github.com/hipache/hipache) - Distributed HTTP and websocket proxy, supports load balancing -- `JavaScript`
 * [htaccess Snippits](https://github.com/phanan/htaccess) - Huge collection of common and useful .htaccess snippets, please contribute -- `collection`
@@ -1723,6 +1731,7 @@ See Also [Backups](#backups)
 * [GoAccess](http://goaccess.io/) - Real-time web log analyzer and interactive viewer that runs in a terminal and/or dashboard -- `Windows` `OS X`
 * [flask-debugtoolbar](https://github.com/mgood/flask-debugtoolbar) - The Django Debug Toolbar ported to Flask -- `Python`
 * [FunkLoad](https://pypi.python.org/pypi/funkload) - Functional and load web tester -- `Python pip`
+* [h2load](https://nghttp2.org/documentation/h2load.1.html) - HTTP/2 and SPDY load generation tool, part of the nghttp2 suite -- `C`
 * [HATop](http://feurix.org/projects/hatop/) - ncurses top for HAProxy -- `Python`
 * [httperf](https://github.com/httperf/httperf) - HTTP load generator, originally created, by HP -- `C`
 * [httping](http://www.vanheusden.com/httping/) - Simple program that "pings" a URL and shows response time -- `C`
@@ -1763,4 +1772,4 @@ See Also [Backups](#backups)
 * [runit](http://smarden.org/runit/) - UNIX init scheme with service supervision, great for containers, sysvinit replacement -- `C`
 * [runwhen](http://code.dogmap.org/runwhen/) - Utilities for running commands at particular times, cron on steroids -- `C`
 * [supercron](https://pypi.python.org/pypi/supercron) - Cron on steroids -- `Python pip`
-* [supervisord](http://supervisord.org/) - Process control, kinda like an init replacement but not really -- `Python`
+* [supervisord](http://supervisord.org/) - Process control, kinda like an init replacement but not really -- `Python`\
