@@ -1,5 +1,3 @@
----
-# My Links
 
 * 98% OSS
 * 1% free-as-in-beer closed source software
