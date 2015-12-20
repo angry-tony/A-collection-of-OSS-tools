@@ -138,9 +138,6 @@
 * [LinuxQuestions.org](https://www.linuxquestions.org/questions/)
 * [linux.stackexchange.com](https://linux.stackexchange.com/) - StackExchange
 * [Linux Mint Forums](http://forums.linuxmint.com/) - Official
-* [r/linux4noobs](https://www.reddit.com/r/linux4noobs)
-* [r/linuxquestions](https://www.reddit.com/r/linuxquestions)
-* [r/linuxadmin](https://www.reddit.com/r/linuxadmin)
 * [Red Hat Support Portal](https://access.redhat.com/) - Subscription required
 * [serverfault.com](http://serverfault.com/) - StackExchange
 * [superuser.com](https://superuser.com/) - StackExchange
@@ -185,6 +182,7 @@
 
 * [Aminator](https://github.com/Netflix/aminator) - Create application-specific custom AMIs, by Netflix -- `Python`
 * [Awesome AWS](https://github.com/donnemartin/awesome-aws) - Curated list of AWS resources -- `collection`
+* [aws-shell (formerly Supercharged AWS CLI (SAWS))](https://github.com/awslabs/aws-shell) - The best CLI for interacting with AWS -- `Python pip`
 * [awstools](https://github.com/iMilnb/awstools) - Some handy AWS tools and scripts that use boto3 and troposphere -- `Python`
 * [Chrome AWS SAML Token Expiry Reminder (CASTER)](https://chrome.google.com/webstore/detail/chrome-aws-saml-token-exp/mbfkedefmlagincpblmgeeeehhamgpbn?hl=en-US) - Automatically re-logs into AWS via ADFS before credentials expire -- `Chrome`
 * [cloud-ssh](http://leonsbox.com/cloud-ssh/) - SSH wrapper that supports hostname tab-completion based on AWS name, tag, or security group -- `Golang`
@@ -199,11 +197,10 @@
 * [haproxy-autoscale](https://github.com/markcaudill/haproxy-autoscale) - Wrapper for haproxy that handles auto-scaling EC2 instances -- `Python`
 * [Ice](https://github.com/Netflix/ice) - AWS usage tool, by Netflix -- `Grails`
 * [ION Roller](https://github.com/gilt/ionroller) - Immutable deployment framework for web services -- `Scala`
-* [JAWS Stack](https://github.com/jaws-stack/JAWS) - Javascript + AWS stack, the entire backend is Lambda functions, server-free -- `JavaScript`
 * [jungle](https://github.com/achiku/jungle) - awscli wrapper to make commands simpler and more UNIX-like -- `Python pip`
 * [kappa](https://github.com/garnaat/kappa) - CLI tool that makes it easier to deploy, update, and test Lambda functions -- `Python`
 * [s3cmd](http://s3tools.org/s3cmd) - Backup to AWS via the command line -- `Python`
-* [SAWS](https://github.com/donnemartin/saws) - AWS CLI with tab completion of commands and resources -- `Python pip`
+* [Serverless (formerly JAWS)](https://github.com/jaws-stack/JAWS) - Javascript + AWS stack, the entire backend is Lambda functions, server-free -- `JavaScript`
 * [Sneaker](https://github.com/codahale/sneaker) - Store secrets on S3 using Amazon KMS -- `Golang`
 * [StarCluster](http://star.mit.edu/cluster/) - Toolkit for using AWS for high performance computing (HPC) -- `Python`
 * [Stout](http://stout.is) - Easy way to reliably upload a static website to S3, capable of configuring CloudFront and Route 53 -- `Golang`
@@ -214,7 +211,7 @@
 ---
 ## Backups
 
-> Traditional backup software
+> Traditional backup software - see also [Cloud File Sync and Sharing](#cloud-file-sync-and-sharing)
 
 * [Amanda](http://www.amanda.org/) - The classic -- `C` `perl`
 * [Attimatic](https://torsion.org/atticmatic/) - Wrapper for attic to make it easier and more reliable -- `Python`
@@ -278,7 +275,7 @@
 
 * [Bento](https://github.com/chef/bento) - Chef's collection of baseboxes configured to work with Packer and Vagrant, great for testing -- `Ruby`
 * [Berkshelf](http://berkshelf.com/) - Like gem bundler for Chef cookbooks, manages dependencies -- `Ruby gem`
-* [berks viz](http://berkshelf.com/) - Visualize cookbook and recipe dependencies for a cookbook -- `built-in`
+* [berks viz](http://berkshelf.com/) - Visualize cookbook and recipe dependencies for a cookbook -- `Ruby gem` `built-in`
 * [Chake](https://gitlab.com/terceiro/chake) - Tool that helps you manage multiple hosts with chef-solo -- `Ruby gem`
 * [chef-attribute-validator](https://github.com/clintoncwolfe/chef-attribute-validator) - Define, enforce, and handle violations of validation rules for Chef node attributes -- `Ruby gem`
 * [chef-consul](https://github.com/samdunne/chef-consul) - Access Consul via Chef's node object -- `Ruby`
@@ -317,7 +314,7 @@
 ---
 ## Cloud File Sync and Sharing
 
-> Sync files to and share from public or private clouds
+> Sync files to and share from public or private clouds - see also [Backups](#backups)
 
 * [boar](https://bitbucket.org/mats_ekberg/boar/wiki/Home) - Stores snapshots of directory trees in a local or remote repository, for BLOBs (pictures, videos , etc) -- `Python` `C`
 * [csync2](http://oss.linbit.com/csync2/) - Cluster file sync tool
@@ -494,7 +491,7 @@
 ---
 ## Distributed Systems Tools
 
-> DCOSes, service discovery, schedulers, and related tools for dynamic, warehouse-scale computing
+> DCOSes, service discovery, schedulers, and related tools for dynamic, warehouse-scale computing - see also [HPC Tools](#hpc-tools)
 
 * [Aurora](https://aurora.incubator.apache.org/) - Mesos scheduler for long running services and cron jobs, similar to Marathon -- `Java`
 * [Bamboo](https://github.com/QubitProducts/bamboo) - HAProxy auto configuration and auto service discovery for Marathon -- `Golang`
@@ -546,6 +543,7 @@
 
 > IDEs, text & source editors, vim plugins, and similar tools
 
+* [activate-power-mode](https://github.com/JoelBesada/activate-power-mode) - Activate POWER MODE and write code in style, an Atom plugin -- `CoffeeScript`
 * [Atom](http://atom.io) - Superb text editor, created by GitHub -- `CoffeeScript`
 * [Atom Vim Mode](https://github.com/atom/vim-mode) - vi/vim style controls for Atom -- `CoffeeScript`
 * [Atom Linters](https://github.com/AtomLinter) - A collection of lint tools for the Atom editor -- `various lang`
@@ -601,6 +599,8 @@
 
 > Not everything happens in the browser or on the command line
 
+* [Avidemux](http://fixounet.free.fr/avidemux/) - Simple video editor and converter -- `C++` `Windows` `OS X`
+* [Blender](https://www.blender.org/) - 3D graphics software for animated films, visual effects, art, 3D printed models, and more -- 
 * [blockdiag](http://blockdiag.com/en/) - Generate simple block/sequence/activity/network diagrams from text files -- `Python pip`
 * [CloudCraft](https://cloudcraft.co/) - Create professional AWS architecture diagrams -- `in-browser`
 * [draw.io](https://www.draw.io/) - Free online flow chart maker / Visio alternative -- `in-browser`
@@ -609,15 +609,18 @@
 * [GIMP (GNU Image Manipulation Program)](http://www.gimp.org/) - Open source Photoshop replacement -- `C`
 * [Graphviz](http://www.graphviz.org/) - Graph visualization and flow chart software -- `wacky license`
 * [Greenshot](http://getgreenshot.org/) - The best Windows screenshot tool -- `C#` `Windows`
-* [Inkscape](http://www.inkscape.org/en/) - Open source vector image editor -- `C` `C++`
+* [Inkscape](http://www.inkscape.org/en/) - Open source vector image editor -- `C` `C++` `Windows` `Mac`
 * [LICEcap](http://www.cockos.com/licecap/) - Capture an area of your desktop (eg: a terminal) and save it to a GIF -- `C` `Windows` `OS X`
 * [mac2imgur](https://github.com/mileswd/mac2imgur) - Auto-upload screenshots to Imgur -- `Swift` `OS X`
 * [maim](https://github.com/naelstrof/maim) - The most powerful and flexible Linux desktop screenshot tool -- `various lang`
+* [Media Player Classic - Home Cinema (MPC-HC)](https://mpc-hc.org/) - Open source media player for Windows -- `C++` `Windows`
 * [Pencil](http://pencil.evolus.vn/) - Open source GUI prototyping and mockup tool, supports all platforms -- `Windows` `OS X`
+* [Scribus](http://www.scribus.net/) - Open source desktop publishing (layout, typesetting, etc) -- `C++` `Windows` `OS X`
 * [ShareX](https://getsharex.com/) - One of the best screenshot/screencast capture and sharing tools for -- `Windows` `OS X`
 * [Skitch](https://evernote.com/skitch/) - Feature-rich screenshot editing, sharing, and annotation tool Mac/OS X -- `closed source`
 * [TermRecord](https://github.com/theonewolf/TermRecord) - Record and playback terminal sessions, outputs self-contained HTML -- `Python`
 * [VisioCafe](http://www.visiocafe.com/) - The largest collection of free Visio stencils -- `collection`
+* [VLC Media Player](https://www.videolan.org/vlc/) - Media (music, video, etc) player and streaming server -- `C` `Windows` `OS X`
 * [yEd Graph Editor](http://www.yworks.com/en/products/yfiles/yed/) - Flowcharts and UML diagrams -- `closed source`
 
 
@@ -647,7 +650,7 @@
 ---
 ## HPC Tools
 
-> High performance computing for simulations, supercomputing, shared memory systems, and grid computing
+> High performance computing for simulations, supercomputing, shared memory systems, and grid computing - see also [Distributed Systems Tools](#distributed-systems-tools)
 
 * [Clustered File System](https://en.wikipedia.org/wiki/Clustered_file_system) - Ceph, GlusterFS, Lustre, etc, take your pick -- `various lang`
 * [HTCondor](http://research.cs.wisc.edu/htcondor/) - Workload management system for compute-intensive jobs, formerly Condor
@@ -709,7 +712,7 @@
 ---
 ## Metrics
 
-> Collection, analysis, and storage of metrics, telemetry, and instrumentation data from almost any source
+> Collection, analysis, and storage of metrics, telemetry, and instrumentation data from almost any source - see also [Dashboards and Data Visualization](#dashboards-and-data-visualization)
 
 * [collectd](http://collectd.org/) - Collects system performance statistics -- `C`
 * [collectd Related Sites](http://collectd.org/related.shtml) - Great tools that integrate with collectd -- `collection`
@@ -805,10 +808,11 @@
 * [ncat](http://nmap.org/ncat/) - Improved netcat, written by the Nmap team -- `C`
 * [netsniff-ng](http://netsniff-ng.org/) - High performance, zero-copy networking sniffer -- `C`
 * [NfSen](http://nfsen.sourceforge.net/) - GUI for and visualization nfdump -- `perl`
-* [ngrep](http://linux.die.net/man/8/ngrep) - Network grep -- `built-in`
+* [ngrep](http://linux.die.net/man/8/ngrep) - Network grep -- `C` `built-in`
 * [nmap](http://nmap.org/) - Classic port scanner -- `various lang`
 * [nping](http://nmap.org/nping/) - Create custom network packets -- `C`
 * [Open vSwitch (OVS)](http://openvswitch.org/) - Production quality software switch -- `C`
+* [Outages Dashboard](http://wiki.outages.org/index.php/Dashboard) - Outages mailing list's dashboard, tons of resources for internet outages -- `collection`
 * [PFQ](http://pfq.github.io/PFQ/) - Framework that allows efficient packets capture/transmission, in-kernel functional processing, and packets steering across sockets/end-points -- `C`
 * [Quagga](http://www.nongnu.org/quagga/) - Routing software suite, supports most routing protocols -- `C`
 * [scapy](https://pypi.python.org/pypi/scapy) - Interactive packet manipulation for Python -- `Python pip`
@@ -828,7 +832,7 @@
 ---
 ## Network Performance Analysis Tools
 
-> Load generation, benchmarking, profiling, and latency simulation tools for TCP/IP networks
+> Load generation, benchmarking, profiling, and latency simulation tools for TCP/IP networks - see also [Web and HTTP Performance Analysis Tools](#web-and-http-performance-analysis-tools)
 
 * [ARGUS (Audit Record Generation and Utilization System)](http://www.qosient.com/argus/) - Generates network activity reports -- `C`
 * [Augmented Traffic Control (ATC)](https://github.com/facebook/augmented-traffic-control) - A tool to simulate network conditions, by Facebook -- `Python`
@@ -902,6 +906,7 @@
 * [PyDSH](http://pydsh.sourceforge.net/) - Python Distributed Shell, parallel SSH -- `Python`
 * [RadSSH](https://pypi.python.org/pypi/radssh) - Paramiko-based parallel SSH -- `Python pip`
 * [Rex](http://www.rexify.org/) - Framework for server orchestration and to simplify system administration -- `perl`
+* [Rubber](http://rubber.io/) - Capistrano/rails plugin that makes it easy to deploy/manage/scale to various service providers -- `Ruby`
 * [Rundeck](http://rundeck.org/) - Job scheduler and runbook automation, enable self-service access to existing scripts and tools -- `Groovy`
 * [Salt / Saltstack](http://www.saltstack.com/) - Orchestration, server provisioning, and configuration management -- `Python`
 * [Spacewalk](http://www.spacewalkproject.org/) - Patch management, remote commands, and more - the upstream for Red Hat Satellite  -- `various`
@@ -1384,7 +1389,7 @@
 ---
 ## SSH Tools
 
-> A bit of everything
+> Misc SSH stuff - see also [Terminal Tools and SSH Clients](#terminal-tools-and-ssh-clients) for clients and [Orchestration](#orchestration) for parallel SSH tools
 
 * [Advanced SSH Config](https://pypi.python.org/pypi/advanced-ssh-config/) - Enhances ssh_config file capabilities -- `Python pip`
 * [autossh](http://www.harding.motd.ca/autossh/) - Automatically restart SSH sessions that stop passing traffic -- `C`
@@ -1408,7 +1413,7 @@
 ---
 ## SSL Tools
 
-> SSL, TLS, CAs, and similar tools for interacting with HTTPS and SSL certificates
+> SSL, TLS, CAs, and similar tools for interacting with HTTPS and SSL certificates - see also [Web and HTTP Tools](#web-and-http-tools)
 
 * [BadSSL.com](https://badssl.com/) - Test clients against bad SSL configs -- `in-browser`
 * [BoringSSL](https://boringssl.googlesource.com/boringssl/) - Google's fork of OpenSSL, does not guarantee API and ABI compatibility -- `C`
@@ -1595,7 +1600,7 @@
 ---
 ## Web and HTTP Tools
 
-> RPC is dead, long live RPC
+> RPC is dead, long live RPC - see also [SSL Tools](#ssl-tools)
 
 * [API Blueprint](https://apiblueprint.org/) - Supports bindings/plugins for many APIs -- `various lang`
 * [Awesome JSON](https://github.com/burningtree/awesome-json) - It's the new XML -- `collection`
