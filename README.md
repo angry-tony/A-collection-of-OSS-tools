@@ -603,6 +603,7 @@
 * [Blender](https://www.blender.org/) - 3D graphics software for animated films, visual effects, art, 3D printed models, and more -- 
 * [blockdiag](http://blockdiag.com/en/) - Generate simple block/sequence/activity/network diagrams from text files -- `Python pip`
 * [CloudCraft](https://cloudcraft.co/) - Create professional AWS architecture diagrams -- `in-browser`
+* [Darktable](http://www.darktable.org/) - Photography workflow application and RAW developer, a virtual lighttable and darkroom -- `C` `OS X`
 * [draw.io](https://www.draw.io/) - Free online flow chart maker / Visio alternative -- `in-browser`
 * [FreeMind](http://freemind.sourceforge.net/) - OSS mind mapping software, great for brainstorming -- `Java` `Windows` `OS X`
 * [GlyphSearch](http://glyphsearch.com/) - Search for icons from Font Awesome, Glyphicons, IcoMoon, Ionicons, and Octicons -- `collection`
@@ -639,7 +640,7 @@
 * [keepalived](http://www.keepalived.org/) - Load balancing and high availability -- `C`
 * [huptime](https://github.com/amscanne/huptime) - Zero downtime restarts of unmodified programs -- `C`
 * [Linux-HA](http://www.linux-ha.org) - Building blocks for high availability systems -- `wiki-and-collection`
-* [LVS (Linux Virtual Server](http://www.linuxvirtualserver.org/) - Linux-based load balancer -- `
+* [LVS (Linux Virtual Server)](http://www.linuxvirtualserver.org/) - Linux-based load balancer -- `C`
 * [Pacemaker](http://clusterlabs.org/) - HA resource manager -- `C`
 * [rcron](https://code.google.com/p/rcron/) - cron redundancy and failover, ensures a job will only run on the "active" machine -- `C`
 * [rmanager](http://linux.die.net/man/8/rgmanager) - Resource group manager daemon for cluster services -- `built-in`
@@ -878,7 +879,7 @@
 
 
 ---
-# Orchestration
+## Orchestration
 
 > OS and VM level orchestration as well as parallel SSH tools
 
@@ -1230,6 +1231,7 @@
 * [GPG (GNU Privacy Guard)](https://www.gnupg.org/) - The original! Store em in text files and encrypt -- `C` `pro`
 * [GRC Password Generator](https://www.grc.com/passwords.htm) - Generates 63 bit passwords -- `in-browser`
 * [Keybase](https://keybase.io/) - Upload your public key and find other people's public key via their social media user name(s) -- `in-browser`
+* [KeeFox](http://keefox.org/) - Auto-fill website logins using KeePass as a source, like LastPass -- `C#` `Firefox`
 * [KeePass](http://keepass.info/) - Lightweight, easy to use, GUI password manager, runs on most platforms -- `C#` `Windows`
 * [Keepass2Android](https://keepass2android.codeplex.com/) - Compatible with KeePass 2.x -- `Android`
 * [KeePassDroid](http://www.keepassdroid.com/) - Open source version of KeePass 1.x for Android -- `Android`
@@ -1359,6 +1361,7 @@
 * [DevDocs](http://devdocs.io/) - Documentation browser for almost every API -- `collection`
 * [dev-setup](https://github.com/donnemartin/dev-setup) - Automated setup scripts for tools like Sublime Text, AWS, Spark, Android dev, and more -- `collection`
 * [Go (GoCD)](http://www.go.cd) - Go continuous delivery platform by ThoughtWorks -- `Java`
+* [Google's Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html) - Hands on, free, self-paced courses to help you develop your programming skills -- `collection`
 * [Guard](https://github.com/guard/guard) - Flexible framework to take action on file system change event -- `Ruby gem`
 * [Gulp](http://gulpjs.com/) - Built system / toolkit that helps you automate time-consuming tasks in your development workflow -- `JavaScript`
 * [Jenkins](http://jenkins-ci.org/) - The most popular CI orchestration tool, supports a billion plugins -- `various lang`
