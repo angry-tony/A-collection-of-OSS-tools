@@ -618,6 +618,7 @@
 * [mac2imgur](https://github.com/mileswd/mac2imgur) - Auto-upload screenshots to Imgur -- `Swift` `OS X`
 * [maim](https://github.com/naelstrof/maim) - The most powerful and flexible Linux desktop screenshot tool -- `various lang`
 * [Media Player Classic - Home Cinema (MPC-HC)](https://mpc-hc.org/) - Open source media player for Windows -- `C++` `Windows`
+* [OpenShot](http://openshot.org/) - Video editing software, 2.0 will support other additional platforms -- `Python` `Windows` `OS X`
 * [Pencil](http://pencil.evolus.vn/) - Open source GUI prototyping and mockup tool, supports all platforms -- `Windows` `OS X`
 * [Scribus](http://www.scribus.net/) - Open source desktop publishing (layout, typesetting, etc), Adobe InDesign alternative -- `C++` `Windows` `OS X`
 * [ShareX](https://getsharex.com/) - One of the best screenshot/screencast capture and sharing tools for -- `Windows` `OS X`
@@ -702,6 +703,7 @@
 * [Logwatch](http://sourceforge.net/projects/logwatch/) - Monitor logs and send an e-mail when event(s) occur -- `perl`
 * [multilog](http://cr.yp.to/daemontools/multilog.html) - Reads a sequence of lines from stdin and appends selected lines to any number of logs -- `DJB`
 * [multitail](http://www.vanheusden.com/multitail/) - Monitor multiple log files in a single terminal window -- `C`
+* [netconsole](https://wiki.archlinux.org/index.php/Netconsole) - Kernel module that sends kernel log messages (dmesg, etc) to a remote system without using syslog -- `C`
 * [NXLOG](http://nxlog-ce.sourceforge.net/) - Universal log collector and forwarder, supports many formats/platforms/sources including Windows -- `C` `Windows`
 * [Open Web Analytics (OWA)](http://www.openwebanalytics.com/) - Track and analyze how people use your websites and applications -- `PHP`
 * [pgBadger](http://dalibo.github.io/pgbadger/) - PostgreSQL log analyzer -- `perl`
@@ -873,6 +875,7 @@
 * [ss](http://linux.die.net/man/8/ss) - Socket statistics, a modern netstat -- `built-in`
 * [Stanford Linear Accelerator Center - Network Monitoring Tools](https://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html) - MASSIVE list of network monitoring tools -- `collection`
 * [tc](http://linux.die.net/man/8/tc) - Built-in Linux kernel traffic control -- `built-in`
+* [tcpdive](https://github.com/fastos/tcpdive) - TCP performance analysis tool, implemented as SystemTap scripts -- `C`
 * [tcpdstat](https://github.com/netik/tcpdstat) - Get protocol statistics from tcpdump / PCAP files -- `C`
 * [tcptrack](http://linux.die.net/man/1/tcptrack) - Console based connection tracker -- `built-in`
 * [TCPWatch](https://pypi.python.org/pypi/tcpwatch) - TCP monitoring and logging tool -- `Python pip`
@@ -1297,6 +1300,7 @@
 * [OS X Auditor](https://github.com/jipegit/OSXAuditor) - Forensics tool for Mac -- `OS X` `JavaScript`
 * [OSSEC](http://www.ossec.net/) - Host based intrusion detection system (HIDS), supports most Unix-like OSes -- `C` `Windows` `OS X`
 * [pfsense](https://www.pfsense.org/) - The best firewall software, supports appliances and live CDs -- `C`
+* [Prey](https://preyproject.com/) - Open source anti-theft software for almost all platforms -- `shell` `Java` `mobile`
 * [Red October](https://github.com/cloudflare/redoctober) - Go server for two-man rule style file encryption and decryption -- `way cool`
 * [Rootkit Hunter](http://rkhunter.sourceforge.net/) - Compares hashes of important files with known good hashes that are stored in online databases -- `perl` `shell`
 * [Samhain](http://www.la-samhna.de/samhain/) - HIDS, file integrity checker, rootkit detection, log file monitoring, and more -- `C`
@@ -1442,7 +1446,6 @@
 * [Qualys SSL Server Test](https://www.ssllabs.com/ssltest/) - Evaluates and provides recommendations for the SSL settings of any web site -- `in-browser`
 * [Server Name Indication (SNI)](https://wiki.apache.org/httpd/NameBasedSSLVHostsWithSNI) - Think vhosts for SSL -- `article`
 * [sslconfig](https://github.com/cloudflare/sslconfig) - CloudFlare's Internet facing SSL cipher configuration -- `collection`
-* [SSLScan](http://sourceforge.net/projects/sslscan/) - Outputs to text or XML -- `C`
 * [SSLsplit](http://www.roe.ch/SSLsplit) - Transparent and scalable SSL/TLS interception -- `C`
 * [sslyze](https://github.com/nabla-c0d3/sslyze) - Fast and full-featured SSL scanner, written in Python -- `Python` `OS X`
 * [SSL Checker](https://www.sslshopper.com/ssl-checker.html) - Type in a domain name and it will dump info about its cert -- `in-browser`
@@ -1513,7 +1516,7 @@
 * [reptyr](https://github.com/nelhage/reptyr) - Reparent a running program to a new terminal -- `C`
 * [SuperPutty](https://github.com/jimradford/superputty) - Allows the PuTTY SSH client to be opened in tabs -- `Windows`
 * [tmate](http://tmate.io/) - Instant terminal sharing, a tmux fork -- `OS X`
-* [tmux](https://tmux.github.io/) - Aalternative to GNU screen -- `C`
+* [tmux](https://tmux.github.io/) - Alternative to GNU screen, also used for terminal sharing -- `C`
 * [tmux-cssh](https://github.com/dennishafemann/tmux-cssh) - Cluster SSH for tmux -- `shell`
 * [tmux Resurrect](https://github.com/tmux-plugins/tmux-resurrect) - Persists tmux environment across system restarts -- `shell`
 * [WinSCP](http://winscp.net) - The well-known SCP client -- `C` `Windows`
@@ -1526,18 +1529,17 @@
 
 > OS level tracing and debugging tools
 
-* [conserver](http://www.conserver.com/) - Virtual console server with many features -- `C`
 * [crash-watch](https://github.com/FooBarWidget/crash-watch) - Monitors a process until it crashes and then gathers exit status, backtrace, and signal -- `Ruby`
-* [kdump](https://wiki.archlinux.org/index.php/Kdump) - Linux kernel dump facility -- `C`
+* [CRIU (Checkpoint/Restore in Userspace)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
+* [kdump](https://wiki.archlinux.org/index.php/Kdump) - Linux kernel dump facility (where to save it, what to save, etc) -- `C`
 * [ktap](http://www.ktap.org/) - Another lightweight kernel tracing tool for Linux -- `C`
 * [Linux Trace Toolkit - Next Generation (LLTng)](http://lttng.org/) - Linux kernel tracer and profiler, lower overhead than System Tap -- `C`
 * [ltrace](http://linux.die.net/man/1/ltrace) - Library call tracer -- `built-in`
 * [ltrace Tutorial](http://developerblog.redhat.com/2014/07/10/ltrace-for-rhel-6-and-7/) - ltrace tutorial by Red Hat -- `article`
 * [lttng-analyses](https://github.com/lttng/lttng-analyses) - Great front-end to LLTng -- `various lang`
 * [Mastif Visualizer](https://projects.kde.org/projects/extragear/sdk/massif-visualizer) - Visualizer for the Valgrind's Mastiff utility -- `C++`
-* [netconsole](https://wiki.archlinux.org/index.php/Netconsole) - Send console messages over the network -- `C`
-* [pstore](http://lwn.net/Articles/434821/) - Save kernel crash info in a platform-specific persistent memory so data is not lost (eg: disks failed, can't write it there) -- `article`
-* [strace](http://linux.die.net/man/1/strace) - System call tracer -- `built-in`
+* [pstore](http://lwn.net/Articles/434821/) - Save kernel crash info in a platform-specific persistent memory so data is not lost (eg: disks failed so write dump to NVRAM instead) -- `article`
+* [strace](http://linux.die.net/man/1/strace) - System call tracer for user space processes -- `built-in`
 * [SystemTap (stap)](https://sourceware.org/systemtap/wiki/HomePage) - Linux kernel tracing and performance analysis tool -- `C` `C++`
 
 
@@ -1709,6 +1711,7 @@
 * [Awesome](https://github.com/sindresorhus/awesome) - Top level list of awesome lists -- `collection`
 * [AutoHotKey](http://ahkscript.org/) - Automate input (desktop and web forms, data entry, keybinds, etc) -- `C++` `Windows`
 * [Awesome AutoHotKey](https://github.com/ahkscript/awesome-AutoHotkey) - A collection of AutoHotKey scripts and libraries -- `various lang`
+* [conserver](http://www.conserver.com/) - Virtual console server with many features (multi-user, console log history, etc) -- `C`
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- `closed source` `OS X` `Windows`
 * [Google Advanced Operators for Web Search](https://sites.google.com/site/gwebsearcheducation/advanced-operators) - Search modifiers for more accurate results, by Google -- `collection`
 * [inxi](https://github.com/smxi/inxi) - "a full featured system information script" (hardware info, etc) -- `shell`
