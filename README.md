@@ -20,7 +20,6 @@
 * [X](#asset-management) Asset Management
 * [X](#aws-tools) AWS Tools
 * [X](#backups) Backups
-* [X](#bootable-usb-tools) Bootable USB Tools
 * [X](#chef) Chef
 * [X](#cloud-file-sync-and-sharing) Cloud File Sync and Sharing
 * [X](#collaboration-tools) Collaboration Tools
@@ -33,6 +32,7 @@
 * [X](#graphics-stuff) Graphics Stuff
 * [X](#high-availability-clustering-tools) High Availability Clustering Tools
 * [X](#hpc-tools) HPC Tools
+* [X](#live-cd-tools) Live CD Tools
 * [X](#logging) Logging
 * [X](#metrics) Metrics
 * [X](#monitoring-and-alerting) Monitoring and Alerting
@@ -246,27 +246,6 @@
 * [UrBackup](http://www.urbackup.org/) - Supports Windows, has a web interface -- `Windows` `C++`
 * [ZBackup](http://zbackup.org/) - Globally deduplicating backup tool -- `C`
 * [zpaq](http://mattmahoney.net/dc/zpaq.html) - Free incremental and journaling command-line archiver -- `Windows` `OS X` `C++`
-
-
----
-## Bootable USB Tools
-
-> Security, recovery, bootable USB/CD/DVD creation tools, diagnostics, and more
-
-* [BlackArch Linux](http://blackarch.org/) - Penetration testing Linux distro, based off of Arch Linux -- `various lang`
-* [CAINE (Computer Aided INvestigative Environment)](http://www.caine-live.net/) - Computer forensics on a live CD -- `various lang`
-* [DBAN (Darik's Boot and Nuke)](http://www.dban.org/) - SSD and spinning disk wiper -- `various lang`
-* [Easy2Boot](http://www.easy2boot.com/) - Create multiple bootable Linux ISOs on the same USB drive -- `Windows`
-* [GParted Live](http://gparted.org/livecd.php) - Small, bootable ISO that contains gparted - great for resizing a non-LVM root file system -- `C`
-* [Hiren's BootCD](http://www.hiren.info/pages/bootcd) - Everything.  Seriously.  -- `closed source` `Windows`
-* [Kali Linux](http://www.kali.org/) - Penetration testing Linux distro -- `various lang`
-* [Network Security Toolkit (NST)](http://networksecuritytoolkit.org/nst/index.html) - Live CD that includes most tools in insecure.org's top 125 tools list -- `various lang`
-* [Rufus](http://rufus.akeo.ie/) - Create bootable USB flash drives -- `Windows`
-* [Stresslinux](http://www.stresslinux.org/sl/) - Hardware burn-in and stress testing -- `various lang`
-* [System Rescue CD](http://www.sysresccd.org/SystemRescueCd_Homepage) - System recovery CD that focuses on Linux system recovery -- `various lang`
-* [Ultimate Boot CD (UBCD)](http://www.ultimatebootcd.com) - Tons of x86 diagnostic and stress test tools on a single CD -- `closed source` `Windows`
-* [UNetbootin](http://unetbootin.sourceforge.net/) - Create custom, bootable USB Linux CDs -- `Windows` `OS X`
-* [YUMI](http://www.pendrivelinux.com/yumi-multiboot-usb-creator/) - Multiboot USB creator, Linux and -- `Windows`
 
 
 ---
@@ -530,6 +509,7 @@
 * [nsq](http://nsq.io/) - Realtime distributed messaging platform / message queue -- `Golang`
 * [Packetbeat](https://www.elastic.co/products/beats) - Distributed packet monitoring system that can be used for application performance management -- `Golang`
 * [Redisson](https://github.com/mrniko/redisson) - Distributed and scalable Java data structures on top of Redis -- `Java`
+* [Seesaw](https://github.com/google/seesaw) - Load balancer based on Linux Virtual Server (LVS), by Google -- `Golang`
 * [Serf](https://www.serfdom.io/) - Decentralized solution for service discovery and orchestration -- `Golang`
 * [SkyDNS](https://github.com/skynetservices/skydns) - Service discovery via DNS for etcd -- `Golang`
 * [SmartStack](http://nerds.airbnb.com/smartstack-service-discovery-cloud/) - Automated service discovery and registration framework, by Airbnb -- `Ruby`
@@ -644,10 +624,11 @@
 * [keepalived](http://www.keepalived.org/) - Load balancing and high availability -- `C`
 * [huptime](https://github.com/amscanne/huptime) - Zero downtime restarts of unmodified programs -- `C`
 * [Linux-HA](http://www.linux-ha.org) - Building blocks for high availability systems -- `wiki-and-collection`
-* [LVS (Linux Virtual Server)](http://www.linuxvirtualserver.org/) - Linux-based load balancer -- `C`
+* [LVS (Linux Virtual Server)](http://www.linuxvirtualserver.org/) - Linux-based load balancer, also includes the IPVS kernel module -- `C`
 * [Pacemaker](http://clusterlabs.org/) - HA resource manager -- `C`
 * [rcron](https://code.google.com/p/rcron/) - cron redundancy and failover, ensures a job will only run on the "active" machine -- `C`
 * [rmanager](http://linux.die.net/man/8/rgmanager) - Resource group manager daemon for cluster services -- `built-in`
+* [Seesaw](https://github.com/google/seesaw) - Load balancer based on Linux Virtual Server (LVS), by Google -- `Golang`
 * [UCARP](http://www.pureftpd.org/project/ucarp) - VIP management using the CARP protocol -- `C`
 * [Vippy](https://github.com/postwait/vippy) - VIP management, written in node.js -- `Javascript`
 
@@ -677,6 +658,27 @@
 
 
 ---
+## Live CD Tools
+
+> Security, recovery, bootable USB/CD/DVD creation tools, diagnostics, and more
+
+* [BlackArch Linux](http://blackarch.org/) - Penetration testing Linux distro, based off of Arch Linux -- `various lang`
+* [CAINE (Computer Aided INvestigative Environment)](http://www.caine-live.net/) - Computer forensics on a live CD -- `various lang`
+* [DBAN (Darik's Boot and Nuke)](http://www.dban.org/) - SSD and spinning disk wiper -- `various lang`
+* [Easy2Boot](http://www.easy2boot.com/) - Create multiple bootable Linux ISOs on the same USB drive -- `Windows`
+* [GParted Live](http://gparted.org/livecd.php) - Small, bootable ISO that contains gparted - great for resizing a non-LVM root file system -- `C`
+* [Hiren's BootCD](http://www.hiren.info/pages/bootcd) - Everything.  Seriously.  -- `closed source` `Windows`
+* [Kali Linux](http://www.kali.org/) - Penetration testing Linux distro -- `various lang`
+* [Network Security Toolkit (NST)](http://networksecuritytoolkit.org/nst/index.html) - Live CD that includes most tools in insecure.org's top 125 tools list -- `various lang`
+* [Rufus](http://rufus.akeo.ie/) - Create bootable USB flash drives -- `Windows`
+* [Stresslinux](http://www.stresslinux.org/sl/) - Hardware burn-in and stress testing -- `various lang`
+* [System Rescue CD](http://www.sysresccd.org/SystemRescueCd_Homepage) - System recovery CD that focuses on Linux system recovery -- `various lang`
+* [Ultimate Boot CD (UBCD)](http://www.ultimatebootcd.com) - Tons of x86 diagnostic and stress test tools on a single CD -- `closed source` `Windows`
+* [UNetbootin](http://unetbootin.sourceforge.net/) - Create custom, bootable USB Linux CDs -- `Windows` `OS X`
+* [YUMI](http://www.pendrivelinux.com/yumi-multiboot-usb-creator/) - Multiboot USB creator, Linux and -- `Windows`
+
+
+---
 ## Logging
 
 > Log management, analysis, and collection from any source
@@ -689,6 +691,7 @@
 * [Elasticsearch Exporter](https://github.com/mallocator/Elasticsearch-Exporter) - Small script to export data from one Elasticsearch cluster into another -- `JavaScript`
 * [Eliot](https://pypi.python.org/pypi/eliot) - Outputs causal chains of actions happening within and across process boundaries aka a logical trace of the system’s operation -- `Python pip`
 * [Errbit](https://github.com/errbit/errbit) - Tool for collecting and managing errors from other application, Airbrake API compliant -- `Ruby`
+* [Filebeat](https://www.elastic.co/products/beats/filebeat) - By Elastic, the next generation Logstash Forwarder -- `Golang`
 * [Fluentd](http://www.fluentd.org/) - Unified logging layer -- `Ruby gem`
 * [Flume](https://flume.apache.org/) - Distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data -- `Java`
 * [Graylog2](http://graylog2.org/) - Log capture and analysis -- `various lang`
@@ -801,6 +804,7 @@
 * [Cyberduck](https://cyberduck.io/) - GUI FTP, SFTP, WebDAV, S3 & OpenStack Swift browser for Mac and Windows -- `itsaduck`
 * [Data Plane Development Kit (DPDK)](http://dpdk.org/) - Data plane libraries and framework for fast packet processing -- `C`
 * [dnscrypt-wrapper](https://github.com/Cofyc/dnscrypt-wrapper) - Add dnscrypt support to any resolver, server-side dnscrypt proxy -- `C`
+* [ExaBGP](https://github.com/Exa-Networks/exabgp) - The BGP swiss army knife of networking -- `Python pip`
 * [fail2ban](http://www.fail2ban.org/) - Watches log files to ban IPs based on rules (too many failed logins, exploit attempts, brute force attacks, etc) -- `Python`
 * [FBOSS (FaceBook Open Switching System)](https://github.com/facebook/fboss) - FB's software stack for managing and controlling whitebox switches -- `variouns lang`
 * [ftptop](http://linux.die.net/man/1/ftptop) - Monitor FTP connections in real time -- `built-in`
@@ -1270,7 +1274,7 @@
 ---
 ## Security Tools
 
-> Misc over security tools
+> Misc security tools
 
 * [AIDE (Advanced Intrusion Detection Environment)](http://aide.sourceforge.net/) - File integrity checker, alternative to Tripwire -- `various lang`
 * [Armitage](http://www.fastandeasyhacking.com/) - GUI for Metasploit -- `Java`
@@ -1344,6 +1348,7 @@
 * [Grymoire awk Tutorial](http://www.grymoire.com/Unix/Awk.html) - Easy to understand awk tutorial -- `tutorial`
 * [gt5](http://gt5.sourceforge.net/) - A "du browser" in curses, handy for finding large files -- `shell`
 * [icdiff](http://www.jefftk.com/icdiff) - diff tool that highlights the differences -- `Python` `OS X`
+* [maybe](https://github.com/p-e-w/maybe) - Allows a dry run of almost any Linux binary -- `Python pip`
 * [moreutils](https://joeyh.name/code/moreutils/) - "Collection of the unix tools that nobody thought to write long ago when unix was young" -- `neat`
 * [notify](https://mashlol.github.io/notify/) - Send a SMS to your phone from the CLI -- `JavaScript` `Shell`
 * [pigz](http://zlib.net/pigz/) - Parallel gzip for multi-processor/core systems -- `C`
@@ -1380,10 +1385,10 @@
 * [Jenkins job-config-history Plugin](https://wiki.jenkins-ci.org/display/JENKINS/JobConfigHistory+Plugin) - Tracks changes to system and job configurations -- `Java`
 * [JSON Server](https://github.com/typicode/json-server) - Full fake REST API for quickly prototyping and mocking in 30 seconds -- `JavaScript`
 * [LearnXinYMinutes](http://learnxinyminutes.com/) - Super fast tutorials for almost every programming language -- `collection`
+* [Mastif Visualizer](https://projects.kde.org/projects/extragear/sdk/massif-visualizer) - Visualizer for the Valgrind's Mastiff utility -- `C++`
 * [MockServer](http://mock-server.com/) - Web server to remotely or locally mock HTTP/HTTPS and similar -- `Java`
-* [moco](https://github.com/dreamhead/moco) - Easy to set up stub server -- `Java`
 * [mountebank](http://www.mbtest.org/) - Stub downstream resources for testing, supports HTTP HTTPS SMTP TCP -- `JavaScript` `Windows` `OS X`
-* [Ninja](https://martine.github.io/ninja/) - Small build system with a focus on speed -- `Python`
+* [Ninja](https://ninja-build.org/) - Small build system with a focus on speed -- `Python`
 * [OverAPI](http://overapi.com/) - Large collection of cheat sheets for almost anything -- `collection`
 * [PatchELF](https://github.com/NixOS/patchelf) - Simple utility for modifying existing ELF executables and libraries -- `C`
 * [PRoot](http://proot.me/) - chroot, mount --bind, and binfmt_misc without privilege/setup -- `C`
@@ -1429,7 +1434,7 @@
 
 > SSL, TLS, CAs, and similar tools for interacting with HTTPS and SSL certificates - see also [Web and HTTP Tools](#web-and-http-tools)
 
-* [BadSSL.com](https://badssl.com/) - Test clients against bad SSL configs -- `in-browser`
+* [BadSSL.com](https://badssl.com/) - Test various clients (browsers, etc) against bad SSL configs -- `in-browser`
 * [BoringSSL](https://boringssl.googlesource.com/boringssl/) - Google's fork of OpenSSL, does not guarantee API and ABI compatibility -- `C`
 * [Calomel SSL Validation](https://addons.mozilla.org/nl/firefox/addon/calomel-ssl-validation/) - Score and analyze the strength and settings of a SSL connection -- `Firefox`
 * [cipherscan](https://github.com/jvehent/cipherscan) - Find out which SSL ciphersuites are supported by a target -- `Python`
@@ -1451,6 +1456,7 @@
 * [SSL Checker](https://www.sslshopper.com/ssl-checker.html) - Type in a domain name and it will dump info about its cert -- `in-browser`
 * [SSL Decoder](https://github.com/RaymiiOrg/ssl-decoder) - Decodes a SSL connection and displays certificate information, CLI -- `PHP`
 * [SSL Decoder](https://ssldecoder.org/) - Same as above but web based -- `in-browser`
+* [stunnel](https://www.stunnel.org/index.html) - Create TLS tunnels for existing services (eg: telnet, nc, etc) -- `C`
 
 
 ---
@@ -1464,12 +1470,14 @@
 * [CrystalDiskInfo](http://crystalmark.info/software/CrystalDiskInfo/index-e.html) - S.M.A.R.T. GUI tool for Windows -- `closed source` `Windows`
 * [EnhanceIO](https://github.com/stec-inc/EnhanceIO) - SSD caching, in the mainline Linux kernel, a fork of Facebook's Flashcache project -- `C`
 * [Fog](https://www.fogproject.org/) - Cloning tool -- `C++`
+* [FreeNAS](http://www.freenas.org/) - BSD-based NAS, supports ZFS -- `C`
 * [fs-cache](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-fscache.html) - Modern NFS client-side caching -- `built-in`
 * [Linux-IO Target (LIO)](http://linux-iscsi.org/wiki/Main_Page) - Create and share iSCSI, FC, FCoE, and other storage targets on Linux VMs -- `built-in`
 * [Linux Journal - Linux Swap Space](http://www.linuxjournal.com/article/10678) - Superb article about Linux swap, includes some tuning parameters -- `article`
 * [lsblk](http://linux.die.net/man/8/lsblk) - List block devices -- `built-in`
 * [lvcache](https://github.com/larsks/lvcache) - Simple wrapper to help you create and manage LVM caches -- `Python`
 * [ncdu](http://linux.die.net/man/1/ncdu) - ncurses version of "du" -- `built-in`
+* [OpenFiler](https://www.openfiler.com/) - Linux-based NAS, supports most protocols and storage types -- `C`
 * [Parted Magic](http://partedmagic.com/) - Resize, grow, shrink, clone, recovery, wiping, benchmarking, and more.  Supports Linux and Windows file systems -- `Windows`
 * [scrub](http://linux.die.net/man/1/scrub) - Supports many disk-wiping standards including military / government grade wipes -- `built-in`
 * [snapper](http://snapper.io/) - CLI tool to manage Btrfs snapshots, snapshot timelines, and more -- `various lang`
@@ -1527,9 +1535,8 @@
 ---
 ## Tracing and Debugging
 
-> OS level tracing and debugging tools
+> OS and process-level tracing and debugging tools - see also [Performance Analysis Tools](#performance-analysis-tools) for tools suited to performance profiling
 
-* [crash-watch](https://github.com/FooBarWidget/crash-watch) - Monitors a process until it crashes and then gathers exit status, backtrace, and signal -- `Ruby`
 * [CRIU (Checkpoint/Restore in Userspace)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
 * [kdump](https://wiki.archlinux.org/index.php/Kdump) - Linux kernel dump facility (where to save it, what to save, etc) -- `C`
 * [ktap](http://www.ktap.org/) - Another lightweight kernel tracing tool for Linux -- `C`
@@ -1537,7 +1544,6 @@
 * [ltrace](http://linux.die.net/man/1/ltrace) - Library call tracer -- `built-in`
 * [ltrace Tutorial](http://developerblog.redhat.com/2014/07/10/ltrace-for-rhel-6-and-7/) - ltrace tutorial by Red Hat -- `article`
 * [lttng-analyses](https://github.com/lttng/lttng-analyses) - Great front-end to LLTng -- `various lang`
-* [Mastif Visualizer](https://projects.kde.org/projects/extragear/sdk/massif-visualizer) - Visualizer for the Valgrind's Mastiff utility -- `C++`
 * [pstore](http://lwn.net/Articles/434821/) - Save kernel crash info in a platform-specific persistent memory so data is not lost (eg: disks failed so write dump to NVRAM instead) -- `article`
 * [strace](http://linux.die.net/man/1/strace) - System call tracer for user space processes -- `built-in`
 * [SystemTap (stap)](https://sourceware.org/systemtap/wiki/HomePage) - Linux kernel tracing and performance analysis tool -- `C` `C++`
@@ -1572,8 +1578,10 @@
 * [oVirt](http://www.ovirt.org/Home) - Virtualization management platform, the upstream for Red Hat Enterprise Virtualization (RHEV) -- `Java`
 * [phpVirtualBox](http://sourceforge.net/projects/phpvirtualbox/) - Web front-end for VirtualBox -- `PHP`
 * [virt-manager](http://virt-manager.org/) - KVM / Xen / LXC GUI -- `Python`
+* [WINE](https://www.winehq.org/) - Compatibility layer for running Windows apps on POSIX-compliant OSes -- `C` `OS X`
 * [Xen](http://www.xenproject.org/) - It's a hypervisor! -- `C`
 * [XenServer](http://xenserver.org/) - Successor to Xen Cloud Platform (XCP) -- `C`
+* [xhyve](http://www.xhyve.org/) - Lightweight OS X virtualization based on bhyve -- `C` `OS X`
 
 
 ---
