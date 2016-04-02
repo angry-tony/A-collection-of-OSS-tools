@@ -203,6 +203,7 @@
 * [s3cmd](http://s3tools.org/s3cmd) - Backup to AWS via the command line -- `Python`
 * [Serverless (formerly JAWS)](https://github.com/jaws-stack/JAWS) - Javascript + AWS stack, the entire backend is Lambda functions, server-free -- `JavaScript`
 * [Sneaker](https://github.com/codahale/sneaker) - Store secrets on S3 using Amazon KMS -- `Golang`
+* [ssh2ec2](https://pypi.python.org/pypi/ssh2ec2) - SSH into EC2 instances by tag name and/or other metadata filters -- `Python pip`
 * [StarCluster](http://star.mit.edu/cluster/) - Toolkit for using AWS for high performance computing (HPC) -- `Python`
 * [Stout](http://stout.is) - Easy way to reliably upload a static website to S3, capable of configuring CloudFront and Route 53 -- `Golang`
 * [Tools for Amazon Web Services](https://aws.amazon.com/tools/) - Amazon's portal for their official tools -- `various lang`
@@ -263,6 +264,7 @@
 * [chef-provisioning-docker](https://github.com/chef/chef-provisioning-docker) - Official Chef solution for Docker provisioning -- `Ruby`
 * [chef-relevant-tests](https://github.com/brigade/chef-relevant-tests) - Runs Test Kitchen tests only on the parts of your code that changed (rather than the full suite) -- `Ruby gem`
 * [chef-rewind](https://github.com/thommay/chef-rewind) - Monkeypatch some properties of a resource, during the compile phase, before chef-client actually starts the run phase, for debugging -- `Ruby gem`
+* [chef-vault](https://docs.chef.io/chef_vault.html) - Allow specified node(s) to dencrypt the contents of encrypted data bags -- `Ruby gem`
 * [chef-whitelist](https://github.com/etsy/chef-whitelist) - Library that enables easy rollout of changes to one or more hosts, by Etsy -- `Ruby`
 * [ChefDK (Chef Development Kit)](https://downloads.chef.io/chef-dk/) - Includes Berkshelf, Test Kitchen, ChefSpec, Foodcritic, Knife, Chef Zero, Ohai, and more -- `Ruby`
 * [ChefSpec Examples](https://github.com/sethvargo/chefspec/tree/master/examples) - A billion code snippets and tests for ChefSpec -- `Ruby`
@@ -286,7 +288,6 @@
 * [Ridley](https://github.com/reset/ridley) - Chef API client -- `Ruby gem`
 * [ServerSpec](http://serverspec.org/) - RSpec tests for your servers configured by Puppet, Chef or anything else -- `Ruby`
 * [spiceweasel](https://github.com/mattray/spiceweasel) - Quickly automates the creation of whole Chef environments (batch loading) -- `Ruby`
-* [ssl-vault](https://github.com/onbeep-cookbooks/ssl-vault) - Chef cookbook to manage SSL keys, certificates & chains using chef-vault -- `Ruby gem`
 * [tarball](https://github.com/ooyala/tarball-chef-cookbook) - Ruby-based resource provider to manage tarballs in Chef, by Ooyala -- `Ruby`
 * [Test Kitchen](http://kitchen.ci/) - Automated testing for configuration management tools (mostly Chef) -- `Ruby gem`
 
@@ -332,6 +333,7 @@
 * [OpenProject](https://www.openproject.org) - Web-based project management system built on Ruby on Rails -- `Ruby`
 * [osTicket](http://osticket.com/) - Routes inquiries created via email, web-forms and phone calls into a web-based customer support platform -- `PHP`
 * [OTRS](http://www.otrs.com/) - Open source help desk software -- `perl`
+* [OwnTracks](http://owntracks.org/) - Self-hosted location tracking you can share - use for diaries, work orders, etc -- `various lang` `mobile`
 * [Pandoc](http://pandoc.org/) - Convert files from one markup format to another, supports a ton of formats -- `Haskell`
 * [Phabricator](http://phabricator.org/) - Suite of web-based software dev collaboration tools, and all-in-one project management tool -- `PHP`
 * [RainLoop](http://www.rainloop.net/) - Simple, modern & fast web-based email client -- `PHP`
@@ -408,6 +410,7 @@
 * [Hyper](https://hyper.sh/) - Hypervisor-agnostic Docker engine -- `Golang`
 * [Kitematic](https://kitematic.com/) - App for managing Docker containers -- `JavaScript` `Windows` `OS X`
 * [kubernetes](http://kubernetes.io/) - Open source orchestration system for Docker containers, by Google -- `Golang`
+* [localkube](https://github.com/redspread/spread#localkube) - Set up a local Kubernetes instance on your laptop -- `Golang`
 * [Logspout](https://github.com/gliderlabs/logspout) - Log router for Docker containers -- `Golang`
 * [LXC (Linux Containers)](https://linuxcontainers.org/) - Runs an OS instance (sshd, cron, daemons, init, etc) within a container
 * [OpenShift Origin](http://www.openshift.org/) - Docker + Kubernetes, the upstream for Red Hat's OpenShift 3.x -- `Golang`
@@ -517,7 +520,7 @@
 * [Synapse](https://github.com/airbnb/synapse) - Service discovery framework by Airbnb -- `Ruby`
 * [vulcand](https://github.com/mailgun/vulcand) - Programmatically extendable proxy for microservices and API management -- `Golang`
 * [Webjob](http://webjob.sourceforge.net/WebJob/) - Downloads a program or script from a remote WebJob server, executes it, and sends back output to a server -- `C`
-* [xCAT](http://sourceforge.net/p/xcat/wiki/Main_Page/) - Complete management solution for distributed systems -- `various lang`
+* [xCAT (Extreme Cloud Administration Toolkit)](http://xcat.org/) - Complete management solution for distributed systems (HPC, clouds, web farms, etc), supports almost every platform, by IBM -- `various lang`
 * [Zookeeper](https://zookeeper.apache.org/) - Distributed configuration service, synchronization service, and naming registry -- `Java`
 
 
@@ -588,7 +591,7 @@
 * [CloudCraft](https://cloudcraft.co/) - Create professional AWS architecture diagrams -- `in-browser`
 * [Darktable](http://www.darktable.org/) - Photography workflow application and RAW developer, Adobe Lightroom replacement -- `C` `OS X`
 * [draw.io](https://www.draw.io/) - Free online flow chart maker / Visio alternative, can be self-hosted -- `in-browser`
-* [FreeMind](http://freemind.sourceforge.net/) - OSS mind mapping software, great for brainstorming -- `Java` `Windows` `OS X`
+* [FreeMind](https://en.wikipedia.org/wiki/FreeMind) - OSS mind mapping software, great for brainstorming -- `Java` `Windows` `OS X`
 * [GlyphSearch](http://glyphsearch.com/) - Search for icons from Font Awesome, Glyphicons, IcoMoon, Ionicons, and Octicons -- `collection`
 * [GIMP (GNU Image Manipulation Program)](http://www.gimp.org/) - Open source Adobe Photoshop replacement -- `C`
 * [Graphviz](http://www.graphviz.org/) - Graph visualization and flow chart software -- `wacky license`
@@ -626,7 +629,7 @@
 * [Linux-HA](http://www.linux-ha.org) - Building blocks for high availability systems -- `wiki-and-collection`
 * [LVS (Linux Virtual Server)](http://www.linuxvirtualserver.org/) - Linux-based load balancer, also includes the IPVS kernel module -- `C`
 * [Pacemaker](http://clusterlabs.org/) - HA resource manager -- `C`
-* [rcron](https://code.google.com/p/rcron/) - cron redundancy and failover, ensures a job will only run on the "active" machine -- `C`
+* [rcron](https://code.google.com/p/rcron/) - cron redundancy and failover, ensures a job will only run on the "active" machine -- `lost-to-the-internet` `C`
 * [rmanager](http://linux.die.net/man/8/rgmanager) - Resource group manager daemon for cluster services -- `built-in`
 * [Seesaw](https://github.com/google/seesaw) - Load balancer based on Linux Virtual Server (LVS), by Google -- `Golang`
 * [UCARP](http://www.pureftpd.org/project/ucarp) - VIP management using the CARP protocol -- `C`
@@ -860,7 +863,7 @@
 * [intrace](https://github.com/robertswiecki/intrace) - Enumerate IP hops using existing TCP connections -- `C`
 * [iperf3](http://software.es.net/iperf/) - Supports tuning of various parameters related to timing, protocols, and buffers -- `C`
 * [iptraf-ng](https://fedorahosted.org/iptraf-ng/) - Updated fork of iptraf -- `C`
-* [mtr (my traceroute)](https://github.com/traviscross/mtr) - Combines ping and traceroute into a single program -- `C`
+* [mtr (my traceroute)](http://www.bitwizard.nl/mtr/) - Combines ping and traceroute into a single program -- `C`
 * [Muxy](https://github.com/mefellows/muxy) - Muck with your system and application context layers 4-7 -- `Golang` `OS X`
 * [namebench](https://github.com/google/namebench) - Hunts down the fastest DNS servers for your computer to use -- `Python` `Windows` `OS X`
 * [nbwmon](https://github.com/causes-/nbwmon) - Ncurses bandwidth monitor -- `C`
@@ -922,6 +925,7 @@
 * [Rundeck](http://rundeck.org/) - Job scheduler and runbook automation, enable self-service access to existing scripts and tools -- `Groovy`
 * [Salt / Saltstack](http://www.saltstack.com/) - Orchestration, server provisioning, and configuration management -- `Python`
 * [Spacewalk](http://www.spacewalkproject.org/) - Remote commands/orchestration, patch management, and more - the upstream for Red Hat Satellite  -- `various lang`
+* [Teleport](http://gravitational.com/teleport/) - Front-end for teams, includes session capture and replay, auditing, 2FA, session sharing, and more -- `Golang`
 * [tmux-cssh](https://github.com/dennishafemann/tmux-cssh) - Cluster SSH via tmux -- `shell`
 
 
@@ -975,6 +979,7 @@
 * [Conky](https://github.com/brndnmtthws/conky) - Lightweight system monitor for X windows -- `C++`
 * [dstat](http://dag.wiee.rs/home-made/dstat/) - Versatile replacement for vmstat, iostat, netstat and ifstat -- `Python`
 * [Glances](https://nicolargo.github.io/glances/) - Real-time performance monitoring, written in curses and Python -- `Python`
+* [hazelnut](https://github.com/mrsmn/hazelnut) - Python lib to parse /proc/meminfo -- `Python pip`
 * [htop](http://hisham.hm/htop/) - top replacement, has a few additional features -- `C`
 * [Linux Performance Observability Tools](http://www.brendangregg.com/Perf/linux_observability_tools.png) - Awesome graphic that shows you which tool to use, by Brendan Gregg -- `the man`
 * [mem_logger.sh](http://aarvik.dk/how-to-determine-which-process-is-highly-memory-consuming-over-time/) - Monitor a processes' memory usage over time -- `shell`
@@ -1027,7 +1032,7 @@
 * [Vagrant Plugins](https://github.com/mitchellh/vagrant/wiki/Available-Vagrant-Plugins) - A list of Vagrant plugins on the official Hashicorp wiki -- `collection`
 * [Vagrant Manager](http://vagrantmanager.com/) - GUI to manage Vagrant boxes -- `Windows` `OS X`
 * [vagrant-cachier](http://fgrehm.viewdocs.io/vagrant-cachier/) - Cache BLOB downloads to reduce network usage -- `Ruby`
-* [vagrant-host-shell](https://github.com/phinze/vagrant-host-shell) - Simple plugin to run commands on the VM when it boots -- `Ruby`
+* [vagrant-host-shell](https://github.com/phinze/vagrant-host-shell) - Simple plugin to run commands on the VM when it boots (think cloud-init) -- `Ruby`
 * [vagrant-hostsupdater](https://github.com/cogitatio/vagrant-hostsupdater) - Plugin to add your own /etc/hosts to the VM -- `Ruby`
 * [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest) - Auto-install the latest VirtualBox tools at boot time (if necessary) -- `Ruby`
 * [veewee](https://github.com/jedi4ever/veewee) - Easily (and repeatedly) build custom Vagrant base boxes, KVMs, and VM images -- `Ruby`
@@ -1105,7 +1110,7 @@
 
 > Tools for interacting with and related to the major DBs and SQL
 
-* [Adminer](http://www.adminer.org/en/) - GUI for database management in a single PHP -- `PHP`
+* [Adminer](http://www.adminer.org/en/) - GUI for database management in a single PHP, formerally phpMyAdmin -- `PHP`
 * [Flyway](http://flywaydb.org/) - Version control for DB schemas, supports most DBs -- `Java`
 * [HeidiSQL](http://www.heidisql.com/) - GUI SQL DB browser and editor -- `Windows` `OS X`
 * [Large Hardon Migrator (LHM)](https://github.com/soundcloud/lhm) - Live, online MySQL migrations -- `Ruby`
@@ -1250,6 +1255,7 @@
 * [Keepass2Android](https://keepass2android.codeplex.com/) - Compatible with KeePass 2.x -- `Android`
 * [KeePassDroid](http://www.keepassdroid.com/) - Open source version of KeePass 1.x for Android -- `Android`
 * [KeePassX](https://www.keepassx.org/) - Alternative to KeePass, requires QT -- `C++` `Windows` `OS X`
+* [KeeWeb](https://github.com/antelle/keeweb) - Unofficial web and desktop front-ends to KeePass -- `JavaScript`
 * [Keywhiz](https://square.github.io/keywhiz/) - A system for distributing and managing secrets (API keys, certificates, etc), by Square -- `Java`
 * [kpcli](http://kpcli.sourceforge.net/) - Command line interface / CLI for KeePass -- `perl`
 * [lastpass-cli](https://github.com/lastpass/lastpass-cli) - CLI for LastPass -- `C`
@@ -1314,6 +1320,8 @@
 * [Snort](https://www.snort.org/) - The classic network intrusion prevention system (NIPS) -- `C`
 * [Spiderfoot](http://www.spiderfoot.net/) - Automate the process of gathering intelligence about a given target -- `Python`
 * [sudosh2](https://github.com/squash/sudosh2) - Records all keystrokes and output and can play back the session as just like a VCR -- `C`
+* [URLquery](https://urlquery.net/) - Free service to scan a URL for web-based malware -- `in-browser`
+* [usbkill](https://github.com/hephaest0s/usbkill) - Kill switch that takes action when a USB device is connected -- `Python`
 * [Tripwire](http://sourceforge.net/projects/tripwire/) - File integrity checker and monitor, replacement for the now closed-source Tripwire -- `C`
 * [VirusTotal](https://www.virustotal.com/) - Allows you to upload a file and have it scanned by tons of virus scanners -- `in-browser`
 * [ZMap](https://zmap.io/) - Scanner designed for large address spaces -- `in-browser`
@@ -1537,7 +1545,8 @@
 
 > OS and process-level tracing and debugging tools - see also [Performance Analysis Tools](#performance-analysis-tools) for tools suited to performance profiling
 
-* [CRIU (Checkpoint/Restore in Userspace)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
+* [bcc](https://iovisor.github.io/bcc/) - Linux 4.x kernel tracing tools, uses eBPF (Extended Berkeley Packet Filters) -- `C`
+* [CRIU](Checkpoint/Restore in Userspace)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
 * [kdump](https://wiki.archlinux.org/index.php/Kdump) - Linux kernel dump facility (where to save it, what to save, etc) -- `C`
 * [ktap](http://www.ktap.org/) - Another lightweight kernel tracing tool for Linux -- `C`
 * [Linux Trace Toolkit - Next Generation (LLTng)](http://lttng.org/) - Linux kernel tracer and profiler, lower overhead than System Tap -- `C`
@@ -1634,7 +1643,7 @@
 * [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any HTML web page look like a Geocities page -- `in-browser` `sweeeeeeet`
 * [gor](https://github.com/buger/gor) - Capture and replay HTTP traffic for testing -- `Golang`
 * [gRPC](http://www.grpc.io/) - High performance RPC via HTTP/2, by Google -- `C`
-* [h2c](https://github.com/fstab/h2c) - HTTP/2 CLI client, can keep connections open to receive push messages and capture individual frames -- `Golang`
+* [h2c](https://github.com/fstab/h2c) - HTTP/2 CLI client, curl/wget type behavior and other advanced features -- `Golang`
 * [h2i](https://github.com/golang/net/tree/master/http2/h2i) - Go's interactive HTTP/2 console debugger, send raw frames, etc -- `Golang`
 * [Hamms](https://github.com/kevinburke/hamms) - Simulate/create connection failures, malformed response data, slow servers, fat headers, and more! -- `Python`
 * [Hipache](https://github.com/hipache/hipache) - Distributed HTTP and websocket proxy, supports load balancing -- `JavaScript`
@@ -1649,12 +1658,14 @@
 * [mitmproxy](http://mitmproxy.org/) - Intercept, modify, replay and save HTTP/S traffic - even edit flows on the fly -- `Python pip`
 * [mountebank](http://www.mbtest.org/) - Stub downstream resources for testing, supports HTTP HTTPS SMTP TCP -- `JavaScript` `Windows` `OS X`
 * [ng-admin](https://github.com/marmelab/ng-admin) - Add an AngularJS admin GUI to any RESTful API -- `JavaScript`
+* [nghttp](https://nghttp2.org/documentation/nghttp.1.html) - CLI HTTP/2 client, similar to curl/wget and more -- `C`
 * [ngrok](https://ngrok.com) - Reverse proxy that creates a secure tunnel from a public endpoint to a locally running web service and captures & analyzes all traffic over the tunnel for later inspection and replay -- `rocks` `Golang`
 * [OpenResty](http://openresty.org/) - Turn nginx into a non-blocking API server -- `C`
-* [OWASP Zed Attack Proxy (ZAP)](https://www.owasp.org/index.php/ZAP) - Pen testing too that focues on web applications `Java`
+* [OWASP Zed Attack Proxy (ZAP)](https://www.owasp.org/index.php/ZAP) - Pen testing too that focues on web applications -- `Java`
 * [PageKite](https://pagekite.net/) - Makes HTTP servers or SSH publicly available on any server -- `Python`
 * [POSTman](http://www.getpostman.com/) - Create and share API and HTTP requests, great for testing and sharing -- `Chrome`
 * [Pushpin](http://pushpin.org/) - Proxy server that adds WebSockets to existing request-response APIs -- `C++`
+* [RapidJSON](http://rapidjson.org/) - Super fast JSON parser and generator -- `C++` `Windows`
 * [Redirect Detective](http://redirectdetective.com/) - See the complete path a redirected URL goes through -- `in-browser`
 * [Repose](http://openrepose.org/) - REST proxy, solutions to API tasks such as auth, rate limiting, API validation, HTTP logging, and much more -- `Java`
 * [Resty](https://github.com/micha/resty) - CLI REST client you can use in shell/bash/zsh pipes -- `shell`
