@@ -189,6 +189,7 @@
 * [cloud-ssh](http://leonsbox.com/cloud-ssh/) - SSH wrapper that supports hostname tab-completion based on AWS name, tag, or security group -- `Golang`
 * [CloudBerry Explorer](http://www.cloudberrylab.com/free-amazon-s3-explorer-cloudfront-IAM.aspx) - Windows client for accessing AWS S3 buckets -- `closed source` `Windows`
 * [CloudCraft](https://cloudcraft.co/) - Create professional AWS architecture diagrams -- `in-browser`
+* [credstash](https://github.com/fugue/credstash) - Secret management using AWS KMS -- `Python pip`
 * [Developer Tools](https://aws.amazon.com/developertools/) - 3rd party tools for AWS - not screened or supported by Amazon -- `various lang`
 * [DREBS (Disaster Recovery for Elastic Block Store)](https://github.com/dojo4/drebs) - Tool for taking periodic snapshots of EBS volumes -- `Ruby gem`
 * [eb_deploy](https://github.com/ThoughtWorksStudios/eb_deployer) - Elastic Beanstalk blue-green deployment automation -- `Ruby gem`
@@ -328,6 +329,7 @@
 * [LDAP Account Manager (LAM)](https://www.ldap-account-manager.org/lamcms/) - Full featured LDAP management GUI, can manage almost anything -- `PHP`
 * [Let's Chat](https://sdelements.github.io/lets-chat/) - Self-hosted open source HipChat clone -- `JavaScript`
 * [Mattermost](http://www.mattermost.org/) - OSS Slack alternative -- `Golang` `JavaScript`
+* [Mailtrain](http://mailtrain.org/) - Self hosted news letter e-mail app, similar to Mailchimp -- `JavaScript`
 * [MultiRBL](http://multirbl.valli.org/) - SMTP blackhole lookup tools -- `in-browser`
 * [MX Toolbox](https://mxtoolbox.com/) - SMTP blacklist lookup, header analysis, and more -- `in-browser`
 * [OpenProject](https://www.openproject.org) - Web-based project management system built on Ruby on Rails -- `Ruby`
@@ -375,6 +377,7 @@
 * [Puppet Forge](https://forge.puppetlabs.com/) - The official community repository of Puppet modules -- `collection`
 * [puppet-module-skeleton](https://github.com/garethr/puppet-module-skeleton) - Skeleton modules for Puppet -- `Ruby`
 * [r10k](https://github.com/puppetlabs/r10k) - General purpose toolset for deploying Puppet environments and modules -- `Ruby gem`
+* [RANCID - (Really Awesome New Cisco confIg Differ)](http://www.shrubbery.net/rancid/) - Pulls and saves network device configs and saves them into a CVS, now supports git -- `C`
 * [RANCID (Really Awesome New Cisco confIg Differ) with git Support](https://dotwaffle.github.io/rancid-git/) - Monitor network hardware (switches, etc) and save their config into git, fork of the original RANCID -- `perl`
 * [Rudder](http://www.rudder-project.org/site/) - Automation and compliance, uses CFengine -- `Scala`
 * [Salt / Saltstack](http://www.saltstack.com/) - Orchestration, server provisioning, and configuration management -- `Python`
@@ -569,6 +572,7 @@
 * [GitLab](https://about.gitlab.com/) - Kinda like an open source GitHub, has both a community and paid version -- `Ruby`
 * [GitLab CI](https://about.gitlab.com/gitlab-ci/) - CI that integrates with GitLab -- `Ruby`
 * [GitRob](https://github.com/michenriksen/gitrob) - Scan repos for sensitive information -- `Ruby`
+* [gitsome](https://github.com/donnemartin/gitsome) - Supercharged CLI with GitHub integration -- `Python`
 * [GitUp](http://gitup.co) - Maybe the best git GUI -- `Objective-C`
 * [gitwatch](https://github.com/nevik/gitwatch) - Automatically commit changes when specified files or directories are modified -- `shell`
 * [Git Interfaces, Frontends, and Tools](https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools) - Massive list on the official kernel.org wiki -- `various lang`
@@ -797,6 +801,7 @@
 > Hodge-podge of network tools
 
 * [Angry IP Scanner](http://angryip.org/) - GUI network scanner, supports plugins, -- `Java` `Windows` `OS X`
+* [aria2](https://aria2.github.io/) - CLI for downloading HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink -- `C` `Windows` `OS X`
 * [Awesome PCAP](https://github.com/caesar0301/awesome-pcaptools) - Huge list of tools that work with PCAP captures -- `collection`
 * [bbcp](http://www.slac.stanford.edu/~abh/bbcp/) - Copies files using multiple TCP streams to greatly increase throughput -- `C`
 * [bbFTP](http://doc.in2p3.fr/bbftp/) - Uses it's own transfer protocol, optimized for large file transfers -- `C`
@@ -1394,6 +1399,7 @@
 * [JSON Server](https://github.com/typicode/json-server) - Full fake REST API for quickly prototyping and mocking in 30 seconds -- `JavaScript`
 * [LearnXinYMinutes](http://learnxinyminutes.com/) - Super fast tutorials for almost every programming language -- `collection`
 * [Mastif Visualizer](https://projects.kde.org/projects/extragear/sdk/massif-visualizer) - Visualizer for the Valgrind's Mastiff utility -- `C++`
+* [Microsoft Cloud Design Patterns](https://msdn.microsoft.com/en-us/library/dn600223.aspx) - Ignore the cloud and Azure stuff and it's a great reference for general software dev -- `collection`
 * [MockServer](http://mock-server.com/) - Web server to remotely or locally mock HTTP/HTTPS and similar -- `Java`
 * [mountebank](http://www.mbtest.org/) - Stub downstream resources for testing, supports HTTP HTTPS SMTP TCP -- `JavaScript` `Windows` `OS X`
 * [Ninja](https://ninja-build.org/) - Small build system with a focus on speed -- `Python`
@@ -1601,6 +1607,7 @@
 * [Compliance Checker for vSphere](http://www.vmware.com/products/vsphere-compliance-checker/overview) - Provides detailed compliance checks against vSphere hardening guidelines, official tool -- `closed source`
 * [Flings](https://labs.vmware.com/flings) - Tons of a little apps written by VMware engineers, worth exploring -- `closed source?` `various lang`
 * [Onyx](https://labs.vmware.com/flings/onyx) - Do something in vSphere and it will create a PowerCLI script to do that thing that you just did -- `closed source` `PowerShell` `Windows`
+* [open-vm-tools](https://github.com/vmware/open-vm-tools) - OSS alternative to VMware Guest Tools -- `C`
 * [RVtools](http://www.robware.net/) - Killer GUI for viewing information about your VMware environment -- `closed source` `.NET` `Windows`
 * [RVtools Export](https://github.com/Sneddo/Powershell/blob/master/VMware/RVToolsExport.ps1) - Wrapper script to save daily snapshots of your environment using RVtools -- `PowerShell`
 * [Sexigraph](http://www.sexigraf.fr/) - Graphite-based visualization appliance for Sexilog -- `various lang`
