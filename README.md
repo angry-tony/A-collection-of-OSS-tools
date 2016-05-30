@@ -515,6 +515,7 @@
 * [nsq](http://nsq.io/) - Realtime distributed messaging platform / message queue -- `Golang`
 * [Packetbeat](https://www.elastic.co/products/beats) - Distributed packet monitoring system that can be used for application performance management -- `Golang`
 * [Redisson](https://github.com/mrniko/redisson) - Distributed and scalable Java data structures on top of Redis -- `Java`
+* [Ringpop](https://github.com/uber?utf8=%E2%9C%93&query=ringpop) - Fault tolerant application-level sharding for Golang or Javascript -- `JavaScript` `Golang`
 * [Seesaw](https://github.com/google/seesaw) - Load balancer based on Linux Virtual Server (LVS), by Google -- `Golang`
 * [Serf](https://www.serfdom.io/) - Decentralized solution for service discovery and orchestration -- `Golang`
 * [SkyDNS](https://github.com/skynetservices/skydns) - Service discovery via DNS for etcd -- `Golang`
