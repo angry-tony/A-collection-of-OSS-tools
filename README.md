@@ -303,7 +303,7 @@
 * [git-annex Assistant](http://git-annex.branchable.com/assistant/) - Sync folder(s) to any device (NAS, mobile, thumb, cloud, etc) via git -- `C` `OS X` `mobile`
 * [lsyncd](https://github.com/axkibe/lsyncd) - Watches a local directory trees event monitor interface (inotify or fsevents) and kicks off an rsync when things change -- `Lua`
 * [Mackup](https://github.com/lra/mackup) - Sync your Mac application settings to various cloud services or git -- `Python` `OS X`
-* [ownCloud](http://owncloud.org/) - The most popular file sync and share program, supports most platforms -- `Windows` `OS X`
+* [Netcloud](https://nextcloud.com/) - Fork of and replacement for OwnCloud -- `various lang` `Windows` `OS X`
 * [Pydio](https://pyd.io/) - Formerly AjaXplorer, AGPL license -- `PHP`
 * [Skicka](https://github.com/google/skicka) - Command line tool for working with Google Drive, by Google -- `Golang`
 * [Seafile](http://seafile.com/en/home/) - Also offers a paid professional edition with more features, supports most platforms -- `C`
@@ -507,7 +507,7 @@
 * [Mantl](http://mantl.io/) - Complete microservices infrastructure built using OSS tools by Cisco -- `various lang` `yowza`
 * [Marathon](https://github.com/mesosphere/marathon) - Mesos scheduler for "always on" jobs (eg: web services) -- `Scala`
 * [marathon-consul](https://github.com/CiscoCloud/marathon-consul) - Take information provided by the Marathon event bus and forward it to Consul's KV tree -- `Golang`
-* [MaxScale](https://github.com/mariadb-corporation/MaxScale) - General purpose DB query proxy, router, and load balancer -- `C`
+* [MaxScale](https://github.com/mariadb-corporation/MaxScale) - General purpose DB query proxy, router, and load balancer, by MariaDB -- `C`
 * [Mesos](https://mesos.apache.org/) - Cluster manager and scheduler, similar to Google's Borg and Omega projects -- `C++`
 * [mesos-consul](https://github.com/CiscoCloud/mesos-consul) - Automatically registers/deregisters services run as Mesos tasks -- `Golang`
 * [Mesosphere](https://mesosphere.com/) - Apache Mesos schedulers for almost anything, commercial support is available -- `C++`
@@ -729,7 +729,7 @@
 ---
 ## Metrics
 
-> Collection, analysis, and storage of metrics, telemetry, and instrumentation data from almost any source - see also [Dashboards and Data Visualization](#dashboards-and-data-visualization)
+> Collection, analysis, and storage of metrics, telemetry, and instrumentation data from almost any source - see also [Dashboards and Data Visualization](#dashboards-and-data-visualization) and [Monitoring](#monitoring)
 
 * [collectd](http://collectd.org/) - Collects system performance statistics -- `C`
 * [collectd Related Sites](http://collectd.org/related.shtml) - Great tools that integrate with collectd -- `collection`
@@ -739,13 +739,13 @@
 * [FastForward](https://github.com/spotify/ffwd) - Flexible system event and metric forwarding agent by Spotify -- `Ruby gem`
 * [Graphite](https://github.com/graphite-project/graphite-web) - Store numeric time-series data and render graphs of the data on demand -- `Python`
 * [Graphite Tools](https://graphite.readthedocs.org/en/latest/tools.html) - Tools that work with Graphite -- `collection`
-* [Heka / hekad](http://hekad.readthedocs.org/en/latest/) - Stream processing, can gather logs or performance metrics, by Mozilla -- `Golang`
+* [Heka / hekad](http://hekad.readthedocs.org/en/latest/) - Stream processing, can gather logs or performance metrics, by Mozilla, based on Borgmon -- `Golang`
 * [Heroic](https://github.com/spotify/heroic) - TSDB by Spotify -- `Java`
 * [InfluxDB](http://influxdb.com/) - Distributed time series database with no external dependencies -- `Golang`
 * [KairosDB](https://github.com/kairosdb/kairosdb) - Time series DB written on top of Cassandra -- `Java`
 * [Node-Bell](https://github.com/eleme/node-bell) - Real-time anomalies detection system for periodic time series -- `JavaScript`
 * [OpenTSDB](http://opentsdb.net/) - Store and serve massive amounts of time series data without losing granularity -- `Java`
-* [Prometheus](http://prometheus.io/) - Metrics collection and storage, can trigger alerts when thresholds are breached -- `Golang`
+* [Prometheus](http://prometheus.io/) - Metrics collection and storage, can trigger alerts when thresholds are breached, based on Borgmon -- `Golang`
 * [RRDtool](http://oss.oetiker.ch/rrdtool/) - High performance data logging and graphing system for time series data -- `C`
 * [Scales](https://github.com/Cue/scales) - Metrics collection, written in Python -- `Python pip`
 * [Skyline](https://github.com/etsy/skyline) - Real-time anomaly detection system to enable passive monitoring of metrics without the need to configure thresholds -- `Python`
@@ -755,12 +755,12 @@
 ---
 ## Monitoring and Alerting
 
-> Monitor stuff, send alerts, wake you up
+> Monitor stuff, send alerts, wake you up - see also [Metrics](#metrics)
 
 * [Adagios](http://adagios.org/) - Web based Nagios configuration interface -- `HTML`
 * [Alerta](http://alerta.io/) - Distributed and de-coupled, requires MongoDB -- `Python`
 * [bluepill](https://github.com/bluepill-rb/bluepill) - Simple process monitoring, written in Ruby -- `Ruby`
-* [Bosun](http://bosun.org/) - Monitoring and alerting system written by Stack Exchange -- `Golang`
+* [Bosun](http://bosun.org/) - Monitoring and alerting system written by Stack Exchange, based on Borgmon -- `Golang`
 * [Cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty -- `Python`
 * [check_mk](http://mathias-kettner.com/check_mk.html) - Extensions / plugins for Nagios -- `C`
 * [check_mk Multisite](https://mathias-kettner.de/checkmk_multisite.html) - GUI for check_mk -- `various lang`
@@ -784,7 +784,7 @@
 * [Open Monitoring Distribution (OMD)](http://omdistro.org/) - Nagios bundled with the most popular plugins and tools -- `various lang`
 * [pmacct](http://www.pmacct.net/) - IP and network traffic accounting / monitoring -- `C`
 * [Pynag](https://pypi.python.org/pypi/pynag) - Interface with Nagios via Python -- `Python pip`
-* [Riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language, for distributed systems -- `Clojure`
+* [Riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language, for distributed systems, similar to Borgmon -- `Clojure`
 * [Sensu](http://sensuapp.org/) - Open source monitoring framework, cloud-focused -- `Ruby`
 * [Sensu Plugins](https://github.com/sensu-plugins) - Official community site for Sensu plugins -- `various lang`
 * [Shinken](http://www.shinken-monitoring.org/) - Compatible with Nagios -- `various lang`
@@ -1385,9 +1385,10 @@
 * [Bazel](http://bazel.io/) - Google's build system -- `Java`
 * [Bento](https://www.bento.io/grid) - Links to tutorials based on subject (programming, sysadmin, protocols, standards, etc) -- `collection`
 * [Buildbot](http://buildbot.net/) - CI framework -- `Python`
-* [CRIU (Checkpoint/Restore in Userspace)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
+* [CRIU Checkpoint/Restore in Userspace](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
 * [cwrap](http://cwrap.org/) - Wrappers for creating test scenarios and faking behavior/ stubbing, mostly network focused, by the Samba guys -- `C`
 * [deployinator](https://github.com/etsy/deployinator) - Etsy's deployment framework -- `Ruby gem`
+* [Design Patterns](https://sourcemaking.com/design_patterns) - Wonderful collection of design patterns with examples -- `collection`
 * [DevDocs](http://devdocs.io/) - Documentation browser for almost every API -- `collection`
 * [dev-setup](https://github.com/donnemartin/dev-setup) - Automated setup scripts for tools like Sublime Text, AWS, Spark, Android dev, and more -- `collection`
 * [Go (GoCD)](http://www.go.cd) - Go continuous delivery platform by ThoughtWorks -- `Java`
@@ -1636,6 +1637,7 @@
 * [sshuttle](https://github.com/sshuttle/sshuttle) - Transparent proxy server that works as a poor man's VPN, forwards over SSH, supports DNS tunneling -- `Python` `OS X`
 * [strongSwan](https://www.strongswan.org/) - IPsec-based -- `C`
 * [tinc](http://www.tinc-vpn.org/) - Simple, multi-platform VPN -- `C`
+* [WireGuard](https://www.wireguard.io/) - In-kernel VPN server that's simple, performant, and provides next generation cryptography -- `C`
 
 
 ---
@@ -1727,7 +1729,7 @@
 * [YSlow](http://yslow.org/) - Analyzes web pages and why they're slow based on Yahoo!'s rules for high performance web sites, customizable -- `JavaScript`
 * [wtop](https://github.com/ClockworkNet/wtop) - Another top for Apache logs -- `Python pip`
 * [Varnish Dashboard](https://github.com/brandonwamboldt/varnish-dashboard) - Realtime dashboard for Varnish cache servers -- `JavaScript`
-* [Zipkin](http://zipkin.io/) - Distributed tracing systems for SaaS and webapps, by Twitter -- `Scala`
+* [Zipkin](http://zipkin.io/) - Distributed tracing systems for SaaS and webapps, by Twitter, based on Google's Dapper -- `Scala`
 
 
 ---
