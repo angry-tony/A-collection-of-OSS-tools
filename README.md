@@ -783,6 +783,7 @@
 * [OpenNMS](http://www.opennms.org/) - Network monitoring, also supports configuration/asset management -- `various lang`
 * [Open Monitoring Distribution (OMD)](http://omdistro.org/) - Nagios bundled with the most popular plugins and tools -- `various lang`
 * [pmacct](http://www.pmacct.net/) - IP and network traffic accounting / monitoring -- `C`
+* [PHP Server Monitor](http://www.phpservermonitor.org/) - Simple monitoring package that can use built-in public SMS gateways for notifications -- `PHP`
 * [Pynag](https://pypi.python.org/pypi/pynag) - Interface with Nagios via Python -- `Python pip`
 * [Riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language, for distributed systems, similar to Borgmon -- `Clojure`
 * [Sensu](http://sensuapp.org/) - Open source monitoring framework, cloud-focused -- `Ruby`
@@ -819,6 +820,7 @@
 * [ftptop](http://linux.die.net/man/1/ftptop) - Monitor FTP connections in real time -- `built-in`
 * [ipcalc](http://linux.die.net/man/1/ipcalc) - CLI tool to calculate subnets, netmasks, IP ranges, broadcast addresses, and more -- `built-in`
 * [iptstate](http://linux.die.net/man/8/iptstate) - A top-like display of IP Tables state table entries -- `built-in`
+* [geoiplookup](http://linux.die.net/man/1/geoiplookup) - Uses the GeoIP DB and library to determine which physical country an IP or host originates in, includes PAM library -- `built-in`
 * [GridFTP](http://toolkit.globus.org/toolkit/docs/latest-stable/gridftp/) - Supports parallel streams, optimized for WANs, part of the Globus Toolkit -- `C`
 * [hping3](http://linux.die.net/man/8/hping3) - Create custom TCP/IP packets, very flexible -- `built-in`
 * [lftp](http://lftp.yar.ru/) - Supports many protocols (FTPS, HTTPS, SFTP), scheduling, bandwidth throttling, scripting, and more - feature-rich -- `C` `C++`
@@ -919,6 +921,7 @@
 * [mcollective (Marionette Collective)](http://puppetlabs.com/mcollective) - Orchestration, can be used independently of Puppet -- `Ruby gem`
 * [mussh](http://linux.die.net/man/1/mussh) - MUltihost SSH -- `C` `built-in`
 * [OpenLMI (Open Linux Management Infrastructure)](http://www.openlmi.org/) - Manage, monitor, and configure servers via API calls (instead of SSH), included in RHEL 7 -- `various lang`
+* [orgalorg](https://github.com/reconquest/orgalorg) - Next generation parallel SSH tool because most other major ones are no longer maintined -- `Golang`
 * [Overcast](https://github.com/andrewchilds/overcast) - VM orchestration and provisioning for DigitalOcean, Linode and Amazon, or locally using Vagrant + Virtualbox -- `JavaScript`
 * [parallel](https://www.gnu.org/software/parallel/) - Execute jobs in parallel using one or more computers -- `built-in`
 * [parallel-ssh (pssh)](http://linux.die.net/man/1/pssh) - Parallel version of OpenSSH tools - comes with prsync, pscp, pnuke, and pslurp too -- `Python` `built-in`
@@ -993,7 +996,7 @@
 * [nmon](http://nmon.sourceforge.net/pmwiki.php) - Provides both real-time and historical performance metrics -- `C`
 * [NumaTOP](https://01.org/numatop) - top for NUMA systems, shows hotspots, call chains, etc -- `C`
 * [OProfile](http://oprofile.sourceforge.net/) - System-wide statistical profiling tool -- `C`
-* [perf](https://perf.wiki.kernel.org/index.php/Main_Page) - User-land performance analysis tool -- `C`
+* [perf](https://perf.wiki.kernel.org/index.php/Main_Page) - User-land performance analysis tool, a sampling profiler -- `C`
 * [perf-tools](https://github.com/brendangregg/perf-tools) - Uses perf and ftrace, includes iosnoop -- `Brendan Gregg`
 * [Performance Co-Pilot (PCP)](http://www.performancecopilot.org/) - System performance and analysis framework, included in RHEL 7 -- `C`
 * [Phoronix Test Suite](http://www.phoronix-test-suite.com/) - Benchmarking and profiling suite, very feature-rich and versatile -- `PHP`
@@ -1416,7 +1419,7 @@
 * [SonarQube](http://www.sonarqube.org/) - Platform and dashboard for managing code quality -- `Ruby` `Java`
 * [Sonatype Nexus](http://www.sonatype.org/nexus/) - Software / binary artifact storage -- `Java`
 * [Spinnaker](http://spinnaker.io/) - Cloud-focused CI/CD system by Netflix -- `Python`
-* [Valgrind](http://valgrind.org/info/tools.html) - Tool suite that includes cache profilers, heap profiles, thread race condition checkers, and more -- `C`
+* [Valgrind](http://valgrind.org/info/tools.html) - Tool suite that includes cache profilers, heap profiles, thread race condition checkers, and more - a CPU-level emulator -- `C`
 * [watchman](https://github.com/facebook/watchman) - Watch files and take action when they change (eg: kick off the CI system), by Facebook -- `C`
 * [WireMock](http://wiremock.org/) - Flexible stubbing and mocking services -- `Java`
 
@@ -1553,7 +1556,7 @@
 
 > OS and process-level tracing and debugging tools - see also [Performance Analysis Tools](#performance-analysis-tools) for tools suited to performance profiling
 
-* [bcc](https://iovisor.github.io/bcc/) - Linux 4.x kernel tracing tools, uses eBPF (Extended Berkeley Packet Filters) -- `C`
+* [bcc](https://iovisor.github.io/bcc/) - Next generation, Linux 4.x kernel tracing tools, uses eBPF (Extended Berkeley Packet Filters) -- `C`
 * [CRIU](Checkpoint/Restore in Userspace)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
 * [kdump](https://wiki.archlinux.org/index.php/Kdump) - Linux kernel dump facility (where to save it, what to save, etc) -- `C`
 * [ktap](http://www.ktap.org/) - Another lightweight kernel tracing tool for Linux -- `C`
@@ -1561,7 +1564,9 @@
 * [ltrace](http://linux.die.net/man/1/ltrace) - Library call tracer -- `built-in`
 * [ltrace Tutorial](http://developerblog.redhat.com/2014/07/10/ltrace-for-rhel-6-and-7/) - ltrace tutorial by Red Hat -- `article`
 * [lttng-analyses](https://github.com/lttng/lttng-analyses) - Great front-end to LLTng -- `various lang`
+* [OpenSnoop](http://www.brendangregg.com/blog/2014-07-25/opensnoop-for-linux.html) - Continually monitor for file opens -- `shell`
 * [pstore](http://lwn.net/Articles/434821/) - Save kernel crash info in a platform-specific persistent memory so data is not lost (eg: disks failed so write dump to NVRAM instead) -- `article`
+* [Record and Replay (rr)](http://rr-project.org/) - Record the failure once, then debug the recording deterministically, by Mozilla -- `C`
 * [strace](http://linux.die.net/man/1/strace) - System call tracer for user space processes -- `built-in`
 * [SystemTap (stap)](https://sourceware.org/systemtap/wiki/HomePage) - Linux kernel tracing and performance analysis tool -- `C` `C++`
 
@@ -1743,6 +1748,7 @@
 * [conserver](http://www.conserver.com/) - Virtual console server with many features (multi-user, console log history, etc) -- `C`
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- `closed source` `OS X` `Windows`
 * [Google Advanced Operators for Web Search](https://sites.google.com/site/gwebsearcheducation/advanced-operators) - Search modifiers for more accurate results, by Google -- `collection`
+* [googler](https://github.com/jarun/googler) - Google search, news, and site search from the terminal, slick -- `Python`
 * [inxi](https://github.com/smxi/inxi) - "a full featured system information script" (hardware info, etc) -- `shell`
 * [Mjolnir](https://github.com/sdegutis/mjolnir) - Automation for OS X, think AutoHotKey for Mac -- `C` `OS X`
 * [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins) - Collection of plugins for Quick Look in the Mac Finder -- `various lang` `OS X`
