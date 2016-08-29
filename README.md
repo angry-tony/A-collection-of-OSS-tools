@@ -342,6 +342,7 @@
 * [Redmine](https://www.redmine.org/) - Project management webapp -- `Ruby`
 * [Request Tracker](http://www.bestpractical.com/rt/) - Bug tracking, help desk ticketing, customer service, workflow processes, change management and more -- `perl`
 * [Review Board](https://www.reviewboard.org/) - Code review tool for multiple SCM systems -- `Python`
+* [Rocket.Chat](https://rocket.chat/) - OSS Slack clone built with Meteor.js -- `JavaScript`
 * [Roundcube](https://roundcube.net/) - Browser-based multilingual IMAP client -- `PHP`
 * [SOGo](http://www.sogo.nu/) - Groupware that integrates with Microsoft, Android, and Apple products -- `Objective-C` `OS X`
 * [Sovereign](https://github.com/al3x/sovereign) - Set of Ansible playbooks to deploy a suite of self-hosted apps (mail, colab, calendar, file sync, and more) -- `Python`
@@ -788,7 +789,6 @@
 * [Riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language, for distributed systems, similar to Borgmon -- `Clojure`
 * [Sensu](http://sensuapp.org/) - Open source monitoring framework, cloud-focused -- `Ruby`
 * [Sensu Plugins](https://github.com/sensu-plugins) - Official community site for Sensu plugins -- `various lang`
-* [Shinken](http://www.shinken-monitoring.org/) - Compatible with Nagios -- `various lang`
 * [StatsD](https://github.com/etsy/statsd/) - Monitoring in node.js by Etsy -- `JavaScript`
 * [Tattle](https://github.com/wayfair/Graphite-Tattle) - Self service alerting and dashboard frontend for Graphite and Ganglia -- `PHP`
 * [Uptime](https://github.com/fzaninotto/uptime) - Remote monitoring application using Node.js, MongoDB, and Twitter Bootstrap -- `JavaScript`
@@ -804,6 +804,7 @@
 
 * [Angry IP Scanner](http://angryip.org/) - GUI network scanner, supports plugins, -- `Java` `Windows` `OS X`
 * [aria2](https://aria2.github.io/) - CLI for downloading HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink -- `C` `Windows` `OS X`
+* [arp-scan](http://linux.die.net/man/1/arp-scan) - Create and send ARP requests -- `C`
 * [Awesome PCAP](https://github.com/caesar0301/awesome-pcaptools) - Huge list of tools that work with PCAP captures -- `collection`
 * [bbcp](http://www.slac.stanford.edu/~abh/bbcp/) - Copies files using multiple TCP streams to greatly increase throughput -- `C`
 * [bbFTP](http://doc.in2p3.fr/bbftp/) - Uses it's own transfer protocol, optimized for large file transfers -- `C`
@@ -814,6 +815,7 @@
 * [Cyberduck](https://cyberduck.io/) - GUI FTP, SFTP, WebDAV, S3 & OpenStack Swift browser for Mac and Windows -- `itsaduck`
 * [Data Plane Development Kit (DPDK)](http://dpdk.org/) - Data plane libraries and framework for fast packet processing -- `C`
 * [dnscrypt-wrapper](https://github.com/Cofyc/dnscrypt-wrapper) - Add dnscrypt support to any resolver, server-side dnscrypt proxy -- `C`
+* [dsniff](https://www.monkey.org/~dugsong/dsniff/) - Great for level 2 analysis or service spoofing -- `C`
 * [ExaBGP](https://github.com/Exa-Networks/exabgp) - The BGP swiss army knife of networking -- `Python pip`
 * [fail2ban](http://www.fail2ban.org/) - Watches log files to ban IPs based on rules (too many failed logins, exploit attempts, brute force attacks, etc) -- `Python`
 * [FBOSS (FaceBook Open Switching System)](https://github.com/facebook/fboss) - FB's software stack for managing and controlling whitebox switches -- `variouns lang`
@@ -828,6 +830,7 @@
 * [mrsync (multicast remote sync)](http://sourceforge.net/projects/mrsync/) - Transfers from a master to many remote machines using Unix multicast sockets -- `C`
 * [mTCP](http://shader.kaist.edu/mtcp/) - High-performance user-level TCP stack for multicore systems -- `C`
 * [Mulitpath TCP](https://en.wikipedia.org/wiki/Multipath_TCP) - Allows TCP to use multiple paths to maximize resource usage and increase redundancy -- `neat`
+* [My Looking Glass (myLG)](http://mylg.io/) - All-in-one CLI network diagnostic tool -- `Golang`
 * [ncat](http://nmap.org/ncat/) - Improved netcat, written by the Nmap team -- `C`
 * [netsniff-ng](http://netsniff-ng.org/) - High performance, zero-copy networking sniffer -- `C`
 * [NfSen](http://nfsen.sourceforge.net/) - GUI for and visualization nfdump -- `perl`
@@ -844,6 +847,8 @@
 * [sslh](http://www.rutschle.net/tech/sslh.shtml) - Protocol multiplexer, let multiple daemons listen on a single port -- `C`
 * [SubBrute](https://github.com/TheRook/subbrute) - Subdomain enumeration tool for penetration testers -- `Python`
 * [tcpflow](https://github.com/simsong/tcpflow) - TCP demultiplexer, each flow is stored in it's own file -- `C++`
+* [tcpreplay](http://tcpreplay.appneta.com/) - Capture, edit, and replay network traffic -- `C`
+* [tracepath](http://linux.die.net/man/8/tracepath) - Traceroute that doesn't require root -- `C`
 * [Trigger](https://github.com/trigger/trigger) - Network automation toolkit written in Python, created by AOL -- `Python`
 * [UDR](https://github.com/LabAdvComp/UDR) - UDT wrapper for rsync that improves throughput of large data transfers over long distances -- `C++`
 * [WireShark](https://www.wireshark.org/) - The classic network analyzer -- `C`
@@ -871,6 +876,7 @@
 * [intrace](https://github.com/robertswiecki/intrace) - Enumerate IP hops using existing TCP connections -- `C`
 * [iperf3](http://software.es.net/iperf/) - Supports tuning of various parameters related to timing, protocols, and buffers -- `C`
 * [iptraf-ng](https://fedorahosted.org/iptraf-ng/) - Updated fork of iptraf -- `C`
+* [jnettop](http://jnettop.kubs.info/wiki/) - Traffic visualizer -- `C`
 * [mtr (my traceroute)](http://www.bitwizard.nl/mtr/) - Combines ping and traceroute into a single program -- `C`
 * [Muxy](https://github.com/mefellows/muxy) - Muck with your system and application context layers 4-7 -- `Golang` `OS X`
 * [namebench](https://github.com/google/namebench) - Hunts down the fastest DNS servers for your computer to use -- `Python` `Windows` `OS X`
@@ -993,6 +999,7 @@
 * [Linux Performance Observability Tools](http://www.brendangregg.com/Perf/linux_observability_tools.png) - Awesome graphic that shows you which tool to use, by Brendan Gregg -- `the man`
 * [mem_logger.sh](http://aarvik.dk/how-to-determine-which-process-is-highly-memory-consuming-over-time/) - Monitor a processes' memory usage over time -- `shell`
 * [Munin](http://munin-monitoring.org/) - Historical performance monitoring to help determine when you server became "slow" -- `perl`
+* [NetData](http://my-netdata.io/) - Real time performance visualization and dashboards -- `C`
 * [nmon](http://nmon.sourceforge.net/pmwiki.php) - Provides both real-time and historical performance metrics -- `C`
 * [NumaTOP](https://01.org/numatop) - top for NUMA systems, shows hotspots, call chains, etc -- `C`
 * [OProfile](http://oprofile.sourceforge.net/) - System-wide statistical profiling tool -- `C`
@@ -1540,6 +1547,7 @@
 * [MTPuTTY (Multi-Tabbed PuTTY)](http://ttyplus.com/multi-tabbed-putty/) - Multiple PuTTY sessions in a single window -- `Windows`
 * [NoVNC](https://kanaka.github.io/noVNC/) - Client-less VNC in a web browser, uses HTML5 and WebSockets -- `in-browser`
 * [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) - The classic SSH client -- `Windows`
+* [PuTTYtray](https://puttytray.goeswhere.com/) - PuTTY in the systray + additional features -- `C`
 * [reptyr](https://github.com/nelhage/reptyr) - Reparent a running program to a new terminal -- `C`
 * [SuperPutty](https://github.com/jimradford/superputty) - Allows the PuTTY SSH client to be opened in tabs -- `Windows`
 * [tmate](http://tmate.io/) - Instant terminal sharing, a tmux fork -- `OS X`
@@ -1663,6 +1671,7 @@
 * [Hamms](https://github.com/kevinburke/hamms) - Simulate/create connection failures, malformed response data, slow servers, fat headers, and more! -- `Python`
 * [Hipache](https://github.com/hipache/hipache) - Distributed HTTP and websocket proxy, supports load balancing -- `JavaScript`
 * [htaccess Snippits](https://github.com/phanan/htaccess) - Huge collection of common and useful .htaccess snippets, please contribute -- `collection`
+* [http-traceroute](https://digi.ninja/projects/http_traceroute.php) - Shows the entire route including cookies, redirects, and response codes -- `Ruby`
 * [httpdiff](https://github.com/jgrahamc/httpdiff) - Perform the same reuqest against two HTTP servers and diff the results -- `Golang`
 * [httpie](https://github.com/jakubroztocil/httpie) - curl replacement with many new features -- `Python`
 * [htty](https://htty.github.io/htty/) - A console application for interacting with web servers -- `Ruby gem`
