@@ -396,27 +396,23 @@
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers -- `Golang`
 * [Cloud Foundry](https://www.cloudfoundry.org/) - Open source PaaS by VMware and Pivotal -- `Golang` `Ruby`
 * [crane](https://github.com/michaelsauter/crane) - Docker orchestration -- `Golang`
-* [Distribution](https://github.com/docker/distribution) - Docker Registry 2.0, supersedes docker-registry -- `Golang`
-* [dockerfiles](https://github.com/firecat53/dockerfiles) - Great little collection of pre-made Docker files -- `various lang`
-* [DockerUI](https://github.com/crosbymichael/dockerui) - Web interface for Docker -- `JavaScript`
-* [Docker Compose](https://github.com/docker/compose) - Define and run multi-container apps with Docker, previously known as fig -- `Python`
+* [Distribution](https://github.com/docker/distribution) - Docker Registry 2.0, supersedes and replaces docker-registry, official -- `Golang`
+* [DockerUI](https://github.com/crosbymichael/dockerui) - Web interface for Docker aka us-for-docker -- `JavaScript`
+* [Docker Compose](https://github.com/docker/compose) - Define and run multi-container apps with Docker, previously known as fig, official -- `Python`
 * [Docker Hub](https://registry.hub.docker.com/) - Official Docker images for many projects -- `various lang`
-* [Docker Toolbox](https://www.docker.com/toolbox) - Docker Client, Machine, Compose, Kitematic, and VirtualBox in a single package -- `various lang`
+* [Docker Toolbox](https://www.docker.com/toolbox) - Docker Client, Machine, Compose, Kitematic, and VirtualBox in a single package, official -- `various lang`
 * [Dokku](https://github.com/progrium/dokku) - Docker powered mini-Heroku (PaaS) in around 100 lines of bash -- `shell`
 * [drone](https://github.com/drone/drone) - CI platform built on Docker -- `Golang`
 * [dumb-init](https://github.com/Yelp/dumb-init) - Minimal init system for containers, by Yelp -- `C`
-* [Fabric8](http://fabric8.io/) - Deploy and manage middleware components or long running Java programs running in a repeatable and controllable way  -- `Java`
-* [Ferry](https://github.com/opencore/ferry) - Launch, run, and manage big data clusters without worrying about infrastructure -- `Python`
+* [Fabric8](http://fabric8.io/) - Open source microservices platform based on Docker, Kubernetes and Jenkins -- `Java`
 * [Flannel](https://github.com/coreos/flannel) - Network fabric for containers via etcd -- `Golang`
 * [Flocker](https://github.com/ClusterHQ/flocker) - Docker data management for stateful services such as DBs -- `Python`
 * [Flynn](https://flynn.io/) - PaaS built on top of Docker, can run stateful services -- `Golang`
 * [Heapster](https://github.com/kubernetes/heapster) - Container cluster monitoring and performance analysis for Kubernetes and CoreOS -- `Golang`
-* [Hyper](https://hyper.sh/) - Hypervisor-agnostic Docker engine -- `Golang`
-* [Kitematic](https://kitematic.com/) - App for managing Docker containers -- `JavaScript` `Windows` `OS X`
+* [Kitematic](https://kitematic.com/) - GUI Docker management on Mac & Windows (laptops), official -- `JavaScript` `Windows` `OS X`
 * [kubernetes](http://kubernetes.io/) - Open source orchestration system for Docker containers, by Google -- `Golang`
-* [localkube](https://github.com/redspread/spread#localkube) - Set up a local Kubernetes instance on your laptop -- `Golang`
 * [Logspout](https://github.com/gliderlabs/logspout) - Log router for Docker containers -- `Golang`
-* [LXC (Linux Containers)](https://linuxcontainers.org/) - Runs an OS instance (sshd, cron, daemons, init, etc) within a container
+* [minikube](http://kubernetes.io/docs/getting-started-guides/minikube/) - Kubernetes environments on your laptop -- `Golang`
 * [OpenShift Origin](http://www.openshift.org/) - Docker + Kubernetes, the upstream for Red Hat's OpenShift 3.x -- `Golang`
 * [Panamax](http://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub -- `various lang`
 * [pipework](https://github.com/jpetazzo/pipework) - SDN for Linux Containers -- `various lang`
@@ -424,15 +420,11 @@
 * [Rancher](http://rancher.com/) - Provides a complete platform for operating Docker in production -- `various lang`
 * [Registrator](https://github.com/gliderlabs/registrator) - Service registry bridge for Docker, supports Consul, etcd -- `Golang`
 * [rkt (Rocket)](https://github.com/coreos/rocket) - New container system by the CoreOS guys -- `Golang`
-* [Sandstorm](https://sandstorm.io/) - Download, install, and run apps in a container -- `IDK but hashi`
 * [Shipyard](https://github.com/shipyard/shipyard) - Composable Docker management toolkit -- `Golang`
-* [ShutIt](https://github.com/ianmiell/shutit) - All-in-one build system featuring Docker -- `Python`
-* [systemd-nspawn](https://lwn.net/Articles/572957/) - Spawn containers via systemd -- `C` `article`
-* [Swarm](https://github.com/docker/libswarm) - Docker-native clustering system -- `Golang`
+* [Swarm](https://github.com/docker/swarmkit) - Docker-native clustering system -- `Golang`
+* [Swarm Visualizer](https://github.com/ManoMarks/docker-swarm-visualizer) - A visualizer for Docker Swarm using the Docker Remote API, Node.JS, and D3 -- `JavaScript`
 * [Tsuru](https://github.com/tsuru/tsuru) - Docker-based PaaS -- `Golang`
-* [Ventriloquist](https://github.com/fgrehm/ventriloquist) - Combines Vagrant and Docker to give developers the ability to configure portable and disposable dev environments -- `Ruby`
 * [Weave](https://github.com/zettio/weave/) - Virtual network that connects Docker containers deployed across multiple hosts -- `Golang`
-* [Zenoss Control Center](http://controlcenter.io/) - PaaS framework for deploying enterprise applications using Docker -- `Golang`
 
 
 ---
@@ -443,6 +435,7 @@
 * [Bigdesk](http://bigdesk.org/) - Live charts and statistics for Elasticsearch cluster -- `JavaScript`
 * [Cachet](https://cachethq.io/) - Create beautiful, responsive status pages -- `PHP`
 * [Cacti](http://cacti.net/) - Web-based network monitoring and graphing tool designed as a front-end to RRDtool -- `PHP`
+* [CactiEZ](http://cactiez.cactiusers.org/) - Super simple, added features, works right out of the box -- `PHP`
 * [collectd3](https://github.com/StackStorm/collectd3) - Beautiful D3 visualizations of system performance statistics -- `JavaScript`
 * [Dashing](http://dashing.io/) - The exceptionally handsome dashboard framework -- `Ruby gem`
 * [Dashing Widgets](https://github.com/Shopify/dashing/wiki/Additional-Widgets) - Massive collection of widgets for Dashing -- `collection`
@@ -484,6 +477,7 @@
 
 * [Aurora](https://aurora.incubator.apache.org/) - Mesos scheduler for long running services and cron jobs, similar to Marathon -- `Java`
 * [Bamboo](https://github.com/QubitProducts/bamboo) - HAProxy auto configuration and auto service discovery for Marathon -- `Golang`
+* [Celery](http://www.celeryproject.org/) - Async task/job queue based on distributed message passing -- `Python`
 * [Chronos](https://github.com/airbnb/chronos) - Distributed, fault tolerant cron scheduler that runs on top of Apache Mesos -- `various lang`
 * [crypt](https://github.com/xordataexchange/crypt) - Store and retrieve encrypted configs from etcd or Consul -- `Golang`
 * [consul](http://www.consul.io/) - Service discovery and configuration via DNS or HTTP, great for auto-scaling -- `Golang`
@@ -505,6 +499,7 @@
 * [inotify](https://github.com/rvoicilas/inotify-tools) - Watch file(s) for changes, take an action when the change occurs -- `C`
 * [jespen](https://github.com/aphyr/jepsen) - Call Me Maybe: Breaking distributed systems -- `Clojure`
 * [Kong](http://getkong.org/) - Microservice / API management layer -- `Lua`
+* [linkerd](https://linkerd.io/) - RPC proxy and request routing for microservices, includes service discovery, instrumentation, and load balancing -- `Scala`
 * [Mantl](http://mantl.io/) - Complete microservices infrastructure built using OSS tools by Cisco -- `various lang` `yowza`
 * [Marathon](https://github.com/mesosphere/marathon) - Mesos scheduler for "always on" jobs (eg: web services) -- `Scala`
 * [marathon-consul](https://github.com/CiscoCloud/marathon-consul) - Take information provided by the Marathon event bus and forward it to Consul's KV tree -- `Golang`
@@ -512,9 +507,11 @@
 * [Mesos](https://mesos.apache.org/) - Cluster manager and scheduler, similar to Google's Borg and Omega projects -- `C++`
 * [mesos-consul](https://github.com/CiscoCloud/mesos-consul) - Automatically registers/deregisters services run as Mesos tasks -- `Golang`
 * [Mesosphere](https://mesosphere.com/) - Apache Mesos schedulers for almost anything, commercial support is available -- `C++`
+* [miniMesos](https://www.minimesos.org/) - Spin up Mesos clusters on your OS X laptop, can be used for TDD too -- `Java`
 * [Myriad](https://github.com/mesos/myriad) - YARN framework/scheduler for Mesos -- `Java`
 * [nsq](http://nsq.io/) - Realtime distributed messaging platform / message queue -- `Golang`
 * [Packetbeat](https://www.elastic.co/products/beats) - Distributed packet monitoring system that can be used for application performance management -- `Golang`
+* [Pulsar](https://github.com/yahoo/pulsar) - Distributed pub-sub messaging platform, scales to millions of clients and queues -- `Java`
 * [Redisson](https://github.com/mrniko/redisson) - Distributed and scalable Java data structures on top of Redis -- `Java`
 * [Ringpop](https://github.com/uber?utf8=%E2%9C%93&query=ringpop) - Fault tolerant application-level sharding for Golang or Javascript -- `JavaScript` `Golang`
 * [Seesaw](https://github.com/google/seesaw) - Load balancer based on Linux Virtual Server (LVS), by Google -- `Golang`
@@ -696,15 +693,13 @@
 * [Apache Log Generator](http://www.apacheloggenerator.com/) - Drag and drop to create Apache logging syntax -- `in-browser`
 * [ElasticDump](https://github.com/taskrabbit/elasticsearch-dump) - Import / export tools for Elasticsearch -- `JavaScript`
 * [Elasticsearch](http://www.elasticsearch.org/) - Component of the ELK stack, used for super fast searches -- `Java`
-* [Elasticsearch Copier (escp)](https://github.com/lytics/escp) - Tool to copy elasticsearch indexes, great for copying from prod to dev -- `Golang`
-* [Elasticsearch Exporter](https://github.com/mallocator/Elasticsearch-Exporter) - Small script to export data from one Elasticsearch cluster into another -- `JavaScript`
+* [Elasticsearch Exporter](https://github.com/mallocator/Elasticsearch-Exporter) - Script to import/export data from ElasticSearch to various other storage systems -- `JavaScript`
 * [Eliot](https://pypi.python.org/pypi/eliot) - Outputs causal chains of actions happening within and across process boundaries aka a logical trace of the system’s operation -- `Python pip`
 * [Errbit](https://github.com/errbit/errbit) - Tool for collecting and managing errors from other application, Airbrake API compliant -- `Ruby`
 * [Filebeat](https://www.elastic.co/products/beats/filebeat) - By Elastic, the next generation Logstash Forwarder -- `Golang`
 * [Fluentd](http://www.fluentd.org/) - Unified logging layer -- `Ruby gem`
 * [Flume](https://flume.apache.org/) - Distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data -- `Java`
 * [Graylog2](http://graylog2.org/) - Log capture and analysis -- `various lang`
-* [Heka / hekad](http://hekad.readthedocs.org/en/latest/) - Stream processing, can gather logs or performance metrics -- `Golang`
 * [IRCcat](https://github.com/RJ/irccat) - Send log messages and alerts to an IRC channel, can also use IRC to send commands -- `Java`
 * [lnav](http://lnav.org/) - Advanced log file viewer for the small-scale, terminal/ncurses based -- `C++`
 * [Log Courier](https://github.com/driskell/log-courier) - Enhanced fork of Logstash Forwarder -- `Ruby`
@@ -789,6 +784,7 @@
 * [Riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language, for distributed systems, similar to Borgmon -- `Clojure`
 * [Sensu](http://sensuapp.org/) - Open source monitoring framework, cloud-focused -- `Ruby`
 * [Sensu Plugins](https://github.com/sensu-plugins) - Official community site for Sensu plugins -- `various lang`
+* [Shinken](http://www.shinken-monitoring.org/) - Nagios-compatible monitoring, supports high availability -- `Python`
 * [StatsD](https://github.com/etsy/statsd/) - Monitoring in node.js by Etsy -- `JavaScript`
 * [Tattle](https://github.com/wayfair/Graphite-Tattle) - Self service alerting and dashboard frontend for Graphite and Ganglia -- `PHP`
 * [Uptime](https://github.com/fzaninotto/uptime) - Remote monitoring application using Node.js, MongoDB, and Twitter Bootstrap -- `JavaScript`
@@ -1127,6 +1123,7 @@
 > Tools for interacting with and related to the major DBs and SQL
 
 * [Adminer](http://www.adminer.org/en/) - GUI for database management in a single PHP, formerally phpMyAdmin -- `PHP`
+* [DB Browser for SQLite](http://sqlitebrowser.org/) - GUI database browser for SQLite instances -- `C++`
 * [Flyway](http://flywaydb.org/) - Version control for DB schemas, supports most DBs -- `Java`
 * [HeidiSQL](http://www.heidisql.com/) - GUI SQL DB browser and editor -- `Windows` `OS X`
 * [Large Hardon Migrator (LHM)](https://github.com/soundcloud/lhm) - Live, online MySQL migrations -- `Ruby`
@@ -1146,6 +1143,7 @@
 * [pg_repack](https://reorg.github.io/pg_repack/) - Remove bloat from tables and indexes without using an exclusive lock -- `C`
 * [Phinx](https://phinx.org/) - Database migrations in SQL or PHP -- `PHP`
 * [Postgres-XL](http://www.postgres-xl.org/) - Scale-out version of PostgresSQL -- `C`
+* [Postgres.app](http://postgresapp.com/) - All-in-one version of Postgres for local testing on a laptop -- `C`
 * [PostgREST](https://github.com/begriffs/postgrest) - Create a REST API for any Postgres DB -- `Haskell`
 * [PostgreSQL GUI Tools](https://wiki.postgresql.org/wiki/Community_Guide_to_PostgreSQL_GUI_Tools) - A huge list on the official wiki -- `collection`
 * [Presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data, by Facebook -- `Java`
@@ -1286,6 +1284,7 @@
 * [pwgen](http://linux.die.net/man/1/pwgen) - Password generated, included in most Linux distros -- `built-in`
 * [RatticDB](http://rattic.org/) - Web-based password management, includes an API, great for teams or companies -- `Python`
 * [scrypt](https://www.tarsnap.com/scrypt.html) - Super secure against hardware brute-force attacks, is also a part of/module for most programming languages, by tarsnap -- `C`
+* [Secrets OPerationS (SOPS)](https://github.com/mozilla/sops) - Secret management, by Mozilla -- `Python`
 * [TeamPass](http://www.teampass.net/) - Collaborative password management using the LAMP stack -- `PHP`
 * [Vault](https://github.com/hashicorp/vault) - Tool for storing secrets (API keys, passwords, certs, etc) by Hashicorp -- `Golang`
 * [webpasswordsafe](https://github.com/joshdrummond/webpasswordsafe) - Very powerful, designed "for the enterprise" -- `Java`
@@ -1401,6 +1400,7 @@
 * [Design Patterns](https://sourcemaking.com/design_patterns) - Wonderful collection of design patterns with examples -- `collection`
 * [DevDocs](http://devdocs.io/) - Documentation browser for almost every API -- `collection`
 * [dev-setup](https://github.com/donnemartin/dev-setup) - Automated setup scripts for tools like Sublime Text, AWS, Spark, Android dev, and more -- `collection`
+* [dropwizard](http://www.dropwizard.io/) - Simple library for building production-ready RESTful web services -- `various lang`
 * [Go (GoCD)](http://www.go.cd) - Go continuous delivery platform by ThoughtWorks -- `Java`
 * [Google's Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html) - Hands on, free, self-paced courses to help you develop your programming skills -- `collection`
 * [Guard](https://github.com/guard/guard) - Flexible framework to take action on file system change event -- `Ruby gem`
@@ -1760,6 +1760,7 @@
 * [googler](https://github.com/jarun/googler) - Google search, news, and site search from the terminal, slick -- `Python`
 * [inxi](https://github.com/smxi/inxi) - "a full featured system information script" (hardware info, etc) -- `shell`
 * [Mjolnir](https://github.com/sdegutis/mjolnir) - Automation for OS X, think AutoHotKey for Mac -- `C` `OS X`
+* [OpenBMC](https://github.com/facebook/openbmc) - Framework to build a complete Linux image for a Board Management Controller (BMC) -- `C`
 * [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins) - Collection of plugins for Quick Look in the Mac Finder -- `various lang` `OS X`
 * [runit](http://smarden.org/runit/) - UNIX init scheme with service supervision, great for containers, sysvinit replacement -- `C`
 * [runwhen](http://code.dogmap.org/runwhen/) - Utilities for running commands at particular times, cron on steroids -- `C`
