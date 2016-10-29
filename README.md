@@ -163,6 +163,7 @@
 * [ITDB (IT ITems DataBase)](http://www.sivann.gr/software/itdb/) - Includes purchase order management, floor plans, and ISO20000-like features -- `PHP`
 * [Netdisco](https://metacpan.org/pod/App::Netdisco) - Web-based network management and discovery tool, written in perl, uses SNMP -- `perl`
 * [Network UPS Tools (NUT)](http://www.networkupstools.org/) - Manage power devices from over 100 manufacturers using a single web interface -- `C` `Windows`
+* [NIPAP](http://spritelink.github.io/NIPAP/) - Next-generation IPAM -- `Python`
 * [OCS-NG (OCS Inventory NG ](http://www.ocsinventory-ng.org/en/) - Automated inventory, deployment system, can sync with GLPI -- `perl`
 * [openDCIM](http://opendcim.org/) - Data center infrastructure management -- `PHP`
 * [Open-AudIT](http://open-audit.org/) - Track and report assets and configurations, supports Windows too -- `PHP`
@@ -193,6 +194,7 @@
 * [DREBS (Disaster Recovery for Elastic Block Store)](https://github.com/dojo4/drebs) - Tool for taking periodic snapshots of EBS volumes -- `Ruby gem`
 * [eb_deploy](https://github.com/ThoughtWorksStudios/eb_deployer) - Elastic Beanstalk blue-green deployment automation -- `Ruby gem`
 * [ec2dns](https://github.com/fruux/ec2dns) - CLI tools to display public host names of instances and SSH into them via their tag -- `PHP`
+* [ec2instances.info](http://www.ec2instances.info/) - Open source and up to date instance price comparison tool -- `Python`
 * [ElasticWolf](https://aws.amazon.com/developertools/9313598265692691) - Client-side GUI for managing AWS -- `closed source` `Windows` `Firefox` `OS X`
 * [ELB Consul](https://github.com/sebest/docker-elb-consul) - Docker container that allows you to (de)register EC2 instances belonging to a specific Consul service with an ELB -- `Python`
 * [haproxy-autoscale](https://github.com/markcaudill/haproxy-autoscale) - Wrapper for haproxy that handles auto-scaling EC2 instances -- `Python`
@@ -1425,6 +1427,7 @@
 * [SonarQube](http://www.sonarqube.org/) - Platform and dashboard for managing code quality -- `Ruby` `Java`
 * [Sonatype Nexus](http://www.sonatype.org/nexus/) - Software / binary artifact storage -- `Java`
 * [Spinnaker](http://spinnaker.io/) - Cloud-focused CI/CD system by Netflix -- `Python`
+* [ThinBackup](https://wiki.jenkins-ci.org/display/JENKINS/thinBackup) - Jenkins plugin that backups configurations (not workspaces or archives) -- `Java`
 * [Valgrind](http://valgrind.org/info/tools.html) - Tool suite that includes cache profilers, heap profiles, thread race condition checkers, and more - a CPU-level emulator -- `C`
 * [watchman](https://github.com/facebook/watchman) - Watch files and take action when they change (eg: kick off the CI system), by Facebook -- `C`
 * [WireMock](http://wiremock.org/) - Flexible stubbing and mocking services -- `Java`
@@ -1563,7 +1566,7 @@
 
 > OS and process-level tracing and debugging tools - see also [Performance Analysis Tools](#performance-analysis-tools) for tools suited to performance profiling
 
-* [bcc](https://iovisor.github.io/bcc/) - Next generation, Linux 4.x kernel tracing tools, uses eBPF (Extended Berkeley Packet Filters) -- `C`
+* [bcc](https://iovisor.github.io/bcc/) - Next generation, Linux 4.x kernel tracing tool suite, uses eBPF (Extended Berkeley Packet Filters) -- `C`
 * [CRIU](Checkpoint/Restore in Userspace)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
 * [kdump](https://wiki.archlinux.org/index.php/Kdump) - Linux kernel dump facility (where to save it, what to save, etc) -- `C`
 * [ktap](http://www.ktap.org/) - Another lightweight kernel tracing tool for Linux -- `C`
