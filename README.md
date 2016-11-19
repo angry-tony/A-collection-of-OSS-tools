@@ -324,6 +324,7 @@
 * [Etherpad](http://etherpad.org/) - Enter, save, and share text/code in a web browser -- `JavaScript`
 * [FreeIPA](http://www.freeipa.org/page/Main_Page) - Identity, policy, and audit suite, think Active Directory for Linux (LDAP, CA, x509, DNS, Kerberos) -- `various lang`
 * [gcalcli](https://github.com/insanum/gcalcli) - CLI for Google Calendar -- `Python pip`
+* [gmvault](http://gmvault.org/) - Export/backup and restore your Gmail account -- `Python`
 * [Haste / hastebin](https://github.com/seejohnrun/haste-server) - Open source pastebin alternative for sharing code, can be installed locally / on-site -- `JavaScript`
 * [Hubot](https://hubot.github.com/) - Chat bot that can do deploys, look up images, integrate with Google Maps, and tons of other stuff -- `CoffeeScript`
 * [Kolab](https://kolab.org/) - Unified communication and collaboration system -- `PHP`
@@ -1167,6 +1168,7 @@
 
 * [Anemometer](https://github.com/box/Anemometer) - MySQL slow query log monitor and analyzer, by Box -- `PHP` `JavaScript`
 * [db_STRESS](http://dimitrik.free.fr/) - Database benchmarking and stress-testing kit, supports most DBs -- `C`
+* [gh-ost](https://github.com/github/gh-ost) - Online schema migrations for MySQL, by GitHub -- `Golang`
 * [HammerDB](http://hammerora.sourceforge.net/) - Load testing and benchmark tool, supports most DBs -- `Tcl`
 * [innotop](https://github.com/innotop/innotop) - "top" for MySQL -- NOTE: beware of exposing your password -- `perl`
 * [MySQLtuner-perl](http://mysqltuner.com/) - Analyzes a MySQL installation and provides suggestions to increase performance -- `perl`
@@ -1179,6 +1181,7 @@
 * [pg_view](https://github.com/zalando/pg_view) - PostgreSQL monitoring, supports ncurses, console, and JSON output -- `Python pip`
 * [pgbench-tools](https://github.com/gregs1104/pgbench-tools) - PostgreSQL benchmarking suite -- `various lang`
 * [PGObserver](http://zalando.github.io/PGObserver/) - Killer PostgreSQL monitor, includes dashboard -- `Python`
+* [shift](https://github.com/square/shift) - Schema migrations for MySQL, by Square -- `Ruby`
 * [Silly Little Oracle Benchmark 2 (SLOB2)](http://kevinclosson.net/slob/) - Stresses and benchmarks Oracle DBs, works at the RDBMS layer -- `various lang`
 * [shawn-s](http://www.reddit.com/r/linuxadmin/comments/1yotyo/mysql_performance_tuning_for_sysadmins_need_help/) - Superb Reddit post on performance evaluation and tuning -- `article`
 * [Swingbench](http://www.dominicgiles.com/swingbench.html) - Oracle load generator -- `closed source`
@@ -1493,6 +1496,7 @@
 > The storage junk drawer
 
 * [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) - Send a signal to an ATA drive to perform a hardware-based erase -- `article`
+* [BeeGFS](http://www.beegfs.com/content/) - Parallel cluster file system, worth examining -- `C++`
 * [Clonezilla](http://clonezilla.org/) - Disk image/cloning tool, supports most file system types -- `perl` `shell`
 * [CockroachDB](http://www.cockroachlabs.com/) - Open source version of Google's Spanner storage system -- `thefuture` `Golang`
 * [CrystalDiskInfo](http://crystalmark.info/software/CrystalDiskInfo/index-e.html) - S.M.A.R.T. GUI tool for Windows -- `closed source` `Windows`
