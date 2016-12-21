@@ -74,7 +74,6 @@
 
 * [Ars Technica](http://arstechnica.com/)
 * [CIO.com](http://www.cio.com/)
-* [CIO Today](http://www.cio-today.com/)
 * [Computerworld](http://www.computerworld.com/)
 * [Data Center Knowledge](http://www.datacenterknowledge.com/)
 * [DZone](http://www.dzone.com/)
@@ -495,7 +494,6 @@
 * [Guard](https://github.com/guard/guard) - Flexible framework to take action on file system change event -- `Ruby gem`
 * [HAproxy](http://www.haproxy.org/) - Open source software load balancer -- `C`
 * [haproxyctl](https://github.com/flores/haproxyctl) - Wrapper to talk to the HAProxy socket, as well as regular init (start stop restart) shit -- `Ruby gem`
-* [Herd](https://github.com/russss/Herd) - A single-command bittorrent distribution system, based on Twitter's [Murder](https://github.com/lg/murder) -- `Python`
 * [Hystrix](https://github.com/Netflix/Hystrix) - Library to stop cascading failures -- `Java`
 * [Ignite](https://ignite.apache.org/) - General-purpose in-memory platform for in-memory computing use cases -- `Java`
 * [inotify](https://github.com/rvoicilas/inotify-tools) - Watch file(s) for changes, take an action when the change occurs -- `C`
@@ -747,6 +745,7 @@
 * [RRDtool](http://oss.oetiker.ch/rrdtool/) - High performance data logging and graphing system for time series data -- `C`
 * [Scales](https://github.com/Cue/scales) - Metrics collection, written in Python -- `Python pip`
 * [Skyline](https://github.com/etsy/skyline) - Real-time anomaly detection system to enable passive monitoring of metrics without the need to configure thresholds -- `Python`
+* [SNMP MIB Archive](https://github.com/hs-cx/snmp_mib_archive) - Massive archive of SMMP MIBs, please fork and contribute -- `collection`
 * [sysinfo_influxdb](https://github.com/novaquark/sysinfo_influxdb) - Collect system metrics and store them in an InfluxDB server -- `Golang`
 
 
