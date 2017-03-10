@@ -85,6 +85,7 @@
 * [Light Reading](http://www.lightreading.com/)
 * [Network Computing](http://www.networkcomputing.com/)
 * [Network World](http://www.networkworld.com)
+* [Packet Pushers](http://packetpushers.net/)
 * [Re/Code](https://recode.net/)
 * [TechCrunch](http://techcrunch.com/)
 * [The New Stack](http://thenewstack.io/)
@@ -110,7 +111,6 @@
 * [Linux Weekly News (LWN)](http://lwn.net/)
 * [OpenSource.com](http://opensource.com/)
 * [OStatic](http://ostatic.com/)
-* [Packet Pushers](http://packetpushers.net/)
 * [Phoronix](http://www.phoronix.com)
 * [Planet Fedora](http://planet.fedoraproject.org/)
 * [Planet Ubuntu](http://planet.ubuntu.com/)
@@ -382,6 +382,7 @@
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers -- `Golang`
 * [Cloud Foundry](https://www.cloudfoundry.org/) - Open source PaaS by VMware and Pivotal -- `Golang` `Ruby`
 * [crane](https://github.com/michaelsauter/crane) - Docker orchestration -- `Golang`
+* [ctop](https://bcicen.github.io/ctop/) - ncurses top-like UI for containers -- `Golang`
 * [Docker Compose](https://github.com/docker/compose) - Define and run multi-container apps with Docker, previously known as fig, official -- `Python`
 * [Docker Distribution](https://github.com/docker/distribution) - Docker Registry 2.0 - pack, ship, store, and deliver containers -- `Golang`
 * [Docker Hub](https://registry.hub.docker.com/) - Official Docker images for many projects -- `various lang`
@@ -495,10 +496,12 @@
 * [Multibinder](https://github.com/github/multibinder) - Simple Ruby server that makes true zero downtime reloads simple, by Github -- `Ruby`
 * [Myriad](https://myriad.incubator.apache.org/) - Hadoop YARN framework/scheduler for Mesos -- `Java`
 * [nsq](http://nsq.io/) - Realtime distributed messaging platform / message queue -- `Golang`
+* [OpenTracing](http://opentracing.io/) - Vendor-neutral distributed tracing -- `Various Lang`
 * [Packetbeat](https://www.elastic.co/products/beats) - Distributed packet monitoring system that can be used for application performance management -- `Golang`
 * [Pinpoint](https://github.com/naver/pinpoint) - Application Performance Monitoring (APM) for distributed systems, based on Dapper -- `Java`
 * [Pulsar](https://github.com/yahoo/pulsar) - Distributed pub-sub messaging platform, scales to millions of clients and queues -- `Java`
 * [Redisson](https://github.com/mrniko/redisson) - Distributed and scalable Java data structures on top of Redis -- `Java`
+* [Riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language, for distributed systems, similar to Borgmon -- `Clojure`
 * [Ringpop](https://github.com/uber?utf8=%E2%9C%93&query=ringpop) - Fault tolerant application-level sharding for Golang or Javascript -- `JavaScript` `Golang`
 * [Seesaw](https://github.com/google/seesaw) - Load balancer based on Linux Virtual Server (LVS), by Google -- `Golang`
 * [Serf](https://www.serfdom.io/) - Decentralized solution for service discovery and orchestration -- `Golang`
@@ -511,6 +514,7 @@
 * [vulcand](http://vulcand.github.io/) - Programmatically extendable proxy for microservices and API management -- `Golang`
 * [Webjob](http://webjob.sourceforge.net/WebJob/) - Downloads a program or script from a remote WebJob server, executes it, and sends back output to a server -- `C`
 * [xCAT (Extreme Cloud Administration Toolkit)](http://xcat.org/) - Complete management solution for distributed systems (HPC, clouds, web farms, etc), supports almost every platform, by IBM -- `various lang`
+* [Zipkin](http://zipkin.io/) - Distributed tracing systems for SaaS and webapps, by Twitter, based on Google's Dapper -- `Scala`
 * [Zookeeper](https://zookeeper.apache.org/) - Distributed configuration service, synchronization service, and naming registry -- `Java`
 
 
@@ -533,7 +537,7 @@
 * [Nuclide](http://nuclide.io/) - Collection of packages for Atom to provide IDE-like functionality for a variety of programming languages and technologies, by Facebook -- `JavaScript`
 * [Notepad++](http://notepad-plus-plus.org/) - Killer GPL'ed text editor for Windows -- `C++`
 * [OpenVim](http://www.openvim.com/tutorial.html) - In-browser vim tutorial -- `JavaScript` `in-browser`
-* [percol](https://github.com/mooz/percol) - Interactive grep tool -- `Python`
+* [percol](https://github.com/mooz/percol) - Interactive grep (search) tool -- `Python`
 * [Powerline](https://github.com/powerline/powerline) - Provides various statues on the bottom of your session, flexible -- `Python`
 * [Textmate](http://macromates.com/) - GUI text editor for OS X -- `C++`
 * [UltiSnips](https://github.com/SirVer/ultisnips) - The ultimate snippet solution for vim -- `Python`
@@ -555,7 +559,7 @@
 * [Completion](https://github.com/git/git/tree/master/contrib/completion) - Shell tab completion for git branch names -- `shell`
 * [Gerrit](https://www.gerritcodereview.com/) - Web based code review and repo management for Git -- `Java`
 * [git-fat](https://github.com/jedbrown/git-fat) - Like git-media but without the Ruby dependencies -- `Python`
-* [GitHub Pull Request Builder Plugin (gprbp)](https://github.com/janinko/ghprb) - Jenkins plugin that allows certain comment strings to kick off builds or take other actions -- `Java`
+* [GitHub Pull Request Builder Plugin (gprbp)](https://wiki.jenkins-ci.org/display/JENKINS/GitHub+pull+request+builder+plugin) - Jenkins plugin that allows certain comment strings to kick off builds or take other actions -- `Java`
 * [GitLab](https://about.gitlab.com/) - Kinda like an open source GitHub, has both a community and paid version -- `Ruby`
 * [GitLab CI](https://about.gitlab.com/gitlab-ci/) - CI that integrates with GitLab -- `Ruby`
 * [GitRob](https://github.com/michenriksen/gitrob) - Scan repos for sensitive information -- `Ruby`
@@ -563,7 +567,6 @@
 * [GitUp](http://gitup.co) - Maybe the best git GUI -- `Objective-C`
 * [gitwatch](https://github.com/nevik/gitwatch) - Automatically commit changes when specified files or directories are modified -- `shell`
 * [Git Interfaces, Frontends, and Tools](https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools) - Massive list on the official kernel.org wiki -- `various lang`
-* [gkv](https://github.com/ybur-yug/gkv) - Use git as a KV key/value store -- `Ruby gem`
 * [Gogs](http://gogs.io/) - Painless, self-hosted Git service written in -- `Golang`
 * [hub](https://hub.github.com/) - Official CLI for GitHub -- `Golang`
 * [libgit2](https://github.com/libgit2) - GitHub's official library for interfacing bindings for Ruby, Python, Go, and others -- `various lang`
@@ -619,6 +622,7 @@
 * [huptime](https://github.com/amscanne/huptime) - Zero downtime restarts of unmodified programs -- `C`
 * [Linux-HA](http://www.linux-ha.org) - Building blocks for high availability systems -- `wiki-and-collection`
 * [LVS (Linux Virtual Server)](http://www.linuxvirtualserver.org/) - Linux-based load balancer, also includes the IPVS kernel module -- `C`
+* [Multibinder](https://github.com/github/multibinder) - Simple Ruby server that makes true zero downtime reloads simple, by Github -- `Ruby`
 * [Pacemaker](http://clusterlabs.org/) - HA resource manager -- `C`
 * [rcron](https://code.google.com/p/rcron/) - cron redundancy and failover, ensures a job will only run on the "active" machine -- `lost-to-the-internet` `C`
 * [rmanager](http://linux.die.net/man/8/rgmanager) - Resource group manager daemon for cluster services -- `built-in`
@@ -679,6 +683,7 @@
 * [Adiscon LogAnalyzer](http://loganalyzer.adiscon.com/) - Slick web interface for syslog messages -- `PHP`
 * [Apache Log Generator](http://www.apacheloggenerator.com/) - Drag and drop to create Apache logging syntax -- `in-browser`
 * [ElasticDump](https://github.com/taskrabbit/elasticsearch-dump) - Import / export tools for Elasticsearch -- `JavaScript`
+* [ElasticHQ](https://github.com/royrusso/elasticsearch-HQ) - Does not yet support ES 5.x -- `JavaScript`
 * [Elasticsearch](http://www.elasticsearch.org/) - Component of the ELK stack, used for super fast searches -- `Java`
 * [Elasticsearch Exporter](https://github.com/mallocator/Elasticsearch-Exporter) - Script to import/export data from ElasticSearch to various other storage systems -- `JavaScript`
 * [Eliot](https://pypi.python.org/pypi/eliot) - Outputs causal chains of actions happening within and across process boundaries aka a logical trace of the system’s operation -- `Python pip`
@@ -769,7 +774,6 @@
 * [pmacct](http://www.pmacct.net/) - IP and network traffic accounting / monitoring -- `C`
 * [PHP Server Monitor](http://www.phpservermonitor.org/) - Simple monitoring package that can use built-in public SMS gateways for notifications -- `PHP`
 * [Pynag](https://pypi.python.org/pypi/pynag) - Interface with Nagios via Python -- `Python pip`
-* [Riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language, for distributed systems, similar to Borgmon -- `Clojure`
 * [Sensu](http://sensuapp.org/) - Open source monitoring framework, cloud-focused -- `Ruby`
 * [Sensu Plugins](https://github.com/sensu-plugins) - Official community site for Sensu plugins -- `various lang`
 * [Shinken](http://www.shinken-monitoring.org/) - Nagios-compatible monitoring, supports high availability -- `Python`
@@ -810,6 +814,7 @@
 * [GridFTP](http://toolkit.globus.org/toolkit/docs/latest-stable/gridftp/) - Supports parallel streams, optimized for WANs, part of the Globus Toolkit -- `C`
 * [hping3](http://linux.die.net/man/8/hping3) - Create custom TCP/IP packets, very flexible -- `built-in`
 * [lftp](http://lftp.yar.ru/) - Supports many protocols (FTPS, HTTPS, SFTP), scheduling, bandwidth throttling, scripting, and more - feature-rich -- `C` `C++`
+* [lldpd](https://github.com/vincentbernat/lldpd) - Daemon that can talk LLDP aka the open version of Cisco Discovery Protocol (CDP) -- `C`
 * [moloch](https://github.com/aol/moloch) - Large scale IPv4 full PCAP capturing, indexing and database system -- `JavaScript`
 * [mrsync (multicast remote sync)](http://sourceforge.net/projects/mrsync/) - Transfers from a master to many remote machines using Unix multicast sockets -- `C`
 * [mTCP](http://shader.kaist.edu/mtcp/) - High-performance user-level TCP stack for multicore systems -- `C`
@@ -861,7 +866,6 @@
 * [iperf3](http://software.es.net/iperf/) - Supports tuning of various parameters related to timing, protocols, and buffers -- `C`
 * [iptraf-ng](https://fedorahosted.org/iptraf-ng/) - Updated fork of iptraf -- `C`
 * [jnettop](http://jnettop.kubs.info/wiki/) - Traffic visualizer -- `C`
-* [lldpd](https://github.com/vincentbernat/lldpd) - Daemon that can talk LLDP aka the open version of Cisco Discovery Protocol (CDP) -- `C`
 * [mtr (my traceroute)](http://www.bitwizard.nl/mtr/) - Combines ping and traceroute into a single program -- `C`
 * [Muxy](https://github.com/mefellows/muxy) - Muck with your system and application context layers 4-7 -- `Golang` `OS X`
 * [namebench](https://github.com/google/namebench) - Hunts down the fastest DNS servers for your computer to use -- `Python` `Windows` `OS X`
@@ -1471,6 +1475,7 @@
 * [Mozilla SSL Configuration Generator](https://mozilla.github.io/server-side-tls/ssl-config-generator/) - Generate SSL configs for Apache, Nginx, ELB, HAproxy and more -- `in-browser`
 * [nogotofail](https://github.com/google/nogotofail) - Spot and fix weak TLS/SSL connections and sensitive cleartext traffic, by Google -- `Python`
 * [Qualys SSL Server Test](https://www.ssllabs.com/ssltest/) - Evaluates and provides recommendations for the SSL settings of any web site -- `in-browser`
+* [s2n](https://github.com/awslabs/s2n) - Amazon's implementation of the TLS/SSL protocols (simple, small, fast, secure) -- `C`
 * [Server Name Indication (SNI)](https://wiki.apache.org/httpd/NameBasedSSLVHostsWithSNI) - Think vhosts for SSL -- `article`
 * [sslconfig](https://github.com/cloudflare/sslconfig) - CloudFlare's Internet facing SSL cipher configuration -- `collection`
 * [SSLsplit](http://www.roe.ch/SSLsplit) - Transparent and scalable SSL/TLS interception -- `C`
@@ -1678,6 +1683,7 @@
 * [localtunnel](https://localtunnel.me/) - Share a HTTP/web service on your local development machine without messing with DNS and firewall settings -- `JavaScript` `Windows` `OS X`
 * [mitmproxy](http://mitmproxy.org/) - Intercept, modify, replay and save HTTP/S traffic - even edit flows on the fly -- `Python pip`
 * [mountebank](http://www.mbtest.org/) - Stub downstream resources for testing, supports HTTP HTTPS SMTP TCP -- `JavaScript` `Windows` `OS X`
+* [Newman](https://github.com/postmanlabs/newman) - CLI companion for Postman -- `JavaScript`
 * [ng-admin](https://github.com/marmelab/ng-admin) - Add an AngularJS admin GUI to any RESTful API -- `JavaScript`
 * [nghttp](https://nghttp2.org/documentation/nghttp.1.html) - CLI HTTP/2 client, similar to curl/wget and more -- `C`
 * [ngrok](https://ngrok.com) - Reverse proxy that creates a secure tunnel from a public endpoint to a locally running web service and captures & analyzes all traffic over the tunnel for later inspection and replay -- `rocks` `Golang`
@@ -1740,7 +1746,6 @@
 * [YSlow](http://yslow.org/) - Analyzes web pages and why they're slow based on Yahoo!'s rules for high performance web sites, customizable -- `JavaScript`
 * [wtop](https://github.com/ClockworkNet/wtop) - Another top for Apache logs -- `Python pip`
 * [Varnish Dashboard](https://github.com/brandonwamboldt/varnish-dashboard) - Realtime dashboard for Varnish cache servers -- `JavaScript`
-* [Zipkin](http://zipkin.io/) - Distributed tracing systems for SaaS and webapps, by Twitter, based on Google's Dapper -- `Scala`
 
 
 ---
