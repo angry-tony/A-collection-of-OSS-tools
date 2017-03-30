@@ -110,7 +110,6 @@
 * [Linux User & Developer](http://www.linuxuser.co.uk/)
 * [Linux Weekly News (LWN)](http://lwn.net/)
 * [OpenSource.com](http://opensource.com/)
-* [OStatic](http://ostatic.com/)
 * [Phoronix](http://www.phoronix.com)
 * [Planet Fedora](http://planet.fedoraproject.org/)
 * [Planet Ubuntu](http://planet.ubuntu.com/)
@@ -195,6 +194,7 @@
 * [ION Roller](https://github.com/gilt/ionroller) - Immutable deployment framework for web services -- `Scala`
 * [jungle](https://github.com/achiku/jungle) - awscli wrapper to make commands simpler and more UNIX-like -- `Python pip`
 * [kappa](https://github.com/garnaat/kappa) - CLI tool that makes it easier to deploy, update, and test Lambda functions -- `Python`
+* [localstack](https://github.com/atlassian/localstack) - A fully functional local AWS cloud stack for offline dev and test -- `Python`
 * [s3cmd](http://s3tools.org/s3cmd) - Backup to AWS via the command line -- `Python`
 * [Serverless (formerly JAWS)](https://github.com/jaws-stack/JAWS) - Javascript + AWS stack, the entire backend is Lambda functions, server-free -- `JavaScript`
 * [Sneaker](https://github.com/codahale/sneaker) - Store secrets on S3 using Amazon KMS -- `Golang`
