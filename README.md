@@ -473,6 +473,7 @@
 * [consul Tools](https://www.consul.io/downloads_tools.html) - Official, includes consul-template and others -- `various lang`
 * [Curator](http://curator.apache.org/) - ZooKeeper client wrapper and rich ZooKeeper framework, by Netflix -- `Java`
 * [DC/OS](https://dcos.io/) - Pre-configured data center OS distribution that includes Mesos, Marathon, AdminRouter, and more -- `Python`
+* [Envoy](https://lyft.github.io/envoy/) - Sidecar container for distributed applications or microservices -- `C++`
 * [etcd](https://github.com/coreos/etcd) - Distributed, consistent key-value store for shared configuration and service discovery -- `Golang`
 * [eureka](https://github.com/Netflix/eureka) - AWS Service registry for resilient mid-tier load balancing and failover, by Netflix -- `Java`
 * [fabio](https://github.com/eBay/fabio) - Zero-conf load balancing HTTP(S) router for deploying microservices managed by Consul, by eBay -- `Golang`
@@ -807,6 +808,7 @@
 * [ExaBGP](https://github.com/Exa-Networks/exabgp) - The BGP swiss army knife of networking -- `Python pip`
 * [fail2ban](http://www.fail2ban.org/) - Watches log files to ban IPs based on rules (too many failed logins, exploit attempts, brute force attacks, etc) -- `Python`
 * [FBOSS (FaceBook Open Switching System)](https://github.com/facebook/fboss) - FB's software stack for managing and controlling whitebox switches -- `variouns lang`
+* [FRRouting](https://frrouting.org/) - Replacement for / fork of Quagga with more features -- `C`
 * [ftptop](http://linux.die.net/man/1/ftptop) - Monitor FTP connections in real time -- `built-in`
 * [ipcalc](http://linux.die.net/man/1/ipcalc) - CLI tool to calculate subnets, netmasks, IP ranges, broadcast addresses, and more -- `built-in`
 * [iptstate](http://linux.die.net/man/8/iptstate) - A top-like display of IP Tables state table entries -- `built-in`
@@ -820,6 +822,7 @@
 * [mTCP](http://shader.kaist.edu/mtcp/) - High-performance user-level TCP stack for multicore systems -- `C`
 * [Mulitpath TCP](https://en.wikipedia.org/wiki/Multipath_TCP) - Allows TCP to use multiple paths to maximize resource usage and increase redundancy -- `neat`
 * [My Looking Glass (myLG)](http://mylg.io/) - All-in-one CLI network diagnostic tool -- `Golang`
+* [NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor support)](https://github.com/napalm-automation/napalm) -- Network automation and programmability abstraction layer, for both setting config and config validation -- `Python pip`
 * [ncat](http://nmap.org/ncat/) - Improved netcat, written by the Nmap team -- `C`
 * [netsniff-ng](http://netsniff-ng.org/) - High performance, zero-copy networking sniffer -- `C`
 * [NfSen](http://nfsen.sourceforge.net/) - GUI for and visualization nfdump -- `perl`
