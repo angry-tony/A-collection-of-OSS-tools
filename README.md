@@ -461,7 +461,7 @@
 ---
 ## Distributed Systems Tools
 
-> DCOSes, service discovery, schedulers, and related tools for dynamic, warehouse-scale computing - see also [HPC Tools](#hpc-tools)
+> DCOSes, microservices, service discovery, schedulers, and related tools for dynamic, warehouse-scale computing - see also [HPC Tools](#hpc-tools)
 
 * [Aurora](https://aurora.incubator.apache.org/) - Mesos scheduler for long running services and cron jobs, similar to Marathon -- `Java`
 * [Bamboo](https://github.com/QubitProducts/bamboo) - HAProxy auto configuration and auto service discovery for Mesos and Marathon -- `Golang`
@@ -482,9 +482,13 @@
 * [haproxyctl](https://github.com/flores/haproxyctl) - Wrapper to talk to the HAProxy socket, as well as regular init (start stop restart) shit -- `Ruby gem`
 * [Hystrix](https://github.com/Netflix/Hystrix) - Library to stop cascading failures -- `Java`
 * [Ignite](https://ignite.apache.org/) - General-purpose in-memory platform for in-memory computing use cases -- `Java`
+* [Istio](https://istio.io) - Envoy + auth, policy enforcement, telemetry, traffic flow management etc control plane that runs on top of Mesos and Kubernetes -- `Various Lang`
 * [jespen](https://github.com/aphyr/jepsen) - Call Me Maybe: Breaking distributed systems -- `Clojure`
-* [Kafka](https://kafka.apache.org) - Stream processing platform (logs, IoT metrics, anything) - `Java`
+* [Kafka](https://kafka.apache.org) - Stream processing platform (logs, IoT metrics, anything) -- `Java`
 * [Kong](http://getkong.org/) - Microservice / API management layer -- `Lua`
+* [kubeadm-dind-cluster](https://github.com/mirantis/kubeadm-dind-cluster) - kubeadm and DIND (Docker in Docker) create a multi-node Kubernetes cluster on your laptop for dev -- `Shell`
+* [kubectx](https://github.com/ahmetb/kubectx) - Easily switch between kubectl contexts and namespaces -- `Ruby`
+* [kube-applier](https://github.com/box/kube-applier) - service that enables continuous deployment of Kubernetes objects by applying declarative configuration files from a Git repository to a Kubernetes cluster -- `Golang`
 * [linkerd](https://linkerd.io/) - RPC proxy and request routing for microservices, includes service discovery, instrumentation, and load balancing -- `Scala`
 * [Mantl](http://mantl.io/) - Complete microservices infrastructure built using OSS tools by Cisco -- `various lang` `yowza`
 * [Marathon](https://github.com/mesosphere/marathon) - Mesos scheduler for "always on" jobs (eg: web services) -- `Scala`
@@ -829,6 +833,7 @@
 * [ngrep](http://linux.die.net/man/8/ngrep) - Network grep -- `C` `built-in`
 * [nmap](http://nmap.org/) - Classic port scanner -- `various lang`
 * [nping](http://nmap.org/nping/) - Create custom network packets -- `C`
+* [OpenBMP](http://openbmp.org) - BGP Monitoring Protocol collector with real-time monitoring, looking glass, analytics, etc -- `Various Lang`
 * [Open vSwitch (OVS)](http://openvswitch.org/) - Production quality software switch -- `C`
 * [Outages Dashboard](http://wiki.outages.org/index.php/Dashboard) - Outages mailing list's dashboard, tons of resources for internet outages -- `collection`
 * [PFQ](http://pfq.github.io/PFQ/) - Framework that allows efficient packets capture/transmission, in-kernel functional processing, and packets steering across sockets/end-points -- `C`
@@ -1335,9 +1340,10 @@
 * [Snort](https://www.snort.org/) - The classic network intrusion prevention system (NIPS) -- `C`
 * [Spiderfoot](http://www.spiderfoot.net/) - Automate the process of gathering intelligence about a given target -- `Python`
 * [sudosh2](https://github.com/squash/sudosh2) - Records all keystrokes and output and can play back the session as just like a VCR -- `C`
+* [tink](https://github.com/google/tink) - Smiple, small, secure crypto library by Google -- `C++`
+* [Tripwire](http://sourceforge.net/projects/tripwire/) - File integrity checker and monitor, replacement for the now closed-source Tripwire -- `C`
 * [URLquery](https://urlquery.net/) - Free service to scan a URL for web-based malware -- `in-browser`
 * [usbkill](https://github.com/hephaest0s/usbkill) - Kill switch that takes action when a USB device is connected -- `Python`
-* [Tripwire](http://sourceforge.net/projects/tripwire/) - File integrity checker and monitor, replacement for the now closed-source Tripwire -- `C`
 * [VirusTotal](https://www.virustotal.com/) - Allows you to upload a file and have it scanned by tons of virus scanners -- `in-browser`
 * [ZMap](https://zmap.io/) - Scanner designed for large address spaces -- `in-browser`
 
