@@ -269,6 +269,7 @@
 * [grocery-delivery](https://github.com/facebook/grocery-delivery) - Utility for managing cookbook uploads to distributed Chef backends, by Facebook -- `Ruby`
 * [Handlers](https://docs.chef.io/handlers.html#community-handlers) - The official list of community written handlers (Airbrake, IRC, Campfire, etc) -- `Ruby`
 * [Itamae](https://github.com/itamae-kitchen/itamae) - CM tool inspired by Chef, but simpler and lightweight, formerly LightChef -- `Ruby gem`
+* [Inspec](https://www.inspec.io/) - Drop-in replacement for ServerSpec, can be used for audit purposes too -- `Ruby gem`
 * [knife-backup](https://github.com/mdxp/knife-backup) - Knife plugin to help backup and restore a Chef server -- `Ruby gem`
 * [knife-push](https://docs.chef.io/push_jobs.html) - Official push jobs - action or a command to be executed against a subset of nodes -- `Ruby`
 * [Knife Plugins](https://docs.chef.io/community_plugin_knife.html) - The official list of community written plugins for Knife -- `collection`
@@ -380,15 +381,19 @@
 * [appscale](https://github.com/AppScale/appscale) - Open source implementation of Google App Engine -- `Python`
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker) - Massive Docker collection -- `collection`
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers -- `Golang`
+* [Clear Linux](https://clearlinux.org/) - New name for Clear Containers, attempts combine the security advantages of VMs with the deployment advantages of containers -- `various lang`
 * [Cloud Foundry](https://www.cloudfoundry.org/) - Open source PaaS by VMware and Pivotal -- `Golang` `Ruby`
 * [crane](https://github.com/michaelsauter/crane) - Docker orchestration -- `Golang`
 * [ctop](https://bcicen.github.io/ctop/) - ncurses top-like UI for containers -- `Golang`
+* [docker-gc](https://github.com/spotify/docker-gc) - Docker garbage collection of containers and images  -- `shell`
+* [DockerSlim](http://dockersl.im/) - Uses static and dynamic analysis to create skinny image variants of your fat images -- `Golang`
 * [Docker Compose](https://github.com/docker/compose) - Define and run multi-container apps with Docker, previously known as fig, official -- `Python`
 * [Docker Distribution](https://github.com/docker/distribution) - Docker Registry 2.0 - pack, ship, store, and deliver containers -- `Golang`
 * [Docker Hub](https://registry.hub.docker.com/) - Official Docker images for many projects -- `various lang`
 * [Docker Swarm](https://github.com/docker/swarmkit) - Docker-native clustering system -- `Golang`
 * [Docker Toolbox](https://www.docker.com/toolbox) - Docker Client, Machine, Compose, Kitematic, VirtualBox, and the boot2docker VM in a single package, official -- `various lang`
 * [Dokku](https://github.com/progrium/dokku) - Docker powered mini-Heroku (PaaS) in around 100 lines of bash -- `shell`
+* [draft](https://github.com/Azure/draft) - Streamlined Kubernetes development with sandbox testing & deployment in seconds -- `Golang`
 * [drone](https://github.com/drone/drone) - CI platform built on Docker -- `Golang`
 * [dumb-init](https://github.com/Yelp/dumb-init) - Minimal init system for containers, by Yelp -- `C`
 * [Fabric8](http://fabric8.io/) - Open source microservices platform based on Docker, Kubernetes and Jenkins -- `Java`
@@ -396,7 +401,11 @@
 * [Flocker](https://github.com/ClusterHQ/flocker) - Docker data management for stateful services such as DBs -- `Python`
 * [Flynn](https://flynn.io/) - PaaS built on top of Docker, can run stateful services -- `Golang`
 * [Heapster](https://github.com/kubernetes/heapster) - Container cluster monitoring and performance analysis for Kubernetes and CoreOS -- `Golang`
+* [Kismatic](https://github.com/apprenda/kismatic) - Set of production-ready defaults and best practice tools for creating enterprise-tuned Kubernetes clusters. -- `Golang`
 * [Kitematic](https://kitematic.com/) - GUI Docker management on Mac & Windows (laptops), official -- `JavaScript` `Windows` `OS X`
+* [kubeadm-dind-cluster](https://github.com/mirantis/kubeadm-dind-cluster) - kubeadm and DIND (Docker in Docker) create a multi-node Kubernetes cluster on your laptop for dev -- `Shell`
+* [kubectx](https://github.com/ahmetb/kubectx) - Easily switch between kubectl contexts and namespaces -- `Ruby`
+* [kube-applier](https://github.com/box/kube-applier) - service that enables continuous deployment of Kubernetes objects by applying declarative configuration files from a Git repository to a Kubernetes cluster -- `Golang`
 * [kubernetes](http://kubernetes.io/) - Open source orchestration system for Docker containers, by Google -- `Golang`
 * [Logspout](https://github.com/gliderlabs/logspout) - Log router for Docker containers -- `Golang`
 * [minikube](http://kubernetes.io/docs/getting-started-guides/minikube/) - Kubernetes environments on your laptop -- `Golang`
@@ -408,9 +417,11 @@
 * [Rancher](http://rancher.com/) - Provides a complete platform for operating Docker in production -- `various lang`
 * [Registrator](https://github.com/gliderlabs/registrator) - Service registry bridge for Docker, supports Consul, etcd -- `Golang`
 * [rkt (Rocket)](https://github.com/coreos/rocket) - New container system by the CoreOS guys -- `Golang`
+* [Rocker](https://github.com/grammarly/rocker) - Adds new instructions to the Dockerfile instruction set for smaller images and faster builds -- `Golang`
 * [Shipyard](https://github.com/shipyard/shipyard) - Composable Docker management toolkit -- `Golang`
 * [Swarm Visualizer](https://github.com/ManoMarks/docker-swarm-visualizer) - A visualizer for Docker Swarm using the Docker Remote API, Node.JS, and D3 -- `JavaScript`
 * [Tsuru](https://github.com/tsuru/tsuru) - Docker-based PaaS -- `Golang`
+* [Watchtower](https://github.com/v2tec/watchtower) - Monitors your running Docker containers and restart them when a new image is available -- `Golang`
 * [Weave](https://github.com/zettio/weave/) - Virtual network that connects Docker containers deployed across multiple hosts -- `Golang`
 
 
@@ -486,9 +497,6 @@
 * [jespen](https://github.com/aphyr/jepsen) - Call Me Maybe: Breaking distributed systems -- `Clojure`
 * [Kafka](https://kafka.apache.org) - Stream processing platform (logs, IoT metrics, anything) -- `Java`
 * [Kong](http://getkong.org/) - Microservice / API management layer -- `Lua`
-* [kubeadm-dind-cluster](https://github.com/mirantis/kubeadm-dind-cluster) - kubeadm and DIND (Docker in Docker) create a multi-node Kubernetes cluster on your laptop for dev -- `Shell`
-* [kubectx](https://github.com/ahmetb/kubectx) - Easily switch between kubectl contexts and namespaces -- `Ruby`
-* [kube-applier](https://github.com/box/kube-applier) - service that enables continuous deployment of Kubernetes objects by applying declarative configuration files from a Git repository to a Kubernetes cluster -- `Golang`
 * [linkerd](https://linkerd.io/) - RPC proxy and request routing for microservices, includes service discovery, instrumentation, and load balancing -- `Scala`
 * [Mantl](http://mantl.io/) - Complete microservices infrastructure built using OSS tools by Cisco -- `various lang` `yowza`
 * [Marathon](https://github.com/mesosphere/marathon) - Mesos scheduler for "always on" jobs (eg: web services) -- `Scala`
@@ -1274,6 +1282,7 @@
 * [Keepass2Android](https://keepass2android.codeplex.com/) - Compatible with KeePass 2.x -- `Android`
 * [KeePassDroid](http://www.keepassdroid.com/) - Open source version of KeePass 1.x for Android -- `Android`
 * [KeePassX](https://www.keepassx.org/) - Alternative to KeePass, requires QT -- `C++` `Windows` `OS X`
+* [KeePassXC](https://keepassxc.org/) - Supports YubiKey and TOTP -- `C++`
 * [KeeWeb](https://github.com/antelle/keeweb) - Unofficial web and desktop front-ends to KeePass -- `JavaScript`
 * [Keywhiz](https://square.github.io/keywhiz/) - A system for distributing and managing secrets (API keys, certificates, etc), by Square -- `Java`
 * [kpcli](http://kpcli.sourceforge.net/) - Command line interface / CLI for KeePass -- `perl`
@@ -1432,7 +1441,7 @@
 * [Software Engineering Blogs](https://github.com/kilimchoi/engineering-blogs) - A curated list of software engineering blogs -- `collection`
 * [SonarQube](http://www.sonarqube.org/) - Platform and dashboard for managing code quality -- `Ruby` `Java`
 * [Sonatype Nexus](http://www.sonatype.org/nexus/) - Software / binary artifact storage -- `Java`
-* [Spinnaker](http://spinnaker.io/) - Cloud-focused CI/CD system by Netflix -- `Python`
+* [Spinnaker](http://spinnaker.io/) - Cloud-focused CI/CD system for immutable infrastructure, by Netflix -- `Python`
 * [SymbolHound](http://symbolhound.com) - Search engine that doesn't ignore special characters, great for programming questions -- `collection`
 * [ThinBackup](https://wiki.jenkins-ci.org/display/JENKINS/thinBackup) - Jenkins plugin that backups configurations (not workspaces or archives) -- `Java`
 * [Valgrind](http://valgrind.org/info/tools.html) - Tool suite that includes cache profilers, heap profiles, thread race condition checkers, and more - a CPU-level emulator -- `C`
@@ -1771,6 +1780,7 @@
 * [googler](https://github.com/jarun/googler) - Google search, news, and site search from the terminal, slick -- `Python`
 * [inxi](https://github.com/smxi/inxi) - "a full featured system information script" (hardware info, etc) -- `shell`
 * [Mjolnir](https://github.com/sdegutis/mjolnir) - Automation for OS X, think AutoHotKey for Mac -- `C` `OS X`
+* [Open19](http://www.open19.org/) - Open data center hardware for standard size racks -- `neat`
 * [OpenBMC](https://github.com/facebook/openbmc) - Framework to build a complete Linux image for a Board Management Controller (BMC) -- `C`
 * [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins) - Collection of plugins for Quick Look in the Mac Finder -- `various lang` `OS X`
 * [runit](http://smarden.org/runit/) - UNIX init scheme with service supervision, great for containers, sysvinit replacement -- `C`
