@@ -803,6 +803,7 @@
 
 > Hodge-podge of network tools
 
+* [2ping](https://www.finnie.org/software/2ping/) - Simple bi-directional ping utility, helps determine where packet loss occurs -- `Python`
 * [Angry IP Scanner](http://angryip.org/) - GUI network scanner, supports plugins, -- `Java` `Windows` `OS X`
 * [aria2](https://aria2.github.io/) - CLI for downloading HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink -- `C` `Windows` `OS X`
 * [arp-scan](http://linux.die.net/man/1/arp-scan) - Create and send ARP requests -- `C`
@@ -881,6 +882,7 @@
 * [intrace](https://github.com/robertswiecki/intrace) - Enumerate IP hops using existing TCP connections -- `C`
 * [iperf3](http://software.es.net/iperf/) - Supports tuning of various parameters related to timing, protocols, and buffers -- `C`
 * [iptraf-ng](https://fedorahosted.org/iptraf-ng/) - Updated fork of iptraf -- `C`
+* [ITU-T Y.1564](https://en.wikipedia.org/wiki/ITU-T_Y.1564) - Ethernet network SLA validation tool -- `various lang`
 * [jnettop](http://jnettop.kubs.info/wiki/) - Traffic visualizer -- `C`
 * [mtr (my traceroute)](http://www.bitwizard.nl/mtr/) - Combines ping and traceroute into a single program -- `C`
 * [Muxy](https://github.com/mefellows/muxy) - Muck with your system and application context layers 4-7 -- `Golang` `OS X`
@@ -1315,6 +1317,7 @@
 * [Armitage](http://www.fastandeasyhacking.com/) - GUI for Metasploit -- `Java`
 * [Awesome Honeypots](https://github.com/paralax/awesome-honeypots) - Curated collection of honepots and honeypot resources -- `collection`
 * [bro](https://github.com/bro/bro) - Framework for network analysis and security monitoring -- `C++`
+* [Buscador](https://inteltechniques.com/buscador/index.html) - Live CD Linux distro preconfigured for online investigators -- `various lang`
 * [chkrootkit](http://www.chkrootkit.org/) - Rootkit checker, best used from a live CD -- `C`
 * [CIS Linux Benchmarks](http://benchmarks.cisecurity.org/downloads/browse/index.cfm?category=benchmarks.os.linux) - Linux OS hardening guides, superb! -- `collection`
 * [ConfigServer Security and Firewall (CSF)](http://configserver.com/cp/csf.html) - Stateful Packet Inspection (SPI) firewall, Login/Intrusion Detection and Security application for Linux servers -- `various lang`
@@ -1718,6 +1721,7 @@
 * [tengine](https://github.com/alibaba/tengine) - A distribution of Nginx with some advanced features, by Alibaba -- `C`
 * [tortilla](https://github.com/redodo/tortilla) - Easily wrap web APIs -- `Python pip`
 * [Tyk](https://tyk.io/) - API gateway -- `Golang`
+* [urlscan.io](https://urlscan.io/) - Displays tons of stats and info about any given URL -- `in-browser`
 * [Varnish](https://www.varnish-cache.org/) - Caching HTTP accelerator -- `C`
 * [vcr](https://relishapp.com/vcr/vcr/docs) - Record and play back HTTP sessions -- `Ruby gem`
 * [w3af](https://github.com/andresriancho/w3af) - Web application attack and audit framework, OSS vun scanner -- `Python`
