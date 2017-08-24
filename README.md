@@ -180,6 +180,7 @@
 * [Aminator](https://github.com/Netflix/aminator) - Create application-specific custom AMIs, by Netflix -- `Python`
 * [Awesome AWS](https://github.com/donnemartin/awesome-aws) - Curated list of AWS resources -- `collection`
 * [aws-shell (formerly Supercharged AWS CLI (SAWS))](https://github.com/awslabs/aws-shell) - The best CLI for interacting with AWS -- `Python pip`
+* [AWS SAM Local](https://github.com/awslabs/aws-sam-local) - CLI tool for local development and testing of Lambda applications -- `Golang`
 * [Chrome AWS SAML Token Expiry Reminder (CASTER)](https://chrome.google.com/webstore/detail/chrome-aws-saml-token-exp/mbfkedefmlagincpblmgeeeehhamgpbn?hl=en-US) - Automatically re-logs into AWS via ADFS before credentials expire -- `Chrome`
 * [CloudBerry Explorer](http://www.cloudberrylab.com/explorer/amazon-s3.aspx) - Windows client for accessing AWS S3 buckets -- `closed source` `Windows`
 * [CloudCraft](https://cloudcraft.co/) - Create professional AWS architecture diagrams -- `in-browser`
@@ -401,12 +402,16 @@
 * [Flocker](https://github.com/ClusterHQ/flocker) - Docker data management for stateful services such as DBs -- `Python`
 * [Flynn](https://flynn.io/) - PaaS built on top of Docker, can run stateful services -- `Golang`
 * [Heapster](https://github.com/kubernetes/heapster) - Container cluster monitoring and performance analysis for Kubernetes and CoreOS -- `Golang`
+* [Heptio Ark](https://github.com/heptio/ark) - Manage disaster recovery for your Kubernetes persistent volumes and cluster resources -- `Golang`
+* [Heptio Sonobuoy](https://github.com/heptio/sonobuoy) - Kubernetes end to end conformance testing and debugging tool -- `Golang`
 * [Kismatic](https://github.com/apprenda/kismatic) - Set of production-ready defaults and best practice tools for creating enterprise-tuned Kubernetes clusters. -- `Golang`
 * [Kitematic](https://kitematic.com/) - GUI Docker management on Mac & Windows (laptops), official -- `JavaScript` `Windows` `OS X`
 * [kubeadm-dind-cluster](https://github.com/mirantis/kubeadm-dind-cluster) - kubeadm and DIND (Docker in Docker) create a multi-node Kubernetes cluster on your laptop for dev -- `Shell`
-* [kubectx](https://github.com/ahmetb/kubectx) - Easily switch between kubectl contexts and namespaces -- `Ruby`
 * [kube-applier](https://github.com/box/kube-applier) - service that enables continuous deployment of Kubernetes objects by applying declarative configuration files from a Git repository to a Kubernetes cluster -- `Golang`
+* [kubectx](https://github.com/ahmetb/kubectx) - Easily switch between kubectl contexts and namespaces -- `Ruby`
+* [kubed](https://github.com/appscode/kubed) - Perform periodic cluster snapshots, provide temp storage for deleted objects, automatic event forwarding, deliver notifications via various channels for Kubernetes -- `Golang`
 * [kubernetes](http://kubernetes.io/) - Open source orchestration system for Docker containers, by Google -- `Golang`
+* [kubicorn](https://github.com/kris-nova/kubicorn) - Multi-provider deployment abstraction layer / library for Kubernetes -- `Golang`
 * [Logspout](https://github.com/gliderlabs/logspout) - Log router for Docker containers -- `Golang`
 * [minikube](http://kubernetes.io/docs/getting-started-guides/minikube/) - Kubernetes environments on your laptop -- `Golang`
 * [OpenShift Origin](http://www.openshift.org/) - Docker + Kubernetes, the upstream for Red Hat's OpenShift 3.x -- `Golang`
@@ -513,6 +518,7 @@
 * [Packetbeat](https://www.elastic.co/products/beats) - Distributed packet monitoring system that can be used for application performance management -- `Golang`
 * [Pinpoint](https://github.com/naver/pinpoint) - Application Performance Monitoring (APM) for distributed systems, based on Dapper -- `Java`
 * [Pulsar](https://github.com/yahoo/pulsar) - Distributed pub-sub messaging platform, scales to millions of clients and queues -- `Java`
+* [redis-cell](https://github.com/brandur/redis-cell) - Redis module that provides rate limiting in Redis as a single command using GCRA -- `C`
 * [Redisson](https://github.com/mrniko/redisson) - Distributed and scalable Java data structures on top of Redis -- `Java`
 * [Riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language, for distributed systems, similar to Borgmon -- `Clojure`
 * [Ringpop](https://github.com/uber?utf8=%E2%9C%93&query=ringpop) - Fault tolerant application-level sharding for Golang or Javascript -- `JavaScript` `Golang`
@@ -820,9 +826,11 @@
 * [dsniff](https://www.monkey.org/~dugsong/dsniff/) - Great for level 2 analysis or service spoofing -- `C`
 * [ExaBGP](https://github.com/Exa-Networks/exabgp) - The BGP swiss army knife of networking -- `Python pip`
 * [fail2ban](http://www.fail2ban.org/) - Watches log files to ban IPs based on rules (too many failed logins, exploit attempts, brute force attacks, etc) -- `Python`
+* [Fast Data Transfer (FDT)](http://monalisa.cern.ch/FDT/) - For writing at disk speed over WANs -- `Java`
 * [FBOSS (FaceBook Open Switching System)](https://github.com/facebook/fboss) - FB's software stack for managing and controlling whitebox switches -- `variouns lang`
 * [FRRouting](https://frrouting.org/) - Replacement for / fork of Quagga with more features -- `C`
 * [ftptop](http://linux.die.net/man/1/ftptop) - Monitor FTP connections in real time -- `built-in`
+* [kcptun](https://github.com/xtaci/kcptun) - Secure tunnel based on KCP -- `Golang`
 * [ipcalc](http://linux.die.net/man/1/ipcalc) - CLI tool to calculate subnets, netmasks, IP ranges, broadcast addresses, and more -- `built-in`
 * [iptstate](http://linux.die.net/man/8/iptstate) - A top-like display of IP Tables state table entries -- `built-in`
 * [geoiplookup](http://linux.die.net/man/1/geoiplookup) - Uses the GeoIP DB and library to determine which physical country an IP or host originates in, includes PAM library -- `built-in`
@@ -1412,7 +1420,7 @@
 * [Bazel](http://bazel.io/) - Google's build system -- `Java`
 * [Bento](https://www.bento.io/grid) - Links to tutorials based on subject (programming, sysadmin, protocols, standards, etc) -- `collection`
 * [Buildbot](http://buildbot.net/) - CI framework -- `Python`
-* [CRIU Checkpoint/Restore in Userspace](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
+* [CRIU (Checkpoint-Restore in Userspace)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
 * [cwrap](http://cwrap.org/) - Wrappers for creating test scenarios and faking behavior/ stubbing, mostly network focused, by the Samba guys -- `C`
 * [deployinator](https://github.com/etsy/deployinator) - Etsy's deployment framework -- `Ruby gem`
 * [Design Patterns](https://sourcemaking.com/design_patterns) - Wonderful collection of design patterns with examples -- `collection`
@@ -1701,6 +1709,7 @@
 * [Huginn](https://github.com/cantino/huginn) - Build agents that perform automated tasks for you online -- `Ruby`
 * [JSON Server](https://github.com/typicode/json-server) - Full fake REST API for quickly prototyping and mocking in 30 seconds -- `JavaScript`
 * [jq](https://stedolan.github.io/jq/) - Command line JSON processor and manipulator -- `C`
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse/) - Chrome extension to audit a web page for performance, accessibility, progressive web apps, and more, by Google -- `in-browser`
 * [localtunnel](https://localtunnel.me/) - Share a HTTP/web service on your local development machine without messing with DNS and firewall settings -- `JavaScript` `Windows` `OS X`
 * [mitmproxy](http://mitmproxy.org/) - Intercept, modify, replay and save HTTP/S traffic - even edit flows on the fly -- `Python pip`
 * [mountebank](http://www.mbtest.org/) - Stub downstream resources for testing, supports HTTP HTTPS SMTP TCP -- `JavaScript` `Windows` `OS X`
@@ -1717,6 +1726,7 @@
 * [Redirect Detective](http://redirectdetective.com/) - See the complete path a redirected URL goes through -- `in-browser`
 * [Repose](http://openrepose.org/) - REST proxy, solutions to API tasks such as auth, rate limiting, API validation, HTTP logging, and much more -- `Java`
 * [Resty](https://github.com/micha/resty) - CLI REST client you can use in shell/bash/zsh pipes -- `shell`
+* [SecurityHeaders.io](https://securityheaders.io) - Scan your web site's HTTP headers -- `in-browser`
 * [Swagger](http://swagger.io/) - A JSON format/standard that describes a RESTful API -- `various lang`
 * [tengine](https://github.com/alibaba/tengine) - A distribution of Nginx with some advanced features, by Alibaba -- `C`
 * [tortilla](https://github.com/redodo/tortilla) - Easily wrap web APIs -- `Python pip`
@@ -1725,6 +1735,7 @@
 * [Varnish](https://www.varnish-cache.org/) - Caching HTTP accelerator -- `C`
 * [vcr](https://relishapp.com/vcr/vcr/docs) - Record and play back HTTP sessions -- `Ruby gem`
 * [w3af](https://github.com/andresriancho/w3af) - Web application attack and audit framework, OSS vun scanner -- `Python`
+* [webhook](https://github.com/adnanh/webhook/) - Super simple webhook server -- `Golang`
 
 
 ---
