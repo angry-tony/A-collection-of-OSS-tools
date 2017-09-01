@@ -186,16 +186,14 @@
 * [CloudCraft](https://cloudcraft.co/) - Create professional AWS architecture diagrams -- `in-browser`
 * [credstash](https://github.com/fugue/credstash) - Secret management using AWS KMS -- `Python pip`
 * [Developer Tools](https://aws.amazon.com/tools/) - 3rd party tools for AWS - not screened or supported by Amazon -- `various lang`
-* [DREBS (Disaster Recovery for Elastic Block Store)](https://github.com/dojo4/drebs) - Tool for taking periodic snapshots of EBS volumes -- `Ruby gem`
 * [eb_deploy](https://github.com/ThoughtWorksStudios/eb_deployer) - Elastic Beanstalk blue-green deployment automation -- `Ruby gem`
 * [ec2instances.info](http://www.ec2instances.info/) - Open source and up to date instance price comparison tool -- `Python`
-* [ELB Consul](https://github.com/sebest/docker-elb-consul) - Docker container that allows you to (de)register EC2 instances belonging to a specific Consul service with an ELB -- `Python`
 * [haproxy-autoscale](https://github.com/markcaudill/haproxy-autoscale) - Wrapper for haproxy that handles auto-scaling EC2 instances -- `Python`
 * [Ice](https://github.com/Netflix/ice) - AWS usage tool, by Netflix -- `Grails`
 * [ION Roller](https://github.com/gilt/ionroller) - Immutable deployment framework for web services -- `Scala`
 * [jungle](https://github.com/achiku/jungle) - awscli wrapper to make commands simpler and more UNIX-like -- `Python pip`
 * [kappa](https://github.com/garnaat/kappa) - CLI tool that makes it easier to deploy, update, and test Lambda functions -- `Python`
-* [localstack](https://github.com/atlassian/localstack) - A fully functional local AWS cloud stack for offline dev and test -- `Python`
+* [localstack](https://github.com/localstack/localstack) - A fully functional local AWS cloud stack for offline dev and test -- `Python`
 * [s3cmd](http://s3tools.org/s3cmd) - Backup to AWS via the command line -- `Python`
 * [Serverless (formerly JAWS)](https://github.com/jaws-stack/JAWS) - Javascript + AWS stack, the entire backend is Lambda functions, server-free -- `JavaScript`
 * [Sneaker](https://github.com/codahale/sneaker) - Store secrets on S3 using Amazon KMS -- `Golang`
@@ -254,7 +252,6 @@
 * [Berkshelf](http://berkshelf.com/) - Like gem bundler for Chef cookbooks, manages dependencies -- `Ruby gem`
 * [Chake](https://gitlab.com/terceiro/chake) - Tool that helps you manage multiple hosts with chef-solo -- `Ruby gem`
 * [chef-guard](https://github.com/xanzy/chef-guard) - feature rich Chef add-on that protects your Chef server from untested and potentially dangerous cookbooks -- `Ruby`
-* [chef-provisioning-docker](https://github.com/chef/chef-provisioning-docker) - Official Chef solution for Docker provisioning -- `Ruby`
 * [chef-relevant-tests](https://github.com/brigade/chef-relevant-tests) - Runs Test Kitchen tests only on the parts of your code that changed (rather than the full suite) -- `Ruby gem`
 * [chef-vault](https://docs.chef.io/chef_vault.html) - Allow specified node(s) to dencrypt the contents of encrypted data bags -- `Ruby gem`
 * [chef-whitelist](https://github.com/etsy/chef-whitelist) - Library that enables easy rollout of changes to one or more hosts, by Etsy -- `Ruby`
@@ -293,7 +290,7 @@
 * [git-annex Assistant](http://git-annex.branchable.com/assistant/) - Sync folder(s) to any device (NAS, mobile, thumb, cloud, etc) via git -- `C` `OS X` `mobile`
 * [lsyncd](https://github.com/axkibe/lsyncd) - Watches a local directory trees event monitor interface (inotify or fsevents) and kicks off an rsync when things change -- `Lua`
 * [Mackup](https://github.com/lra/mackup) - Sync your Mac application settings to various cloud services or git -- `Python` `OS X`
-* [Netcloud](https://nextcloud.com/) - Fork of and replacement for OwnCloud -- `various lang` `Windows` `OS X`
+* [Nextcloud](https://nextcloud.com/) - Fork of and replacement for OwnCloud, a self-hosted Dropbox -- `various lang` `Windows` `OS X`
 * [Pydio](https://pyd.io/) - Formerly AjaXplorer, AGPL license -- `PHP`
 * [Skicka](https://github.com/google/skicka) - Command line tool for working with Google Drive, by Google -- `Golang`
 * [Seafile](http://seafile.com/en/home/) - Also offers a paid professional edition with more features, supports most platforms -- `C`
@@ -329,6 +326,8 @@
 * [OwnTracks](http://owntracks.org/) - Self-hosted location tracking you can share - use for diaries, work orders, etc -- `various lang` `mobile`
 * [Pandoc](http://pandoc.org/) - Convert files from one markup format to another, supports a ton of formats -- `Haskell`
 * [Phabricator](http://phabricator.org/) - Suite of web-based software dev collaboration tools, and all-in-one project management tool -- `PHP`
+* [PrivateBin](https://privatebin.info/) - Pastebin where the server has zero knowledge of pasted data, data is encrypted/decrypted in the browser using 256 bits AES -- `various lang`
+* [QueryClips](https://www.queryclips.com/) - Pastebin for Postgres or my mySQL SQL query sharing -- `in-browser`
 * [RainLoop](http://www.rainloop.net/) - Simple, modern & fast web-based email client -- `PHP`
 * [Redmine](https://www.redmine.org/) - Project management webapp -- `Ruby`
 * [Request Tracker](http://www.bestpractical.com/rt/) - Bug tracking, help desk ticketing, customer service, workflow processes, change management and more -- `perl`
@@ -343,6 +342,7 @@
 * [Synergy](http://synergy-project.org/) - Share a single keyboard and mouse with multiple physical computers, only the old version is free now -- `closed source` `Windows` `OS X`
 * [Taiga](https://taiga.io/) - Project management web application with agile/ scrum in mind -- `Python` `CoffeeScript`
 * [TermRecord](https://github.com/theonewolf/TermRecord) - Record and playback terminal sessions, outputs self-contained HTML -- `Python`
+* [WeKan](https://wekan.github.io/) - OSS Trello-like kanban board -- `JavaScript`
 * [Your Own URL Shortener (YOURLS)](http://yourls.org/) - Lets you run your own URL shortener a'la TinyURL or bit.ly -- `PHP`
 * [Zulip](https://www.zulip.org/) - Group chat, by Dropbox -- `various lang` `mobile` `Windows` `OS X`
 
@@ -377,19 +377,19 @@
 ---
 ## Containers
 
-> Linux containers, container orchestration, provisioning, networking, PaaS, and related tools
+> Linux containers, container orchestration, provisioning, networking, PaaS, Kubernetes, and related tools - see also (#distributed-systems-tools)Distributed Systems Tools
 
 * [appscale](https://github.com/AppScale/appscale) - Open source implementation of Google App Engine -- `Python`
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker) - Massive Docker collection -- `collection`
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers -- `Golang`
 * [Clear Linux](https://clearlinux.org/) - New name for Clear Containers, attempts combine the security advantages of VMs with the deployment advantages of containers -- `various lang`
 * [Cloud Foundry](https://www.cloudfoundry.org/) - Open source PaaS by VMware and Pivotal -- `Golang` `Ruby`
-* [crane](https://github.com/michaelsauter/crane) - Docker orchestration -- `Golang`
-* [ctop](https://bcicen.github.io/ctop/) - ncurses top-like UI for containers -- `Golang`
+* [crane](https://github.com/michaelsauter/crane) - Docker orchestration, similar to Docker Compose -- `Golang`
+* [ctop](http://ctop.sh/) - ncurses top-like UI for containers -- `Golang`
 * [docker-gc](https://github.com/spotify/docker-gc) - Docker garbage collection of containers and images  -- `shell`
 * [DockerSlim](http://dockersl.im/) - Uses static and dynamic analysis to create skinny image variants of your fat images -- `Golang`
 * [Docker Compose](https://github.com/docker/compose) - Define and run multi-container apps with Docker, previously known as fig, official -- `Python`
-* [Docker Distribution](https://github.com/docker/distribution) - Docker Registry 2.0 - pack, ship, store, and deliver containers -- `Golang`
+* [Docker Distribution](https://github.com/docker/distribution) - AKA Docker Registry 2.0 - pack, ship, store, and deliver containers -- `Golang`
 * [Docker Hub](https://registry.hub.docker.com/) - Official Docker images for many projects -- `various lang`
 * [Docker Swarm](https://github.com/docker/swarmkit) - Docker-native clustering system -- `Golang`
 * [Docker Toolbox](https://www.docker.com/toolbox) - Docker Client, Machine, Compose, Kitematic, VirtualBox, and the boot2docker VM in a single package, official -- `various lang`
@@ -406,6 +406,7 @@
 * [Heptio Sonobuoy](https://github.com/heptio/sonobuoy) - Kubernetes end to end conformance testing and debugging tool -- `Golang`
 * [Kismatic](https://github.com/apprenda/kismatic) - Set of production-ready defaults and best practice tools for creating enterprise-tuned Kubernetes clusters. -- `Golang`
 * [Kitematic](https://kitematic.com/) - GUI Docker management on Mac & Windows (laptops), official -- `JavaScript` `Windows` `OS X`
+* [kops](https://github.com/kubernetes/kops) - CLI for managing, upgrading, maintaining, creating, etc Kubernetes clusters -- `Golang`
 * [kubeadm-dind-cluster](https://github.com/mirantis/kubeadm-dind-cluster) - kubeadm and DIND (Docker in Docker) create a multi-node Kubernetes cluster on your laptop for dev -- `Shell`
 * [kube-applier](https://github.com/box/kube-applier) - service that enables continuous deployment of Kubernetes objects by applying declarative configuration files from a Git repository to a Kubernetes cluster -- `Golang`
 * [kubectx](https://github.com/ahmetb/kubectx) - Easily switch between kubectl contexts and namespaces -- `Ruby`
@@ -477,13 +478,14 @@
 ---
 ## Distributed Systems Tools
 
-> DCOSes, microservices, service discovery, schedulers, and related tools for dynamic, warehouse-scale computing - see also [HPC Tools](#hpc-tools)
+> DCOSes, microservices, service discovery, schedulers, and related tools for dynamic, warehouse-scale computing - see also [HPC Tools](#hpc-tools) and (#containers)Containers
 
 * [Aurora](https://aurora.incubator.apache.org/) - Mesos scheduler for long running services and cron jobs, similar to Marathon -- `Java`
 * [Bamboo](https://github.com/QubitProducts/bamboo) - HAProxy auto configuration and auto service discovery for Mesos and Marathon -- `Golang`
 * [Celery](http://www.celeryproject.org/) - Async task/job queue based on distributed message passing -- `Python`
 * [Chaperone](https://github.com/uber/chaperone) - End-to-end Kafka auditing (data loss, latency, message duplication, etc), by Uber -- `Java`
 * [Chronos](https://github.com/airbnb/chronos) - Distributed, fault tolerant cron scheduler that runs on top of Apache Mesos -- `various lang`
+* [Cruise Control](https://github.com/linkedin/cruise-control) - Fully automate the dynamic workload rebalance and self-healing of a cluster, by Linkedin -- `Java`
 * [crypt](https://github.com/xordataexchange/crypt) - Store and retrieve encrypted configs from etcd or Consul -- `Golang`
 * [consul](http://www.consul.io/) - Service discovery and configuration via DNS or HTTP, great for auto-scaling -- `Golang`
 * [consul Tools](https://www.consul.io/downloads_tools.html) - Official, includes consul-template and others -- `various lang`
@@ -503,6 +505,7 @@
 * [Kafka](https://kafka.apache.org) - Stream processing platform (logs, IoT metrics, anything) -- `Java`
 * [Kong](http://getkong.org/) - Microservice / API management layer -- `Lua`
 * [linkerd](https://linkerd.io/) - RPC proxy and request routing for microservices, includes service discovery, instrumentation, and load balancing -- `Scala`
+* [LogDevice](https://code.facebook.com/posts/357056558062811/logdevice-a-distributed-data-store-for-logs/?_fb_noscript=1) - A distributed data store for logs, by Facebook -- `C++`
 * [Mantl](http://mantl.io/) - Complete microservices infrastructure built using OSS tools by Cisco -- `various lang` `yowza`
 * [Marathon](https://github.com/mesosphere/marathon) - Mesos scheduler for "always on" jobs (eg: web services) -- `Scala`
 * [MaxScale](https://github.com/mariadb-corporation/MaxScale) - General purpose DB query proxy, router, and load balancer, by MariaDB -- `C`
@@ -615,6 +618,7 @@
 * [maim](https://github.com/naelstrof/maim) - The most powerful and flexible Linux desktop screenshot tool -- `various lang`
 * [Media Player Classic - Home Cinema (MPC-HC)](https://mpc-hc.org/) - Open source media player for Windows -- `C++` `Windows`
 * [OpenShot](http://openshot.org/) - Video editing software, 2.0 will support other additional platforms -- `Python` `Windows` `OS X`
+* [Origami](http://origami.design/) - interactive UI design prototyping without programming, by Facebook -- `various lang`
 * [Pencil](http://pencil.evolus.vn/) - Open source GUI prototyping and mockup tool, supports all platforms -- `Windows` `OS X`
 * [Scribus](http://www.scribus.net/) - Open source desktop publishing (layout, typesetting, etc), Adobe InDesign alternative -- `C++` `Windows` `OS X`
 * [ShareX](https://getsharex.com/) - One of the best screenshot/screencast capture and sharing tools for -- `Windows` `OS X`
@@ -679,8 +683,9 @@
 > Security, recovery, bootable USB/CD/DVD creation tools, diagnostics, and more
 
 * [BlackArch Linux](http://blackarch.org/) - Penetration testing Linux distro, based off of Arch Linux -- `various lang`
+* [Buscador](https://inteltechniques.com/buscador/index.html) - Live CD Linux distro preconfigured for online investigators -- `various lang`
 * [CAINE (Computer Aided INvestigative Environment)](http://www.caine-live.net/) - Computer forensics on a live CD -- `various lang`
-* [DBAN (Darik's Boot and Nuke)](http://www.dban.org/) - SSD and spinning disk wiper -- `various lang`
+* [DBAN (Darik's Boot and Nuke)](http://www.dban.org/) - Spinning disk wiper -- `various lang`
 * [Easy2Boot](http://www.easy2boot.com/) - Create multiple bootable Linux ISOs on the same USB drive -- `Windows`
 * [GParted Live](http://gparted.org/livecd.php) - Small, bootable ISO that contains gparted - great for resizing a non-LVM root file system -- `C`
 * [Hiren's BootCD](http://www.hiren.info/pages/bootcd) - Everything.  Seriously.  -- `closed source` `Windows`
@@ -697,10 +702,11 @@
 ---
 ## Logging
 
-> Log management, analysis, and collection from any source
+> Log management, analysis, analytics, and collection from any source
 
 * [Adiscon LogAnalyzer](http://loganalyzer.adiscon.com/) - Slick web interface for syslog messages -- `PHP`
 * [Apache Log Generator](http://www.apacheloggenerator.com/) - Drag and drop to create Apache logging syntax -- `in-browser`
+* [Countly](https://count.ly/) - Mobile and web analytics and marketing platform -- `JavaScript`
 * [ElasticDump](https://github.com/taskrabbit/elasticsearch-dump) - Import / export tools for Elasticsearch -- `JavaScript`
 * [ElasticHQ](https://github.com/royrusso/elasticsearch-HQ) - Does not yet support ES 5.x -- `JavaScript`
 * [Elasticsearch](http://www.elasticsearch.org/) - Component of the ELK stack, used for super fast searches -- `Java`
@@ -726,7 +732,7 @@
 * [Open Web Analytics (OWA)](http://www.openwebanalytics.com/) - Track and analyze how people use your websites and applications -- `PHP`
 * [pgBadger](http://dalibo.github.io/pgbadger/) - PostgreSQL log analyzer -- `perl`
 * [Piwik](http://piwik.org/) - Web analytics platform with a killer UI -- `PHP`
-* [Sentry](https://getsentry.com/welcome/) - Application exception logging -- `Python`
+* [Sentry](https://sentry.io) - Application exception logging -- `Python`
 * [Snoopy Logger](https://github.com/a2o/snoopy) - Logs commands that are executed and saves the information to syslog -- `C`
 * [Snowplow](https://github.com/snowplow/snowplow) - Web, mobile and event analytics -- `Scala`
 * [swatch](http://linux.die.net/man/1/swatch) - Simple log watcher -- `built-in`
@@ -827,7 +833,7 @@
 * [ExaBGP](https://github.com/Exa-Networks/exabgp) - The BGP swiss army knife of networking -- `Python pip`
 * [fail2ban](http://www.fail2ban.org/) - Watches log files to ban IPs based on rules (too many failed logins, exploit attempts, brute force attacks, etc) -- `Python`
 * [Fast Data Transfer (FDT)](http://monalisa.cern.ch/FDT/) - For writing at disk speed over WANs -- `Java`
-* [FBOSS (FaceBook Open Switching System)](https://github.com/facebook/fboss) - FB's software stack for managing and controlling whitebox switches -- `variouns lang`
+* [FBOSS (FaceBook Open Switching System)](https://github.com/facebook/fboss) - FB's software stack for managing and controlling whitebox switches -- `various lang`
 * [FRRouting](https://frrouting.org/) - Replacement for / fork of Quagga with more features -- `C`
 * [ftptop](http://linux.die.net/man/1/ftptop) - Monitor FTP connections in real time -- `built-in`
 * [kcptun](https://github.com/xtaci/kcptun) - Secure tunnel based on KCP -- `Golang`
@@ -850,10 +856,12 @@
 * [ngrep](http://linux.die.net/man/8/ngrep) - Network grep -- `C` `built-in`
 * [nmap](http://nmap.org/) - Classic port scanner -- `various lang`
 * [nping](http://nmap.org/nping/) - Create custom network packets -- `C`
+* [OpenBGPD](http://www.openbgpd.org/) - Free implementation of BGP v4 -- `C`
 * [OpenBMP](http://openbmp.org) - BGP Monitoring Protocol collector with real-time monitoring, looking glass, analytics, etc -- `Various Lang`
 * [Open vSwitch (OVS)](http://openvswitch.org/) - Production quality software switch -- `C`
 * [Outages Dashboard](http://wiki.outages.org/index.php/Dashboard) - Outages mailing list's dashboard, tons of resources for internet outages -- `collection`
 * [PFQ](http://pfq.github.io/PFQ/) - Framework that allows efficient packets capture/transmission, in-kernel functional processing, and packets steering across sockets/end-points -- `C`
+* [PowerAdmin](http://www.poweradmin.org/) - Simple Web UI for PowerDNS -- `PHP`
 * [Quagga](http://www.nongnu.org/quagga/) - Routing software suite, supports most routing protocols -- `C`
 * [scapy](https://pypi.python.org/pypi/scapy) - Interactive packet manipulation for Python -- `Python pip`
 * [socat](http://www.dest-unreach.org/socat/) - netcat on steroids, supports serial devices -- `C`
@@ -944,7 +952,6 @@
 * [mussh](http://linux.die.net/man/1/mussh) - MUltihost SSH -- `C` `built-in`
 * [OpenLMI (Open Linux Management Infrastructure)](http://www.openlmi.org/) - Manage, monitor, and configure servers via API calls (instead of SSH), included in RHEL 7 -- `various lang`
 * [orgalorg](https://github.com/reconquest/orgalorg) - Next generation parallel SSH tool because most other major ones are no longer maintined -- `Golang`
-* [Overcast](https://github.com/andrewchilds/overcast) - VM orchestration and provisioning for DigitalOcean, Linode and Amazon, or locally using Vagrant + Virtualbox -- `JavaScript`
 * [parallel](https://www.gnu.org/software/parallel/) - Execute jobs in parallel using one or more computers -- `built-in`
 * [parallel-ssh (pssh)](http://linux.die.net/man/1/pssh) - Parallel version of OpenSSH tools - comes with prsync, pscp, pnuke, and pslurp too -- `Python` `built-in`
 * [Parallel Distributed Shell (pdsh)](https://github.com/grondo/pdsh) - Kick off many SSH sessions in parallel -- `C`
@@ -1044,7 +1051,7 @@
 
 * [Box-Cutter](https://github.com/boxcutter) - Hashicorp's community repo for Packer & Vagrant templates -- `Ruby`
 * [Chef Baseboxes](https://github.com/chef/bento#current-baseboxes) - Baseboxes provided by Chef, for Packer + Vagrant -- `various lang`
-* [cloud-init](https://launchpad.net/cloud-init) - Configures settings the first time a system spins up (SSH keys, hostname, variables, etc) -- `C`
+* [cloud-init](https://launchpad.net/cloud-init) - Configures settings the first time a system spins up (SSH keys, hostname, variables, etc), note NoCloud -- `C`
 * [Cobbler](http://cobbler.github.io/) - Provisioning system used in Red Hat's Satellite -- `Python`
 * [Crowbar](https://crowbar.github.io/) - Multi-purpose provisioning tool, created by Dell -- `Ruby`
 * [edeploy](https://github.com/enovance/edeploy) - Tool to provision and update systems using trees of files instead of packages or VM images -- `Python`
@@ -1291,8 +1298,7 @@
 * [KeePass](http://keepass.info/) - Lightweight, easy to use, GUI password manager, runs on most platforms -- `C#` `Windows`
 * [Keepass2Android](https://keepass2android.codeplex.com/) - Compatible with KeePass 2.x -- `Android`
 * [KeePassDroid](http://www.keepassdroid.com/) - Open source version of KeePass 1.x for Android -- `Android`
-* [KeePassX](https://www.keepassx.org/) - Alternative to KeePass, requires QT -- `C++` `Windows` `OS X`
-* [KeePassXC](https://keepassxc.org/) - Supports YubiKey and TOTP -- `C++`
+* [KeePassXC](https://keepassxc.org/) - Supports YubiKey and TOTP, forked becasue KeePassX is no longer being updated -- `C++`
 * [KeeWeb](https://github.com/antelle/keeweb) - Unofficial web and desktop front-ends to KeePass -- `JavaScript`
 * [Keywhiz](https://square.github.io/keywhiz/) - A system for distributing and managing secrets (API keys, certificates, etc), by Square -- `Java`
 * [kpcli](http://kpcli.sourceforge.net/) - Command line interface / CLI for KeePass -- `perl`
@@ -1325,7 +1331,6 @@
 * [Armitage](http://www.fastandeasyhacking.com/) - GUI for Metasploit -- `Java`
 * [Awesome Honeypots](https://github.com/paralax/awesome-honeypots) - Curated collection of honepots and honeypot resources -- `collection`
 * [bro](https://github.com/bro/bro) - Framework for network analysis and security monitoring -- `C++`
-* [Buscador](https://inteltechniques.com/buscador/index.html) - Live CD Linux distro preconfigured for online investigators -- `various lang`
 * [chkrootkit](http://www.chkrootkit.org/) - Rootkit checker, best used from a live CD -- `C`
 * [CIS Linux Benchmarks](http://benchmarks.cisecurity.org/downloads/browse/index.cfm?category=benchmarks.os.linux) - Linux OS hardening guides, superb! -- `collection`
 * [ConfigServer Security and Firewall (CSF)](http://configserver.com/cp/csf.html) - Stateful Packet Inspection (SPI) firewall, Login/Intrusion Detection and Security application for Linux servers -- `various lang`
@@ -1427,6 +1432,7 @@
 * [DevDocs](http://devdocs.io/) - Documentation browser for almost every API -- `collection`
 * [dev-setup](https://github.com/donnemartin/dev-setup) - Automated setup scripts for tools like Sublime Text, AWS, Spark, Android dev, and more -- `collection`
 * [dropwizard](http://www.dropwizard.io/) - Simple library for building production-ready RESTful web services -- `various lang`
+* [Fossil](https://www.fossil-scm.org) - Simple all-in-one SCM -- `various lang`
 * [fswatch](https://emcrisostomo.github.io/fswatch/) - Cross-platform for watching files and taking action when they change -- `C++`
 * [Go (GoCD)](http://www.go.cd) - Go continuous delivery platform by ThoughtWorks -- `Java`
 * [Google's Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html) - Hands on, free, self-paced courses to help you develop your programming skills -- `collection`
@@ -1520,7 +1526,7 @@
 
 > The storage junk drawer
 
-* [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) - Send a signal to an ATA drive to perform a hardware-based erase -- `article`
+* [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) - Send a signal to an ATA drive to perform a hardware-based erase, the ONLY way to wipe a SSD properly -- `article`
 * [BeeGFS](http://www.beegfs.com/content/) - Parallel cluster file system, worth examining -- `C++`
 * [Clonezilla](http://clonezilla.org/) - Disk image/cloning tool, supports most file system types -- `perl` `shell`
 * [CockroachDB](http://www.cockroachlabs.com/) - Open source version of Google's Spanner storage system -- `thefuture` `Golang`
@@ -1674,6 +1680,7 @@
 
 > Mostly server-side tools
 
+* [IKEv2-setup](https://github.com/jawj/IKEv2-setup) - Simple script that sets up a IKEv2 VPN with strongSwan on Ubuntu -- `shell`
 * [n2n](https://en.wikipedia.org/wiki/N2n) - L2 over L3 VPN that uses a peer-to-peer architecture -- `C`
 * [OpenVPN](https://openvpn.net/) - The one and only -- `C`
 * [Pritunl](http://pritunl.com/) - Distributed enterprise VPN server built using the OpenVPN protocol, supports Google sign-in -- `Python`
@@ -1706,7 +1713,7 @@
 * [httpdiff](https://github.com/jgrahamc/httpdiff) - Perform the same reuqest against two HTTP servers and diff the results -- `Golang`
 * [httpie](https://github.com/jakubroztocil/httpie) - curl replacement with many new features -- `Python`
 * [htty](https://htty.github.io/htty/) - A console application for interacting with web servers -- `Ruby gem`
-* [Huginn](https://github.com/cantino/huginn) - Build agents that perform automated tasks for you online -- `Ruby`
+* [Huginn](https://github.com/cantino/huginn) - Build agents that perform automated tasks/workflows for you online or locally, like IFTTT -- `Ruby`
 * [JSON Server](https://github.com/typicode/json-server) - Full fake REST API for quickly prototyping and mocking in 30 seconds -- `JavaScript`
 * [jq](https://stedolan.github.io/jq/) - Command line JSON processor and manipulator -- `C`
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse/) - Chrome extension to audit a web page for performance, accessibility, progressive web apps, and more, by Google -- `in-browser`
