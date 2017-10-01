@@ -354,7 +354,9 @@
 
 * [Ansible](http://www.ansible.com) - CM and orchestration, also can do provisioning -- `Python`
 * [Ansible Galaxy](https://galaxy.ansible.com/) - Community site for finding, reusing, and sharing Ansible content -- `various lang`
+* [Ansible Interactive Tutorial](https://github.com/turkenh/ansible-interactive-tutorial) - Interactive tutorials for Ansible via Docker, super simple -- `Shell`
 * [Automatic Server Hardening](http://dev-sec.io/) - Linux hardening cookbooks/manifests/playbooks for Puppet, Chef, and Ansible -- `various lang`
+* [awx](https://github.com/ansible/awx) - Upstream to Ansible Tower - REST API, task engine, etc -- `Python`
 * [Blueprint](https://github.com/devstructure/blueprint) - Reverse engineer a server configuration -- `Python pip`
 * [BOSH](https://github.com/cloudfoundry/bosh) - Cloud orchestration, supports Docker containers too -- `Ruby`
 * [Boxen](https://boxen.github.com/) - Mac / OS X configuration management -- `Ruby gem` `OS X`
@@ -381,6 +383,7 @@
 
 * [appscale](https://github.com/AppScale/appscale) - Open source implementation of Google App Engine -- `Python`
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker) - Massive Docker collection -- `collection`
+* [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - Collection -- `collection`
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers -- `Golang`
 * [Clear Linux](https://clearlinux.org/) - New name for Clear Containers, attempts combine the security advantages of VMs with the deployment advantages of containers -- `various lang`
 * [Cloud Foundry](https://www.cloudfoundry.org/) - Open source PaaS by VMware and Pivotal -- `Golang` `Ruby`
@@ -409,6 +412,7 @@
 * [kops](https://github.com/kubernetes/kops) - CLI for managing, upgrading, maintaining, creating, etc Kubernetes clusters -- `Golang`
 * [kubeadm-dind-cluster](https://github.com/mirantis/kubeadm-dind-cluster) - kubeadm and DIND (Docker in Docker) create a multi-node Kubernetes cluster on your laptop for dev -- `Shell`
 * [kube-applier](https://github.com/box/kube-applier) - service that enables continuous deployment of Kubernetes objects by applying declarative configuration files from a Git repository to a Kubernetes cluster -- `Golang`
+* [kube-bench](https://github.com/aquasecurity/kube-bench) - Compliance checker for Kubernetes CIS benchmarks -- `Golang`
 * [kubectx](https://github.com/ahmetb/kubectx) - Easily switch between kubectl contexts and namespaces -- `Ruby`
 * [kubed](https://github.com/appscode/kubed) - Perform periodic cluster snapshots, provide temp storage for deleted objects, automatic event forwarding, deliver notifications via various channels for Kubernetes -- `Golang`
 * [kubernetes](http://kubernetes.io/) - Open source orchestration system for Docker containers, by Google -- `Golang`
@@ -501,6 +505,7 @@
 * [Hystrix](https://github.com/Netflix/Hystrix) - Library to stop cascading failures -- `Java`
 * [Ignite](https://ignite.apache.org/) - General-purpose in-memory platform for in-memory computing use cases -- `Java`
 * [Istio](https://istio.io) - Envoy + auth, policy enforcement, telemetry, traffic flow management etc control plane that runs on top of Mesos and Kubernetes -- `Various Lang`
+* [Jaeger](https://uber.github.io/jaeger/) - OpenTracing compatible distributed tracing system, by Uber -- `Golang`
 * [jespen](https://github.com/aphyr/jepsen) - Call Me Maybe: Breaking distributed systems -- `Clojure`
 * [Kafka](https://kafka.apache.org) - Stream processing platform (logs, IoT metrics, anything) -- `Java`
 * [Kong](http://getkong.org/) - Microservice / API management layer -- `Lua`
@@ -514,10 +519,12 @@
 * [mesos-consul](https://github.com/CiscoCloud/mesos-consul) - Automatically registers/deregisters services run as Mesos tasks -- `Golang`
 * [Mesosphere](https://mesosphere.com/) - Apache Mesos schedulers for almost anything, commercial support is available -- `C++`
 * [miniMesos](https://www.minimesos.org/) - Spin up Mesos clusters on your OS X laptop, can be used for TDD too -- `Java`
+* [Mitogen](https://mitogen.readthedocs.io/en/latest/) - Python library for writing distributed self-replicating programs like magic -- `Python`
 * [Multibinder](https://github.com/github/multibinder) - Simple Ruby server that makes true zero downtime reloads simple, by Github -- `Ruby`
 * [Myriad](https://myriad.incubator.apache.org/) - Hadoop YARN framework/scheduler for Mesos -- `Java`
 * [nsq](http://nsq.io/) - Realtime distributed messaging platform / message queue -- `Golang`
 * [OpenTracing](http://opentracing.io/) - Vendor-neutral distributed tracing -- `Various Lang`
+* [OpenZipkin](http://zipkin.io/) - Distributed tracing systems for SaaS and webapps, by Twitter, based on Google's Dapper -- `Scala`
 * [Packetbeat](https://www.elastic.co/products/beats) - Distributed packet monitoring system that can be used for application performance management -- `Golang`
 * [Pinpoint](https://github.com/naver/pinpoint) - Application Performance Monitoring (APM) for distributed systems, based on Dapper -- `Java`
 * [Pulsar](https://github.com/yahoo/pulsar) - Distributed pub-sub messaging platform, scales to millions of clients and queues -- `Java`
@@ -536,7 +543,6 @@
 * [vulcand](http://vulcand.github.io/) - Programmatically extendable proxy for microservices and API management -- `Golang`
 * [Webjob](http://webjob.sourceforge.net/WebJob/) - Downloads a program or script from a remote WebJob server, executes it, and sends back output to a server -- `C`
 * [xCAT (Extreme Cloud Administration Toolkit)](http://xcat.org/) - Complete management solution for distributed systems (HPC, clouds, web farms, etc), supports almost every platform, by IBM -- `various lang`
-* [Zipkin](http://zipkin.io/) - Distributed tracing systems for SaaS and webapps, by Twitter, based on Google's Dapper -- `Scala`
 * [Zookeeper](https://zookeeper.apache.org/) - Distributed configuration service, synchronization service, and naming registry -- `Java`
 
 
@@ -866,6 +872,7 @@
 * [scapy](https://pypi.python.org/pypi/scapy) - Interactive packet manipulation for Python -- `Python pip`
 * [socat](http://www.dest-unreach.org/socat/) - netcat on steroids, supports serial devices -- `C`
 * [spiped](https://www.tarsnap.com/spiped.html) - Create encrypted pipes between socket addresses using PSKs, similar to ssh -L -- `C`
+* [sshttp](https://github.com/stealth/sshttp) - Port multiplexer, SSH + HTTP on one port -- `C`
 * [sslh](http://www.rutschle.net/tech/sslh.shtml) - Protocol multiplexer, let multiple daemons listen on a single port -- `C`
 * [SubBrute](https://github.com/TheRook/subbrute) - Subdomain enumeration tool for penetration testers -- `Python`
 * [tcpflow](https://github.com/simsong/tcpflow) - TCP demultiplexer, each flow is stored in it's own file -- `C++`
@@ -1158,6 +1165,7 @@
 * [MaxScale](https://github.com/mariadb-corporation/MaxScale) - General purpose DB query proxy, router, and load balancer by MariaDB -- `C`
 * [mycli](http://mycli.net/) - CLI for MySQL and derivates with auto-completion and syntax highlighting -- `Python`
 * [mydumper (MySQL Data Dumper)](https://launchpad.net/mydumper) - Much better than mysqldump, works in parallel -- `perl`
+* [MyRocks](http://myrocks.io/) - RocksDB with a MySQL front-end / interface -- `C++`
 * [MySQL sys schema](https://github.com/MarkLeith/mysql-sys) - Collection of views, functions and procedures to help MySQL administrators get insight into MySQL usage -- `SQL`
 * [MySQL Utilities](https://dev.mysql.com/downloads/utilities/) - Official collection of MySQL tools -- `various lang` `Python`
 * [MySQL Workbench](https://www.mysql.com/products/workbench/) - The official MySQL GUI for admins, devs, DBAs, and architects -- `various lang`
@@ -1346,6 +1354,8 @@
 * [Jailkit](http://olivier.sessink.nl/jailkit/) - chroot toolkit -- `C`
 * [Lynis](http://cisofy.com/lynis/) - Auditing and hardening tool, supports most Unix-like operating systems -- `shell`
 * [Metasploit](http://www.metasploit.com/) - Classic exploit framework -- `various lang`
+* [National Checklist Program](https://nvd.nist.gov/ncp/repository) - U.S. government repository of publicly available security checklists (or benchmarks) that provide detailed low level guidance on setting the security configuration of operating systems and applications -- `collection`
+* [Nikto2](https://cirt.net/Nikto2) - Web & app server vulnerability scanner -- `perl`
 * [nmap Scripting Engine (NSE)](http://nmap.org/nsedoc/index.html) - Tons of scripts for nmap -- `various lang`
 * [oclHashcat](https://hashcat.net/oclhashcat/) - World's fastest CPU + GPU password cracker / recovery software -- `C`
 * [OpenSCAP](http://www.open-scap.org/page/Main_Page) - NIST Certified SCAP 1.2 toolkit -- `C`
@@ -1371,6 +1381,7 @@
 * [usbkill](https://github.com/hephaest0s/usbkill) - Kill switch that takes action when a USB device is connected -- `Python`
 * [VirusTotal](https://www.virustotal.com/) - Allows you to upload a file and have it scanned by tons of virus scanners -- `in-browser`
 * [ZMap](https://zmap.io/) - Scanner designed for large address spaces -- `in-browser`
+* [zzuf](https://github.com/samhocevar/zzuf) - Transparent application input fuzzer that works by intercepting file and network operations and changing random bits in the program's input -- `C`
 
 
 ---
@@ -1803,11 +1814,13 @@
 * [inxi](https://github.com/smxi/inxi) - "a full featured system information script" (hardware info, etc) -- `shell`
 * [Mjolnir](https://github.com/sdegutis/mjolnir) - Automation for OS X, think AutoHotKey for Mac -- `C` `OS X`
 * [Open19](http://www.open19.org/) - Open data center hardware for standard size racks -- `neat`
-* [OpenBMC](https://github.com/facebook/openbmc) - Framework to build a complete Linux image for a Board Management Controller (BMC) -- `C`
+* [OpenBMC](https://github.com/facebook/openbmc) - Framework to build a complete Linux image for a Board Management Controller (BMC), by Facebook -- `C`
+* [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/%7Eremzi/OSTEP/) - Probably the best OS book out there, free -- `book`
 * [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins) - Collection of plugins for Quick Look in the Mac Finder -- `various lang` `OS X`
 * [runit](http://smarden.org/runit/) - UNIX init scheme with service supervision, great for containers, sysvinit replacement -- `C`
 * [runwhen](http://code.dogmap.org/runwhen/) - Utilities for running commands at particular times, cron on steroids -- `C`
 * [Site Reliability Engineering (SRE) by Google](https://landing.google.com/sre/book.html) - Full, free, online version of the O'Reilly book -- `the best`
+* [Steps Recorder](https://support.microsoft.com/en-us/help/22878/windows-10-record-steps) - AKA Problem Steps Recorder, Windows 7+, allows a user a to record themselves reproducing a problem -- `closed source`
 * [supercron](https://pypi.python.org/pypi/supercron) - Cron on steroids -- `Python pip`
 * [supervisord](http://supervisord.org/) - Process control, kinda like an init replacement but not really -- `Python`
 * [Unix Rosetta Stone](http://bhami.com/rosetta.html) - The one and only resource for a mixed Linux/Unix environment -- `translator`
