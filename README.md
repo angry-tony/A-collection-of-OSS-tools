@@ -178,8 +178,10 @@
 > Tools for interacting with the Amazon Web Services ecosystem
 
 * [Aminator](https://github.com/Netflix/aminator) - Create application-specific custom AMIs, by Netflix -- `Python`
+* [assume-role](https://github.com/coinbase/assume-role) - CLI tool making it easy to assume IAM roles through an AWS Bastion account -- `shell`
 * [Awesome AWS](https://github.com/donnemartin/awesome-aws) - Curated list of AWS resources -- `collection`
 * [aws-shell (formerly Supercharged AWS CLI (SAWS))](https://github.com/awslabs/aws-shell) - The best CLI for interacting with AWS -- `Python pip`
+* [aws-vault](https://github.com/99designs/aws-vault) - A vault for securely storing and accessing AWS credentials in development environments  -- `Golang`
 * [AWS SAM Local](https://github.com/awslabs/aws-sam-local) - CLI tool for local development and testing of Lambda applications -- `Golang`
 * [Chrome AWS SAML Token Expiry Reminder (CASTER)](https://chrome.google.com/webstore/detail/chrome-aws-saml-token-exp/mbfkedefmlagincpblmgeeeehhamgpbn?hl=en-US) - Automatically re-logs into AWS via ADFS before credentials expire -- `Chrome`
 * [CloudBerry Explorer](http://www.cloudberrylab.com/explorer/amazon-s3.aspx) - Windows client for accessing AWS S3 buckets -- `closed source` `Windows`
@@ -200,6 +202,7 @@
 * [ssh2ec2](https://pypi.python.org/pypi/ssh2ec2) - SSH into EC2 instances by tag name and/or other metadata filters -- `Python pip`
 * [StarCluster](http://star.mit.edu/cluster/) - Toolkit for using AWS for high performance computing (HPC), by MIT -- `Python`
 * [Stout](http://stout.is) - Easy way to reliably upload a static website to S3, capable of configuring CloudFront and Route 53 -- `Golang`
+* [Terraforming](http://terraforming.dtan4.net/) - Export all AWS resources into Terraform -- `Ruby gem`
 * [Tools for Amazon Web Services](https://aws.amazon.com/tools/) - Amazon's portal for their official tools -- `various lang`
 * [troposphere](https://github.com/cloudtools/troposphere) - Python library to create CloudFormation descriptions -- `Python pip`
 
@@ -419,6 +422,7 @@
 * [kubicorn](https://github.com/kris-nova/kubicorn) - Multi-provider deployment abstraction layer / library for Kubernetes -- `Golang`
 * [Logspout](https://github.com/gliderlabs/logspout) - Log router for Docker containers -- `Golang`
 * [minikube](http://kubernetes.io/docs/getting-started-guides/minikube/) - Kubernetes environments on your laptop -- `Golang`
+* [Minishift](https://www.openshift.org/minishift/) - OpenShift in a VM for testing / learning -- `Golang`
 * [OpenShift Origin](http://www.openshift.org/) - Docker + Kubernetes, the upstream for Red Hat's OpenShift 3.x -- `Golang`
 * [Panamax](http://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub -- `various lang`
 * [pipework](https://github.com/jpetazzo/pipework) - SDN for Linux Containers -- `various lang`
@@ -467,6 +471,7 @@
 * [Network Weathermap](http://www.network-weathermap.com/) - Network visualization tool, create a "weather map" just like big ISPs use! -- `PHP`
 * [pdash](https://github.com/Jahaja/psdash) - web dashboard for linux using data mainly served by psutil -- `Python pip`
 * [PNP4Nagios](http://docs.pnp4nagios.org/) - Analyzes performance data provided by plugins and stores them automatically into RRD-databases -- `PHP`
+* [promviz](https://github.com/nghialv/promviz) - Visualize the traffic of your clusters in realtime from Prometheus data  -- `Golang`
 * [redash](http://redash.io/) - Web application that allows to easily query an existing database, share the dataset and visualize it in different ways -- `various lang`
 * [ServerStatus](https://github.com/BotoX/ServerStatus) - Display and monitor your servers statistics in a beautiful way -- `C` `C++` `JavaScript`
 * [Seyren](https://github.com/scobal/seyren) - Alerting dashboard for Graphite -- `Java`
@@ -698,6 +703,7 @@
 * [Kali Linux](http://www.kali.org/) - Penetration testing Linux distro -- `various lang`
 * [Network Security Toolkit (NST)](http://networksecuritytoolkit.org/nst/index.html) - Live CD that includes most tools in insecure.org's top 125 tools list -- `various lang`
 * [Rufus](http://rufus.akeo.ie/) - Create bootable USB flash drives -- `Windows`
+* [Security Onion](http://securityonion.net/) - Linux distro for IDS, NSM, and log management -- `various lang`
 * [Stresslinux](http://www.stresslinux.org/sl/) - Hardware burn-in and stress testing -- `various lang`
 * [System Rescue CD](http://www.sysresccd.org/SystemRescueCd_Homepage) - System recovery CD that focuses on Linux system recovery -- `various lang`
 * [Ultimate Boot CD (UBCD)](http://www.ultimatebootcd.com) - Tons of x86 diagnostic and stress test tools on a single CD -- `closed source` `Windows`
@@ -835,7 +841,9 @@
 * [Cyberduck](https://cyberduck.io/) - GUI FTP, SFTP, WebDAV, S3 & OpenStack Swift browser for Mac and Windows -- `itsaduck`
 * [Data Plane Development Kit (DPDK)](http://dpdk.org/) - Data plane libraries and framework for fast packet processing -- `C`
 * [dnscrypt-wrapper](https://github.com/Cofyc/dnscrypt-wrapper) - Add dnscrypt support to any resolver, server-side dnscrypt proxy -- `C`
+* [DNS Leak Test](https://www.dnsleaktest.com/) - See if DNS queries are leaking outside of your VPN / secured network -- `in-browser`
 * [dsniff](https://www.monkey.org/~dugsong/dsniff/) - Great for level 2 analysis or service spoofing -- `C`
+* [ElastiFlow](https://github.com/robcowart/elastiflow) - Netflow collection and visualization using the ELK stack -- `various lang`
 * [ExaBGP](https://github.com/Exa-Networks/exabgp) - The BGP swiss army knife of networking -- `Python pip`
 * [fail2ban](http://www.fail2ban.org/) - Watches log files to ban IPs based on rules (too many failed logins, exploit attempts, brute force attacks, etc) -- `Python`
 * [Fast Data Transfer (FDT)](http://monalisa.cern.ch/FDT/) - For writing at disk speed over WANs -- `Java`
@@ -854,6 +862,7 @@
 * [mrsync (multicast remote sync)](http://sourceforge.net/projects/mrsync/) - Transfers from a master to many remote machines using Unix multicast sockets -- `C`
 * [mTCP](http://shader.kaist.edu/mtcp/) - High-performance user-level TCP stack for multicore systems -- `C`
 * [Mulitpath TCP](https://en.wikipedia.org/wiki/Multipath_TCP) - Allows TCP to use multiple paths to maximize resource usage and increase redundancy -- `neat`
+* [Multipath TCP Checker](http://amiusingmptcp.de/) - Multipath TCP client tester -- `in-browser`
 * [My Looking Glass (myLG)](http://mylg.io/) - All-in-one CLI network diagnostic tool -- `Golang`
 * [NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor support)](https://github.com/napalm-automation/napalm) -- Network automation and programmability abstraction layer, for both setting config and config validation -- `Python pip`
 * [ncat](http://nmap.org/ncat/) - Improved netcat, written by the Nmap team -- `C`
@@ -1080,6 +1089,8 @@
 * [vagrant-cachier](http://fgrehm.viewdocs.io/vagrant-cachier/) - Cache BLOB downloads to reduce network usage -- `Ruby`
 * [vagrant-host-shell](https://github.com/phinze/vagrant-host-shell) - Simple plugin to run commands on the VM when it boots (think cloud-init) -- `Ruby`
 * [vagrant-hostsupdater](https://github.com/cogitatio/vagrant-hostsupdater) - Plugin to add your own /etc/hosts to the VM -- `Ruby`
+* [vagrant-lxc](https://github.com/fgrehm/vagrant-lxc) - Provision to Linux containers instead of the usual VirtualBox -- `Ruby`
+* [vagrant-triggers](https://github.com/emyl/vagrant-triggers) - Run arbitrary scripts on the guest before and/or after Vagrant commands -- `Ruby`
 * [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest) - Auto-install the latest VirtualBox tools at boot time (if necessary) -- `Ruby`
 * [veewee](https://github.com/jedi4ever/veewee) - Easily (and repeatedly) build custom Vagrant base boxes, KVMs, and VM images -- `Ruby`
 * [veewee-to-packer](https://github.com/mitchellh/veewee-to-packer) - translate veewee templates to Packer templates -- `Ruby gem`
@@ -1366,6 +1377,7 @@
 * [OSSEC](http://www.ossec.net/) - Host based intrusion detection system (HIDS), supports most Unix-like OSes -- `C` `Windows` `OS X`
 * [pfsense](https://www.pfsense.org/) - The best firewall software, supports appliances and live CDs -- `C`
 * [Prey](https://preyproject.com/) - Open source anti-theft software for almost all platforms -- `shell` `Java` `mobile`
+* [Qubes OS](https://www.qubes-os.org/) - A reasonably secure operating system -- `various lang`
 * [Red October](https://github.com/cloudflare/redoctober) - Go server for two-man rule style file encryption and decryption -- `way cool`
 * [Rootkit Hunter](http://rkhunter.sourceforge.net/) - Compares hashes of important files with known good hashes that are stored in online databases -- `perl` `shell`
 * [Samhain](http://www.la-samhna.de/samhain/) - HIDS, file integrity checker, rootkit detection, log file monitoring, and more -- `C`
@@ -1466,6 +1478,7 @@
 * [REST-assured](https://github.com/jayway/rest-assured) - Java DSL for testing of REST services -- `Java`
 * [RocksDB](http://rocksdb.org/) - Library that provides an embeddable, persistent key-value store for fast storage - by Facebook -- `C++`
 * [rpm-maven-plugin](https://github.com/mojohaus/rpm-maven-plugin) - Package artifacts as a RPM -- `Java`
+* [Serverless by Design](https://github.com/danilop/ServerlessByDesign) - In-browser or self-hosted GUI for making flow charts for serverless apps -- `various lang`
 * [Software Engineering Blogs](https://github.com/kilimchoi/engineering-blogs) - A curated list of software engineering blogs -- `collection`
 * [SonarQube](http://www.sonarqube.org/) - Platform and dashboard for managing code quality -- `Ruby` `Java`
 * [Sonatype Nexus](http://www.sonatype.org/nexus/) - Software / binary artifact storage -- `Java`
@@ -1745,7 +1758,7 @@
 * [Repose](http://openrepose.org/) - REST proxy, solutions to API tasks such as auth, rate limiting, API validation, HTTP logging, and much more -- `Java`
 * [Resty](https://github.com/micha/resty) - CLI REST client you can use in shell/bash/zsh pipes -- `shell`
 * [SecurityHeaders.io](https://securityheaders.io) - Scan your web site's HTTP headers -- `in-browser`
-* [Swagger](http://swagger.io/) - A JSON format/standard that describes a RESTful API -- `various lang`
+* [Puppeteer](https://github.com/GoogleChrome/puppeteer) - Provides a high-level API to control headless Chrome over the DevTools Protocol -- `JavaScript`
 * [tengine](https://github.com/alibaba/tengine) - A distribution of Nginx with some advanced features, by Alibaba -- `C`
 * [tortilla](https://github.com/redodo/tortilla) - Easily wrap web APIs -- `Python pip`
 * [Tyk](https://tyk.io/) - API gateway -- `Golang`
@@ -1774,6 +1787,7 @@
 * [flask-debugtoolbar](https://github.com/mgood/flask-debugtoolbar) - The Django Debug Toolbar ported to Flask -- `Python`
 * [FunkLoad](https://pypi.python.org/pypi/funkload) - Functional and load web tester -- `Python pip`
 * [h2load](https://nghttp2.org/documentation/h2load.1.html) - HTTP/2 and SPDY load generation tool, part of the nghttp2 suite -- `C`
+* [HAR Analyzer](https://toolbox.googleapps.com/apps/har_analyzer/) - HTTP Archive analyzier for troubleshooting from a browser perspective, by Google -- `in-browser`
 * [HATop](http://feurix.org/projects/hatop/) - ncurses top for HAProxy -- `Python`
 * [httperf](https://github.com/httperf/httperf) - HTTP load generator, originally created, by HP -- `C`
 * [httping](http://www.vanheusden.com/httping/) - Simple program that "pings" a URL and shows response time -- `C`
@@ -1796,6 +1810,7 @@
 * [wrk2](https://github.com/giltene/wrk2) - Fork of wrk that fixes the "coordinated omissions problem" -- `C`
 * [YSlow](http://yslow.org/) - Analyzes web pages and why they're slow based on Yahoo!'s rules for high performance web sites, customizable -- `JavaScript`
 * [wtop](https://github.com/ClockworkNet/wtop) - Another top for Apache logs -- `Python pip`
+* [UpTrends Uptime Checker](https://www.uptrends.com/tools/uptime) - Check a URL's response time from ~30 different sites around the globe -- `in-browser`
 * [Varnish Dashboard](https://github.com/brandonwamboldt/varnish-dashboard) - Realtime dashboard for Varnish cache servers -- `JavaScript`
 
 
@@ -1807,6 +1822,7 @@
 * [Awesome](https://github.com/sindresorhus/awesome) - Top level list of awesome lists -- `collection`
 * [AutoHotKey](http://ahkscript.org/) - Automate input (desktop and web forms, data entry, keybinds, etc) -- `C++` `Windows`
 * [Awesome AutoHotKey](https://github.com/ahkscript/awesome-AutoHotkey) - A collection of AutoHotKey scripts and libraries -- `various lang`
+* [BlueStacks](https://www.bluestacks.com/) - Easy Android emulator for Windows -- `various lang`
 * [conserver](http://www.conserver.com/) - Virtual console server with many features (multi-user, console log history, etc) -- `C`
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- `closed source` `OS X` `Windows`
 * [Google Advanced Operators for Web Search](https://sites.google.com/site/gwebsearcheducation/advanced-operators) - Search modifiers for more accurate results, by Google -- `collection`
