@@ -858,6 +858,7 @@
 * [hping3](http://linux.die.net/man/8/hping3) - Create custom TCP/IP packets, very flexible -- `built-in`
 * [lftp](http://lftp.yar.ru/) - Supports many protocols (FTPS, HTTPS, SFTP), scheduling, bandwidth throttling, scripting, and more - feature-rich -- `C` `C++`
 * [lldpd](https://github.com/vincentbernat/lldpd) - Daemon that can talk LLDP aka the open version of Cisco Discovery Protocol (CDP) -- `C`
+* [Manito Networks Flow Analyzer](https://gitlab.com/thart/flowanalyzer) - ELK stack netflow analyzer -- `Python`
 * [moloch](https://github.com/aol/moloch) - Large scale IPv4 full PCAP capturing, indexing and database system -- `JavaScript`
 * [mrsync (multicast remote sync)](http://sourceforge.net/projects/mrsync/) - Transfers from a master to many remote machines using Unix multicast sockets -- `C`
 * [mTCP](http://shader.kaist.edu/mtcp/) - High-performance user-level TCP stack for multicore systems -- `C`
@@ -889,6 +890,7 @@
 * [tracepath](http://linux.die.net/man/8/tracepath) - Traceroute that doesn't require root -- `C`
 * [Trigger](https://github.com/trigger/trigger) - Network automation toolkit written in Python, created by AOL -- `Python`
 * [UDR](https://github.com/LabAdvComp/UDR) - UDT wrapper for rsync that improves throughput of large data transfers over long distances -- `C++`
+* [vFlow](https://github.com/VerizonDigital/vflow) - High-performance, scalable and reliable enterprise netflow collector with Kafka integration, by Verizon -- `Golang`
 * [WireShark](https://www.wireshark.org/) - The classic network analyzer -- `C`
 * [WireShark Tools](http://wiki.wireshark.org/Tools) - Superb list of network tools from the WireShark wiki -- `collection`
 * [Zenmap](http://nmap.org/zenmap/) - Official GUI for Nmap -- `C` `Windows` `OS X`
@@ -1752,13 +1754,14 @@
 * [OWASP Zed Attack Proxy (ZAP)](https://www.owasp.org/index.php/ZAP) - Pen testing too that focues on web applications -- `Java`
 * [PageKite](https://pagekite.net/) - Makes HTTP servers or SSH publicly available on any server -- `Python`
 * [POSTman](http://www.getpostman.com/) - Create and share API and HTTP requests, great for testing and sharing -- `Chrome`
+* [Puppeteer](https://github.com/GoogleChrome/puppeteer) - Provides a high-level API to control headless Chrome over the DevTools Protocol -- `JavaScript`
 * [Pushpin](http://pushpin.org/) - Proxy server that adds WebSockets to existing request-response APIs -- `C++`
 * [RapidJSON](http://rapidjson.org/) - Super fast JSON parser and generator -- `C++` `Windows`
 * [Redirect Detective](http://redirectdetective.com/) - See the complete path a redirected URL goes through -- `in-browser`
 * [Repose](http://openrepose.org/) - REST proxy, solutions to API tasks such as auth, rate limiting, API validation, HTTP logging, and much more -- `Java`
 * [Resty](https://github.com/micha/resty) - CLI REST client you can use in shell/bash/zsh pipes -- `shell`
 * [SecurityHeaders.io](https://securityheaders.io) - Scan your web site's HTTP headers -- `in-browser`
-* [Puppeteer](https://github.com/GoogleChrome/puppeteer) - Provides a high-level API to control headless Chrome over the DevTools Protocol -- `JavaScript`
+* [Swagger](http://swagger.io/) - Popular API development library, now the OpenAPI standard -- `various lang`
 * [tengine](https://github.com/alibaba/tengine) - A distribution of Nginx with some advanced features, by Alibaba -- `C`
 * [tortilla](https://github.com/redodo/tortilla) - Easily wrap web APIs -- `Python pip`
 * [Tyk](https://tyk.io/) - API gateway -- `Golang`
