@@ -205,6 +205,7 @@
 * [Terraforming](http://terraforming.dtan4.net/) - Export all AWS resources into Terraform -- `Ruby gem`
 * [Tools for Amazon Web Services](https://aws.amazon.com/tools/) - Amazon's portal for their official tools -- `various lang`
 * [troposphere](https://github.com/cloudtools/troposphere) - Python library to create CloudFormation descriptions -- `Python pip`
+* [Zappa](https://github.com/Miserlou/Zappa) - Build and deploy serverless, event-driven Python applications -- `Python`
 
 
 ---
@@ -295,7 +296,6 @@
 * [Mackup](https://github.com/lra/mackup) - Sync your Mac application settings to various cloud services or git -- `Python` `OS X`
 * [Nextcloud](https://nextcloud.com/) - Fork of and replacement for OwnCloud, a self-hosted Dropbox -- `various lang` `Windows` `OS X`
 * [Pydio](https://pyd.io/) - Formerly AjaXplorer, AGPL license -- `PHP`
-* [Skicka](https://github.com/google/skicka) - Command line tool for working with Google Drive, by Google -- `Golang`
 * [Seafile](http://seafile.com/en/home/) - Also offers a paid professional edition with more features, supports most platforms -- `C`
 * [SparkleShare](http://sparkleshare.org/) - Uses git under the hood, neat -- `Windows` `OS X`
 * [Syncany](https://www.syncany.org/) - Supports tons of different protocols for the transfer (SCP, FTP, Samba, S3, etc) -- `Gradle`
@@ -532,7 +532,7 @@
 * [OpenZipkin](http://zipkin.io/) - Distributed tracing systems for SaaS and webapps, by Twitter, based on Google's Dapper -- `Scala`
 * [Packetbeat](https://www.elastic.co/products/beats) - Distributed packet monitoring system that can be used for application performance management -- `Golang`
 * [Pinpoint](https://github.com/naver/pinpoint) - Application Performance Monitoring (APM) for distributed systems, based on Dapper -- `Java`
-* [Pulsar](https://github.com/yahoo/pulsar) - Distributed pub-sub messaging platform, scales to millions of clients and queues -- `Java`
+* [Pulsar](https://pulsar.apache.org/) - A Kafka alternative, by Yahoo -- `Java`
 * [redis-cell](https://github.com/brandur/redis-cell) - Redis module that provides rate limiting in Redis as a single command using GCRA -- `C`
 * [Redisson](https://github.com/mrniko/redisson) - Distributed and scalable Java data structures on top of Redis -- `Java`
 * [Riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language, for distributed systems, similar to Borgmon -- `Clojure`
@@ -854,6 +854,7 @@
 * [ipcalc](http://linux.die.net/man/1/ipcalc) - CLI tool to calculate subnets, netmasks, IP ranges, broadcast addresses, and more -- `built-in`
 * [iptstate](http://linux.die.net/man/8/iptstate) - A top-like display of IP Tables state table entries -- `built-in`
 * [geoiplookup](http://linux.die.net/man/1/geoiplookup) - Uses the GeoIP DB and library to determine which physical country an IP or host originates in, includes PAM library -- `built-in`
+* [GNS3](https://www.gns3.com/) - Cisco and other network simulator that runs in VirtualBox or Qemu/KVM -- `Python`
 * [GridFTP](http://toolkit.globus.org/toolkit/docs/latest-stable/gridftp/) - Supports parallel streams, optimized for WANs, part of the Globus Toolkit -- `C`
 * [hping3](http://linux.die.net/man/8/hping3) - Create custom TCP/IP packets, very flexible -- `built-in`
 * [lftp](http://lftp.yar.ru/) - Supports many protocols (FTPS, HTTPS, SFTP), scheduling, bandwidth throttling, scripting, and more - feature-rich -- `C` `C++`
@@ -868,6 +869,7 @@
 * [NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor support)](https://github.com/napalm-automation/napalm) -- Network automation and programmability abstraction layer, for both setting config and config validation -- `Python pip`
 * [ncat](http://nmap.org/ncat/) - Improved netcat, written by the Nmap team -- `C`
 * [netsniff-ng](http://netsniff-ng.org/) - High performance, zero-copy networking sniffer -- `C`
+* [netstack](https://github.com/google/netstack) - Multi-platform userspace network stack written in Go -- `Golang`
 * [NfSen](http://nfsen.sourceforge.net/) - GUI for and visualization nfdump -- `perl`
 * [ngrep](http://linux.die.net/man/8/ngrep) - Network grep -- `C` `built-in`
 * [nmap](http://nmap.org/) - Classic port scanner -- `various lang`
@@ -876,6 +878,7 @@
 * [OpenBMP](http://openbmp.org) - BGP Monitoring Protocol collector with real-time monitoring, looking glass, analytics, etc -- `Various Lang`
 * [Open vSwitch (OVS)](http://openvswitch.org/) - Production quality software switch -- `C`
 * [Outages Dashboard](http://wiki.outages.org/index.php/Dashboard) - Outages mailing list's dashboard, tons of resources for internet outages -- `collection`
+* [Packet Tracer](https://www.netacad.com/courses/packet-tracer-download/) - Cisco network simulator, by Cisco -- `closed source` `Windows` `OS-X`
 * [PFQ](http://pfq.github.io/PFQ/) - Framework that allows efficient packets capture/transmission, in-kernel functional processing, and packets steering across sockets/end-points -- `C`
 * [PowerAdmin](http://www.poweradmin.org/) - Simple Web UI for PowerDNS -- `PHP`
 * [Quagga](http://www.nongnu.org/quagga/) - Routing software suite, supports most routing protocols -- `C`
@@ -1038,6 +1041,7 @@
 * [hazelnut](https://github.com/mrsmn/hazelnut) - Python lib to parse /proc/meminfo -- `Python pip`
 * [htop](http://hisham.hm/htop/) - top replacement, has a few additional features -- `C`
 * [Linux Performance Observability Tools](http://www.brendangregg.com/Perf/linux_observability_tools.png) - Awesome graphic that shows you which tool to use, by Brendan Gregg -- `the man`
+* [Linux Performance](http://www.brendangregg.com/linuxperf.html) - Centralized page for all of Brendan Gregg's Linux performance material (slides videos pages etc) -- `see above`
 * [mem_logger.sh](http://aarvik.dk/how-to-determine-which-process-is-highly-memory-consuming-over-time/) - Monitor a processes' memory usage over time -- `shell`
 * [Munin](http://munin-monitoring.org/) - Historical performance monitoring to help determine when you server became "slow" -- `perl`
 * [NetData](http://my-netdata.io/) - Real time performance visualization and dashboards -- `C`
@@ -1046,6 +1050,7 @@
 * [OProfile](http://oprofile.sourceforge.net/) - System-wide statistical profiling tool -- `C`
 * [perf](https://perf.wiki.kernel.org/index.php/Main_Page) - User-land performance analysis tool, a sampling profiler -- `C`
 * [perf-tools](https://github.com/brendangregg/perf-tools) - Uses perf and ftrace, includes iosnoop -- `Brendan Gregg`
+* [PerfKit Benchmarker](https://github.com/GoogleCloudPlatform/PerfKitBenchmarker) - Open effort to define a canonical set of benchmarks to measure and compare cloud offerings (disk, network, CPU, etc) -- `various lang`
 * [Performance Co-Pilot (PCP)](http://www.performancecopilot.org/) - System performance and analysis framework, included in RHEL 7 -- `C`
 * [Phoronix Test Suite](http://www.phoronix-test-suite.com/) - Benchmarking and profiling suite, very feature-rich and versatile -- `PHP`
 * [pidstat](http://linux.die.net/man/1/pidstat) - vmstat type output for CPU, disk I/O, page faults, and more on a per-process basis -- `built-in`
@@ -1085,6 +1090,7 @@
 * [Pallet](http://palletops.com/) - Aims to solve the problem of providing a consistently configured running image across a range of clouds -- `Clojure`
 * [Razor](https://github.com/puppetlabs/razor-server) - Puppet provisioning software that handles bare metal hardware and virtual server provisioning -- `Ruby`
 * [Terraform](http://www.terraform.io/) - Infrastructure provisioning using existing tools, supports many providers (AWS, Azure, DO, OpenStack, etc) -- `Golang` `Hashicorp`
+* [Terragrunt](https://github.com/gruntwork-io/terragrunt) - Tools for keeping your Terraform configurations DRY, working with multiple Terraform modules, and managing remote state -- `Golang`
 * [Vagrant](https://www.vagrantup.com/) - Quickly spin up environments for local testing and development -- `Ruby`
 * [Vagrant Plugins](https://github.com/mitchellh/vagrant/wiki/Available-Vagrant-Plugins) - A list of Vagrant plugins on the official Hashicorp wiki -- `collection`
 * [Vagrant Manager](http://vagrantmanager.com/) - GUI to manage Vagrant boxes -- `Windows` `OS X`
@@ -1356,7 +1362,9 @@
 * [CIS Linux Benchmarks](http://benchmarks.cisecurity.org/downloads/browse/index.cfm?category=benchmarks.os.linux) - Linux OS hardening guides, superb! -- `collection`
 * [ConfigServer Security and Firewall (CSF)](http://configserver.com/cp/csf.html) - Stateful Packet Inspection (SPI) firewall, Login/Intrusion Detection and Security application for Linux servers -- `various lang`
 * [Cryptkeeper](http://tom.noflag.org.uk/cryptkeeper.html) - System tray applet that manages EncFS encrypted folders -- `C`
+* [cuckoo](http://cuckoo.cert.ee/) - Feed in malware URL, it fires up VM, and provides a report about the actions the malware took -- `in-browser`
 * [dcfldd](http://dcfldd.sourceforge.net/) - Enhanced dd with security and forensics features -- `C`
+* [Dradis CE (Community Edition)](https://dradisframework.com/ce/) -  Reporting framework for generating one-click reports (vuln scanning, pentest, etc) -- `Ruby`
 * [Dshell](https://github.com/USArmyResearchLab/Dshell) - Network forensic analysis framework, written by the US Army -- `Python`
 * [EncFS](https://vgough.github.io/encfs/) - Encrypted file system in user space via FUSE -- `C++`
 * [Forensics Wiki](http://www.forensicswiki.org/wiki/Main_Page) - Digital forensics wiki, tons of tools and information -- `wiki`
@@ -1386,12 +1394,14 @@
 * [ScoutBot](https://launchpad.net/scoutbot) - Automated network scanner for Raspberry Pi -- `various lang`
 * [Security Onion](http://securityonion.net/) - Linux distro for IDS, NSM, and log management -- `various lang`
 * [Security Technical Implementation Guide (STIG)](http://iase.disa.mil/stigs/Pages/a-z.aspx) - Guides to securing almost every application, by the US military -- `collection`
+* [SELKS](https://www.stamus-networks.com/open-source/) - Debian based based IDS/IPS with ELK stack, installable or live CD -- `various lang`
 * [Snort](https://www.snort.org/) - The classic network intrusion prevention system (NIPS) -- `C`
 * [Spiderfoot](http://www.spiderfoot.net/) - Automate the process of gathering intelligence about a given target -- `Python`
 * [sudosh2](https://github.com/squash/sudosh2) - Records all keystrokes and output and can play back the session as just like a VCR -- `C`
 * [tink](https://github.com/google/tink) - Smiple, small, secure crypto library by Google -- `C++`
 * [Tripwire](http://sourceforge.net/projects/tripwire/) - File integrity checker and monitor, replacement for the now closed-source Tripwire -- `C`
 * [URLquery](https://urlquery.net/) - Free service to scan a URL for web-based malware -- `in-browser`
+* [urlscan.io](https://urlscan.io/) - Similar to URLquery -- `in-browser`
 * [usbkill](https://github.com/hephaest0s/usbkill) - Kill switch that takes action when a USB device is connected -- `Python`
 * [VirusTotal](https://www.virustotal.com/) - Allows you to upload a file and have it scanned by tons of virus scanners -- `in-browser`
 * [ZMap](https://zmap.io/) - Scanner designed for large address spaces -- `in-browser`
@@ -1444,8 +1454,10 @@
 
 > Build systems, stubs/mocks, CI/CD, cheat sheets, and other
 
+* [010 Editor](https://www.sweetscape.com/010editor/) - Professional hex editor that supports binary templates for easy reading, scripting, and more -- `closed source`
 * [ack2](http://beyondgrep.com/) - grep-like tool designed to search source code -- `perl`
 * [afl-fuzz (American Fuzzy Lop)](http://lcamtuf.coredump.cx/afl/) - One of the best fuzzers -- `C`
+* [afl-unicorn](https://github.com/njv299/afl-unicorn) - Fuzz any piece of binary that can be emulated by Unicorn Engine -- `C`
 * [ag (aka The Silver Searcher)](https://github.com/ggreer/the_silver_searcher) - Source code searching tool, a better grep -- `C`
 * [Bazel](http://bazel.io/) - Google's build system -- `Java`
 * [Bento](https://www.bento.io/grid) - Links to tutorials based on subject (programming, sysadmin, protocols, standards, etc) -- `collection`
@@ -1475,6 +1487,7 @@
 * [Ninja](https://ninja-build.org/) - Small build system with a focus on speed -- `Python`
 * [OverAPI](http://overapi.com/) - Large collection of cheat sheets for almost anything -- `collection`
 * [PatchELF](https://github.com/NixOS/patchelf) - Simple utility for modifying existing ELF executables and libraries -- `C`
+* [PEview](http://wjradburn.com/software/) - Easily and quickly view the structure and content of Windows EXE DDL LIB Portable Executable (PE) files -- `closed source`
 * [PRoot](http://proot.me/) - chroot, mount --bind, and binfmt_misc without privilege/setup -- `C`
 * [Proxygen](https://github.com/facebook/proxygen) - Modern C++ HTTP library, by Facebook -- `C++`
 * [REST-assured](https://github.com/jayway/rest-assured) - Java DSL for testing of REST services -- `Java`
@@ -1670,6 +1683,7 @@
 * [Oracle VM VirtualBox](https://www.virtualbox.org/) - Easy, simple virtualization -- `C` `C++` `Windows` `OS X`
 * [oVirt](http://www.ovirt.org/Home) - Virtualization management platform, the upstream for Red Hat Enterprise Virtualization (RHEV) -- `Java`
 * [phpVirtualBox](http://sourceforge.net/projects/phpvirtualbox/) - Web front-end for VirtualBox -- `PHP`
+* [Unicorn Engine](https://github.com/unicorn-engine/unicorn) - CPU emulator framework (ARM, AArch64, M68K, Mips, Sparc, X86) via QEMU -- `various lang`
 * [virt-manager](http://virt-manager.org/) - KVM / Xen / LXC GUI -- `Python`
 * [WINE](https://www.winehq.org/) - Compatibility layer for running Windows apps on POSIX-compliant OSes -- `C` `OS X`
 * [Xen](http://www.xenproject.org/) - It's a hypervisor! -- `C`
