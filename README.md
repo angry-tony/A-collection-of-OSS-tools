@@ -75,6 +75,7 @@
 * [Ars Technica](http://arstechnica.com/)
 * [CIO.com](http://www.cio.com/)
 * [Computerworld](http://www.computerworld.com/)
+* [Dark Reading](https://www.darkreading.com)
 * [Data Center Knowledge](http://www.datacenterknowledge.com/)
 * [DZone](http://www.dzone.com/)
 * [Engineering Blogs](https://github.com/kilimchoi/engineering-blogs)
@@ -82,11 +83,12 @@
 * [Hacker News](https://news.ycombinator.com/)
 * [High Scalability](http://highscalability.com/)
 * [InfoQ](http://www.infoq.com/)
+* [Infosec Industry](https://www.infosecindustry.com/news.html)
 * [Light Reading](http://www.lightreading.com/)
 * [Network Computing](http://www.networkcomputing.com/)
 * [Network World](http://www.networkworld.com)
-* [Packet Pushers](http://packetpushers.net/)
 * [Re/Code](https://recode.net/)
+* [SD Times](https://sdtimes.com/)
 * [TechCrunch](http://techcrunch.com/)
 * [The New Stack](http://thenewstack.io/)
 * [The Next Web](http://thenextweb.com/)
@@ -113,7 +115,7 @@
 * [Phoronix](http://www.phoronix.com)
 * [Planet Fedora](http://planet.fedoraproject.org/)
 * [Planet Ubuntu](http://planet.ubuntu.com/)
-* [r/linux](https://www.reddit.com/r/linux)
+* [/r/linux](https://www.reddit.com/r/linux)
 * [Red Hat Developer Blog](http://developerblog.redhat.com/)
 * [Red Hat Enterprise Linux Blog](http://rhelblog.redhat.com/)
 * [Tux Machines](http://www.tuxmachines.org/)
@@ -159,6 +161,7 @@
 * [GLPI](http://www.glpi-project.org/spip.php?lang=en) - Also provides license management, software auditing, and ticketing -- `PHP`
 * [IP Plan](http://iptrack.sourceforge.net/) - IPAM -- `PHP`
 * [ITDB (IT ITems DataBase)](http://www.sivann.gr/software/itdb/) - Includes purchase order management, floor plans, and ISO20000-like features -- `PHP`
+* [NetBox](https://github.com/digitalocean/netbox) - IPAM and DCIM by Digital Ocean -- `Python`
 * [Netdisco](https://metacpan.org/pod/App::Netdisco) - Web-based network management and discovery tool, written in perl, uses SNMP -- `perl`
 * [Network UPS Tools (NUT)](http://www.networkupstools.org/) - Manage power devices from over 100 manufacturers using a single web interface -- `C` `Windows`
 * [NIPAP](http://spritelink.github.io/NIPAP/) - Next-generation IPAM -- `Python`
@@ -384,6 +387,7 @@
 
 > Linux containers, container orchestration, provisioning, networking, PaaS, Kubernetes, and related tools - see also (#distributed-systems-tools)Distributed Systems Tools
 
+* [Alpine Linux](https://alpinelinux.org/) - Super minimal BusyBox based Linux distro, perfect for hosting containers -- `various lang`
 * [appscale](https://github.com/AppScale/appscale) - Open source implementation of Google App Engine -- `Python`
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker) - Massive Docker collection -- `collection`
 * [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - Collection -- `collection`
@@ -410,6 +414,7 @@
 * [Heapster](https://github.com/kubernetes/heapster) - Container cluster monitoring and performance analysis for Kubernetes and CoreOS -- `Golang`
 * [Heptio Ark](https://github.com/heptio/ark) - Manage disaster recovery for your Kubernetes persistent volumes and cluster resources -- `Golang`
 * [Heptio Sonobuoy](https://github.com/heptio/sonobuoy) - Kubernetes end to end conformance testing and debugging tool -- `Golang`
+* [Kata Containers](https://katacontainers.io/) - A mix of Clear Containers / Clear Linux and Hyper's runV -- `frankencontainers` `various lang`
 * [Kismatic](https://github.com/apprenda/kismatic) - Set of production-ready defaults and best practice tools for creating enterprise-tuned Kubernetes clusters. -- `Golang`
 * [Kitematic](https://kitematic.com/) - GUI Docker management on Mac & Windows (laptops), official -- `JavaScript` `Windows` `OS X`
 * [kops](https://github.com/kubernetes/kops) - CLI for managing, upgrading, maintaining, creating, etc Kubernetes clusters -- `Golang`
@@ -432,7 +437,6 @@
 * [Registrator](https://github.com/gliderlabs/registrator) - Service registry bridge for Docker, supports Consul, etcd -- `Golang`
 * [rkt (Rocket)](https://github.com/coreos/rocket) - New container system by the CoreOS guys -- `Golang`
 * [Rocker](https://github.com/grammarly/rocker) - Adds new instructions to the Dockerfile instruction set for smaller images and faster builds -- `Golang`
-* [Shipyard](https://github.com/shipyard/shipyard) - Composable Docker management toolkit -- `Golang`
 * [Swarm Visualizer](https://github.com/ManoMarks/docker-swarm-visualizer) - A visualizer for Docker Swarm using the Docker Remote API, Node.JS, and D3 -- `JavaScript`
 * [Tsuru](https://github.com/tsuru/tsuru) - Docker-based PaaS -- `Golang`
 * [Watchtower](https://github.com/v2tec/watchtower) - Monitors your running Docker containers and restart them when a new image is available -- `Golang`
@@ -592,6 +596,7 @@
 * [Completion](https://github.com/git/git/tree/master/contrib/completion) - Shell tab completion for git branch names -- `shell`
 * [Gerrit](https://www.gerritcodereview.com/) - Web based code review and repo management for Git -- `Java`
 * [git-fat](https://github.com/jedbrown/git-fat) - Like git-media but without the Ruby dependencies -- `Python`
+* [GitKraken](https://www.gitkraken.com/) - Probably the best multi-platform git GUI -- `closed source` `Windows` `OS X` `Linux`
 * [GitHub Pull Request Builder Plugin (gprbp)](https://wiki.jenkins-ci.org/display/JENKINS/GitHub+pull+request+builder+plugin) - Jenkins plugin that allows certain comment strings to kick off builds or take other actions -- `Java`
 * [GitLab](https://about.gitlab.com/) - Kinda like an open source GitHub, has both a community and paid version -- `Ruby`
 * [GitLab CI](https://about.gitlab.com/gitlab-ci/) - CI that integrates with GitLab -- `Ruby`
@@ -702,6 +707,8 @@
 * [Hiren's BootCD](http://www.hiren.info/pages/bootcd) - Everything.  Seriously.  -- `closed source` `Windows`
 * [Kali Linux](http://www.kali.org/) - Penetration testing Linux distro -- `various lang`
 * [Network Security Toolkit (NST)](http://networksecuritytoolkit.org/nst/index.html) - Live CD that includes most tools in insecure.org's top 125 tools list -- `various lang`
+* [NirLauncher](https://launcher.nirsoft.net/) - USB live distro that contains [all of the NirSoft utilities](https://launcher.nirsoft.net/utilities_list.html) and more, essential for Windows -- `closed source` `Windows`
+* [PALADIN](https://sumuri.com/software/paladin/) - Easy to use Linux-based live CD for forensic analysis -- `various lang`
 * [Rufus](http://rufus.akeo.ie/) - Create bootable USB flash drives -- `Windows`
 * [Security Onion](http://securityonion.net/) - Linux distro for IDS, NSM, and log management -- `various lang`
 * [Stresslinux](http://www.stresslinux.org/sl/) - Hardware burn-in and stress testing -- `various lang`
@@ -774,6 +781,7 @@
 * [RRDtool](http://oss.oetiker.ch/rrdtool/) - High performance data logging and graphing system for time series data -- `C`
 * [Scales](https://github.com/Cue/scales) - Metrics collection, written in Python -- `Python pip`
 * [Skyline](https://github.com/etsy/skyline) - Real-time anomaly detection system to enable passive monitoring of metrics without the need to configure thresholds -- `Python`
+* [SNMPcollector](https://github.com/toni-moreno/snmpcollector) - SNMP collector that saves into InfluxDB for easy visualization -- `Golang` `JavaScript`
 * [SNMP MIB Archive](https://github.com/hs-cx/snmp_mib_archive) - Massive archive of SMMP MIBs, please fork and contribute -- `collection`
 * [sysinfo_influxdb](https://github.com/novaquark/sysinfo_influxdb) - Collect system metrics and store them in an InfluxDB server -- `Golang`
 
@@ -806,6 +814,7 @@
 * [Nagios](http://www.nagios.org/) - One of the most widely used OSS monitoring programs -- `various lang`
 * [nagios-herald](https://github.com/etsy/nagios-herald) - Gives context to Nagios alerts, by Etsy -- `Ruby`
 * [Nagios Exchange](https://exchange.nagios.org/) - Centralized repository of Nagios plugins, addons, extensions, etc -- `collection`
+* [NetXMS](https://www.netxms.org/) - Monitoring for all types of devices across the entire data center (hosts + network devices) -- `C`
 * [OpenNMS](http://www.opennms.org/) - Network monitoring, also supports configuration/asset management -- `various lang`
 * [Open Monitoring Distribution (OMD)](http://omdistro.org/) - Nagios bundled with the most popular plugins and tools -- `various lang`
 * [pmacct](http://www.pmacct.net/) - IP and network traffic accounting / monitoring -- `C`
@@ -830,6 +839,7 @@
 * [2ping](https://www.finnie.org/software/2ping/) - Simple bi-directional ping utility, helps determine where packet loss occurs -- `Python`
 * [Angry IP Scanner](http://angryip.org/) - GUI network scanner, supports plugins, -- `Java` `Windows` `OS X`
 * [aria2](https://aria2.github.io/) - CLI for downloading HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink -- `C` `Windows` `OS X`
+* [ARIN WHOIS in JSON](http://irrexplorer.nlnog.net/static/dumps/arin-whois-originas.json.bz2) - Authoratative info including CIDR and OriginAS, updated every 8h -- `collection`
 * [arp-scan](http://linux.die.net/man/1/arp-scan) - Create and send ARP requests -- `C`
 * [Awesome PCAP](https://github.com/caesar0301/awesome-pcaptools) - Huge list of tools that work with PCAP captures -- `collection`
 * [bbcp](http://www.slac.stanford.edu/~abh/bbcp/) - Copies files using multiple TCP streams to greatly increase throughput -- `C`
@@ -860,6 +870,7 @@
 * [lftp](http://lftp.yar.ru/) - Supports many protocols (FTPS, HTTPS, SFTP), scheduling, bandwidth throttling, scripting, and more - feature-rich -- `C` `C++`
 * [lldpd](https://github.com/vincentbernat/lldpd) - Daemon that can talk LLDP aka the open version of Cisco Discovery Protocol (CDP) -- `C`
 * [Manito Networks Flow Analyzer](https://gitlab.com/thart/flowanalyzer) - ELK stack netflow analyzer -- `Python`
+* [Mininet](http://mininet.org/) - Easily setup networks for testing on your laptop with VirutalBox -- `various lang`
 * [moloch](https://github.com/aol/moloch) - Large scale IPv4 full PCAP capturing, indexing and database system -- `JavaScript`
 * [mrsync (multicast remote sync)](http://sourceforge.net/projects/mrsync/) - Transfers from a master to many remote machines using Unix multicast sockets -- `C`
 * [mTCP](http://shader.kaist.edu/mtcp/) - High-performance user-level TCP stack for multicore systems -- `C`
@@ -868,6 +879,7 @@
 * [My Looking Glass (myLG)](http://mylg.io/) - All-in-one CLI network diagnostic tool -- `Golang`
 * [NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor support)](https://github.com/napalm-automation/napalm) -- Network automation and programmability abstraction layer, for both setting config and config validation -- `Python pip`
 * [ncat](http://nmap.org/ncat/) - Improved netcat, written by the Nmap team -- `C`
+* [Netconf](https://github.com/v1tal3/netconfig) - Web-based GUI for configuring API-less Cisco devices -- `Python`
 * [netsniff-ng](http://netsniff-ng.org/) - High performance, zero-copy networking sniffer -- `C`
 * [netstack](https://github.com/google/netstack) - Multi-platform userspace network stack written in Go -- `Golang`
 * [NfSen](http://nfsen.sourceforge.net/) - GUI for and visualization nfdump -- `perl`
@@ -876,6 +888,7 @@
 * [nping](http://nmap.org/nping/) - Create custom network packets -- `C`
 * [OpenBGPD](http://www.openbgpd.org/) - Free implementation of BGP v4 -- `C`
 * [OpenBMP](http://openbmp.org) - BGP Monitoring Protocol collector with real-time monitoring, looking glass, analytics, etc -- `Various Lang`
+* [OpenWRT](https://openwrt.org/) - Full Linux distro for routers, allows for tons of non-vendor customization -- `various lang`
 * [Open vSwitch (OVS)](http://openvswitch.org/) - Production quality software switch -- `C`
 * [Outages Dashboard](http://wiki.outages.org/index.php/Dashboard) - Outages mailing list's dashboard, tons of resources for internet outages -- `collection`
 * [Packet Tracer](https://www.netacad.com/courses/packet-tracer-download/) - Cisco network simulator, by Cisco -- `closed source` `Windows` `OS-X`
@@ -934,6 +947,7 @@
 * [nload](http://www.roland-riegel.de/nload/index.html) - Console application that monitors network traffic and bandwidth usage in real time, neat ASCII graphs -- `C++`
 * [ntopng / ntop-ng](http://www.ntop.org/products/ntop/) - New version of the popular ntop tool -- `C`
 * [netperf](http://www.netperf.org) - The web page looks ancient but the software's still being updated! -- `C`
+* [Outages.org Mailing List](https://puck.nether.net/mailman/listinfo/outages) - Report and discuss major outages, network status updates, etc -- `mailing list`
 * [Paris Traceroute](http://www.paris-traceroute.net/) - Shows proper network topology when load balancers and load-balanced routers are used -- `C`
 * [Saboteur](https://github.com/tomakehurst/saboteur) - Network fault injection tool -- `Python`
 * [Sloppy](http://www.dallaway.com/sloppy/) - Proxy server that slows down connections for testing -- `Java` `Windows` `OS X`
@@ -941,6 +955,7 @@
 * [ss](http://linux.die.net/man/8/ss) - Socket statistics, a modern netstat -- `built-in`
 * [Stanford Linear Accelerator Center - Network Monitoring Tools](https://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html) - MASSIVE list of network monitoring tools -- `collection`
 * [tc](http://linux.die.net/man/8/tc) - Built-in Linux kernel traffic control -- `built-in`
+* [TCP Throughput Calculator](https://www.switch.ch/network/tools/tcp_throughput/) - See name -- `in-browser`
 * [tcpdive](https://github.com/fastos/tcpdive) - TCP performance analysis tool, implemented as SystemTap scripts -- `C`
 * [tcpdstat](https://github.com/netik/tcpdstat) - Get protocol statistics from tcpdump / PCAP files -- `C`
 * [tcptrack](http://linux.die.net/man/1/tcptrack) - Console based connection tracker -- `built-in`
@@ -1367,15 +1382,19 @@
 * [Dradis CE (Community Edition)](https://dradisframework.com/ce/) -  Reporting framework for generating one-click reports (vuln scanning, pentest, etc) -- `Ruby`
 * [Dshell](https://github.com/USArmyResearchLab/Dshell) - Network forensic analysis framework, written by the US Army -- `Python`
 * [EncFS](https://vgough.github.io/encfs/) - Encrypted file system in user space via FUSE -- `C++`
+* [FAW (Forensics Acquisition of Websites)(http://en.fawproject.com/)] - Download and save social media sites, paid version has more features -- `closed source` `Windows`
 * [Forensics Wiki](http://www.forensicswiki.org/wiki/Main_Page) - Digital forensics wiki, tons of tools and information -- `wiki`
 * [FTimes](http://sourceforge.net/projects/ftimes/) - System baselining and evidence collection tool -- `C`
 * [fwknop (FireWall KNock OPerator)](http://www.cipherdyne.org/fwknop/) - Single Packet Authorization (SPA) aka next-generation port knocking -- `various lang`
+* [GRR Rapid Response](https://github.com/google/grr) - Remote live forensics for incident response via a Python agent -- `Python`
 * [hashcat](https://hashcat.net/hashcat/) - World's fastest CPU password cracker / password recovery -- `C`
 * [Information Security Cheat Sheets and Checklists](http://zeltser.com/cheat-sheets/) - An assortment of IS checklists and cheat sheets -- `collection`
+* [Hindsight](https://github.com/obsidianforensics/hindsight) - Internet history forensics for Google Chrome/Chromium  -- `Python`
 * [Jailkit](http://olivier.sessink.nl/jailkit/) - chroot toolkit -- `C`
 * [Lynis](http://cisofy.com/lynis/) - Auditing and hardening tool, supports most Unix-like operating systems -- `shell`
 * [Metasploit](http://www.metasploit.com/) - Classic exploit framework -- `various lang`
 * [National Checklist Program](https://nvd.nist.gov/ncp/repository) - U.S. government repository of publicly available security checklists (or benchmarks) that provide detailed low level guidance on setting the security configuration of operating systems and applications -- `collection`
+* [National Software Reference Library (NSRL)(https://www.nist.gov/software-quality-group/national-software-reference-library-nsrl)] - Large collection of diskprints from various software and malware -- `collection`
 * [Nikto2](https://cirt.net/Nikto2) - Web & app server vulnerability scanner -- `perl`
 * [nmap Scripting Engine (NSE)](http://nmap.org/nsedoc/index.html) - Tons of scripts for nmap -- `various lang`
 * [oclHashcat](https://hashcat.net/oclhashcat/) - World's fastest CPU + GPU password cracker / recovery software -- `C`
@@ -1385,10 +1404,14 @@
 * [Oracle Database Attacking Tool (ODAT)](https://github.com/quentinhardy/odat) - Open source penetration testing tool that tests the security of Oracle databases remotely -- `Python`
 * [OS X Auditor](https://github.com/jipegit/OSXAuditor) - Forensics tool for Mac -- `OS X` `JavaScript`
 * [OSSEC](http://www.ossec.net/) - Host based intrusion detection system (HIDS), supports most Unix-like OSes -- `C` `Windows` `OS X`
+* [PALADIN](https://sumuri.com/software/paladin/) - Easy to use Linux-based live CD for forensic analysis -- `various lang`
 * [pfsense](https://www.pfsense.org/) - The best firewall software, supports appliances and live CDs -- `C`
+* [preeny](https://github.com/zardus/preeny) - Some helpful preload libraries for pwning stuff -- `C`
 * [Prey](https://preyproject.com/) - Open source anti-theft software for almost all platforms -- `shell` `Java` `mobile`
+* [ProcDOT](http://www.procdot.com/) - All in one visual malware analysis and visualization, by CERN -- `closed source` `various lang`
 * [Qubes OS](https://www.qubes-os.org/) - A reasonably secure operating system -- `various lang`
 * [Red October](https://github.com/cloudflare/redoctober) - Go server for two-man rule style file encryption and decryption -- `way cool`
+* [Regshot](https://sourceforge.net/projects/regshot/) - Snapshot and compare the Windows Registry for before/after analysis -- `C`
 * [Rootkit Hunter](http://rkhunter.sourceforge.net/) - Compares hashes of important files with known good hashes that are stored in online databases -- `perl` `shell`
 * [Samhain](http://www.la-samhna.de/samhain/) - HIDS, file integrity checker, rootkit detection, log file monitoring, and more -- `C`
 * [ScoutBot](https://launchpad.net/scoutbot) - Automated network scanner for Raspberry Pi -- `various lang`
@@ -1398,12 +1421,17 @@
 * [Snort](https://www.snort.org/) - The classic network intrusion prevention system (NIPS) -- `C`
 * [Spiderfoot](http://www.spiderfoot.net/) - Automate the process of gathering intelligence about a given target -- `Python`
 * [sudosh2](https://github.com/squash/sudosh2) - Records all keystrokes and output and can play back the session as just like a VCR -- `C`
+* [SWORD Dropbox](https://medium.com/@tomac/a-15-openwrt-based-diy-pen-test-dropbox-26a98a5fa5e5) -- $15 OpenWRT based DIY disposable pen-test tool -- `various lang`
+* [symon-config](https://github.com/SwiftOnSecurity/sysmon-config) - Sysmon configuration file template with default high-quality event tracing -- `XML!!!!` `Windows`
+* [theZoo](https://github.com/ytisf/theZoo/tree/master/malwares/Binaries) - These are real, do not fuck around -- `collection`
 * [tink](https://github.com/google/tink) - Smiple, small, secure crypto library by Google -- `C++`
 * [Tripwire](http://sourceforge.net/projects/tripwire/) - File integrity checker and monitor, replacement for the now closed-source Tripwire -- `C`
 * [URLquery](https://urlquery.net/) - Free service to scan a URL for web-based malware -- `in-browser`
 * [urlscan.io](https://urlscan.io/) - Similar to URLquery -- `in-browser`
 * [usbkill](https://github.com/hephaest0s/usbkill) - Kill switch that takes action when a USB device is connected -- `Python`
 * [VirusTotal](https://www.virustotal.com/) - Allows you to upload a file and have it scanned by tons of virus scanners -- `in-browser`
+* [VulnHub](https://www.vulnhub.com/) - ISOs and more for hands-on security practice -- `collection`
+* [Yaptest](https://github.com/pentestmonkey/yaptest) - Glue together and automate pentesting using IFTTT type workflows -- `various lang`
 * [ZMap](https://zmap.io/) - Scanner designed for large address spaces -- `in-browser`
 * [zzuf](https://github.com/samhocevar/zzuf) - Transparent application input fuzzer that works by intercepting file and network operations and changing random bits in the program's input -- `C`
 
@@ -1486,6 +1514,7 @@
 * [mountebank](http://www.mbtest.org/) - Stub downstream resources for testing, supports HTTP HTTPS SMTP TCP -- `JavaScript` `Windows` `OS X`
 * [Ninja](https://ninja-build.org/) - Small build system with a focus on speed -- `Python`
 * [OverAPI](http://overapi.com/) - Large collection of cheat sheets for almost anything -- `collection`
+* [OWASP Secure Coding Practices - Quick Reference Guide](https://www.owasp.org/index.php/OWASP_Secure_Coding_Practices_-_Quick_Reference_Guide) -- Great cheat sheet -- `collection`
 * [PatchELF](https://github.com/NixOS/patchelf) - Simple utility for modifying existing ELF executables and libraries -- `C`
 * [PEview](http://wjradburn.com/software/) - Easily and quickly view the structure and content of Windows EXE DDL LIB Portable Executable (PE) files -- `closed source`
 * [PRoot](http://proot.me/) - chroot, mount --bind, and binfmt_misc without privilege/setup -- `C`
@@ -1503,6 +1532,7 @@
 * [Valgrind](http://valgrind.org/info/tools.html) - Tool suite that includes cache profilers, heap profiles, thread race condition checkers, and more - a CPU-level emulator -- `C`
 * [watchman](https://github.com/facebook/watchman) - Watch files and take action when they change (eg: kick off the CI system), by Facebook -- `C`
 * [WireMock](http://wiremock.org/) - Flexible stubbing and mocking services -- `Java`
+* [wxHexEditor](http://www.wxhexeditor.org/) - Free hex editor, disk editor, and big file editor for Linux, Windows and Mac OS X -- `C`
 
 
 ---
@@ -1642,6 +1672,7 @@
 
 * [bcc](https://iovisor.github.io/bcc/) - Next generation, Linux 4.x kernel tracing tool suite, uses eBPF (Extended Berkeley Packet Filters) -- `C`
 * [CRIU](Checkpoint/Restore in Userspace)](http://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
+* [eBPF](http://www.brendangregg.com/ebpf.html) - DTrace + SystemTap, requires 4.x kernel -- `various lang`
 * [kdump](https://wiki.archlinux.org/index.php/Kdump) - Linux kernel dump facility (where to save it, what to save, etc) -- `C`
 * [ktap](http://www.ktap.org/) - Another lightweight kernel tracing tool for Linux -- `C`
 * [Linux Trace Toolkit - Next Generation (LLTng)](http://lttng.org/) - Linux kernel tracer and profiler, lower overhead than System Tap -- `C`
@@ -1754,6 +1785,7 @@
 * [httpie](https://github.com/jakubroztocil/httpie) - curl replacement with many new features -- `Python`
 * [htty](https://htty.github.io/htty/) - A console application for interacting with web servers -- `Ruby gem`
 * [Huginn](https://github.com/cantino/huginn) - Build agents that perform automated tasks/workflows for you online or locally, like IFTTT -- `Ruby`
+* [Insomnia REST Client](https://insomnia.rest/) - An alternative to POSTman, additional features -- `Electron` `Windows` `OS X` `Linux`
 * [JSON Server](https://github.com/typicode/json-server) - Full fake REST API for quickly prototyping and mocking in 30 seconds -- `JavaScript`
 * [jq](https://stedolan.github.io/jq/) - Command line JSON processor and manipulator -- `C`
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse/) - Chrome extension to audit a web page for performance, accessibility, progressive web apps, and more, by Google -- `in-browser`
@@ -1836,19 +1868,26 @@
 
 > Everything else
 
+* [Archive.org aka The Internet Archive aka The Wayback Machine](https://archive.org/) - Yo donate, this is beyond important -- `the biggest collection`
 * [Awesome](https://github.com/sindresorhus/awesome) - Top level list of awesome lists -- `collection`
 * [AutoHotKey](http://ahkscript.org/) - Automate input (desktop and web forms, data entry, keybinds, etc) -- `C++` `Windows`
 * [Awesome AutoHotKey](https://github.com/ahkscript/awesome-AutoHotkey) - A collection of AutoHotKey scripts and libraries -- `various lang`
 * [BlueStacks](https://www.bluestacks.com/) - Easy Android emulator for Windows -- `various lang`
 * [conserver](http://www.conserver.com/) - Virtual console server with many features (multi-user, console log history, etc) -- `C`
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- `closed source` `OS X` `Windows`
+* [Fossor](https://github.com/linkedin/fossor) - Automate on-call investigation steps, by LinkedIn -- `Python pip`
 * [Google Advanced Operators for Web Search](https://sites.google.com/site/gwebsearcheducation/advanced-operators) - Search modifiers for more accurate results, by Google -- `collection`
 * [googler](https://github.com/jarun/googler) - Google search, news, and site search from the terminal, slick -- `Python`
+* [Hoopla](https://www.hoopladigital.com/) - Digital movies, music and ebooks for public library members -- `explore yours today`
 * [inxi](https://github.com/smxi/inxi) - "a full featured system information script" (hardware info, etc) -- `shell`
+* [Kanopy](https://www.kanopystreaming.com/) - Streaming movies for public library members -- `explore yours today`
+* [Libby](https://meet.libbyapp.com/) - App for ebooks and audio books for public library members, from OverDrive -- `explore yours today` `Android` `iOS` `Windows 10`
+* [MIT OpenCourseWare](https://ocw.mit.edu/about/) - MIT's real course materials from 2400+ courses -- `collection`
 * [Mjolnir](https://github.com/sdegutis/mjolnir) - Automation for OS X, think AutoHotKey for Mac -- `C` `OS X`
 * [Open19](http://www.open19.org/) - Open data center hardware for standard size racks -- `neat`
 * [OpenBMC](https://github.com/facebook/openbmc) - Framework to build a complete Linux image for a Board Management Controller (BMC), by Facebook -- `C`
 * [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/%7Eremzi/OSTEP/) - Probably the best OS book out there, free -- `book`
+* [OverDrive](https://www.overdrive.com/) - Ebooks and audio books for public library members -- `explore yours today`
 * [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins) - Collection of plugins for Quick Look in the Mac Finder -- `various lang` `OS X`
 * [runit](http://smarden.org/runit/) - UNIX init scheme with service supervision, great for containers, sysvinit replacement -- `C`
 * [runwhen](http://code.dogmap.org/runwhen/) - Utilities for running commands at particular times, cron on steroids -- `C`
